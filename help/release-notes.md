@@ -1,9 +1,9 @@
 ---
 title: releases in het regelpaneel
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Hier vindt u informatie over de meest recente versies van het Configuratiescherm
 >
 >Houd er rekening mee dat het Configuratiescherm alleen beschikbaar is voor klanten die op AWS worden gehost, behalve voor hybride omgevingen die nog niet worden ondersteund. U hebt geen upgrades nodig om toegang te krijgen tot het Configuratiescherm. Zorg ervoor dat u een Admin-gebruiker bent en dat u deze kunt openen.
 
-## mei 2020 (#may-2020)
+## mei 2020 {#may-2020}
 
 **Certificaatbeheer voor CNAME-subdomeinen**
 
