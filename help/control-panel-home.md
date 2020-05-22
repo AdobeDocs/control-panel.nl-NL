@@ -1,7 +1,7 @@
 ---
 title: Productdocumentatie
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ## Nieuwe functies
 
-* [Certificaatbeheer voor CNAME-subdomeinen](subdomains-certificates/using/renewing-subdomain-certificate.md))
+[Certificaatbeheer voor CNAME-subdomeinen](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-   Het Controlebord staat u nu toe om de SSL certificaten van uw subdomeinen te vernieuwen die met de methode CNAME zijn afgevaardigd.
+Het Controlebord staat u nu toe om de SSL certificaten van uw subdomeinen te vernieuwen die met de methode CNAME zijn afgevaardigd.
 
 ## Aanvullende bronnen {#additional-resources}
 
