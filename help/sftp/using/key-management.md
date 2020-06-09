@@ -2,7 +2,7 @@
 title: Sleutelbeheer
 description: Leer hoe u sleutels beheert om verbinding te maken met SFTP-servers
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 4%
@@ -78,7 +78,7 @@ In zeer zeldzame gevallen wordt op wachtwoord gebaseerde verificatie ingeschakel
    **Linux en Mac:**
 
    Gebruik Terminal om een openbaar en privé zeer belangrijk paar te produceren:
-   1. Voer deze opdracht in: `ssh-keygen -t rsa -C <your_email@example.com>`.
+   1. Voer deze opdracht in: `ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`.
    1. Geef een naam op voor de toets wanneer u hierom wordt gevraagd. Als de .ssh-map niet bestaat, maakt het systeem er een voor u.
    1. Ga, dan reenter, een passphrase in wanneer ertoe aangezet. Het kan ook leeg blijven.
    1. Het systeem maakt een sleutelpaar &quot;name&quot; en &quot;name.pub&quot;. Zoek het bestand &quot;name.pub&quot; en open het. Een alfanumerieke tekenreeks die eindigt met het e-mailadres dat u hebt opgegeven.
