@@ -2,7 +2,7 @@
 title: Bewaking van databases
 description: Leer hoe u uw Campagne-database kunt controleren in het Configuratiescherm
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 1%
@@ -11,7 +11,6 @@ ht-degree: 1%
 
 
 # Bewaking van databases {#database-monitoring}
-
 
 ## Over databases {#about-instances-databases}
 
