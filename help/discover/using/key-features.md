@@ -2,9 +2,9 @@
 title: Deelvenster Beheer openen
 description: Leer hoe u het Configuratiescherm kunt openen
 translation-type: tm+mt
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,12 @@ Belangrijkste voordelen:
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="voorwaarden" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Instantie-instellingen beheren</strong></a></div>
-        <br/><em>Leer hoe u uw instanties-instellingen beheert (alleen Campagne Classic)</em>
+        <br/><em>Leer hoe u uw instanties-instellingen beheert (alleen Campagne Classic).</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="voorwaarden" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitorprestaties</strong></a></div>
+        <br/><em>Leer hoe u het gebruik van belangrijke bronnen op uw instanties kunt controleren.</em>
     </td>
 </tr>
 </table>
