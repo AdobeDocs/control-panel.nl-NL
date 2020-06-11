@@ -2,17 +2,15 @@
 title: E-mailwaarschuwingen
 description: Leer hoe u e-mailmeldingen kunt ontvangen in geval van problemen met uw campagneexemplaren
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
 
 # E-mailwaarschuwingen {#email-alerting}
-
-## E-mailberichten {#about-email-alerts}
 
 Voor meer flexibiliteit in uw werk is het Configuratiescherm uitgerust met de functionaliteit voor realtime e-mailwaarschuwingen.
 
