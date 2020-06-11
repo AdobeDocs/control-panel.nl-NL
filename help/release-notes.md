@@ -1,9 +1,9 @@
 ---
 title: releases in het regelpaneel
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,18 @@ Hier vindt u informatie over de meest recente versies van het Configuratiescherm
 >[!NOTE]
 >
 >Houd er rekening mee dat het Configuratiescherm alleen beschikbaar is voor klanten die op AWS worden gehost, behalve voor hybride omgevingen die nog niet worden ondersteund. U hebt geen upgrades nodig om toegang te krijgen tot het Configuratiescherm. Zorg ervoor dat u een Admin-gebruiker bent en dat u deze kunt openen.
+
+## juni 2020 {#june-2020}
+
+**Controle van actieve profielen**
+
+Met het Configuratiescherm kunt u nu het aantal actieve profielen controleren dat door uw instanties wordt gebruikt en dat voor factureringsdoeleinden wordt geteld. [Meer informatie](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>De controle van actieve profielen van het Controlebord is beschikbaar in bèta, en voor regelmatige updates en aanpassingen zonder bericht.
+>
+>De functie is beschikbaar voor klanten die op AWS worden gehost vanuit de Campagne Standard 10368 build and Campaign Classic 8931 build. Als u een vorige build gebruikt, moet u een upgrade uitvoeren om deze functie te gebruiken.
 
 ## mei 2020 {#may-2020}
 
