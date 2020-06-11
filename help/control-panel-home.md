@@ -1,7 +1,7 @@
 ---
 title: Productdocumentatie
 translation-type: tm+mt
-source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
+source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ## Nieuwe functies
 
-[Certificaatbeheer voor CNAME-subdomeinen](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[Controle van actieve profielen](performance-monitoring/using/active-profiles-monitoring.md)
 
-Het Controlebord staat u nu toe om de SSL certificaten van uw subdomeinen te vernieuwen die met de methode CNAME zijn afgevaardigd.
+Met het Configuratiescherm kunt u nu het aantal actieve profielen controleren dat door uw instanties wordt gebruikt en dat voor factureringsdoeleinden wordt geteld.
 
 ## Aanvullende bronnen {#additional-resources}
 
