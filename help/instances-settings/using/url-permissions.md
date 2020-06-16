@@ -2,9 +2,9 @@
 title: URL-machtigingen
 description: Leer hoe u URL-machtigingen beheert in het Configuratiescherm
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
@@ -15,16 +15,16 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_urlpermissions"
 >title="Informatie over URL-machtigingen"
->abstract="Beheer de URL&#39;s waarmee uw Adobe Campagne-instanties verbinding kunnen maken."
+>abstract="Beheer de URL&#39;s waarmee uw Adobe Campaign-instanties verbinding kunnen maken."
 >additional-url="https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4" text="Video over demo bekijken"
 
 >[!IMPORTANT]
 >
->Deze functie is alleen beschikbaar voor klassieke instanties van de campagne.
+>Deze functie is alleen beschikbaar voor Campaign Classic-instanties, vanaf build 8850. Als u een vorige build gebruikt, moet u een upgrade uitvoeren om deze functie te gebruiken.
 
 ## Informatie over URL-machtigingen {#about-url-permissions}
 
-De standaardlijst met URL&#39;s die door JavaScript-codes kunnen worden aangeroepen (workflows, enz.) door uw Classic-instanties van de Campagne is beperkt. Dit zijn URL&#39;s waarmee uw instanties correct kunnen werken.
+De standaardlijst met URL&#39;s die door JavaScript-codes kunnen worden aangeroepen (workflows, enz.) door uw Campaign Classic-instanties beperkt zijn. Dit zijn URL&#39;s waarmee uw instanties correct kunnen werken.
 
 Instanties mogen standaard geen verbinding maken met externe URL&#39;s. In het Configuratiescherm kunt u enkele externe URL&#39;s toevoegen aan de lijst met geoorloofde URL&#39;s, zodat uw instantie er verbinding mee kan maken. Hierdoor kunt u uw Campagne-instanties verbinden met externe systemen, zoals bijvoorbeeld SFTP-servers of websites, om de overdracht van bestanden en/of gegevens mogelijk te maken.
 
@@ -55,7 +55,7 @@ Ga als volgt te werk om een URL toe te voegen waarmee uw instantie verbinding ka
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw identiteitskaart van IMS ORG niet met om het even welke Classic Instanties van de Campagne van Adobe wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw identiteitskaart IMS ORG niet met om het even welke Klassieke Instanties van Adobe Campaign wordt geassocieerd
    >
    >Het tabblad <b><span class="uicontrol">URL-machtigingen</span></b> bevat alle externe URL&#39;s waarmee uw instantie verbinding kan maken. Deze lijst bevat geen URL&#39;s die vereist zijn om de campagne te laten werken (bijvoorbeeld verbindingen tussen infrastructuuronderdelen).
 
@@ -67,7 +67,7 @@ Ga als volgt te werk om een URL toe te voegen waarmee uw instantie verbinding ka
    >
    >Alle instanties van Campagne worden weergegeven in de lijst in het linkerdeelvenster.
    >
-   >Aangezien het beheer van toestemmingen URL aan de Klassieke instanties van de Campagne slechts wordt gewijd, toont het bericht &quot;Niet-Toepasselijke Instantie&quot;als u een instantie van de Standaard van de Campagne selecteert.
+   >Aangezien het beheer van URL-machtigingen alleen aan Campaign Classic-instanties is toegewezen, wordt het bericht &quot;Niet-toepasselijke instantie&quot; weergegeven als u een Campaign Standard-instantie selecteert.
 
 1. Typ de URL die u wilt autoriseren met het bijbehorende protocol (http, https of sftp).
 
