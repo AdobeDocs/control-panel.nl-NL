@@ -4,9 +4,9 @@ sub-product: bedieningspaneel
 audience: end-user
 user-guide-title: Help bij regelpaneel
 translation-type: tm+mt
-source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 + SFTP-beheer {#sftp-management}
    + [SFTP-beheer](sftp/using/about-sftp-management.md)
    + [SFTP-opslagbeheer](sftp/using/sftp-storage-management.md)
-   + [Witelende IP-reeks](sftp/using/ip-range-whitelisting.md)
+   + [Aanbieding in IP-bereik toegestaan](sftp/using/ip-range-whitelisting.md)
    + [Sleutelbeheer](sftp/using/key-management.md)
    + [Aanmelden bij uw SFTP-server](sftp/using/logging-into-sftp-server.md)
    + [Algemene vragen](sftp/using/common-questions.md)
@@ -40,8 +40,8 @@ ht-degree: 0%
    + [Bewaking van databases](performance-monitoring/using/database-monitoring.md)
    + [Controle van actieve profielen](performance-monitoring/using/active-profiles-monitoring.md)
    + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
-+ Instellingen voor instanties (Campagne Classic) {#instances-settings}
-   + [IP whitelisting voor instantietoegang](instances-settings/using/ip-whitelisting-instance-access.md)
++ Instellingen voor instanties (Campaign Classic) {#instances-settings}
+   + [IP staat lijst voor instantietoegang toe](instances-settings/using/ip-whitelisting-instance-access.md)
    + [URL-machtigingen](instances-settings/using/url-permissions.md)
    + [Instantiedetails](instances-settings/using/instance-details.md)
 + [Veelgestelde vragen](faq.md)
