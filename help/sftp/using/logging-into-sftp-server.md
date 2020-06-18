@@ -2,9 +2,9 @@
 title: Aanmelden bij uw SFTP-server
 description: Leer hoe u zich aanmeldt bij uw SFTP-server
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '343'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Voordat u zich aanmeldt bij de server, moet u controleren of:
 * Uw SFTP-server wordt **gehost door Adobe**.
 * Uw **gebruikersnaam** is ingesteld voor de server. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * U hebt een combinatie van **persoonlijke en openbare sleutels** om u aan te melden bij de SFTP-server. Raadpleeg [deze sectie](../../sftp/using/key-management.md) voor meer informatie over het toevoegen van de SSH-toets.
-* Uw **openbare IP adres is gewhitelisteerd** op de server SFTP. Als niet, verwijs naar [deze sectie](../../sftp/using/ip-range-whitelisting.md) voor meer op hoe te om uw IP waaier te whitelist.
+* Uw **openbare IP adres is toegevoegd aan toestaan lijst** op de server SFTP. Als niet, verwijs naar [deze sectie](../../sftp/using/ip-range-whitelisting.md) voor meer op hoe te om uw IP waaier aan toe te voegen staat lijst toe.
 * U hebt toegang tot een **SFTP-clientsoftware**. U kunt uw afdeling van IT voor de cliënttoepassing raadplegen SFTP die zij om adviseren te gebruiken, of onderzoek naar op Internet als dit door uw bedrijfsbeleid wordt toegestaan.
 
 Voer de volgende stappen uit om verbinding te maken met uw SFTP-server:
