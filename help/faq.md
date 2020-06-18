@@ -2,9 +2,9 @@
 title: Veelgestelde vragen over regelpaneel
 description: Algemene vragen met betrekking tot het Configuratiescherm
 translation-type: tm+mt
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '629'
 ht-degree: 8%
 
 ---
@@ -24,7 +24,7 @@ Raadpleeg de documentatie bij [Adobe Experience Cloud voor meer informatie](http
 
 U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onder aan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-De andere manier is om **beheerconsole** te starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+De andere manier is om **Admin Console** te lanceren. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
 **Waarom moet ik mijn IMS Org ID kennen?**
 
@@ -32,15 +32,15 @@ Opdat u montages voor uw instantie beheert, willen wij ervoor zorgen dat u de ju
 
 **Wat gebeurt er als ik meerdere IMS Org-id&#39;s heb?**
 
-U kunt meer dan één IMS Org-id hebben als u toegang hebt tot meerdere Adobe-oplossingen. In dit geval is de juiste IMS Org-id die u moet gebruiken, de id die u onder uw Adobe Campagne-instantie ziet.
+U kunt meer dan één IMS Org-id hebben als u toegang hebt tot meerdere Adobe-oplossingen. In dit geval is de juiste IMS Org-id die u moet gebruiken, de id die u onder uw Adobe Campaign-instantie ziet.
 
 >[!NOTE]
 >
->Als u dezelfde IMS Org-id hebt voor Adobe Campaign en Adobe Analytics, is dit fantastisch. Het hebben van één identiteitskaart van de Org IMS tussen Analytics en Campaign is een vereiste als u van plan bent om de oplossingen te integreren om uit complexe gebruiksgevallen zoals het winkelen van het karretje (voor AA + AC) voordeel te halen.
+>Als u dezelfde IMS Org-id hebt voor Adobe Campaign en Adobe Analytics, is dit fantastisch. Een IMS-organisatie-id tussen Analytics en Campagne is een vereiste als u de oplossingen wilt integreren om gebruik te maken van complexe gebruikssituaties, zoals het achterlaten van winkelwagentjes (voor AA + AC).
 >
 >Als u verschillende IMS Org-id&#39;s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
 
-**Hoe weet ik dat mijn Adobe Campaign-exemplaar wordt gehost op AWS of niet?**
+**Hoe kan ik weten dat mijn Adobe Campaign-exemplaar al dan niet wordt gehost op AWS?**
 
 Ga als volgt te werk om te controleren of uw instantie wordt gehost op AWS:
 
@@ -88,17 +88,17 @@ Ga als volgt te werk om te controleren of uw instantie wordt gehost op AWS:
 
 **Wat is het Configuratiescherm?**
 
-Met het Configuratiescherm kunnen productbeheerders verschillende instellingen rechtstreeks beheren en de capaciteit controleren van SFTP-servers die zijn aangesloten op de Adobe-campagne.
+Met het Configuratiescherm kunnen productbeheerders verschillende instellingen rechtstreeks beheren en de capaciteit controleren van SFTP-servers die op Adobe Campaign zijn aangesloten.
 
 **Wat zijn sommige huidige mogelijkheden van het Controlebord?**
 
-Met het Configuratiescherm kunt u opslag, whitelist IP&#39;s bijhouden en SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften en andere acties.
+Met het Configuratiescherm kunt u opslag bijhouden, IP&#39;s toevoegen aan de lijst Toestaan en SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften en andere acties.
 
 Raadpleeg de documentatie over door het Configuratiescherm ondersteunde acties voor meer informatie.
 
-**Is het Configuratiescherm alleen voor Adobe Campagne?**
+**Is het Controlebord slechts voor Adobe Campaign?**
 
-Ja, u kunt de instellingen voor Adobe Campagne alleen beheren in het Configuratiescherm.
+Ja, u kunt de instellingen voor Adobe Campaign alleen beheren in het Configuratiescherm.
 
 **Kan ik het Configuratiescherm gebruiken?**
 
@@ -112,4 +112,4 @@ Volg de gedetailleerde instructies in de documentatie van het Configuratiescherm
 
 **Is er een extra vergoeding voor het gebruik van het Configuratiescherm?**
 
-Nee, er zijn geen extra kosten voor de huidige klant van Adobe Campaign.
+Nee, er zijn geen extra kosten als u een huidige klant van Adobe Campaign bent.
