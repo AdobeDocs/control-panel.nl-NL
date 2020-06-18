@@ -2,9 +2,9 @@
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw campagneinstanties instelt
 translation-type: tm+mt
-source-git-commit: 47b4c6abd7b41a63d881b658849ac985c72656f8
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Volledige subdomeindelegatie {#full-subdomain-delegation}
 
-Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Campagne. Volg de onderstaande stappen om dit te doen.
+Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Campaign. Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Ca
    * **Transactionele en operationele communicatie**: transactionele mededelingen bevatten informatie gericht op de voltooiing van een proces dat de ontvanger met u is begonnen. Voorbeeld: aanschafbevestiging, wachtwoord opnieuw instellen e-mail. De organisatorische mededelingen hebben betrekking op de uitwisseling van informatie, ideeën, en meningen binnen en buiten de organisatie, zonder commercieel doel.
    ![](assets/subdomain5.png)
 
-   **U kunt het beste de subdomeinen onderverdelen op basis van de gebruikte gevallen**. Hierdoor wordt de reputatie van elk subdomein geïsoleerd en beschermd. Bijvoorbeeld, als uw subdomain voor marketing mededelingen door de Dienstverleners van Internet wordt afgezet, zal uw transactie communicatie subdomain niet worden beïnvloed, en zal het kunnen blijven communicatie verzenden.
+   **U kunt het beste de subdomeinen onderverdelen op basis van de gebruikte gevallen**. Hierdoor wordt de reputatie van elk subdomein geïsoleerd en beschermd. Bijvoorbeeld, als uw subdomein voor marketing mededelingen aan de bloklijst door de Dienstverleners van Internet wordt toegevoegd, zal uw transactie communicatie subdomain niet worden beïnvloed, en zal houden communicatie kunnen verzenden.
 
    **U kunt subdomeinen voor zowel het Marketing als het Transactionele gebruiksgevallen** delegeren:
 
@@ -74,7 +74,7 @@ Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Ca
    * Voor Transactionele gebruiksgevallen, zullen subdomeinen op ALLE instanties van **RT** (het Centrum van het Bericht/Real-time overseinen) worden gevormd om connectiviteit te verzekeren. De subdomeinen zullen daarom met al uw instanties van RT werken.
    >[!NOTE]
    >
-   >Als u Klassiek van de Campagne gebruikt, staat het Controlebord u toe om te zien welke instanties RT/MID met de instantie van de Marketing worden verbonden die u met werkt. For more on this, refer to [this section](../../instances-settings/using/instance-details.md).
+   >Als u Campaign Classic gebruikt, kunt u in het Configuratiescherm zien welke RT/MID-instanties zijn verbonden met de marketinginstantie waarmee u werkt. For more on this, refer to [this section](../../instances-settings/using/instance-details.md).
 
 1. Ga subdomain in die u in uw het ontvangen oplossing creeerde, dan klik **[!UICONTROL Submit]**.
 
@@ -94,7 +94,7 @@ Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Ca
    >
    >Merk op dat terwijl de subdomain delegatie looppas, andere verzoeken door het Controlebord in een rij zullen zijn ingegaan en slechts uitgevoerd nadat de Delegatie Subdomain voltooit, om het even welke prestatieskwesties te verhinderen.
 
-Aan het einde van het proces worden de subdomeinen geconfigureerd voor uw Adobe Campagne-instantie en worden de onderstaande elementen gemaakt:
+Aan het einde van het proces worden de subdomeinen geconfigureerd voor uw Adobe Campaign-instantie en worden de onderstaande elementen gemaakt:
 
 * **Het subdomein** met de volgende **DNS-records**: SOA, MX, CNAME(S), DKIM, SPF, TXT,
 * **Aanvullende subdomeinen** voor het hosten van spiegels, bronnen, trackingpagina&#39;s en domeinsleutel
