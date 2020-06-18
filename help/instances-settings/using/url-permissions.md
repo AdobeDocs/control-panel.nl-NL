@@ -2,9 +2,9 @@
 title: URL-machtigingen
 description: Leer hoe u URL-machtigingen beheert in het Configuratiescherm
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '608'
 ht-degree: 1%
 
 ---
@@ -93,4 +93,4 @@ Houd er rekening mee dat als u een URL verwijdert, uw instantie deze niet opnieu
 
 **Ik heb een nieuwe URL toegevoegd, maar mijn instantie kan nog steeds geen verbinding maken met die URL. Waarom is dat?**
 
-In sommige gevallen, probeert URLs u om te verbinden om fliteling, wachtwoordingang of een andere vorm van authentificatie te vereisen. Aanvullende verificatie wordt niet beheerd in het Configuratiescherm.
+In sommige gevallen moeten URL&#39;s waarmee u verbinding probeert te maken een vermelding, wachtwoord of een andere vorm van verificatie toestaan. Aanvullende verificatie wordt niet beheerd in het Configuratiescherm.
