@@ -1,9 +1,9 @@
 ---
 title: Productdocumentatie
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ## Nieuwe functies
 
-* Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;blocklist&quot; en &quot;allowlist&quot;.
+* Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. [Meer informatie](release-notes.md)
 
-* [Bewaking](performance-monitoring/using/active-profiles-monitoring.md)van actieve profielen: Met het Configuratiescherm kunt u nu het aantal actieve profielen controleren dat door uw instanties wordt gebruikt en dat voor factureringsdoeleinden wordt geteld.
+* **Bewaking** van actieve profielen: Met het Configuratiescherm kunt u nu het aantal actieve profielen controleren dat door uw instanties wordt gebruikt en dat voor factureringsdoeleinden wordt geteld. [Meer informatie](performance-monitoring/using/active-profiles-monitoring.md)
 
 ## Aanvullende bronnen {#additional-resources}
 
