@@ -1,9 +1,9 @@
 ---
 title: releases in het regelpaneel
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Hier vindt u informatie over de meest recente versies van het Configuratiescherm
 >Houd er rekening mee dat het Configuratiescherm alleen beschikbaar is voor klanten die op AWS worden gehost, behalve voor hybride omgevingen die nog niet worden ondersteund. U hebt geen upgrades nodig om toegang te krijgen tot het Configuratiescherm. Zorg ervoor dat u een Admin-gebruiker bent en dat u deze kunt openen.
 
 ## juni 2020 {#june-2020}
+
+**&#39;Whitelist&#39; / &#39;Blacklist&#39; verwijderen**
+
+Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;blocklist&quot; en &quot;allowlist&quot;.
 
 **Controle van actieve profielen**
 
