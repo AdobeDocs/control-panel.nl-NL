@@ -1,9 +1,9 @@
 ---
 title: releases in het regelpaneel
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,14 @@ Hier vindt u informatie over de meest recente versies van het Configuratiescherm
 >Houd er rekening mee dat het Configuratiescherm alleen beschikbaar is voor klanten die op AWS worden gehost, behalve voor hybride omgevingen die nog niet worden ondersteund. U hebt geen upgrades nodig om toegang te krijgen tot het Configuratiescherm. Zorg ervoor dat u een Admin-gebruiker bent en dat u deze kunt openen.
 
 ## juni 2020 {#june-2020}
+
+**Controle van prestaties in subdomein**
+
+Na het delegeren van een nieuw subdomain, staat het Controlebord u nu toe om de controle te volgen die door het team van de Leverbaarheid wordt uitgevoerd. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Beheer van GPG-sleutels**
+
+Met het Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de gegevens die vanuit de buitenzijde naar Campagne komen, gemakkelijk kunt decoderen. Bovendien hebben we een functie toegevoegd zodat u een openbare GPG-sleutel kunt installeren om gegevens te coderen die de Campagne verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
 
 **&#39;Whitelist&#39; / &#39;Blacklist&#39; verwijderen**
 
