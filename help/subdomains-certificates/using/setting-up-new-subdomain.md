@@ -2,9 +2,9 @@
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw campagneinstanties instelt
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,7 @@ ht-degree: 0%
 
 ## Volledige subdomeindelegatie {#full-subdomain-delegation}
 
-Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Campaign. Volg de onderstaande stappen om dit te doen.
-
->[!NOTE]
->
->Als de geselecteerde instantie geen eerder geconfigureerde subdomeinen heeft, wordt het eerste subdomein dat aan Adobe is gedelegeerd, het **primaire subdomein** voor die instantie, zodat u dit in de toekomst niet meer kunt wijzigen.
->
->Omgekeerde DNS-records worden gemaakt voor andere subdomeinen die het primaire subdomein gebruiken. Antwoord-aan, en stuitadressen voor andere subdomeinen zullen van primaire subdomain worden geproduceerd.
+Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Campaign. Ga als volgt te werk om dit te doen:
 
 1. Selecteer in de **[!UICONTROL Subdomains & Certificates]** kaart de gewenste productieinstantie en klik op **[!UICONTROL Setup new subdomain]**.
 
@@ -39,14 +33,14 @@ Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Ca
    >[!NOTE]
    >
    >Subdomain delegeren is alleen beschikbaar voor **productie** -instanties.
+   >
+   >Als de geselecteerde instantie geen eerder geconfigureerde subdomeinen heeft, wordt het eerste subdomein dat aan Adobe is gedelegeerd, het **primaire subdomein** voor die instantie, zodat u dit in de toekomst niet meer kunt wijzigen. Omgekeerde DNS-records worden gemaakt voor andere subdomeinen die het primaire subdomein gebruiken. Antwoord-aan, en stuitadressen voor andere subdomeinen zullen van primaire subdomain worden geproduceerd.
 
 1. Klik **[!UICONTROL Next]** om de volledige delegatiemethode te bevestigen.
 
-   ![](assets/subdomain3.png)
+   Merk op dat [CNAME](#use-cnames) en douanemethodes momenteel niet door het Controlebord worden gesteund.
 
-   >[!NOTE]
-   >
-   >[CNAME](#use-cnames) en aangepaste methoden worden momenteel niet ondersteund door het Configuratiescherm.
+   ![](assets/subdomain3.png)
 
 1. Creeer gewenste subdomain en nameservers in de ontvangende oplossing die door uw organisatie wordt gebruikt. Hiervoor kopieert en plakt u de Adobe Nameserver-informatie die in de wizard wordt weergegeven. Raadpleeg de [zelfstudievideo](https://video.tv.adobe.com/v/30175?captions=dut)voor meer informatie over het maken van een subdomein in een hostingoplossing.
 
@@ -58,7 +52,7 @@ Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Ca
 
    ![](assets/subdomain4.png)
 
-   Wanneer het subdomein is gemaakt met de bijbehorende Adobe-servergegevens, klikt u op **[!UICONTROL Next]**.
+1. Wanneer het subdomein is gemaakt met de bijbehorende Adobe-servergegevens, klikt u op **[!UICONTROL Next]**.
 
 1. Selecteer het gewenste gebruiksgeval voor het subdomein:
 
@@ -74,7 +68,7 @@ Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Ca
    * Voor Transactionele gebruiksgevallen, zullen subdomeinen op ALLE instanties van **RT** (het Centrum van het Bericht/Real-time overseinen) worden gevormd om connectiviteit te verzekeren. De subdomeinen zullen daarom met al uw instanties van RT werken.
    >[!NOTE]
    >
-   >Als u Campaign Classic gebruikt, kunt u in het Configuratiescherm zien welke RT/MID-instanties zijn verbonden met de marketinginstantie waarmee u werkt. For more on this, refer to [this section](../../instances-settings/using/instance-details.md).
+   >Als u Campaign Classic gebruikt, kunt u in het Configuratiescherm zien welke RT/MID-instanties zijn verbonden met de marketinginstantie waarmee u werkt. Raadpleeg voor meer informatie de sectie [Instantiedetails](../../instances-settings/using/instance-details.md) .
 
 1. Ga subdomain in die u in uw het ontvangen oplossing creeerde, dan klik **[!UICONTROL Submit]**.
 
@@ -84,25 +78,33 @@ Met het Configuratiescherm kunt u een subdomein volledig delegeren naar Adobe Ca
 
 1. Nadat het subdomein is verzonden, controleert het Configuratiescherm of het correct verwijst naar Adobe NS-records en of de SOA-record (Start of Authority) niet bestaat voor dit subdomein.
 
-1. Als de controles succesvol zijn, zal het Controlebord beginnen vestiging subdomain met DNS verslagen, extra URLs, inboxes etc. U kunt meer details over de configuratievooruitgang krijgen door de **[!UICONTROL Process details]** knoop te klikken.
-
-   ![](assets/subdomain7.png)
-
    >[!NOTE]
-   >
-   >In sommige gevallen wordt het delegeren doorlopen, maar is het mogelijk dat het subdomein niet is geverifieerd. Het subdomein gaat rechtstreeks naar de **[!UICONTROL Verified subdomains]** lijst met de **[!UICONTROL Unverified]** status en een taaklogboek met informatie over de fout. Neem contact op met de klantenservice als het probleem niet is opgelost.
    >
    >Merk op dat terwijl de subdomain delegatie looppas, andere verzoeken door het Controlebord in een rij zullen zijn ingegaan en slechts uitgevoerd nadat de Delegatie Subdomain voltooit, om het even welke prestatieskwesties te verhinderen.
 
+1. Als de controles succesvol zijn, zal het Controlebord beginnen vestiging subdomain met DNS verslagen, extra URLs, inboxes etc.
+
+   ![](assets/subdomain7.png)
+
+   Uiteindelijk, zal het team **van de** Levering over nieuw subdomain worden geïnformeerd, om het te controleren. Het controleproces kan tot 10 werkdagen duren nadat het subdomein is gedelegeerd. De controles die worden uitgevoerd omvatten terugkoppelt lijnen en het testen van de spamklachtenlijnen. Daarom adviseren wij niet subdomain te gebruiken alvorens de controle is voltooid, aangezien het in slechte subdomain reputatie zou kunnen resulteren.
+
+   U kunt meer details over de configuratievooruitgang krijgen door de **[!UICONTROL Process details]** knoop te klikken.
+
+   ![](assets/subdomain_audit.png)
+
+   **Problemen oplossen:**
+
+   * In sommige gevallen wordt het delegeren doorlopen, maar is het mogelijk dat het subdomein niet is geverifieerd. Het subdomein blijft in de **[!UICONTROL Configured]** lijst met een taaklogboek dat informatie over de fout bevat. Neem contact op met de klantenservice als het probleem niet is opgelost.
+   * Als subdomain als &quot;Niet geverifieerd&quot;na wordt getoond wordt gevormd, lanceer een nieuwe subdomeincontrole (**...** / **[!UICONTROL Verify subdomain]**). Als het nog het zelfde statuut toont, zou de reden kunnen zijn dat er één of andere aanpassing op ontvangersschema wordt gedaan, dat niet kan worden geverifieerd gebruikend standaardprocessen. Probeer een campagne met dat subdomein te verzenden.
+   * Als de subdomeinconfiguratie te lang (meer dan 10 werkdagen) bij de stap van de leveringscontrole duurt, gelieve de Zorg van de Klant te bereiken.
+
 Aan het einde van het proces worden de subdomeinen geconfigureerd voor uw Adobe Campaign-instantie en worden de onderstaande elementen gemaakt:
 
-* **Het subdomein** met de volgende **DNS-records**: SOA, MX, CNAME(S), DKIM, SPF, TXT,
+* **Het subdomein met de volgende DNS-records**: SOA, MX, CNAME(S), DKIM, SPF, TXT,
 * **Aanvullende subdomeinen** voor het hosten van spiegels, bronnen, trackingpagina&#39;s en domeinsleutel
 * **Postvakken**: Afzender, Fout, Reageren op.
 
->[!NOTE]
->
->Standaard is de inbox &quot;Reageren op&quot; in het Configuratiescherm geconfigureerd voor het wissen van e-mailberichten en kan deze niet worden weergegeven. Gebruik dit adres niet als u het postvak &quot;Reageren op&quot; voor uw marketingcampagnes wilt controleren.
+   Standaard is de inbox &quot;Reageren op&quot; in het Configuratiescherm geconfigureerd voor het wissen van e-mailberichten en kan deze niet worden weergegeven. Gebruik dit adres niet als u het postvak &quot;Reageren op&quot; voor uw marketingcampagnes wilt controleren.
 
 U kunt meer details op subdomain krijgen door de **[!UICONTROL Subdomain details]** en **[!UICONTROL Sender info]** knopen te klikken.
 
@@ -111,12 +113,6 @@ U kunt meer details op subdomain krijgen door de **[!UICONTROL Subdomain details
 ![](assets/subdomain_details.png)
 
 ![](assets/sender_info.png)
-
->[!IMPORTANT]
->
->Na de verwerkingsfase moet u bij de klantenservice van Adobe controleren of er een auditverzoek is ingediend voor het leveringsteam om het nieuwe subdomein dat is gemaakt te controleren. Het controleproces kan tot 3 10 werkdagen duren nadat het subdomein is gedelegeerd.
->
->De controles die worden uitgevoerd omvatten terugkoppelt lijnen en het testen van de spamklachtenlijnen. Daarom adviseren wij niet subdomain te gebruiken alvorens de controle is voltooid, aangezien het in slechte subdomain reputatie zou kunnen resulteren.
 
 ## Gebruik van CNAME&#39;s {#use-cnames}
 
