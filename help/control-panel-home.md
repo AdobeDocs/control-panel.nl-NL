@@ -1,9 +1,9 @@
 ---
 title: Productdocumentatie
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,15 @@ ht-degree: 0%
 
 ## Nieuwe functies
 
-* Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. [Meer informatie](release-notes.md)
+* **Controle van prestaties in subdomein**
 
-* **Bewaking** van actieve profielen: Met het Configuratiescherm kunt u nu het aantal actieve profielen controleren dat door uw instanties wordt gebruikt en dat voor factureringsdoeleinden wordt geteld. [Meer informatie](performance-monitoring/using/active-profiles-monitoring.md)
+   Na het delegeren van een nieuw subdomain, staat het Controlebord u nu toe om de controle te volgen die door het team van de Leverbaarheid wordt uitgevoerd. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **Beheer van GPG-sleutels**
+
+   Installeer en/of produceer GPG sleutels op een marketing instantie, om gegevens te coderen die van Campagne worden verzonden en inkomende gegevens te decrypteren. [Meer informatie](instances-settings/using/gpg-keys-management.md)
+
+* Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. [Meer informatie](release-notes.md)
 
 ## Aanvullende bronnen {#additional-resources}
 
