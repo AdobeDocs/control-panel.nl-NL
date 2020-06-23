@@ -2,7 +2,7 @@
 title: Branding van subdomeinen
 description: Meer informatie over branding van subdomeinen
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -45,7 +45,7 @@ In de onderstaande tabel wordt een overzicht gegeven van de werking van deze met
 
 | Delegatiemethode | Hoe werkt het | inspanningsniveau |
 |---|---|---|
-| **Volledige delegatie** | Maak het subdomein en de naamruimte-record. Adobe configureert vervolgens alle DNS-records die voor Adobe Campaign zijn vereist.<br/><br/>In deze installatie is Adobe volledig verantwoordelijk voor het beheer van het subdomein en alle DNS-records. | Laag |
+| **Volledige delegatie** | Maak het subdomein en de naamruimte-record. Adobe configureert vervolgens alle DNS-records die voor Adobe Campaign zijn vereist.<br/><br/>In deze setup is Adobe volledig verantwoordelijk voor het beheer van het subdomein en alle DNS-records. | Laag |
 | **CNAME, aangepaste methode** | Maak het subdomein en de naamruimte-record. Adobe zal dan de verslagen verstrekken die in uw DNS servers moeten worden geplaatst en zal de overeenkomstige waarden in de servers van Adobe Campaign DNS vormen.<br/><br/>In deze setup delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS. | Hoog |
 
 Aanvullende informatie over domeindelegatie is beschikbaar in [deze documentatie](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
