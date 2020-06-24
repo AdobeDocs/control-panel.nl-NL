@@ -1,9 +1,9 @@
 ---
 title: releases in het regelpaneel
 translation-type: tm+mt
-source-git-commit: 759d3ca0c3cafa84067c31a48432b0bfe2df186f
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Na het delegeren van een nieuw subdomain, staat het Controlebord u nu toe om de 
 **Beheer van GPG-sleutels**
 
 Met het Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de gegevens die vanuit de buitenzijde naar Campagne komen, gemakkelijk kunt decoderen. Bovendien hebben we een functie toegevoegd zodat u een openbare GPG-sleutel kunt installeren om gegevens te coderen die de Campagne verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
+* [Campaign Standard-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Campaign Classic-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
 **&#39;Whitelist&#39; / &#39;Blacklist&#39; verwijderen**
 
