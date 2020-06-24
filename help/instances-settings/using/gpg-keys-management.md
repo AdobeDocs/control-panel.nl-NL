@@ -2,9 +2,9 @@
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,12 @@ Dan kunt u:
 * **Verzonden gegevens** versleutelen: Adobe Campaign verzendt gegevens nadat het met de geïnstalleerde openbare sleutel is gecodeerd.
 
 * **Binnenkomende gegevens** decoderen: Adobe Campaign ontvangt gegevens die van een extern systeem zijn versleuteld met een openbare sleutel die u hebt gedownload van het Configuratiescherm. Adobe Campaign decodeert de gegevens met een persoonlijke sleutel die via het Configuratiescherm wordt gegenereerd.
+
+**Verwante onderwerpen:**
+
+* [Campaign Standard-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Campaign Classic-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+
 
 ## Gegevens versleutelen {#encrypting-data}
 
