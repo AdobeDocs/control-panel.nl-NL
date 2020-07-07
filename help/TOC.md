@@ -4,7 +4,7 @@ sub-product: bedieningspaneel
 audience: end-user
 user-guide-title: Help bij regelpaneel
 translation-type: tm+mt
-source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 + SFTP-beheer {#sftp-management}
    + [SFTP-beheer](sftp/using/about-sftp-management.md)
    + [SFTP-opslagbeheer](sftp/using/sftp-storage-management.md)
-   + [Aanbieding in IP-bereik toegestaan](sftp/using/ip-range-whitelisting.md)
+   + [Aanbieding in IP-bereik toegestaan](sftp/using/ip-range-allow-listing.md)
    + [Sleutelbeheer](sftp/using/key-management.md)
    + [Aanmelden bij uw SFTP-server](sftp/using/logging-into-sftp-server.md)
    + [Algemene vragen](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 0%
    + [Controle van actieve profielen](performance-monitoring/using/active-profiles-monitoring.md)
    + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
 + Instellingen voor instanties {#instances-settings}
-   + [IP staat lijst voor instantietoegang toe](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [IP staat lijst voor instantietoegang toe](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-machtigingen](instances-settings/using/url-permissions.md)
    + [Instantiedetails](instances-settings/using/instance-details.md)
    + [Beheer van GPG-sleutels](instances-settings/using/gpg-keys-management.md)
