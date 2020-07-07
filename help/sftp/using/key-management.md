@@ -2,7 +2,7 @@
 title: Sleutelbeheer
 description: Leer hoe u sleutels beheert om verbinding te maken met SFTP-servers
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 4%
@@ -22,7 +22,7 @@ Adobe raadt alle klanten aan verbinding te maken met hun SFTP-servers met een **
 
 De stappen om een openbare sleutel van SSH te produceren en het toe te voegen om tot de server toegang te hebben SFTP worden hieronder beschreven, evenals aanbevelingen betreffende authentificatie.
 
-Zodra de toegang tot de server opstelling is, herinner me om de IP adressen **toe te voegen die toegang tot de server aan toestaan lijst** zullen vereisen zodat u met het kunt verbinden. For more on this, refer to [this section](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Zodra de toegang tot de server opstelling is, herinner me om de IP adressen **toe te voegen die toegang tot de server aan de lijst van gewenste personen** zullen vereisen zodat u met het kunt verbinden. For more on this, refer to [this section](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
 >[!NOTE]
 >
@@ -41,8 +41,6 @@ In zeer zeldzame gevallen wordt op wachtwoord gebaseerde verificatie ingeschakel
 >[!IMPORTANT]
 >
 >Als uw wachtwoord verloopt, zelfs als er sleutels op uw systeem geïnstalleerd zijn, zult u niet aan uw rekeningen kunnen aanmelden SFTP.
-
-![](assets/control_panel_passwordexpires.png)
 
 ## De SSH-toets installeren {#installing-ssh-key}
 
