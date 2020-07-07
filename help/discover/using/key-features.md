@@ -2,7 +2,7 @@
 title: Deelvenster Beheer openen
 description: Leer hoe u het Configuratiescherm kunt openen
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >abstract="De homepage van het Controlebord geeft u toegang tot alle acties die op uw instanties van de Campagne kunnen worden uitgevoerd."
 >additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="De interface detecteren"
 
-Met het Configuratiescherm kunt u de efficiëntie van uw werk als productbeheerder van Adobe Campaign Standard en/of Classic verhogen, doordat u de instellingen kunt beheren en het gebruik voor elk van uw instanties kunt bijhouden. Met zijn intuïtieve interface kunt u eenvoudig het gebruik van belangrijke elementen controleren en kunt u beheertaken uitvoeren, zoals IP-adressen, toevoegen van lijsten, SFTP-opslagcontrole, sleutelbeheer en meer.
+Met het Configuratiescherm kunt u de efficiëntie van uw werk als productbeheerder van Adobe Campaign Standard en/of Classic verhogen, doordat u de instellingen kunt beheren en het gebruik voor elk van uw instanties kunt bijhouden. Met zijn intuïtieve interface kunt u eenvoudig het gebruik van belangrijke elementen controleren en beheertaken uitvoeren, zoals het toevoegen van IP-adressen aan lijst van gewenste personen, SFTP-opslagcontrole, sleutelbeheer en meer.
 
 Belangrijkste voordelen:
 
@@ -49,8 +49,8 @@ Belangrijkste voordelen:
         <em>Leer hoe u de subdomeinen en hun certificaten kunt controleren.</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="voorwaarden" src="assets/do-not-localize/instance_settings.png"/></a>
-        <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Instantie-instellingen beheren</strong></a></div>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="voorwaarden" src="assets/do-not-localize/instance_settings.png"/></a>
+        <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Instantie-instellingen beheren</strong></a></div>
         <br/><em>Leer hoe u de instellingen voor instanties beheert (alleen Campaign Classic).</em>
     </td>
     <td>
