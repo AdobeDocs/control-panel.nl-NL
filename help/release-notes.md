@@ -1,7 +1,7 @@
 ---
 title: releases in het regelpaneel
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Met het Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de geg
 
 **&#39;Whitelist&#39; / &#39;Blacklist&#39; verwijderen**
 
-Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;blocklist&quot; en &quot;allowlist&quot;.
+Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;lijst van afgewezen personen&quot; en &quot;lijst van gewenste personen&quot;.
 
 **Controle van actieve profielen**
 
@@ -81,10 +81,10 @@ Raadpleeg de volgende pagina&#39;s voor meer informatie:
 
 *16 september 2019*
 
-Er zijn nieuwe mogelijkheden toegevoegd waarmee Admin-gebruikers IP-adressen kunnen toevoegen aan de lijst met toegestane adressen om verbinding te maken met Campaign Classic-instanties.
+Er zijn nieuwe mogelijkheden toegevoegd waarmee Admin-gebruikers IP-adressen aan de lijst van gewenste personen kunnen toevoegen om verbinding te maken met Campaign Classic-instanties.
 Bovendien kunnen Admin-gebruikers nu de lijst met Campaign Classic-instanties en de mogelijkheid om upgrades te bouwen, weergeven.
 
-Raadpleeg de [desbetreffende documentatie](instances-settings/using/ip-whitelisting-instance-access.md)voor meer informatie.
+Raadpleeg de [desbetreffende documentatie](instances-settings/using/ip-allow-listing-instance-access.md)voor meer informatie.
 
 ## augustus 2019 {#august-2019}
 
