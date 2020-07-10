@@ -2,43 +2,43 @@
 title: Veelgestelde vragen over regelpaneel
 description: Algemene vragen met betrekking tot het Configuratiescherm
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Veelgestelde vragen {#faq}
 
-## IMS Org ID {#ims-org-id}
+## IMS Organisatie-id {#ims-org-id}
 
-**Wat is een IMS Org ID?**
+**Wat is een IMS-organisatie-id?**
 
 Dit is een unieke id die aan uw exemplaar wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
 
 Raadpleeg de documentatie bij [Adobe Experience Cloud voor meer informatie](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-**Waar kan ik mijn IMS Org ID vinden?**
+**Waar kan ik mijn IMS Organisatie ID vinden?**
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onder aan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-De andere manier is om **Admin Console** te lanceren. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+De andere manier is om **Admin Console** te lanceren. De IMS-organisatie-id is zichtbaar in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**Waarom moet ik mijn IMS Org ID kennen?**
+**Waarom moet ik mijn IMS Organisatie-id kennen?**
 
 Opdat u montages voor uw instantie beheert, willen wij ervoor zorgen dat u de juiste informatie voor de juiste instantie krijgt voor het geval u veelvoudige instanties voor uw bedrijf gebruikt.
 
-**Wat gebeurt er als ik meerdere IMS Org-id&#39;s heb?**
+**Wat gebeurt er als ik meerdere IMS Organisatie-id&#39;s heb?**
 
-U kunt meer dan één IMS Org-id hebben als u toegang hebt tot meerdere Adobe-oplossingen. In dit geval is de juiste IMS Org-id die u moet gebruiken, de id die u onder uw Adobe Campaign-instantie ziet.
+U hebt mogelijk meer dan één IMS-organisatie-id als u toegang hebt tot meerdere Adobe-oplossingen. In dit geval is de juiste IMS Organisatie-id die u moet gebruiken, die welke u onder uw Adobe Campaign-instantie ziet.
 
 >[!NOTE]
 >
->Als u dezelfde IMS Org-id hebt voor Adobe Campaign en Adobe Analytics, is dit fantastisch. Een IMS-organisatie-id tussen Analytics en Campagne is een vereiste als u de oplossingen wilt integreren om gebruik te maken van complexe gebruikssituaties, zoals het achterlaten van winkelwagentjes (voor AA + AC).
+>Als u dezelfde IMS Organisatie-id hebt voor Adobe Campaign en Adobe Analytics, is dit geweldig. Een IMS-organisatie-id tussen Analytics en Campagne is een vereiste als u de oplossingen wilt integreren om te profiteren van complexe gebruikssituaties, zoals het achterlaten van winkelwagentjes (voor AA + AC).
 >
->Als u verschillende IMS Org-id&#39;s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
+>Als u verschillende IMS-organisatie-id&#39;s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
 
 **Hoe kan ik weten dat mijn Adobe Campaign-exemplaar al dan niet wordt gehost op AWS?**
 
@@ -92,7 +92,7 @@ Met het Configuratiescherm kunnen productbeheerders verschillende instellingen r
 
 **Wat zijn sommige huidige mogelijkheden van het Controlebord?**
 
-Met het Configuratiescherm kunt u opslag bijhouden, IP&#39;s toevoegen aan de lijst Toestaan en SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften en andere acties.
+Met het Configuratiescherm kunt u opslag bijhouden, IP&#39;s toevoegen aan de lijst van gewenste personen en SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften en andere acties.
 
 Raadpleeg de documentatie over door het Configuratiescherm ondersteunde acties voor meer informatie.
 
