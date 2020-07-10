@@ -1,9 +1,9 @@
 ---
 title: releases in het regelpaneel
 translation-type: tm+mt
-source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
+source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,6 @@ Na het delegeren van een nieuw subdomain, staat het Controlebord u nu toe om de 
 Met het Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de gegevens die vanuit de buitenzijde naar Campagne komen, gemakkelijk kunt decoderen. Bovendien hebben we een functie toegevoegd zodat u een openbare GPG-sleutel kunt installeren om gegevens te coderen die de Campagne verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
 * [Campaign Standard-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Campaign Classic-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
-**&#39;Whitelist&#39; / &#39;Blacklist&#39; verwijderen**
-
-Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;lijst van afgewezen personen&quot; en &quot;lijst van gewenste personen&quot;.
 
 **Controle van actieve profielen**
 
