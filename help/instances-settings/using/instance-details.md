@@ -2,10 +2,10 @@
 title: Instantiedetails
 description: Leer hoe u de instantiedetails in het Configuratiescherm kunt controleren
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Informatie over Instantie"
->abstract="Bekijk de details van uw Adobe Campagne instanties: types, namen, bouwt informatie en mogelijke verbeteringsaanbevelingen."
->additional-url="https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html" text="Opmerkingen bij de release Campagne Classic"
->additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Opmerkingen bij de release Campagne Standard"
+>abstract="Bekijk de details van je Adobe Campaign-instanties: types, namen, bouwt informatie en mogelijke verbeteringsaanbevelingen."
+>additional-url="https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html" text="Opmerkingen bij de release van Campaign Classic"
+>additional-url="https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html" text="Opmerkingen bij de release van Campaign Standard"
 
 >[!IMPORTANT]
 >
->Deze functie is alleen beschikbaar voor klassieke instanties van de campagne.
+>Deze functie is alleen beschikbaar voor Campaign Classic-instanties.
 
 ## Informatie over instanties {#about-instance-details}
 
-De Adobe Campagne Classic-instantiearchitectuur kan verschillende servers bevatten om de flexibiliteit van marketingactiviteiten mogelijk te maken. Bijvoorbeeld, kunt u Marketing hebben, Echte tijd (of het Centrum van het Bericht) en Midden het Bronnen servers die uw instantie steunen.
+Uw Adobe Campaign Classic-instantiearchitectuur kan verschillende servers bevatten om de flexibiliteit van marketingactiviteiten mogelijk te maken. Bijvoorbeeld, kunt u Marketing hebben, Echte tijd (of het Centrum van het Bericht) en Midden het Bronnen servers die uw instantie steunen.
 
 Met de functie Instantie details kunt u de platte architectuur van uw instantie weergeven. Naast serverinformatie, laat het u ook weten of uw instantie huidig is of niet, evenals adviseert verbeteringen wanneer nodig.
 
@@ -36,7 +36,7 @@ Met de functie Instantie details kunt u de platte architectuur van uw instantie 
 **Verwante onderwerpen:**
 
 * [Een build-upgrade uitvoeren](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html)
-* [Adobe-campagne bijwerken](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [Adobe Campaign bijwerken](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
 
 ## Informatie over uw instanties ophalen {#retrieving-information-about-instances}
 
@@ -46,13 +46,13 @@ Voer de volgende stappen uit om informatie op te halen over de servers die zijn 
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw identiteitskaart van IMS ORG niet met om het even welke Classic Instanties van de Campagne van Adobe wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke Classic Instanties van Adobe Campaign wordt geassocieerd
 
-1. Selecteer in het linkerdeelvenster de gewenste instantie Campagne Classic.
+1. Selecteer in het linkerdeelvenster het gewenste Campaign Classic-exemplaar.
 
    >[!NOTE]
    >
-   >Alle instanties van Campagne worden weergegeven in de lijst in het linkerdeelvenster. Aangezien de eigenschap van de Details van de Instantie aan de Klassieke instanties van de Campagne slechts wordt gewijd, toont het bericht &quot;Niet-Toepasselijke Instantie&quot;als u een Standaardinstantie van de Campagne selecteert.
+   >Alle instanties van Campagne worden weergegeven in de lijst in het linkerdeelvenster. Aangezien de functie Instantiedetails alleen is toegewezen aan Campaign Classic-instanties, wordt het bericht &quot;Niet-toepasbare instantie&quot; weergegeven als u een Campaign Standard-instantie selecteert.
 
 1. De servers die met de instantiesvertoning worden verbonden.
 
