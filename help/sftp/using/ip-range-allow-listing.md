@@ -2,7 +2,7 @@
 title: Aanbieding in IP-bereik toegestaan
 description: Leer hoe u IP-bereiken toevoegt aan de lijst van gewenste personen voor toegang tot SFTP-servers
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 1%
@@ -26,7 +26,7 @@ CIDR (het Klasseloze Verpletteren inter-Domein) is het gesteunde formaat wanneer
 
 De syntaxis bestaat uit een IP-adres, gevolgd door een &#39;/&#39;-teken en een decimaal getal. De opmaak en syntaxis worden volledig in [dit artikel](https://whatismyipaddress.com/cidr)beschreven.
 
-U kunt op internet zoeken naar gratis onlinegereedschappen waarmee u het IP-bereik dat u hebt, kunt omzetten in de CIDR-indeling.
+U kunt op internet zoeken naar gratis onlinegereedschappen waarmee u het IP-bereik dat u in handen hebt, kunt omzetten in de CIDR-indeling.
 
 ## Aanbevolen procedures {#best-practices}
 
@@ -46,7 +46,7 @@ Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt
 
 Ga als volgt te werk om een IP-bereik aan de lijst van gewenste personen toe te voegen:
 
-1. Open de **[!UICONTROL SFTP]**-kaart en selecteer vervolgens het tabblad **[!UICONTROL IP Whistelisting]**.
+1. Open de **[!UICONTROL SFTP]**-kaart en selecteer vervolgens het tabblad **[!UICONTROL IP Allow Listing]**.
 1. De lijst van IP adressen op de lijst van gewenste personen toont voor elke instantie. Selecteer de gewenste instantie in de lijst aan de linkerkant en klik op de **[!UICONTROL Add new IP range]** knop.
 
    ![](assets/control_panel_add_range.png)
