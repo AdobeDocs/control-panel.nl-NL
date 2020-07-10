@@ -1,9 +1,9 @@
 ---
 title: releases in het regelpaneel
 translation-type: tm+mt
-source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Na het delegeren van een nieuw subdomain, staat het Controlebord u nu toe om de 
 **Beheer van GPG-sleutels**
 
 Met het Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de gegevens die vanuit de buitenzijde naar Campagne komen, gemakkelijk kunt decoderen. Bovendien hebben we een functie toegevoegd zodat u een openbare GPG-sleutel kunt installeren om gegevens te coderen die de Campagne verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+* [Zelfstudievideo&#39;s voor Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Zelfstudievideo&#39;s voor Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Controle van actieve profielen**
 
