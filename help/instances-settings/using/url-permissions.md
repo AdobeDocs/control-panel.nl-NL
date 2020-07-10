@@ -2,10 +2,10 @@
 title: URL-machtigingen
 description: Leer hoe u URL-machtigingen beheert in het Configuratiescherm
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +55,7 @@ Ga als volgt te werk om een URL toe te voegen waarmee uw instantie verbinding ka
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw identiteitskaart IMS ORG niet met om het even welke Klassieke Instanties van Adobe Campaign wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke Classic Instanties van Adobe Campaign wordt geassocieerd
    >
    >Het tabblad <b><span class="uicontrol">URL-machtigingen</span></b> bevat alle externe URL&#39;s waarmee uw instantie verbinding kan maken. Deze lijst bevat geen URL&#39;s die vereist zijn om de campagne te laten werken (bijvoorbeeld verbindingen tussen infrastructuuronderdelen).
 
