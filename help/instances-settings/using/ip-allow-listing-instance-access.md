@@ -2,9 +2,9 @@
 title: IP-aanbieding toestaan
 description: Leer hoe te om IP adressen aan de lijst van gewenste personen in het Controlebord voor instantietoegang toe te voegen
 translation-type: tm+mt
-source-git-commit: abe22509e3389874e0b3586a99a1ad2d49681ed8
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste personen toe te vo
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw identiteitskaart IMS ORG niet met om het even welke Klassieke Instanties van Adobe Campaign wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke Classic Instanties van Adobe Campaign wordt geassocieerd
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -63,11 +63,12 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste personen toe te vo
 
    * **[!UICONTROL Instance(s)]**: De instanties waaraan de IP adressen zullen kunnen verbinden. Verschillende instanties kunnen tegelijkertijd worden gemanipuleerd. IP staat bijvoorbeeld toe dat een lijst op zowel Productie- als Stage-instanties kan worden uitgevoerd via dezelfde stap.
    * **[!UICONTROL IP Range]**: De IP waaier die u aan de lijst van gewenste personen, in het formaat wilt toevoegen CIDR. Merk op dat een IP waaier geen bestaande waaier op de lijst van gewenste personen kan overlappen. In dat geval, schrap eerst de waaier die overlappende IP bevat.
+
    >[!NOTE]
    >
    >CIDR (het Klasseloze Verpletteren inter-Domein) is het gesteunde formaat wanneer het toevoegen van IP waaiers met de interface van het Controlebord. De syntaxis bestaat uit een IP-adres, gevolgd door een &#39;/&#39;-teken en een decimaal getal. De opmaak en syntaxis worden volledig in [dit artikel](https://whatismyipaddress.com/cidr)beschreven.
    >
-   >U kunt op internet zoeken naar gratis onlinegereedschappen waarmee u het IP-bereik dat u hebt, kunt omzetten in de CIDR-indeling.
+   >U kunt op internet zoeken naar gratis onlinegereedschappen waarmee u het IP-bereik dat u in handen hebt, kunt omzetten in de CIDR-indeling.
 
    * **[!UICONTROL Label]**: Het label dat in de lijst van gewenste personen wordt weergegeven.
    * **[!UICONTROL Name]**: De naam moet uniek zijn voor het toegangstype, de instantie (in het geval van een externe API-verbinding) en het IP-adres.
@@ -78,6 +79,7 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste personen toe te vo
    * **[!UICONTROL Campaign Console Access]**: De IP-adressen mogen verbinding maken met de Campaign Classic-console. De toegang van de Console wordt toegelaten voor slechts instanties van de Marketing. Toegang tot MID- en RT-instanties is niet toegestaan en daarom niet ingeschakeld.
    * **[!UICONTROL AEM connection]**: De opgegeven AEM IP-adressen mogen verbinding maken met de marketinginstantie.
    * **[!UICONTROL External API connection]**: Externe API&#39;s met de opgegeven IP-adressen kunnen verbinding maken met de instantie Marketing en/of Message Center (RT). Merk op dat de verbinding aan de console van instanties RT niet wordt toegelaten.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Klik op de **[!UICONTROL Save]** knop. De IP Waaier wordt toegevoegd aan de lijst van gewenste personen.
