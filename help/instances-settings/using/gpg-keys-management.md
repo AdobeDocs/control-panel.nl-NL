@@ -2,9 +2,9 @@
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1112'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,8 @@ Dan kunt u:
 
 **Verwante onderwerpen:**
 
-* [Campaign Standard-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Campaign Classic-zelfstudievideo](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Zelfstudievideo&#39;s voor Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Zelfstudievideo&#39;s voor Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Gegevens versleutelen {#encrypting-data}
 
@@ -56,6 +55,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
    * **opmerking**: Als u een label toevoegt aan het opmerkingenveld, kunt u gemakkelijk de sleutel identificeren waarmee uw gegevens worden versleuteld.
    * **vervaldatum**: Datum of &quot;0&quot; voor geen vervaldatum.
    * **passphrase**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u in een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
@@ -158,6 +158,7 @@ In de lijst worden alle GPG-sleutels voor versleuteling en ontsleuteling weergeg
    * Dringend (rood) wordt 30 dagen eerder getoond.
    * Waarschuwing (geel) wordt 60 dagen eerder weergegeven.
    * Een &quot;Verlopen&quot; rode banner wordt weergegeven zodra een toets is verlopen.
+
    >[!NOTE]
    >
    >Er wordt geen e-mailmelding verzonden door het Configuratiescherm.
