@@ -1,95 +1,95 @@
 ---
-title: releases in het regelpaneel
+title: Configuratiescherm-releases
 translation-type: tm+mt
 source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
 
-# releases in het regelpaneel {#control-panel-releases}
+# Configuratiescherm-releases {#control-panel-releases}
 
-Hier vindt u informatie over de meest recente versies van het Configuratiescherm.
+Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 
 >[!NOTE]
 >
->Houd er rekening mee dat het Configuratiescherm alleen beschikbaar is voor klanten die op AWS worden gehost, behalve voor hybride omgevingen die nog niet worden ondersteund. U hebt geen upgrades nodig om toegang te krijgen tot het Configuratiescherm. Zorg ervoor dat u een Admin-gebruiker bent en dat u deze kunt openen.
+>Houd er rekening mee dat Configuratiescherm alleen beschikbaar is voor klanten die op AWS worden gehost, behalve voor hybride omgevingen die nog niet worden ondersteund. U hebt geen upgrades nodig om toegang te krijgen tot het Configuratiescherm. Zorg ervoor dat u een Admin-gebruiker bent om het te kunnen openen.
 
-## juni 2020 {#june-2020}
+## Juni 2020 {#june-2020}
 
-**Controle van prestaties in subdomein**
+**Leveringsontrole voor subdomein**
 
-Na het delegeren van een nieuw subdomain, staat het Controlebord u nu toe om de controle te volgen die door het team van de Leverbaarheid wordt uitgevoerd. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
+Na het delegeren van een nieuw subdomein kunt u nu met behulp van Configuratiescherm de controle volgen die door het Afleverteam wordt uitgevoerd. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Beheer van GPG-sleutels**
 
-Met het Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de gegevens die vanuit de buitenzijde naar Campagne komen, gemakkelijk kunt decoderen. Bovendien hebben we een functie toegevoegd zodat u een openbare GPG-sleutel kunt installeren om gegevens te coderen die de Campagne verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
+Met Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de data die in Campaign binnenkomen, gemakkelijk kunt ontsleutelen. Bovendien hebben we een functie toegevoegd waarmee u een openbare GPG-sleutel kunt installeren om data te versleutelen die Campaign verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
 * [Zelfstudievideo&#39;s voor Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
 * [Zelfstudievideo&#39;s voor Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
-**Controle van actieve profielen**
+**Bewaking van actieve profielen**
 
-Met het Configuratiescherm kunt u nu het aantal actieve profielen controleren dat door uw instanties wordt gebruikt en dat voor factureringsdoeleinden wordt geteld. [Meer informatie](performance-monitoring/using/active-profiles-monitoring.md)
+Met Configuratiescherm kunt u nu het aantal actieve profielen bewaken dat door uw instanties wordt gebruikt en dat voor factureringsdoeleinden wordt geteld. [Meer informatie](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->De controle van actieve profielen van het Controlebord is beschikbaar in bèta, en voor regelmatige updates en aanpassingen zonder bericht.
+>Bewaking van actieve profielen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
 >
->Deze functie is beschikbaar voor klanten die op AWS worden gehost via de Campaign Standard 10368-build en de Campaign Classic 8931-build. Als u een vorige build gebruikt, moet u een upgrade uitvoeren om deze functie te gebruiken.
+>Deze functie is beschikbaar voor klanten die op AWS worden gehost via de Campaign Standard-build 10368 en de Campaign Classic-build 8931. Als u een eerdere build gebruikt, moet u een upgrade uitvoeren om deze functie te kunnen gebruiken.
 
-## mei 2020 {#may-2020}
+## Mei 2020 {#may-2020}
 
 **Certificaatbeheer voor CNAME-subdomeinen**
 
-Het Controlebord staat u nu toe om de SSL certificaten van uw subdomeinen te vernieuwen die met de methode CNAME zijn afgevaardigd. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Met Configuratiescherm kunt u nu de SSL-certificaten van de subdomeinen die met de CNAME-methode zijn gedelegeerd, verlengen. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-## april 2020 {#april-2020}
+## April 2020 {#april-2020}
 
-**Google TXT-recordbeheer**
+**Beheer van Google-TXT-records**
 
-Voeg een Google TXT-site-verificatierecord toe aan al uw subdomeinen die worden gebruikt om e-mails naar Gmail-adressen te verzenden via het Configuratiescherm van de campagne. [Meer informatie](subdomains-certificates/using/managing-txt-records.md)
+Voeg een Google-TXT-record voor websiteverificatie toe aan al uw subdomeinen die worden gebruikt om e-mails naar Gmail-adressen te verzenden via het Configuratiescherm van Campaign. [Meer informatie](subdomains-certificates/using/managing-txt-records.md)
 
 **Bewaking van databaseruimte**
 
-Het Controlebord van de campagne is uitgerust met gegevensbestand controlemogelijkheden, die u toestaan om uw gebruik van de gegevensbestandruimte op bestelling en in tijd te bekijken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
+Het Configuratiescherm van Campaign is uitgerust met mogelijkheden voor databasecontrole, waarmee u uw gebruik van de databaseruimte op aanvraag en na verloop van tijd kunt weergeven. [Meer informatie](performance-monitoring/using/database-monitoring.md)
 
 **E-mailwaarschuwingen**
 
-Het Configuratiescherm van de campagne is uitgerust met mogelijkheden voor realtime e-mailwaarschuwingen, zodat u zich kunt aanmelden bij het Configuratiescherm en zich kunt aanmelden voor meldingen als de prestaties van uw systeem kunnen verslechteren. U hebt ook een handeling nodig om hoge prestaties voor de toekomst te garanderen. [Meer informatie](performance-monitoring/using/email-alerting.md)
+Het Configuratiescherm van Campaign is uitgerust met mogelijkheden voor realtime-e-mailwaarschuwingen, zodat u kunt inloggen bij het Configuratiescherm en zich kunt aanmelden voor waarschuwingen als de prestaties van uw systeem kunnen verslechteren of als een handeling nodig is om hoge prestaties voor de toekomst te garanderen. [Meer informatie](performance-monitoring/using/email-alerting.md)
 
-## januari 2020 {#january-2020}
+## Januari 2020 {#january-2020}
 
 *22 januari 2020*
 
-We hebben nieuwe mogelijkheden voor Admin-gebruikers toegevoegd om subdomeinen te delegeren en SSL-certificaten te vernieuwen via het Configuratiescherm.
+We hebben nieuwe mogelijkheden voor Admin-gebruikers toegevoegd om subdomeinen te delegeren en SSL-certificaten te verlengen via Configuratiescherm.
 
-Raadpleeg de volgende pagina&#39;s voor meer informatie:
+Raadpleeg deze pagina’s voor meer informatie:
 * [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
-* [SSL-certificaat van een subdomein vernieuwen](subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Het SSL-certificaat van een subdomein verlengen](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 >[!IMPORTANT]
 >
->Deze functies zijn beschikbaar in bèta en kunnen regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
+>Deze functies zijn beschikbaar in de bètaversie en kunnen regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
 
-## september 2019 {#september-2019}
+## September 2019 {#september-2019}
 
 *16 september 2019*
 
-Er zijn nieuwe mogelijkheden toegevoegd waarmee Admin-gebruikers IP-adressen aan de lijst van gewenste personen kunnen toevoegen om verbinding te maken met Campaign Classic-instanties.
-Bovendien kunnen Admin-gebruikers nu de lijst met Campaign Classic-instanties en de mogelijkheid om upgrades te bouwen, weergeven.
+Er zijn nieuwe mogelijkheden toegevoegd waarmee Admin-gebruikers IP-adressen aan de lijst van gewenste IP-adressen kunnen toevoegen om verbinding te maken met Campaign Classic-instanties.
+Bovendien kunnen Admin-gebruikers nu de lijst met Campaign Classic-instanties en geschiktheid voor het ontvangen van build-upgrades weergeven.
 
-Raadpleeg de [desbetreffende documentatie](instances-settings/using/ip-allow-listing-instance-access.md)voor meer informatie.
+Raadpleeg de [desbetreffende documentatie](instances-settings/using/ip-allow-listing-instance-access.md) voor meer informatie.
 
-## augustus 2019 {#august-2019}
+## Augustus 2019 {#august-2019}
 
 Er zijn nieuwe mogelijkheden toegevoegd waarmee Admin-gebruikers berichten kunnen ontvangen voordat SSL-certificaten voor hun domeinen verlopen. Raadpleeg de [gedetailleerde documentatie](subdomains-certificates/using/monitoring-ssl-certificates.md)voor meer informatie.
 
-Bovendien kunnen Admin-gebruikers nu SSH-sleutels verwijderen die zijn toegevoegd aan toegang tot SFTP-servers.
+Bovendien kunnen Admin-gebruikers nu SSH-sleutels verwijderen die zijn toegevoegd om toegang te verkrijgen tot SFTP-servers.
 
-## juli 2019 {#july-2019}
+## Juli 2019 {#july-2019}
 
-We hebben nieuwe functies toegevoegd waarmee Admin-gebruikers meer controle kunnen krijgen over Campaign Classic-instantie-instellingen. De nieuwe mogelijkheden van het Configuratiescherm omvatten de mogelijkheid om URL&#39;s toe te voegen waarmee Adobe Campaign verbinding maakt voor gegevens-/bestandsoverdracht.
+We hebben nieuwe functies toegevoegd waarmee Admin-gebruikers meer controle kunnen krijgen over Campaign Classic-instantie-instellingen. De nieuwe mogelijkheden van het Configuratiescherm omvatten de mogelijkheid om URL’s toe te voegen waarmee Adobe Campaign verbinding maakt voor data-/bestandsoverdracht.
 
 Raadpleeg de [gedetailleerde documentatie](instances-settings/using/url-permissions.md)voor meer informatie.
