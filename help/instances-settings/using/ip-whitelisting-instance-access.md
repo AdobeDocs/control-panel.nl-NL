@@ -1,91 +1,91 @@
 ---
-title: IP-aanbieding toestaan
-description: Leer hoe te om IP adressen aan toe te voegen staan lijst in het Controlebord voor bijvoorbeeld toegang
-translation-type: tm+mt
+title: IP-adressen toevoegen aan de lijst van gewenste IP-adressen
+description: Leer hoe u IP-adressen toevoegt aan de lijst van gewenste IP-adressen in het Configuratiescherm voor instantietoegang.
+translation-type: ht
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# IP-aanbieding toestaan {#ip-whitelisting}
+# IP-adressen toevoegen aan de lijst van gewenste IP-adressen {#ip-whitelisting}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange"
->title="Aanbieding via IP toestaan"
->abstract="Voeg IP adressen aan toe toestaan lijst om tot uw instanties toegang te hebben."
->additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Video over demo bekijken"
+>title="IP-adressen toevoegen aan de lijst van gewenste IP-adressen"
+>abstract="Voeg IP-adressen aan de lijst van gewenste IP-adressen toe om toegang tot uw instanties te hebben."
+>additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Demovideo bekijken"
 
 >[!IMPORTANT]
 >
 >Deze functie is alleen beschikbaar voor Campaign Classic-instanties.
 
-## Aanbieding via IP toestaan {#about-ip-whitelisting}
+## IP-adressen toevoegen aan de lijst van gewenste IP-adressen {#about-ip-whitelisting}
 
 Standaard is uw Adobe Campaign Classic-instantie niet toegankelijk via verschillende IP-adressen.
 
-Als uw IP adres niet aan toestaan lijst is toegevoegd, zult u niet aan login aan de instantie van dit adres kunnen. Op dezelfde manier kunt u mogelijk geen API verbinden met uw Message Center- of marketinginstantie als het IP-adres niet expliciet is toegevoegd aan de lijst met toegestane items.
+Als uw IP-adres niet aan de lijst van gewenste IP-adressen is toegevoegd, kunt u zich niet bij de instantie aanmelden vanaf dit adres. U kunt evenmin een API met uw Message Center of Marketing-instantie verbinden als het IP-adres niet uitdrukkelijk aan de lijst van gewenste IP-adressen met de instantie is toegevoegd.
 
-Met het Configuratiescherm kunt u nieuwe verbindingen met uw instanties instellen door IP-adresbereiken toe te voegen aan de lijst met toegestane adressen. Volg de onderstaande stappen om dit te doen.
+Via het Configuratiescherm kunt u nieuwe verbindingen met uw instanties instellen door IP-adresbereiken aan de lijst van gewenste IP-adressen toe te voegen. Volg de onderstaande stappen om dit te doen.
 
-Zodra IP de adressen op toestaan lijst zijn, kunt u de exploitanten van de Campagne tot stand brengen en verbinden aan hen zodat de gebruikers tot de instantie kunnen toegang hebben.
+Zodra IP-adressen in de lijst van gewenste IP-adressen staan, kunt u Campaign-operators maken en aan de IP-adressen koppelen, zodat de gebruikers toegang tot de instantie kunnen krijgen.
 
 ## Aanbevolen procedures {#best-practices}
 
-Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt aan de lijst Toestaan in het Configuratiescherm.
+Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt aan de lijst van gewenste IP-adressen in het Configuratiescherm.
 
-* **Laat IP geen toegang tot alle Types** van Toegang toe als u niet het IP adres om met uw servers van RT, of de veiligheidsstreek van AEM van plan bent te verbinden.
-* **Als u tijdelijk toegang tot uw instantie voor een IP adres** toeliet, zorg ervoor om de IP adressen uit te verwijderen sta lijst toe zodra u het niet meer nodig hebt om met uw instantie te verbinden.
-* **Wij adviseren niet IP adressen van openbare plaatsen aan toe te voegen lijst** (luchthavens, hotels, enz.). Gelieve te gebruiken uw adres van bedrijfsVPN om uw instantie te allen tijde veilig te houden.
+* **Schakel IP-toegang niet voor alle toegangstypen in** als u niet wilt dat het IP-adres verbinding maakt met uw RT-servers of de AEM-beveiligingszone.
+* **Als u toegang tot uw instantie tijdelijk hebt ingeschakeld voor een IP-adres**, dient u de IP-adressen uit de lijst van gewenste IP-adressen te verwijderen zodra u niet langer wilt dat het verbinding maakt met uw instantie.
+* **U kunt beter geen IP-adressen van openbare gelegenheden (luchthavens, hotels, enz.) aan de lijst van gewenste IP-adressen toevoegen.** Gebruik het adres van uw bedrijfs-VPN om uw instantie te allen tijde veilig te houden.
 
-## IP-adressen toevoegen aan de lijst met toegestane toegang tot instantie {#whistelisting-ip-addresses}
+## IP-adressen toevoegen aan de lijst van gewenste IP-adressen voor instantie-toegang {#whistelisting-ip-addresses}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
 >title="Nieuw IP-bereik toevoegen"
->abstract="Definieer het IP-bereik dat u wilt toevoegen aan de lijst voor toestaan om verbinding te maken met uw instantie."
+>abstract="Definieer het IP-bereik dat u aan de lijst van gewenste IP-adressen wilt toevoegen om verbinding te maken met uw instantie."
 
-Ga als volgt te werk om IP-adressen toe te voegen aan de lijst allow:
+Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te voegen:
 
-1. Open the **[!UICONTROL Instances Settings card]** to access the IP allow listing tab, then click **[!UICONTROL Add new IP Range]**.
+1. Open de **[!UICONTROL Instances Settings card]** voor toegang tot het tabblad voor toevoeging van IP-adressen aan de lijst van gewenste IP-adressen en klik vervolgens op **[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw identiteitskaart IMS ORG niet met om het even welke Klassieke Instanties van Adobe Campaign wordt geassocieerd
+   >Als de kaart Instance Settings niet zichtbaar is op de startpagina van het Configuratiescherm, betekent dit dat uw IMS-organisatie-id aan geen enkele Adobe Campaign Classic-instantie is gekoppeld.
 
    ![](assets/ip_whitelist_list1.png)
 
-1. Vul de informatie voor de IP Waaier in die u aan toestaan lijst zoals hieronder beschreven wilt toevoegen.
+1. Vul de informatie in voor het IP-bereik dat u aan de lijst van gewenste IP-adressen wilt toevoegen zoals hieronder beschreven.
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instance(s)]**: De instanties waaraan de IP adressen zullen kunnen verbinden. Verschillende instanties kunnen tegelijkertijd worden gemanipuleerd. IP staat bijvoorbeeld toe dat een lijst op zowel Productie- als Stage-instanties kan worden uitgevoerd via dezelfde stap.
-   * **[!UICONTROL IP Range]**: De IP waaier die u aan toestaan lijst, in het formaat wilt toevoegen CIDR. Merk op dat een IP waaier geen bestaande waaier op toestaat lijst kan overlappen. In dat geval, schrap eerst de waaier die overlappende IP bevat.
+   * **[!UICONTROL Instance(s)]**: De instanties waarmee de IP-adressen verbinding kunnen maken. Verschillende instanties kunnen tegelijkertijd worden gemanipuleerd. Het toevoegen van IP-adressen aan de lijst van gewenste IP-adressen kan bijvoorbeeld op productie- en stage-instanties worden uitgevoerd via dezelfde stap.
+   * **[!UICONTROL IP Range]**: Het IP-bereik dat u aan de lijst van gewenste IP-adressen wilt toevoegen, in CIDR-indeling. Een IP-bereik mag een bestaand bereik in de lijst van gewenste IP-adressen niet overlappen. Verwijder in dat geval eerst het bereik met de overlappende IP-adressen.
    >[!NOTE]
    >
-   >CIDR (het Klasseloze Verpletteren inter-Domein) is het gesteunde formaat wanneer het toevoegen van IP waaiers met de interface van het Controlebord. De syntaxis bestaat uit een IP-adres, gevolgd door een &#39;/&#39;-teken en een decimaal getal. De opmaak en syntaxis worden volledig in [dit artikel](https://whatismyipaddress.com/cidr)beschreven.
+   >CIDR (Classless Inter-Domain Routing) is de ondersteunde indeling bij het toevoegen van IP-bereiken met de interface van het Configuratiescherm. De syntaxis bestaat uit een IP-adres, gevolgd door een slash (/) en een decimaal getal. De indeling en bijbehorende syntaxis worden uitgebreid beschreven in [dit artikel](https://whatismyipaddress.com/cidr).
    >
-   >U kunt op internet zoeken naar gratis onlinegereedschappen waarmee u het IP-bereik dat u hebt, kunt omzetten in de CIDR-indeling.
+   >U kunt op internet zoeken naar gratis online tools waarmee u het IP-bereik dat u hebt, kunt omzetten in CIDR-indeling.
 
-   * **[!UICONTROL Label]**: Het label dat wordt weergegeven in de lijst Toestaan.
+   * **[!UICONTROL Label]**: Het label dat in de lijst van gewenste IP-adressen wordt weergegeven.
    * **[!UICONTROL Name]**: De naam moet uniek zijn voor het toegangstype, de instantie (in het geval van een externe API-verbinding) en het IP-adres.
 
 
-1. Specificeer het type van toegang dat u aan de IP adressen wilt verlenen:
+1. Specificeer het type toegang dat u aan de IP-adressen wilt verlenen:
 
-   * **[!UICONTROL Campaign Console Access]**: De IP-adressen mogen verbinding maken met de Campaign Classic-console. De toegang van de Console wordt toegelaten voor slechts instanties van de Marketing. Toegang tot MID- en RT-instanties is niet toegestaan en daarom niet ingeschakeld.
-   * **[!UICONTROL AEM connection]**: De opgegeven AEM IP-adressen mogen verbinding maken met de marketinginstantie.
-   * **[!UICONTROL External API connection]**: Externe API&#39;s met de opgegeven IP-adressen kunnen verbinding maken met de instantie Marketing en/of Message Center (RT). Merk op dat de verbinding aan de console van instanties RT niet wordt toegelaten.
+   * **[!UICONTROL Campaign Console Access]**: De IP-adressen mogen verbinding maken met de Campaign Classic-console. Toegang tot de console is alleen ingeschakeld voor Marketing-instanties. Toegang tot MID- en RT-instanties is niet toegestaan en daarom niet ingeschakeld.
+   * **[!UICONTROL AEM connection]**: De opgegeven AEM IP-adressen mogen verbinding maken met de Marketing-instantie.
+   * **[!UICONTROL External API connection]**: Externe API’s met de opgegeven IP-adressen kunnen verbinding maken met de Marketing- en/of Message Center-instantie (RT). Verbinding met de console van RT-instanties is niet ingeschakeld.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Klik op de **[!UICONTROL Save]** knop. De IP Waaier wordt toegevoegd aan toestaan lijst.
+1. Klik op de knop **[!UICONTROL Save]**. Het IP-bereik wordt toegevoegd aan de lijst van gewenste IP-adressen.
 
    ![](assets/ip_whitelist_added.png)
 
-Om IP waaiers van de allow lijst te schrappen, selecteer hen dan de **[!UICONTROL Delete IP range]** knoop.
+Als u IP-bereiken uit de lijst van gewenste IP-adressen wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Delete IP range]**.
 
 **Verwante onderwerpen:**
-* [IP staat lijst (zelfstudie video) toe](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+* [IP-adressen toevoegen aan de lijst van gewenste IP-adressen (videotutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
 * [Een beveiligingszone koppelen aan een operator](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
