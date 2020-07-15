@@ -1,90 +1,93 @@
 ---
-title: SSL-certificaat van een subdomein vernieuwen
-description: Leer hoe u de SSL-certificaten van uw subdomeinen vernieuwt
-translation-type: tm+mt
+title: Het SSL-certificaat van een subdomein verlengen
+description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt verlengen.
+translation-type: ht
 source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '840'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# SSL-certificaat van een subdomein vernieuwen {#renewing-subdomains-ssl-certificates}
+# Het SSL-certificaat van een subdomein verlengen {#renewing-subdomains-ssl-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="SSL-certificaat toevoegen"
 >abstract="Als u een SSL-certificaat wilt toevoegen, moet u een CSR genereren, het SSL-certificaat voor uw subdomeinen aanschaffen en de certificaatbundel installeren."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR (Certificate Signing Request) genereren"
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Een SSL-certificaat installeren"
+>additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Een Certificate Signing Request (CSR) genereren"
+>additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Een SSL-certificaat installeren"
 
 >[!IMPORTANT]
 >
->De delegatie van subdomeinen van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
+>Delegatie van subdomeinen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
 
-## Certificaatvernieuwing {#about-certificate-renewal-process}
+## Certificaatverlenging {#about-certificate-renewal-process}
 
-Het SSL-certificaatvernieuwingsproces bestaat uit drie stappen:
+Het proces voor het verlengen van SSL-certificaten bestaat uit drie stappen:
 
-1. **Door het genereren van de CSR (Certificate Signing Request)** Adobe Klantenservice wordt een CSR voor u gegenereerd. U zult wat informatie moeten verstrekken die wordt vereist om CSR (zoals Gemeenschappelijke Naam, Naam en adres van de Organisatie, enz.) te produceren.
-1. **Aankoop van het SSL-certificaat** Nadat de CSR is gegenereerd, kunt u het downloaden en gebruiken om het SSL-certificaat aan te schaffen bij de certificeringsinstantie die door uw bedrijf is goedgekeurd.
-1. **Installatie van het SSL-certificaat** Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdomein installeren.
+1. **Het genereren van de Certificate Signing Request (CSR)**
+De Adobe-klantenservice genereert een CSR voor u. U moet informatie verstrekken die nodig is om de CSR te genereren (zoals algemene naam, organisatienaam en -adres, enz.).
+1. **Aankoop van het SSL-certificaat**
+Nadat de CSR is gegenereerd, kunt u deze downloaden en gebruiken om het SSL-certificaat aan te schaffen bij de certificeringsinstantie die door uw bedrijf is goedgekeurd.
+1. **Installatie van het SSL-certificaat**
+Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdomein installeren.
 
-## CSR (Certificate Signing Request) genereren {#generating-csr}
+## Een Certificate Signing Request (CSR) genereren {#generating-csr}
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
 >title="CSR genereren"
->abstract="Aanvraag voor certificaatondertekening moet worden gegenereerd voor de instantie en subdomeinen die u wilt beveiligen voordat u een certificaat aanschaft."
+>abstract="Voordat u een certificaat aanschaft, moet een Certificate Signing Request (CSR) worden gegenereerd voor de instantie en subdomeinen die u wilt beveiligen."
 
 >[!CONTEXTUALHELP]
 >id="cp_select_subdomains"
->title="Selecteer subdomeinen voor uw CSR"
->abstract="U kunt alle of alleen specifieke subdomeinen opnemen in uw certificaataanvraag. Alleen geselecteerde subdomeinen worden gecertificeerd via het aangeschafte SSL-certificaat."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="CSR (Certificate Signing Request) genereren"
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
+>title="Selecteer de subdomeinen voor uw CSR."
+>abstract="U kunt naar wens alle of alleen specifieke subdomeinen opnemen in uw Certificate Signing Request (CSR). Alleen geselecteerde subdomeinen worden gecertificeerd via het aangeschafte SSL-certificaat."
+>additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Een Certificate Signing Request (CSR) genereren"
+>additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
 
-Voer de volgende stappen uit om een CSR-aanvraag (Certificate Signing Request) te genereren:
+Voer de volgende stappen uit om een Certificate Signing Request (CSR) te genereren:
 
-1. Selecteer in de **[!UICONTROL Subdomains & Certificates]** kaart de gewenste variant en klik op de **[!UICONTROL Manage Certificate]** knop.
+1. Selecteer in de kaart **[!UICONTROL Subdomains & Certificates]** de gewenste instantie en klik op de knop **[!UICONTROL Manage Certificate]**.
 
    ![](assets/renewal1.png)
 
-1. Selecteer **[!UICONTROL 1 - Generate a CSR]**, dan klik **[!UICONTROL Next]** om de tovenaar te lanceren die u door het CSR generatieproces zal begeleiden.
+1. Selecteer **[!UICONTROL 1 - Generate a CSR]** en klik op **[!UICONTROL Next]** om de wizard te starten die u door het proces voor het genereren van een CSR zal leiden.
 
    ![](assets/renewal2.png)
 
 1. Er wordt een formulier weergegeven met alle gegevens die nodig zijn om de CSR te genereren.
 
-   Zorg ervoor dat u de gevraagde informatie volledig en correct invult, anders kan het certificaat niet worden vernieuwd (neem indien nodig contact op met uw interne team, beveiligings- en IT-teams) en klik op **[!UICONTROL Next]**.
+   Zorg ervoor dat u de gevraagde informatie volledig en correct invult; anders kan het certificaat niet worden verlengd (neem indien nodig contact op met uw interne team en het beveiligings- en IT-team). Klik vervolgens op **[!UICONTROL Next]**.
 
-   * **[!UICONTROL Organization]**: naam van de officiële organisatie.
+   * **[!UICONTROL Organization]**: officiële naam van de organisatie.
    * **[!UICONTROL Organization Unit]**: eenheid die is gekoppeld aan het subdomein (voorbeeld: Marketing, IT).
-   * **[!UICONTROL Instance]** (voorgevulde spuit): URL van de instantie Campagne die aan subdomain wordt geassocieerd.
+   * **[!UICONTROL Instance]** (vooraf ingevuld): URL van de Campaign-instantie die aan het subdomein is gekoppeld.
    ![](assets/renewal3.png)
 
-1. Selecteer de subdomeinen om in CSR te omvatten, dan klik **[!UICONTROL OK]**.
+1. Selecteer de subdomeinen die u in de CSR wilt opnemen en klik op **[!UICONTROL OK]**.
 
    ![](assets/renewal4.png)
 
-1. De geselecteerde subdomeinen worden weergegeven in de lijst. Selecteer voor elk subdomein de subdomeinen die u wilt opnemen en klik op **[!UICONTROL Next]**.
+1. De geselecteerde subdomeinen worden weergegeven in de lijst. Selecteer voor elk subdomein of u het wilt opnemen en klik op **[!UICONTROL Next]**.
 
    ![](assets/renewal5.png)
 
-1. Een samenvatting van subdomeinen om in de vertoningen te omvatten CSR. Klik **[!UICONTROL Submit]** om uw verzoek te bevestigen.
+1. Er wordt een samenvatting weergegeven van de subdomeinen die u in de CSR wilt opnemen. Klik op **[!UICONTROL Submit]** om uw aanvraag te bevestigen.
 
    ![](assets/renewal6.png)
 
-1. Het CSR-bestand dat overeenkomt met uw selectie, wordt automatisch gegenereerd en gedownload. U kunt het nu gebruiken om het SSL-certificaat aan te schaffen bij de Certificate Authority (certificeringsinstantie) die door uw bedrijf wordt goedgekeurd.
+1. Het csr-bestand dat overeenkomt met uw selectie, wordt automatisch gegenereerd en gedownload. U kunt het nu gebruiken om het SSL-certificaat aan te schaffen bij de Certificate Authority (certificeringsinstantie) die door uw bedrijf is goedgekeurd.
 
    >[!NOTE]
    >
-   >Als CSR niet wordt opgeslagen/gedownload, zal het worden verloren en u zult het opnieuw moeten produceren.
+   >Als de CSR niet wordt opgeslagen/gedownload, gaat de aanvraag verloren en u moet u deze opnieuw genereren.
 
 ## Een certificaat aanschaffen met de CSR {#purchasing-certificate}
 
-Nadat u een CSR-bestand voor certificaatondertekening hebt verkregen van het Configuratiescherm, koopt u een SSL-certificaat aan bij een certificeringsinstantie die is goedgekeurd door uw organisatie.
+Nadat u een Certificate Signing Request (CSR) hebt verkregen via het Configuratiescherm, koopt u een SSL-certificaat bij een certificeringsinstantie die is goedgekeurd door uw organisatie.
 
 ## Het SSL-certificaat installeren {#installing-ssl-certificate}
 
@@ -92,46 +95,46 @@ Nadat u een CSR-bestand voor certificaatondertekening hebt verkregen van het Con
 >id="cp_install_ssl_certificate"
 >title="SSL-certificaat installeren"
 >abstract="Installeer het SSL-certificaat dat u hebt aangeschaft bij de certificeringsinstantie die is goedgekeurd door uw organisatie."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
+>additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
 
-Nadat u een SSL-certificaat hebt aangeschaft, kunt u het op uw exemplaar installeren. Voordat u verdergaat, moet u zich bewust zijn van de volgende voorwaarden:
+Nadat u een SSL-certificaat hebt aangeschaft, kunt u het op uw instantie installeren. Voordat u verdergaat, moet u op de hoogte zijn van de volgende voorwaarden:
 
-* De CSR-aanvraag (Certificate Signing Request) moet zijn gegenereerd vanuit het Configuratiescherm. Anders kunt u het certificaat niet installeren via het Configuratiescherm.
-* De CSR (Certificate Signing Request) moet overeenkomen met het subdomein dat aan Adobe is gedelegeerd. Het kan bijvoorbeeld niet meer subdomeinen bevatten die zijn gedelegeerd.
-* Het certificaat moet een huidige datum hebben. Certificaten met datums kunnen in de toekomst niet worden geïnstalleerd en mogen niet verlopen (geldige begin- en einddatum).
-* Het certificaat moet worden uitgegeven door een vertrouwde certificeringsinstantie (CA), zoals Comodo, DigiCert, GoPapa, enz.
-* De grootte van het certificaat moet 2048 bits zijn en het algoritme moet RSA zijn.
+* De Certificate Signing Request (CSR) moet zijn gegenereerd vanuit het Configuratiescherm. Anders kunt u het certificaat niet installeren via het Configuratiescherm.
+* De Certificate Signing Request (CSR) moet overeenkomen met het subdomein dat aan Adobe is gedelegeerd. Het kan bijvoorbeeld niet meer subdomeinen bevatten dan het subdomein dat is gedelegeerd.
+* Het certificaat moet een huidige datum hebben. Certificaten met datums in de toekomst kunnen niet worden geïnstalleerd. Bovendien mogen certificaten niet verlopen zijn (geldige begin- en einddatum).
+* Het certificaat moet worden uitgegeven door een vertrouwde certificeringsinstantie (CA) zoals Comodo, DigiCert of GoDaddy, enz.
+* De grootte van het certificaat moet 2048 bits zijn en de algoritme moet RSA zijn.
 * Het certificaat moet de indeling X.509 PEM hebben.
 * SAN-certificaten worden ondersteund.
-* Jokertekens worden niet ondersteund.
-* Het ZIP-bestand of het certificaat moet niet met een wachtwoord beveiligd zijn.
-* Het ZIP-bestand mag alleen het volgende bevatten in bij voorkeur afzonderlijke bestanden:
-   * Eindentiteitscertificaat.
-   * Tussentijdse certificaatketen (in de juiste volgorde gerangschikt).
-   * Basiscertificaat (optioneel).
+* Wildcard-certificaten worden niet ondersteund.
+* Het zipbestand of het certificaat mag niet met een wachtwoord beveiligd zijn.
+* Het zipbestand mag alleen het volgende bevatten in bij voorkeur afzonderlijke bestanden:
+   * Eindentiteitscertificaat
+   * Keten van tussencertificaten (in de juiste volgorde gerangschikt)
+   * Basiscertificaat (optioneel)
 
 Voer de volgende stappen uit om het certificaat te installeren:
 
-1. Selecteer in de **[!UICONTROL Subdomains & Certificates]** kaart de gewenste variant en klik op de **[!UICONTROL Manage Certificate]** knop.
+1. Selecteer in de kaart **[!UICONTROL Subdomains & Certificates]** de gewenste instantie en klik op de knop **[!UICONTROL Manage Certificate]**.
 
    ![](assets/renewal1.png)
 
-1. Selecteer **[!UICONTROL 3 - Install Certificate Bundle]**, klik dan **[!UICONTROL Next]** om de tovenaar te lanceren die u door het proces van de certificaatinstallatie zal begeleiden.
+1. Selecteer **[!UICONTROL 3 - Install Certificate Bundle]** en klik op **[!UICONTROL Next]** om de wizard te starten die u door het certificaatinstallatieproces zal leiden.
 
    ![](assets/install1.png)
 
-1. Selecteer het .zip-bestand dat het te installeren certificaat bevat en klik op **[!UICONTROL Submit]**.
+1. Selecteer het zipbestand dat het te installeren certificaat bevat en klik op **[!UICONTROL Submit]**.
 
    ![](assets/install2.png)
 
 >[!NOTE]
 >
->Het certificaat wordt geïnstalleerd op alle domeinen/subdomeinen inbegrepen in CSR. Eventuele extra domein of subdomein in het certificaat worden niet in aanmerking genomen.
+>Het certificaat wordt geïnstalleerd op alle domeinen/subdomeinen die in de CSR zijn opgenomen. Eventuele extra domeinen of subdomeinen in het certificaat worden niet in aanmerking genomen.
 
 Nadat het SSL-certificaat is geïnstalleerd, worden de vervaldatum en het statuspictogram van het certificaat dienovereenkomstig bijgewerkt.
 
 **Verwante onderwerpen:**
 
-* [SSL-certificaten toevoegen (zelfstudie video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [SSL-certificaten toevoegen (videotutorial)](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Branding van subdomeinen](../../subdomains-certificates/using/subdomains-branding.md)
-* [De subdomeinen controleren](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)
