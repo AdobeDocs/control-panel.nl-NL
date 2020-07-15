@@ -1,11 +1,11 @@
 ---
-title: Veelgestelde vragen over regelpaneel
-description: Algemene vragen met betrekking tot het Configuratiescherm
+title: Veelgestelde vragen over Configuratiescherm
+description: Algemene vragen over het Configuratiescherm
 translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '629'
+ht-degree: 71%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 **Wat is een IMS-organisatie-id?**
 
-Dit is een unieke id die aan uw exemplaar wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
+Dit is een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
 
-Raadpleeg de documentatie bij [Adobe Experience Cloud voor meer informatie](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+Raadpleeg de documentatie bij [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) voor meer informatie.
 
 **Waar kan ik mijn IMS Organisatie ID vinden?**
 
 U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-De andere manier is om **Admin Console** te lanceren. De IMS-organisatie-id is zichtbaar in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+U kunt ook **Admin Console** starten. De IMS-organisatie-id is zichtbaar in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
 **Waarom moet ik mijn IMS Organisatie-id kennen?**
 
-Opdat u montages voor uw instantie beheert, willen wij ervoor zorgen dat u de juiste informatie voor de juiste instantie krijgt voor het geval u veelvoudige instanties voor uw bedrijf gebruikt.
+We willen ervoor zorgen dat u de juiste informatie voor de juiste instantie krijgt voor het geval u meerdere instanties voor uw bedrijf gebruikt. Hierdoor kunt u de instellingen voor uw instantie beheren.
 
 **Wat gebeurt er als ik meerdere IMS Organisatie-id&#39;s heb?**
 
@@ -40,16 +40,16 @@ U hebt mogelijk meer dan één IMS-organisatie-id als u toegang hebt tot meerder
 >
 >Als u verschillende IMS-organisatie-id&#39;s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
 
-**Hoe kan ik weten dat mijn Adobe Campaign-exemplaar al dan niet wordt gehost op AWS?**
+**Hoe weet ik of mijn Adobe Campaign-instantie wordt gehost op AWS?**
 
-Ga als volgt te werk om te controleren of uw instantie wordt gehost op AWS:
+Als u wilt controleren of uw instantie wordt gehost op AWS, voert u deze stappen uit:
 
-1. Win uw login URL terug. Het is de URL die u gebruikt om u aan te melden bij uw Campagne-instantie. Deze eindigt meestal met &quot;.campagne.adobe.com&quot; of&quot;.neolane.net&quot;.
-1. Open de terminal en voer vervolgens een **[!DNL nslookup]** bewerking uit op de aanmeldings-URL.
+1. Haal uw login-URL op. Dit is de URL die u gebruikt om u aan te melden bij uw Campaign-instantie. De URL eindigt meestal met .campaign.adobe.com of .neolane.net.
+1. Open de terminal en voer vervolgens een **[!DNL nslookup]**-bewerking uit op de login-URL.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
-1. De reactie retourneert informatie over uw instantie.
+1. Er wordt informatie over uw instantie geretourneerd.
 
    ```
    doe-macOS% nslookup myinstance.campaign.adobe.com
@@ -65,11 +65,11 @@ Ga als volgt te werk om te controleren of uw instantie wordt gehost op AWS:
    Address: 12.34.567.89
    ```
 
-1. Voer een **nslookup** verrichting op het teruggekeerde IP adres uit.
+1. Voer een **nslookup**-bewerking op het geretourneerde IP-adres uit.
 
    `doe-macOS% nslookup 12.34.567.89`
 
-1. Controleer de waarde &quot;name&quot; in het geretourneerde resultaat. Als het bestand &quot;amazonaws.com&quot; bevat, betekent dit dat uw instantie wordt gehost op AWS.
+1. Controleer de waarde ‘name’ in het geretourneerde resultaat. Als de waarde ‘amazonaws.com’ bevat, betekent dit dat uw instantie wordt gehost op AWS.
 
    ```
    doe-macOS% nslookup 12.34.567.89
@@ -82,34 +82,34 @@ Ga als volgt te werk om te controleren of uw instantie wordt gehost op AWS:
 
 >[!NOTE]
 >
->Als u naar AWS wilt worden gemigreerd, start u het proces door contact op te nemen met de succesmanager van de klant.
+>Als u naar AWS wilt worden gemigreerd, start u het proces door contact op te nemen met uw Customer Success Manager.
 
-## Deelvenster Beheer {#control-panel}
+## Configuratiescherm {#control-panel}
 
 **Wat is het Configuratiescherm?**
 
-Met het Configuratiescherm kunnen productbeheerders verschillende instellingen rechtstreeks beheren en de capaciteit controleren van SFTP-servers die op Adobe Campaign zijn aangesloten.
+Met het Configuratiescherm kunnen productbeheerders verschillende instellingen rechtstreeks beheren en de capaciteit bewaken van SFTP-servers die op Adobe Campaign zijn aangesloten.
 
-**Wat zijn sommige huidige mogelijkheden van het Controlebord?**
+**Wat zijn zoal de huidige mogelijkheden van het Configuratiescherm?**
 
-Met het Configuratiescherm kunt u opslag bijhouden, IP&#39;s toevoegen aan de lijst van gewenste personen en SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften en andere acties.
+Met het Configuratiescherm kunt u de opslag bijhouden, IP-adressen toevoegen aan de lijst van gewenste IP-adressen, SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften, enzovoort.
 
-Raadpleeg de documentatie over door het Configuratiescherm ondersteunde acties voor meer informatie.
+Raadpleeg voor meer informatie de documentatie over acties die door het Configuratiescherm worden ondersteund.
 
-**Is het Controlebord slechts voor Adobe Campaign?**
+**Is het Configuratiescherm alleen voor Adobe Campaign?**
 
-Ja, u kunt de instellingen voor Adobe Campaign alleen beheren in het Configuratiescherm.
+Ja, u kunt alleen instellingen voor Adobe Campaign beheren in het Configuratiescherm.
 
 **Kan ik het Configuratiescherm gebruiken?**
 
-Het Configuratiescherm is alleen toegankelijk voor productbeheerders van onze huidige klanten die Adobe Campaign hebben gehost op AWS. Hybride omgevingen worden nog niet ondersteund.
+Het Configuratiescherm is alleen toegankelijk voor productbeheerders van onze huidige klanten voor wie Adobe Campaign is gehost op AWS. Hybride omgevingen worden nog niet ondersteund.
 
-Als u geen beheerder bent maar wel toegang wilt, neemt u contact op met uw productbeheerder om u toe te voegen als beheerder.
+Als u geen beheerder bent maar wel toegang wilt, vraagt u uw productbeheerder om u toe te voegen als beheerder.
 
-**Hoe kan ik tot het Controlebord toegang hebben?**
+**Hoe open ik het Configuratiescherm?**
 
-Volg de gedetailleerde instructies in de documentatie van het Configuratiescherm.
+Volg de gedetailleerde instructies in de documentatie ‘Configuratiescherm openen’.
 
-**Is er een extra vergoeding voor het gebruik van het Configuratiescherm?**
+**Kost het gebruik van het Configuratiescherm extra?**
 
-Nee, er zijn geen extra kosten als u een huidige klant van Adobe Campaign bent.
+Nee, er zijn geen extra kosten als u een huidige Adobe Campaign-klant bent.
