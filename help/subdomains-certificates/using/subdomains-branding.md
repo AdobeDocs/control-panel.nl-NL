@@ -1,11 +1,11 @@
 ---
 title: Branding van subdomeinen
 description: Meer informatie over branding van subdomeinen
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,45 +15,45 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_certificate_management"
 >title="Subdomeinen en SSL-certificaten"
->abstract="Controleer de subdomeinen en de bijbehorende SSL-certificaten."
->additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="SSL-certificaten van uw subdomeinen controleren"
+>abstract="Bewaak uw subdomeinen en de bijbehorende SSL-certificaten."
+>additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="SSL-certificaten van uw subdomeinen bewaken"
 
 >[!IMPORTANT]
 >
->De delegatie van subdomeinen van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
+>Delegatie van subdomeinen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
 
-## Waarom instellen van subdomeinen? {#why-setting-up-subdomains}
+## Waarom zou ik subdomeinen instellen? {#why-setting-up-subdomains}
 
-Een subdomein is een afdeling van uw domein dat kan worden gebruikt om uw merken, of diverse types van verkeer (transactieberichten, marketing informatie, enz.) te isoleren.
+Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
-Neem het voorbeeld van het &quot;mybrand.com&quot;domein, dat wordt gebruikt om zowel transactie als marketing mededelingen te verzenden. In dit geval kunt u twee subdomeinen instellen:
+Neem bijvoorbeeld het domein mybrand.com, dat wordt gebruikt om zowel transactionele als marketingmededelingen te verzenden. In dit geval kunt u twee subdomeinen instellen:
 
-* &quot;info.mybrand.com&quot;subdomain voor uw transactionele mededelingen (koopt bevestiging, wachtwoordterugstellen enz.),
-* Het subdomein &#39;marketing.mybrand.com&#39; voor uw prospectieve e-mails.
+* Het subdomein info.mybrand.com voor uw transactionele mededelingen (bevestiging van aankopen, herstel van wachtwoorden, enz.)
+* Het subdomein marketing.mybrand.com voor e-mails aan prospects
 
-Op deze manier kunt u de reputatie van uw domein en andere subdomeinen beter behouden. Als de subdomeinen &quot;marketing.mybrand.com&quot; bijvoorbeeld door Internet Service Providers aan de bloklijst werden toegevoegd vanwege slechte leverantie, zou dit voorkomen dat het hele domein &quot;mybrand.com&quot; en het subdomein &quot;info.mybrand.com&quot; aan de bloklijst worden toegevoegd.
+Op deze manier kunt u de reputatie van uw domein en andere subdomeinen beter in stand houden. Als de marketing.mybrand.com-subdomeinen bijvoorbeeld door internetproviders aan de lijst van afgewezen domeinen werden toegevoegd vanwege slechte leverbaarheid, zou dit voorkomen dat het hele domein mybrand.com en het subdomein info.mybrand.com aan de lijst van afgewezen domeinen worden toegevoegd.
 
 ## Methoden voor subdomeindelegatie {#subdomain-delegation-methods}
 
-De delegatie van subdomein staat u toe om een onderafdeling van uw domein (technisch een &quot;DNS streek&quot;) voor gebruik met Adobe Campaign te delegeren. Beschikbare instellingsmethoden zijn:
+De delegatie van subdomeinen geeft u de mogelijkheid om een subsectie van uw domein (technisch een DNS-zone) voor gebruik met Adobe Campaign te delegeren. Beschikbare instelmethoden zijn:
 
-* **Volledige subdomeindelegatie naar Adobe Campaign** (aanbevolen): Het subdomein wordt volledig gedelegeerd aan Adobe. Adobe kan de Campagne als beheerde dienst leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
+* **Volledige subdomeindelegatie aan Adobe Campaign** (aanbevolen): Het subdomein wordt volledig gedelegeerd aan Adobe. Adobe kan Campaign als een beheerde service leveren door alle DNS-aspecten die voor het leveren, weergeven en volgen van e-mailcampagnes nodig zijn, te controleren en handhaven.
 
-* **Gebruik van CNAME** &#39;s (niet aanbevolen en niet ondersteund via het Configuratiescherm): Maak een subdomein en gebruik CNAME&#39;s om te verwijzen naar Adobe-specifieke records. Met deze setup delen zowel Adobe als de klant de verantwoordelijkheid voor het onderhoud van DNS.
+* **Gebruik van CNAME’s** (niet aanbevolen en niet ondersteund via het Configuratiescherm): Maak een subdomein en gebruik CNAME’s om te verwijzen naar Adobe-specifieke records. Met deze configuratie delen Adobe en de klant de verantwoordelijkheid voor het onderhoud van DNS.
 
-In de onderstaande tabel wordt een overzicht gegeven van de werking van deze methoden en van het impliciete inspanningsniveau:
+In de onderstaande tabel wordt een overzicht gegeven van de werking van deze methoden en van het betrokken inspanningsniveau:
 
-| Delegatiemethode | Hoe werkt het | inspanningsniveau |
+| Delegatiemethode | Werking | Inspanningsniveau |
 |---|---|---|
-| **Volledige delegatie** | Maak het subdomein en de naamruimte-record. Adobe configureert vervolgens alle DNS-records die voor Adobe Campaign zijn vereist.<br/><br/>In deze setup is Adobe volledig verantwoordelijk voor het beheer van het subdomein en alle DNS-records. | Laag |
-| **CNAME, aangepaste methode** | Maak het subdomein en de naamruimte-record. Adobe zal dan de verslagen verstrekken die in uw DNS servers moeten worden geplaatst en zal de overeenkomstige waarden in de servers van Adobe Campaign DNS vormen.<br/><br/>In deze setup delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS. | Hoog |
+| **Volledige delegatie** | Maak het subdomein en de naamruimterecord. Adobe configureert vervolgens alle DNS-records die voor Adobe Campaign nodig zijn.<br/><br/>In deze setup is Adobe volledig verantwoordelijk voor het beheer van het subdomein en alle DNS-records. | Laag |
+| **CNAME, aangepaste methode** | Maak het subdomein en de naamruimterecord. Adobe verstrekt dan de records die in uw DNS servers moeten worden geplaatst en configureert de overeenkomstige waarden in de DNS-servers van Adobe Campaign.<br/><br/>In deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS. | Hoog |
 
-Aanvullende informatie over domeindelegatie is beschikbaar in [deze documentatie](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Aanvullende informatie over domeindelegatie is beschikbaar in [deze documentatie](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
 
-Als u een vraag hebt over methoden voor subdomeindelegatie, neemt u contact op met het team van Adobe Deliverability of neemt u uiteindelijk contact op met de klantenservice om advies over de leveringsbaarheid aan te vragen.
+Als u vragen hebt over methoden voor subdomeindelegatie, neemt u contact op met het Afleverteam van Adobe, of met de klantenservice om advies over aflevering te vragen.
 
 **Verwante onderwerpen:**
 
 * [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Subdomeinen delegeren (videozelfstudie)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [De subdomeinen controleren](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Subdomeinen delegeren (videotutorial)](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)
