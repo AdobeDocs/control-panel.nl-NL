@@ -4,8 +4,8 @@ description: Leer hoe u sleutels beheert om verbinding te maken met SFTP-servers
 translation-type: tm+mt
 source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
