@@ -4,8 +4,8 @@ description: Leer hoe u het Configuratiescherm kunt openen
 translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
