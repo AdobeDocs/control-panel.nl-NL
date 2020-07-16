@@ -4,8 +4,8 @@ description: Leer hoe u de instantiedetails in het Configuratiescherm kunt bewak
 translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
