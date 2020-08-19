@@ -1,17 +1,17 @@
 ---
 title: Configuratiescherm-releases
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '564'
+ht-degree: 92%
 
 ---
 
 
 # Configuratiescherm-releases {#control-panel-releases}
 
-Hier vindt u informatie over de meest recente Configuratiescherm-releases.
+Hier vindt u informatie over de nieuwste versies van het Configuratiescherm.
 
 >[!NOTE]
 >
@@ -26,8 +26,8 @@ Na het delegeren van een nieuw subdomein kunt u nu met behulp van Configuratiesc
 **Beheer van GPG-sleutels**
 
 Met Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de data die in Campaign binnenkomen, gemakkelijk kunt ontsleutelen. Bovendien hebben we een functie toegevoegd waarmee u een openbare GPG-sleutel kunt installeren om data te versleutelen die Campaign verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
-* [Zelfstudievideo&#39;s voor Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Zelfstudievideo&#39;s voor Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard-zelfstudievideo&#39;s](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic-zelfstudievideo&#39;s](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Bewaking van actieve profielen**
 
