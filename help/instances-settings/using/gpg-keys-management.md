@@ -2,10 +2,10 @@
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -18,7 +18,7 @@ Met GPG-codering kunt u uw gegevens beveiligen met een systeem van paren met ope
 
 Zodra uitgevoerd, kunt u inkomende gegevens hebben ontsleuteld en uitgaande gegevens worden gecodeerd alvorens de overdracht voorkomt, om ervoor te zorgen dat zij niet door iedereen zonder een geldig passend zeer belangrijk paar zullen worden betreden.
 
-Als u GPG-codering wilt implementeren met Campagne, moeten de GPG-sleutels rechtstreeks vanuit het Configuratiescherm op een marketingexemplaar worden geïnstalleerd en/of gegenereerd door een beheerder.
+Als u GPG-codering wilt implementeren met Campaign, moeten de GPG-sleutels rechtstreeks vanuit het Configuratiescherm op een marketinginstantie worden geïnstalleerd en/of gegenereerd door een beheerder.
 
 Dan kunt u:
 
@@ -28,12 +28,12 @@ Dan kunt u:
 
 **Verwante onderwerpen:**
 
-* [Zelfstudievideo&#39;s voor Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Zelfstudievideo&#39;s voor Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard-zelfstudievideo&#39;s](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic-zelfstudievideo&#39;s](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Gegevens versleutelen {#encrypting-data}
 
-Met het Configuratiescherm kunt u gegevens coderen die afkomstig zijn van uw Adobe Campaign-exemplaar.
+Met het Configuratiescherm kunt u gegevens versleutelen die afkomstig zijn van uw Adobe Campaign-instantie.
 
 Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramma en vervolgens de openbare sleutel installeren in het Configuratiescherm. Vervolgens kunt u gegevens versleutelen voordat u deze vanuit uw instantie verzendt. Ga als volgt te werk om dit te doen:
 
@@ -64,7 +64,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
 1. Als u de openbare sleutel in het Configuratiescherm wilt installeren, opent u de **[!UICONTROL Instance settings]** kaart en selecteert u het **[!UICONTROL GPG keys]** tabblad en het gewenste exemplaar.
 
-1. Klik op de **[!UICONTROL Install Key]** knop.
+1. Klik op de knop **[!UICONTROL Install Key]**.
 
    ![](assets/gpg_install_button.png)
 
@@ -76,7 +76,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
    ![](assets/gpg_install_paste.png)
 
-1. Klik op de **[!UICONTROL Install Key]** knop.
+1. Klik op de knop **[!UICONTROL Install Key]**.
 
 Zodra de openbare sleutel wordt geïnstalleerd, toont het in de lijst. U kunt de **...** om het te downloaden of zijn vingerafdruk te kopiëren.
 
@@ -96,7 +96,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 * [Gecodeerde gegevens beheren](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
-## Gegevens decoderen {#decrypting-data}
+## Gegevens ontsleutelen {#decrypting-data}
 
 Met het Configuratiescherm kunt u externe gegevens die in Adobe Campaign-instanties komen, decoderen.
 
@@ -109,11 +109,11 @@ Voer de volgende stappen uit om een sleutelpaar te genereren in het Configuratie
 
 1. Open de **[!UICONTROL Instance settings]** kaart en selecteer vervolgens het **[!UICONTROL GPG keys]** tabblad en het gewenste Adobe Campaign-exemplaar.
 
-1. Klik op de **[!UICONTROL Generate Key]** knop.
+1. Klik op de knop **[!UICONTROL Generate Key]**.
 
    ![](assets/gpg_generate.png)
 
-1. Geef de naam van de toets op en klik op **!UICONTROL Generate Key]**. Deze naam helpt u bij het identificeren van de sleutel die moet worden gebruikt voor decodering in Campagneworkflows
+1. Geef de naam van de toets op en klik op **[!UICONTROL Generate Key]**. Deze naam helpt u bij het identificeren van de sleutel die moet worden gebruikt voor decodering in Campagneworkflows
 
    ![](assets/gpg_generate_name.png)
 
