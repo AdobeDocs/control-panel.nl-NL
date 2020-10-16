@@ -1,11 +1,11 @@
 ---
 title: SSL-certificaten van subdomeinen bewaken
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt bewaken
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
-workflow-type: ht
-source-wordcount: '402'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 93%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 Adobe Campaign raadt u aan de subdomeinen te beveiligen die als host dienen voor uw landingspagina’s, met name de subdomeinen die vertrouwelijke informatie van uw klanten verzamelen.
 
-**SSL-versleuteling (Secure Socket Layer)** zorgt ervoor dat de subdomeinen die u aan Adobe hebt gedelegeerd, beveiligd zijn. Wanneer uw klant een webformulier invult of een landingspagina bezoekt die wordt gehost door Adobe Campaign, wordt de informatie standaard verzonden via een niet-beveiligd protocol (HTTP). Verzend informatie met een HTTPS-protocol voor extra beveiliging. Bijvoorbeeld: het subdomeinadres http://info.mijnwebsite.com/ is dan https://info.mijnwebsite.com/.
+**SSL (Secure Socket Layer)-codering** zorgt ervoor dat de subdomeinen die u hebt geconfigureerd om met Adobe te werken, veilig zijn. Wanneer uw klant een webformulier invult of een landingspagina bezoekt die wordt gehost door Adobe Campaign, wordt de informatie standaard verzonden via een niet-beveiligd protocol (HTTP). Verzend informatie met een HTTPS-protocol voor extra beveiliging. Bijvoorbeeld: het subdomeinadres http://info.mijnwebsite.com/ is dan https://info.mijnwebsite.com/.
 
-**SSL-certificaten zelf worden niet op de gedelegeerde subdomeinen geïnstalleerd**. Zij worden geïnstalleerd op bijbehorende subdomeinen, hoofdzakelijk de subdomeinen die landingspagina’s, resourcepagina’s, enz., hosten.
+**SSL-certificaten zijn niet geïnstalleerd op de geconfigureerde subdomeinen zelf**. Zij worden geïnstalleerd op bijbehorende subdomeinen, hoofdzakelijk de subdomeinen die landingspagina’s, resourcepagina’s, enz., hosten.
 
 **SSL-certificaten worden verstrekt voor een specifieke periode** (1 jaar, 60 dagen, enz.). Zodra een certificaat verloopt, kunt u problemen ondervinden wanneer u de landingspagina’s opent of resources van het subdomein gebruikt. Om dit te verhinderen kunt u met het Configuratiescherm de SSL-certificaten van uw subdomeinen bewaken en het verlengingsproces voor deze certificaten starten.
 
