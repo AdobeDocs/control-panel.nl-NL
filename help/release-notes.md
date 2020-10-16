@@ -1,10 +1,10 @@
 ---
 title: Configuratiescherm-releases
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 92%
+source-wordcount: '619'
+ht-degree: 79%
 
 ---
 
@@ -16,6 +16,16 @@ Hier vindt u informatie over de nieuwste versies van het Configuratiescherm.
 >[!NOTE]
 >
 >Houd er rekening mee dat Configuratiescherm alleen beschikbaar is voor klanten die op AWS worden gehost, behalve voor hybride omgevingen die nog niet worden ondersteund. U hebt geen upgrades nodig om toegang te krijgen tot het Configuratiescherm. Zorg ervoor dat u een Admin-gebruiker bent om het te kunnen openen.
+
+## Oktober 2020 {#october-2020}
+
+**Subdomeinconfiguratie die CNAMEs gebruikt**
+
+Het Comité van de controle staat u nu toe om subdomain te vormen om met Adobe te werken gebruikend CNAMEs direct van de interface. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Verbeteringen voor databasecontrole**
+
+Het **[!UICONTROL Database monitoring]** tabblad is uitgebreid met extra metriek, zodat u gedetailleerde informatie kunt krijgen over de bronnen die ruimte in uw database verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
 
 ## Juni 2020 {#june-2020}
 
@@ -43,7 +53,7 @@ Met Configuratiescherm kunt u nu het aantal actieve profielen bewaken dat door u
 
 **Certificaatbeheer voor CNAME-subdomeinen**
 
-Met Configuratiescherm kunt u nu de SSL-certificaten van de subdomeinen die met de CNAME-methode zijn gedelegeerd, verlengen. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Het Comité van de controle staat u nu toe om de SSL certificaten van uw subdomeinen te vernieuwen die met de methode CNAME zijn gevormd. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
@@ -63,7 +73,7 @@ Het Configuratiescherm van Campaign is uitgerust met mogelijkheden voor realtime
 
 *22 januari 2020*
 
-We hebben nieuwe mogelijkheden voor Admin-gebruikers toegevoegd om subdomeinen te delegeren en SSL-certificaten te verlengen via Configuratiescherm.
+We hebben nieuwe mogelijkheden voor Admin-gebruikers toegevoegd om subdomeinen te configureren en SSL-certificaten te vernieuwen via het Configuratiescherm.
 
 Raadpleeg deze pagina’s voor meer informatie:
 * [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
