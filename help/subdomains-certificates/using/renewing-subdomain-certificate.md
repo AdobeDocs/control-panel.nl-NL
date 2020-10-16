@@ -1,11 +1,11 @@
 ---
 title: Het SSL-certificaat van een subdomein verlengen
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt verlengen.
-translation-type: ht
-source-git-commit: bc29433167d4699ad9b840381abd0d5bbff8c630
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '842'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Delegatie van subdomeinen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
+>Subdomeinconfiguratie van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
 
 ## Certificaatverlenging {#about-certificate-renewal-process}
 
@@ -65,6 +65,7 @@ Voer de volgende stappen uit om een Certificate Signing Request (CSR) te generer
    * **[!UICONTROL Organization]**: officiële naam van de organisatie.
    * **[!UICONTROL Organization Unit]**: eenheid die is gekoppeld aan het subdomein (voorbeeld: Marketing, IT).
    * **[!UICONTROL Instance]** (vooraf ingevuld): URL van de Campaign-instantie die aan het subdomein is gekoppeld.
+
    ![](assets/renewal3.png)
 
 1. Selecteer de subdomeinen die u in de CSR wilt opnemen en klik op **[!UICONTROL OK]**.
@@ -100,7 +101,7 @@ Nadat u een Certificate Signing Request (CSR) hebt verkregen via het Configurati
 Nadat u een SSL-certificaat hebt aangeschaft, kunt u het op uw instantie installeren. Voordat u verdergaat, moet u op de hoogte zijn van de volgende voorwaarden:
 
 * De Certificate Signing Request (CSR) moet zijn gegenereerd vanuit het Configuratiescherm. Anders kunt u het certificaat niet installeren via het Configuratiescherm.
-* De Certificate Signing Request (CSR) moet overeenkomen met het subdomein dat aan Adobe is gedelegeerd. Het kan bijvoorbeeld niet meer subdomeinen bevatten dan het subdomein dat is gedelegeerd.
+* Het CSR-verzoek (Certificate Signing Request) moet overeenkomen met het subdomein dat is geconfigureerd om te werken met Adobe. Bijvoorbeeld, kan het niet meer subdomeinen bevatten die zijn gevormd.
 * Het certificaat moet een huidige datum hebben. Certificaten met datums in de toekomst kunnen niet worden geïnstalleerd. Bovendien mogen certificaten niet verlopen zijn (geldige begin- en einddatum).
 * Het certificaat moet worden uitgegeven door een vertrouwde certificeringsinstantie (CA) zoals Comodo, DigiCert of GoDaddy, enz.
 * De grootte van het certificaat moet 2048 bits zijn en de algoritme moet RSA zijn.
