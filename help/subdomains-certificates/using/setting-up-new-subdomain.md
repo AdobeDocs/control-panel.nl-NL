@@ -2,9 +2,9 @@
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw Campaign-instanties instelt
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: c215836129487530e50398ca1454895a2f319867
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1098'
 ht-degree: 50%
 
 ---
@@ -27,7 +27,7 @@ Deze pagina verstrekt informatie over hoe te opstelling nieuwe subdomeinen gebru
 **Verwante onderwerpen:**
 
 * [Subdomeinen delegeren (videotutorial)](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-
+* [Subdomeinen configureren met gebruik van CNAME&#39;s](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Verplichte lectuur {#must-read}
