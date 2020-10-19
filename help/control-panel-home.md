@@ -1,10 +1,10 @@
 ---
 title: Productdocumentatie
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
-source-wordcount: '122'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 59%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## Nieuwe functies
 
-* **Leveringsontrole voor subdomein**
 
-   Na het delegeren van een nieuw subdomein kunt u nu met behulp van Configuratiescherm de controle volgen die door het Afleverteam wordt uitgevoerd. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
+**Subdomeinconfiguratie die CNAMEs gebruikt**
 
-* **Beheer van GPG-sleutels**
+Het Comité van de controle staat u nu toe om subdomain te vormen om met Adobe te werken gebruikend CNAMEs direct van de interface. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   Installeer en/of genereer GPG-sleutels op een marketinginstantie om data te versleutelen die vanuit Campaign worden verzonden en om inkomende data te ontsleutelen. [Meer informatie](instances-settings/using/gpg-keys-management.md)
+**Verbeteringen voor databasecontrole**
+
+Het **[!UICONTROL Database monitoring]** tabblad is uitgebreid met extra metriek, zodat u gedetailleerde informatie kunt krijgen over de bronnen die ruimte in uw database verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
 
 ## Aanvullende bronnen {#additional-resources}
 
