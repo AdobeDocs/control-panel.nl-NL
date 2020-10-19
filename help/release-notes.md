@@ -1,9 +1,9 @@
 ---
 title: Configuratiescherm-releases
 translation-type: tm+mt
-source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
+source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '620'
 ht-degree: 79%
 
 ---
@@ -25,7 +25,7 @@ Het Comité van de controle staat u nu toe om subdomain te vormen om met Adobe t
 
 **Verbeteringen voor databasecontrole**
 
-Het **[!UICONTROL Database monitoring]** tabblad is uitgebreid met extra metriek, zodat u gedetailleerde informatie kunt krijgen over de bronnen die ruimte in uw database verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
+De controle van het gegevensbestand is verbeterd met extra metriek die u toestaan om gedetailleerde informatie over de middelen te krijgen die ruimte op uw gegevensbestand verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
 
 ## Juni 2020 {#june-2020}
 
