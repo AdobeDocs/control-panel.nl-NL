@@ -1,18 +1,18 @@
 ---
 title: Veelgestelde vragen over Configuratiescherm
 description: Algemene vragen over het Configuratiescherm
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # Veelgestelde vragen {#faq}
 
-## IMS Organisatie-id {#ims-org-id}
+## IMS-organisatie-id {#ims-org-id}
 
 **Wat is een IMS-organisatie-id?**
 
@@ -20,25 +20,25 @@ Dit is een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het 
 
 Raadpleeg de documentatie bij [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) voor meer informatie.
 
-**Waar kan ik mijn IMS Organisatie ID vinden?**
+**Waar kan ik mijn IMS-organisatie-id vinden?**
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-U kunt ook **Admin Console** starten. De IMS-organisatie-id is zichtbaar in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+U kunt ook **Admin Console** starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**Waarom moet ik mijn IMS Organisatie-id kennen?**
+**Waarom moet ik mijn IMS-organisatie-id weten?**
 
-We willen ervoor zorgen dat u de juiste informatie voor de juiste instantie krijgt voor het geval u meerdere instanties voor uw bedrijf gebruikt. Hierdoor kunt u de instellingen voor uw instantie beheren.
+Om ervoor te zorgen dat u de instellingen voor uw instantie kunt beheren, willen we er zeker van zijn dat u de juiste informatie voor de juiste instantie krijgt als u meerdere instanties voor uw bedrijf gebruikt.
 
-**Wat gebeurt er als ik meerdere IMS Organisatie-id&#39;s heb?**
+**Wat gebeurt er als ik meerdere IMS-organisatie-id’s heb?**
 
-U hebt mogelijk meer dan één IMS-organisatie-id als u toegang hebt tot meerdere Adobe-oplossingen. In dit geval is de juiste IMS Organisatie-id die u moet gebruiken, die welke u onder uw Adobe Campaign-instantie ziet.
+U kunt meer dan één IMS-organisatie-id hebben als u toegang hebt tot meerdere Adobe-oplossingen. De id die u onder uw Adobe Campaign-instantie ziet, is in dat geval de IMS-organisatie-id die u moet gebruiken.
 
 >[!NOTE]
 >
->Als u dezelfde IMS Organisatie-id hebt voor Adobe Campaign en Adobe Analytics, is dit geweldig. Een IMS-organisatie-id tussen Analytics en Campagne is een vereiste als u de oplossingen wilt integreren om te profiteren van complexe gebruikssituaties, zoals het achterlaten van winkelwagentjes (voor AA + AC).
+>Het is fantastisch als u dezelfde IMS-organisatie-id hebt voor Adobe Campaign en Adobe Analytics. Dezelfde IMS-organisatie-id voor Analytics en Campaign is een vereiste als u de oplossingen wilt integreren om complexe gebruiksscenario’s te benutten, zoals het achterlaten van winkelwagens (voor AA + AC).
 >
->Als u verschillende IMS-organisatie-id&#39;s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
+>Als u verschillende IMS-organisatie-id’s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
 
 **Hoe weet ik of mijn Adobe Campaign-instantie wordt gehost op AWS?**
 
