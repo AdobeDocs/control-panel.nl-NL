@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: configuratiescherm
 audience: end-user
-user-guide-title: Handleiding van het regelpaneel
+user-guide-title: Handleiding voor het Configuratiescherm
 translation-type: tm+mt
 source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '100'
+ht-degree: 100%
 
 ---
 
 
-# Handleiding van het regelpaneel {#using}
+# Handleiding voor het Configuratiescherm {#using}
 
 + [Productdocumentatie](control-panel-home.md)
 + [Releaseopmerkingen](release-notes.md)
