@@ -4,14 +4,14 @@ translation-type: tm+mt
 source-git-commit: ee5c44c8b22b1053b7993744aa4898a10761782a
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 79%
+ht-degree: 95%
 
 ---
 
 
 # Configuratiescherm-releases {#control-panel-releases}
 
-Hier vindt u informatie over de nieuwste versies van het Configuratiescherm.
+Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 
 >[!NOTE]
 >
@@ -19,11 +19,11 @@ Hier vindt u informatie over de nieuwste versies van het Configuratiescherm.
 
 ## Oktober 2020 {#october-2020}
 
-**Subdomeinconfiguratie die CNAMEs gebruikt**
+**Subdomeinconfiguratie met gebruik van CNAME-records**
 
-Het Comité van de controle staat u nu toe om subdomain te vormen om met Adobe te werken gebruikend CNAMEs direct van de interface. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
+Met het Configuratiescherm kunt u nu rechtstreeks vanuit de interface met gebruik van CNAME-records een subdomein configureren om met Adobe te werken. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-**Verbeteringen voor databasecontrole**
+**Verbeteringen voor databasebewaking**
 
 De controle van het gegevensbestand is verbeterd met extra metriek die u toestaan om gedetailleerde informatie over de middelen te krijgen die ruimte op uw gegevensbestand verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
 
@@ -36,8 +36,8 @@ Na het delegeren van een nieuw subdomein kunt u nu met behulp van Configuratiesc
 **Beheer van GPG-sleutels**
 
 Met Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de data die in Campaign binnenkomen, gemakkelijk kunt ontsleutelen. Bovendien hebben we een functie toegevoegd waarmee u een openbare GPG-sleutel kunt installeren om data te versleutelen die Campaign verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard-zelfstudievideo&#39;s](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic-zelfstudievideo&#39;s](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard-tutorialvideo’s](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic-tutorialvideo’s](https://docs.adobe.com/content/help/nl-NL/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Bewaking van actieve profielen**
 
@@ -53,7 +53,7 @@ Met Configuratiescherm kunt u nu het aantal actieve profielen bewaken dat door u
 
 **Certificaatbeheer voor CNAME-subdomeinen**
 
-Het Comité van de controle staat u nu toe om de SSL certificaten van uw subdomeinen te vernieuwen die met de methode CNAME zijn gevormd. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Met het Configuratiescherm kunt u nu de SSL-certificaten verlengen van de subdomeinen die met de CNAME-methode zijn geconfigureerd. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## April 2020 {#april-2020}
 
@@ -73,7 +73,7 @@ Het Configuratiescherm van Campaign is uitgerust met mogelijkheden voor realtime
 
 *22 januari 2020*
 
-We hebben nieuwe mogelijkheden voor Admin-gebruikers toegevoegd om subdomeinen te configureren en SSL-certificaten te vernieuwen via het Configuratiescherm.
+We hebben nieuwe mogelijkheden voor Admin-gebruikers toegevoegd om subdomeinen te configureren en SSL-certificaten te verlengen via het Configuratiescherm.
 
 Raadpleeg deze pagina’s voor meer informatie:
 * [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
