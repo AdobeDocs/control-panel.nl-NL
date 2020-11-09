@@ -2,10 +2,10 @@
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw Campaign-instanties instelt
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 50%
+source-wordcount: '1106'
+ht-degree: 49%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >Subdomeinconfiguratie van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
 
-Deze pagina verstrekt informatie over hoe te opstelling nieuwe subdomeinen gebruikend Volledige subdomain delegatie of CNAMEs. Algemene concepten voor deze twee methoden worden in deze sectie beschreven: [](../../subdomains-certificates/using/subdomains-branding.md).
+Deze pagina verstrekt informatie over hoe te opstelling nieuwe subdomeinen gebruikend Volledige subdomain delegatie of CNAMEs. Algemene concepten voor deze twee methoden worden in deze sectie beschreven: [Branding](../../subdomains-certificates/using/subdomains-branding.md)subdomeinen.
 
 **Verwante onderwerpen:**
 
@@ -74,9 +74,9 @@ Voer de volgende stappen uit om een subdomein volledig te delegeren aan Adobe Ca
 
    ![](assets/subdomain6.png)
 
-Zodra subdomain wordt voorgelegd, zullen diverse controles en configuratiestappen door het Controlebord worden uitgevoerd. Zie [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration) voor meer informatie hierover.
+Zodra subdomain wordt voorgelegd, zullen diverse controles en configuratiestappen door het Controlebord worden uitgevoerd. Voor meer op dit, zie [Subdomain controles en configuratie](#subdomain-checks-and-configuration).
 
-## Subdomeinconfiguratie die CNAMEs gebruikt {#use-cnames}
+## Subdomeinconfiguratie met gebruik van CNAME-records {#use-cnames}
 
 Voer de volgende stappen uit om een subdomein te configureren met gebruik van CNAME&#39;s:
 
@@ -112,7 +112,7 @@ Voer de volgende stappen uit om een subdomein te configureren met gebruik van CN
    >
    >Merk op dat DNS verslagen die op uw server moeten worden geplaatst door Controlebord 30 dagen zullen worden gehouden. Na die periode, zult u subdomain van kras moeten vormen.
 
-Zodra subdomain wordt voorgelegd, zullen diverse controles en configuratiestappen door het Controlebord worden uitgevoerd. Raadpleeg [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration) voor meer informatie.
+Zodra subdomain wordt voorgelegd, zullen diverse controles en configuratiestappen door het Controlebord worden uitgevoerd. Voor meer op dit, zie [Subdomain controles en configuratie](#subdomain-checks-and-configuration).
 
 ## Subdomeincontroles en configuratie {#subdomain-checks-and-configuration}
 
