@@ -2,10 +2,10 @@
 title: Branding van subdomeinen
 description: Meer informatie over branding van subdomeinen
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 80%
+source-wordcount: '707'
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ Als u om het even welke vraag betreffende de methodes van de subdomeinconfigurat
 
 ## Gebruiksgevallen van subdomeinen (Campaign Classic) (#subdomeinen-use-cases)
 
-Wanneer u subdomeinen instelt voor Campaign Classic-instanties, moet u het gebruiksgeval selecteren waarvoor het subdomein wordt gebruikt (zie [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Wanneer u subdomeinen instelt voor Campaign Classic-instanties, moet u het gebruiksgeval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein](../../subdomains-certificates/using/setting-up-new-subdomain.md)instellen).
 
 Mogelijke gevallen van gebruik zijn:
 
