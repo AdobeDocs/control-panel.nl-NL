@@ -2,9 +2,9 @@
 title: Branding van subdomeinen
 description: Meer informatie over branding van subdomeinen
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 3ff864e7e8c896d49c89d49800b7471d00b777e7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 79%
 
 ---
@@ -52,7 +52,7 @@ Additional information on domain configuration is available in [this documentati
 
 Als u om het even welke vraag betreffende de methodes van de subdomeinconfiguratie hebt, bereik uit aan het team van de Leverbaarheid van de Adobe, of uiteindelijk contacteer de Zorg van de Klant om het raadplegen van de Leverbaarheid te verzoeken.
 
-## Gebruiksgevallen van subdomeinen (Campaign Classic) (#subdomeinen-use-cases)
+## Gebruiksgevallen van subdomeinen (Campaign Classic){#subdomains-use-cases}
 
 Wanneer u subdomeinen instelt voor Campaign Classic-instanties, moet u het gebruiksgeval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein](../../subdomains-certificates/using/setting-up-new-subdomain.md)instellen).
 
