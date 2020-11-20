@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: Bewaking van actieve profielen
 description: Leer hoe u realtime-informatie krijgt over het nieuwste en historische gebruik en de evolutie van actieve profielen voor al uw Campaign-instanties.
-translation-type: ht
-source-git-commit: 024eb750021ff2446b34d648b5abfb016eabc289
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
