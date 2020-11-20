@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -28,8 +30,8 @@ Dan kunt u:
 
 **Verwante onderwerpen:**
 
-* [Campaign Standard-zelfstudievideo&#39;s](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic-zelfstudievideo&#39;s](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Standard-tutorialvideo’s](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+* [Campaign Classic-tutorialvideo’s](https://docs.adobe.com/content/help/nl-NL/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Gegevens versleutelen {#encrypting-data}
 
@@ -58,7 +60,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u in een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
+1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u naar een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
 
    `gpg -a --export <fingerprint>`
 
@@ -93,10 +95,10 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
 **Campaign Standard:**
 
-* [Gecodeerde gegevens beheren](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Versleutelde data beheren](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
-## Gegevens ontsleutelen {#decrypting-data}
+## Gegevens decoderen {#decrypting-data}
 
 Met het Configuratiescherm kunt u externe gegevens die in Adobe Campaign-instanties komen, decoderen.
 
@@ -134,7 +136,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
 **Campaign Standard:**
 
-* [Gecodeerde gegevens beheren](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Versleutelde data beheren](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG-toetsen controleren
