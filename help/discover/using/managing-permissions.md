@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Machtigingen beheren voor het Configuratiescherm
 description: Leer hoe u machtigingen voor het Configuratiescherm beheert
 translation-type: tm+mt
-source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -10,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Machtigingen beheren voor Configuratiescherm {#managing-permissions-control-panel}
+# Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
 Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagne-instantie. Voer de onderstaande stappen uit om gebruikers toe te wijzen aan de groep Beheerders en ze toegang te verlenen tot het Configuratiescherm.
 
-1. Navigeer naar de [Adobe Experience Cloud](https://experiencecloud.adobe.com/)en selecteer het **[!UICONTROL Administration]** tabblad.
+1. Navigeer naar de [Adobe Experience Cloud](https://experiencecloud.adobe.com/)en selecteer vervolgens het **[!UICONTROL Administration]** tabblad.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
@@ -22,7 +24,7 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
    >
    >Als het tabblad <b>Beheer</b> niet zichtbaar is, betekent dit dat u geen beheerdersrechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen met hen uit te voeren.
 
-1. Start de **beheerconsole** door op de beschikbare koppelingen te klikken.
+1. Start de **Admin Console** door op de beschikbare koppelingen te klikken.
 
    ![](assets/do-not-localize/control_panel_admin1.png)
 
@@ -56,4 +58,4 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
 
 >[!NOTE]
 >
->Nadat de toegang is geconfigureerd, moet de gebruiker zich afmelden bij Adobe Experience Cloud en zich opnieuw aanmelden om toegang te krijgen tot het Configuratiescherm.
+>Zodra de toegang wordt gevormd, zal de gebruiker zich uit Adobe Experience Cloud moeten afmelden en opnieuw binnen, om tot Controlebord toegang te hebben.
