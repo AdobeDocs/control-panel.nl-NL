@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Sleutelbeheer
 description: Leer hoe u sleutels beheert om verbinding te maken met SFTP-servers
 translation-type: tm+mt
-source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '601'
+ht-degree: 100%
 
 ---
 
