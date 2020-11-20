@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: E-mailwaarschuwingen
 description: Leer hoe u e-mailmeldingen kunt ontvangen in geval van problemen met uw campagneexemplaren
 translation-type: tm+mt
-source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,9 +33,9 @@ Voer de volgende stappen uit om u te abonneren op deze waarschuwingen:
 
 De lijst van signaleringen ziet er als volgt uit:
 
-* **Opslaggebruik** SFTP: Een van uw SFTP-servers heeft 80% of meer van de capaciteit bereikt. Zie [SFTP-opslagbeheer](../../sftp/using/sftp-storage-management.md).
+* **Opslaggebruik** SFTP: Een van uw SFTP-servers heeft 80% of meer van de capaciteit bereikt. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
 
 * **Gebruik** database: Een van de databases van uw instanties heeft 80% of meer van de capaciteit bereikt. Zie [Database-controle](../../performance-monitoring/using/database-monitoring.md).
 
-* **Vervaldatum** SSL-certificaat: Een van de SSL-certificaten van uw subdomeinen is verlopen of verloopt over 60 dagen of minder. Zie [SSL-certificaten](../../subdomains-certificates/using/monitoring-ssl-certificates.md)van subdomeinen controleren.
+* **Vervaldatum** SSL-certificaat: Een van de SSL-certificaten van uw subdomeinen is verlopen of verloopt over 60 dagen of minder. See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
