@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Configuratiescherm openen
 description: Leer hoe u het Configuratiescherm kunt openen
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '291'
+ht-degree: 100%
 
 ---
 
