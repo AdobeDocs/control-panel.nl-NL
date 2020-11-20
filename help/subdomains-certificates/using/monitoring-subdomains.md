@@ -1,18 +1,20 @@
 ---
-title: SSL-certificaten van subdomeinen controleren
-description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt controleren
+product: campaign
+solution: Campaign
+title: SSL-certificaten van subdomeinen bewaken
+description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt bewaken
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
-# De subdomeinen controleren {#monitoring-subdomains}
+# Uw subdomeinen bewaken {#monitoring-subdomains}
 
-Het is van essentieel belang dat u de subdomeinen in de gaten houdt om ervoor te zorgen dat deze allemaal correct zijn geconfigureerd voor Adobe Campaign.
+Het is van essentieel belang om uw subdomeinen te controleren om ervoor te zorgen dat alle behoorlijk worden gevormd om met Adobe Campaign te werken.
 
 De lijst met subdomeinen voor elk van uw productie-instanties is rechtstreeks toegankelijk wanneer u de **[!UICONTROL Subdomains & Certificates]** kaart selecteert.
 
@@ -22,7 +24,7 @@ De **[!UICONTROL Last verification]** kolom geeft aan wanneer een subdomein voor
 
 >[!IMPORTANT]
 >
->Adobe raadt het gebruik van subdomeinen zonder certificaatdatum af, omdat dit kan betekenen dat er voor deze subdomeinen problemen met betrekking tot de leverbaarheid optreden.
+>Adobe raadt het gebruik van subdomeinen zonder certificaatdatum niet aan, omdat dit kan betekenen dat deze subdomeinen problemen met betrekking tot de leverbaarheid hebben.
 
 Wanneer het lanceren van een controle, worden verscheidene verrichtingen uitgevoerd om te controleren dat subdomain correct wordt gevormd (de controle van de instantiekant, e-mail die test verzendt, enz.)
 
@@ -30,6 +32,6 @@ Als de verificatie van het subdomein mislukt, neemt u contact op met de klantens
 
 **Verwante onderwerpen:**
 
-* [SSL-certificaten toevoegen (zelfstudie video)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [SSL-certificaat van een subdomein vernieuwen](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [SSL-certificaten toevoegen (videotutorial)](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Het SSL-certificaat van een subdomein verlengen](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Branding van subdomeinen](../../subdomains-certificates/using/subdomains-branding.md)
