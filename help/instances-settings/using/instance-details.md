@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Instantiedetails
 description: Leer hoe u de instantiedetails in het Configuratiescherm kunt bewaken
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '554'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +48,7 @@ Voer de volgende stappen uit om informatie op te halen over de servers die zijn 
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke Classic Instanties van Adobe Campaign wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke instanties van Adobe Campaign Classic wordt geassocieerd
 
 1. Selecteer in het linkerdeelvenster de gewenste Campaign Classic-instantie.
 
