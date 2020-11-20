@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: TXT-records beheren
 description: Leer hoe u TXT-records beheert voor verificatie van domeineigendom.
-translation-type: ht
-source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
