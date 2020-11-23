@@ -4,7 +4,7 @@ solution: Campaign
 title: Branding van subdomeinen
 description: Meer informatie over branding van subdomeinen
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -20,11 +20,11 @@ ht-degree: 79%
 >abstract="Bewaak uw subdomeinen en de bijbehorende SSL-certificaten."
 >additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="SSL-certificaten van uw subdomeinen bewaken"
 
+## Waarom zou ik subdomeinen instellen? {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >Subdomeinconfiguratie van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
-
-## Waarom zou ik subdomeinen instellen? {#why-setting-up-subdomains}
 
 Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
