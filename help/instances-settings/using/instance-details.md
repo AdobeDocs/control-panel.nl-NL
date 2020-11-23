@@ -4,7 +4,7 @@ solution: Campaign
 title: Instantiedetails
 description: Leer hoe u de instantiedetails in het Configuratiescherm kunt bewaken
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
@@ -21,11 +21,11 @@ ht-degree: 94%
 >additional-url="https://docs.adobe.com/content/help/nl-NL/campaign-classic/using/release-notes/latest-release.html" text="Opmerkingen bij de release van Campaign Classic"
 >additional-url="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-notes.html" text="Opmerkingen bij de release van Campaign Standard"
 
+## Informatie over Instantiedetails {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >Deze functie is alleen beschikbaar voor Campaign Classic-instanties.
-
-## Informatie over Instantiedetails {#about-instance-details}
 
 De architectuur van uw Adobe Campaign Classic-instantie kan verschillende servers bevatten om de flexibiliteit van marketingactiviteiten mogelijk te maken. U kunt bijvoorbeeld marketing-, realtime- (of Message Center-) en mid-sourcing-servers hebben ter ondersteuning van uw instantie.
 
