@@ -4,10 +4,10 @@ solution: Campaign
 title: Aanmelden bij uw SFTP-server
 description: Leer hoe u zich aanmeldt bij uw SFTP-server
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 5%
+source-wordcount: '374'
+ht-degree: 4%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 5%
 # Aanmelden bij uw SFTP-server {#logging-into-sft-server}
 
 In de onderstaande stappen wordt beschreven hoe u verbinding kunt maken met uw SFTP-server via uw SFTP-clienttoepassing.
+
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
 
 Voordat u zich aanmeldt bij de server, moet u controleren of:
 
