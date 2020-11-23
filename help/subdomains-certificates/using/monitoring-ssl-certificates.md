@@ -4,10 +4,10 @@ solution: Campaign
 title: SSL-certificaten van subdomeinen bewaken
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt bewaken
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 93%
+source-wordcount: '389'
+ht-degree: 92%
 
 ---
 
@@ -59,6 +59,5 @@ Als het SSL-certificaat van een van uw subdomeinen bijna verlopen is, kunt u het
 
 **Verwante onderwerpen:**
 
-* [SSL-certificaten toevoegen (videotutorial)](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Het SSL-certificaat van een subdomein verlengen](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Branding van subdomeinen](../../subdomains-certificates/using/subdomains-branding.md)
