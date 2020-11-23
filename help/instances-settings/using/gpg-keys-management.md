@@ -4,10 +4,10 @@ solution: Campaign
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 9%
+source-wordcount: '1221'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +20,8 @@ Met GPG-codering kunt u uw gegevens beveiligen met een systeem van paren met ope
 
 Zodra uitgevoerd, kunt u inkomende gegevens hebben ontsleuteld en uitgaande gegevens worden gecodeerd alvorens de overdracht voorkomt, om ervoor te zorgen dat zij niet door iedereen zonder een geldig passend zeer belangrijk paar zullen worden betreden.
 
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://docs.adobe.com/content/help/nl-NL/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html) of [Campaign Standard](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
+
 Als u GPG-codering wilt implementeren met Campaign, moeten de GPG-sleutels rechtstreeks vanuit het Configuratiescherm op een marketinginstantie worden geïnstalleerd en/of gegenereerd door een beheerder.
 
 Dan kunt u:
@@ -28,16 +30,13 @@ Dan kunt u:
 
 * **Binnenkomende gegevens** decoderen: Adobe Campaign ontvangt gegevens die van een extern systeem zijn versleuteld met een openbare sleutel die u hebt gedownload van het Configuratiescherm. Adobe Campaign decodeert de gegevens met een persoonlijke sleutel die via het Configuratiescherm wordt gegenereerd.
 
-**Verwante onderwerpen:**
-
-* [Campaign Standard-tutorialvideo’s](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic-tutorialvideo’s](https://docs.adobe.com/content/help/nl-NL/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
-
 ## Gegevens versleutelen {#encrypting-data}
 
 Met het Configuratiescherm kunt u gegevens versleutelen die afkomstig zijn van uw Adobe Campaign-instantie.
 
-Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramma en vervolgens de openbare sleutel installeren in het Configuratiescherm. Vervolgens kunt u gegevens versleutelen voordat u deze vanuit uw instantie verzendt. Ga als volgt te werk om dit te doen:
+Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramma en vervolgens de openbare sleutel installeren in het Configuratiescherm. Vervolgens kunt u gegevens versleutelen voordat u deze vanuit uw instantie verzendt. Volg de onderstaande stappen om dit te doen.
+
+![](assets/do-not-localize/how-to-video.png) Ontdek hoe u GPG-toetsen in video kunt genereren en installeren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html?lang=en#instance-settings)
 
 1. Genereer een combinatie van openbare en persoonlijke sleutels met een PGP-coderingsprogramma volgens de [OpenPGP-specificatie](https://www.openpgp.org/about/standard/). Hiertoe installeert u een GPG-hulpprogramma of GNuGP-software.
 
@@ -86,7 +85,7 @@ Zodra de openbare sleutel wordt geïnstalleerd, toont het in de lijst. U kunt de
 
 De sleutel is dan beschikbaar voor gebruik in de werkschema&#39;s van Adobe Campaign. U kunt het gebruiken om gegevens te coderen wanneer het gebruiken van de activiteiten van de gegevensextractie.
 
-Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
+Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onderwerp:
 
 **Campaign Classic:**
 
@@ -98,6 +97,8 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 * [Versleutelde data beheren](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
+![](assets/do-not-localize/how-to-video.png) Ontdek hoe u gegevens in video kunt coderen met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)
+
 ## Gegevens decoderen {#decrypting-data}
 
 Met het Configuratiescherm kunt u externe gegevens die in Adobe Campaign-instanties komen, decoderen.
@@ -106,6 +107,8 @@ Hiervoor moet u een GPG-sleutelpaar rechtstreeks vanuit het Configuratiescherm g
 
 * De **openbare sleutel** wordt gedeeld met het externe systeem, dat het zal gebruiken om de gegevens te coderen die naar Campagne moeten verzenden.
 * De **persoonlijke sleutel** wordt door Campagne gebruikt om de inkomende gecodeerde gegevens te decoderen.
+
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#decrypting-data) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)
 
 Voer de volgende stappen uit om een sleutelpaar te genereren in het Configuratiescherm:
 
