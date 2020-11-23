@@ -4,7 +4,7 @@ solution: Campaign
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw Campaign-instanties instelt
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 47%
@@ -20,6 +20,8 @@ ht-degree: 47%
 >abstract="U moet een nieuw subdomein instellen en de SSL-certificaten van uw subdomeinen beheren voordat u e-mails kunt verzenden of landingspagina’s kunt publiceren met Adobe Campaign."
 >additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="SSL-certificaten van uw subdomeinen bewaken"
 
+## Verplichte lectuur {#must-read}
+
 >[!IMPORTANT]
 >
 >Subdomeinconfiguratie van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
@@ -29,8 +31,6 @@ Deze pagina verstrekt informatie over hoe te opstelling nieuwe subdomeinen gebru
 **Verwant onderwerp:**
 
 * [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)
-
-## Verplichte lectuur {#must-read}
 
 ### Instantieselectie
 
