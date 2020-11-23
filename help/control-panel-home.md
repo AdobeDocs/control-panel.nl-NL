@@ -3,10 +3,10 @@ product: campaign
 solution: Campaign
 title: Productdocumentatie
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '116'
+ht-degree: 89%
 
 ---
 
@@ -32,13 +32,13 @@ Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrisc
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/control-panel/control-panel-overview.html">Configuratiescherm-videotutorials voor Campaign Standard</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html">Configuratiescherm-videotutorials voor Campaign Standard</a></li>
             <li><a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/campaign-standard-home.html">Campaign Standard-productdocumentatie</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/nl-NL/campaign-classic-learn/control-panel/control-panel-overview.html">Configuratiescherm-videotutorials voor Campaign Classic</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html">Configuratiescherm-videotutorials voor Campaign Classic</a></li>
             <li><a href="https://docs.adobe.com/content/help/nl-NL/campaign-classic/using/campaign-classic-home.html">Campaign Classic-productdocumentatie</a></li>
         </ul>
         </td>
