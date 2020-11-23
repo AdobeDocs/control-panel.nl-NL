@@ -4,10 +4,10 @@ solution: Campaign
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw Campaign-instanties instelt
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 49%
+source-wordcount: '1140'
+ht-degree: 47%
 
 ---
 
@@ -26,10 +26,8 @@ ht-degree: 49%
 
 Deze pagina verstrekt informatie over hoe te opstelling nieuwe subdomeinen gebruikend Volledige subdomain delegatie of CNAMEs. Algemene concepten voor deze twee methoden worden in deze sectie beschreven: [Branding](../../subdomains-certificates/using/subdomains-branding.md)subdomeinen.
 
-**Verwante onderwerpen:**
+**Verwant onderwerp:**
 
-* [Subdomeinen delegeren (videotutorial)](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [Subdomeinen configureren met gebruik van CNAME&#39;s (videozelfstudie)](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Verplichte lectuur {#must-read}
@@ -50,7 +48,9 @@ Bovendien mag u **geen afzonderlijk zonebestand maken** voor dit nieuwe subdomei
 
 ## Volledige subdomeindelegatie {#full-subdomain-delegation}
 
-Voer de volgende stappen uit om een subdomein volledig te delegeren aan Adobe Campaign:
+Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Campaign.
+
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=en#subdomains-and-certificates)
 
 1. Selecteer in de kaart **[!UICONTROL Subdomains & Certificates]** de gewenste productie-instantie en klik op **[!UICONTROL Setup new subdomain]**.
 
@@ -80,7 +80,9 @@ Zodra subdomain wordt voorgelegd, zullen diverse controles en configuratiestappe
 
 ## Subdomeinconfiguratie met gebruik van CNAME-records {#use-cnames}
 
-Voer de volgende stappen uit om een subdomein te configureren met gebruik van CNAME&#39;s:
+Volg de onderstaande stappen om een subdomein te configureren met gebruik van CNAME&#39;s.
+
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=en)
 
 1. Selecteer in de kaart **[!UICONTROL Subdomains & Certificates]** de gewenste productie-instantie en klik op **[!UICONTROL Setup new subdomain]**.
 
