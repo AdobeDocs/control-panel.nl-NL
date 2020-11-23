@@ -4,10 +4,10 @@ solution: Campaign
 title: IP-adressen toevoegen aan de lijst van gewenste IP-adressen
 description: Leer hoe u IP-adressen toevoegt aan de lijst van gewenste IP-adressen in het Configuratiescherm voor instantietoegang.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,8 @@ Als uw IP-adres niet aan de lijst van gewenste IP-adressen is toegevoegd, kunt u
 Via het Configuratiescherm kunt u nieuwe verbindingen met uw instanties instellen door IP-adresbereiken aan de lijst van gewenste IP-adressen toe te voegen. Volg de onderstaande stappen om dit te doen.
 
 Zodra IP-adressen in de lijst van gewenste IP-adressen staan, kunt u Campaign-operators maken en aan de IP-adressen koppelen, zodat de gebruikers toegang tot de instantie kunnen krijgen.
+
+![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## Aanbevolen procedures {#best-practices}
 
@@ -90,6 +92,6 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te
 
 Als u IP-bereiken uit de lijst van gewenste IP-adressen wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Delete IP range]**.
 
-**Verwante onderwerpen:**
-* [IP-adressen toevoegen aan de lijst van gewenste IP-adressen (videotutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+**Verwant onderwerp:**
+
 * [Een beveiligingszone koppelen aan een operator](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
