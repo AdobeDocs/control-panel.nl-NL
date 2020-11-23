@@ -4,9 +4,9 @@ solution: Campaign
 title: Bewaking van databases
 description: Leer hoe u uw Campagne-database kunt controleren in het Configuratiescherm
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Het overlopen van een instantiedatabase kan leiden tot verschillende problemen (
 >Als de hoeveelheid beschikbare databaseruimte, zoals weergegeven in het Configuratiescherm, niet overeenkomt met de hoeveelheid die in uw contract is opgegeven, dient u contact op te nemen met de klantenservice.
 
 ## Gebruik van databases controleren {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 Met het Configuratiescherm kunt u het databasegebruik voor elk van uw campagneinstanties controleren. U doet dit door de **[!UICONTROL Performance Monitoring]** kaart te openen en vervolgens het **[!UICONTROL Databases]** tabblad te selecteren.
 
