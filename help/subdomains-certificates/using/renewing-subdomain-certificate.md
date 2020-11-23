@@ -4,7 +4,7 @@ solution: Campaign
 title: Het SSL-certificaat van een subdomein verlengen
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt verlengen.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 90%
@@ -21,13 +21,11 @@ ht-degree: 90%
 >additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Een Certificate Signing Request (CSR) genereren"
 >additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Een SSL-certificaat installeren"
 
+## Certificaatverlenging {#about-certificate-renewal-process}
+
 >[!IMPORTANT]
 >
 >Subdomeinconfiguratie van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
-
-![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
-
-## Certificaatverlenging {#about-certificate-renewal-process}
 
 Het proces voor het verlengen van SSL-certificaten bestaat uit drie stappen:
 
@@ -37,6 +35,8 @@ De Adobe-klantenservice genereert een CSR voor u. U moet informatie verstrekken 
 Nadat de CSR is gegenereerd, kunt u deze downloaden en gebruiken om het SSL-certificaat aan te schaffen bij de certificeringsinstantie die door uw bedrijf is goedgekeurd.
 1. **Installatie van het SSL-certificaat**
 Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdomein installeren.
+
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## Een Certificate Signing Request (CSR) genereren {#generating-csr}
 
