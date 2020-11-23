@@ -4,10 +4,10 @@ solution: Campaign
 title: Sleutelbeheer
 description: Leer hoe u sleutels beheert om verbinding te maken met SFTP-servers
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 95%
 
 ---
 
@@ -29,6 +29,8 @@ Zodra de toegang tot de server is ingesteld, moet u **de IP-adressen die toegang
 >[!NOTE]
 >
 >Het is momenteel niet mogelijk om een openbare SSH-sleutel te verwijderen.
+
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
 
 ## Aanbevolen procedures {#best-practices}
 
