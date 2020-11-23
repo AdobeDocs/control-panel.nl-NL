@@ -4,7 +4,7 @@ solution: Campaign
 title: IP-adressen toevoegen aan de lijst van gewenste IP-adressen
 description: Leer hoe u IP-adressen toevoegt aan de lijst van gewenste IP-adressen in het Configuratiescherm voor instantietoegang.
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 94%
@@ -20,11 +20,11 @@ ht-degree: 94%
 >abstract="Voeg IP-adressen aan de lijst van gewenste IP-adressen toe om toegang tot uw instanties te hebben."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Demovideo bekijken"
 
+## IP-adressen toevoegen aan de lijst van gewenste IP-adressen {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >Deze functie is alleen beschikbaar voor Campaign Classic-instanties.
-
-## IP-adressen toevoegen aan de lijst van gewenste IP-adressen {#about-ip-allow-listing}
 
 Standaard is uw Adobe Campaign Classic-instantie niet toegankelijk via verschillende IP-adressen.
 
