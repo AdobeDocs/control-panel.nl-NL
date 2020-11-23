@@ -4,7 +4,7 @@ solution: Campaign
 title: Bewaking van actieve profielen
 description: Leer hoe u realtime-informatie krijgt over het nieuwste en historische gebruik en de evolutie van actieve profielen voor al uw Campaign-instanties.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # Bewaking van actieve profielen {#active-profiles-monitoring}
 
+## Actieve profielen {#about-active-profiles}
+
 >[!IMPORTANT]
 >
 >Bewaking van actieve profielen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
 >
 >Deze functie is beschikbaar voor klanten die op AWS worden gehost via de Campaign Standard-build 10368 en de Campaign Classic-build 8931. Als u een eerdere build gebruikt, moet u een upgrade uitvoeren om deze functie te kunnen gebruiken.
-
-## Actieve profielen {#about-active-profiles}
 
 Volgens uw contract worden al uw Campaign-instanties ingericht met een specifieke hoeveelheid actieve profielen die voor factureringsdoeleinden worden geteld. Raadpleeg uw meest recente contract voor informatie over het aantal aangeschafte actieve profielen.
 
