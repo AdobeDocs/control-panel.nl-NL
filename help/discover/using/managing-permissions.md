@@ -4,9 +4,9 @@ solution: Campaign
 title: Machtigingen beheren voor het Configuratiescherm
 description: Leer hoe u machtigingen voor het Configuratiescherm beheert
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
 Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagne-instantie. Voer de onderstaande stappen uit om gebruikers toe te wijzen aan de groep Beheerders en ze toegang te verlenen tot het Configuratiescherm.
+
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en)
 
 1. Navigeer naar de [Adobe Experience Cloud](https://experiencecloud.adobe.com/)en selecteer vervolgens het **[!UICONTROL Administration]** tabblad.
 
