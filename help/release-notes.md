@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Configuratiescherm-releases
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '590'
 ht-degree: 95%
 
 ---
@@ -38,8 +38,6 @@ Na het delegeren van een nieuw subdomein kunt u nu met behulp van Configuratiesc
 **Beheer van GPG-sleutels**
 
 Met Configuratiescherm kunt u nu twee GPG-sleutels genereren, zodat u de data die in Campaign binnenkomen, gemakkelijk kunt ontsleutelen. Bovendien hebben we een functie toegevoegd waarmee u een openbare GPG-sleutel kunt installeren om data te versleutelen die Campaign verlaten. [Meer informatie](instances-settings/using/gpg-keys-management.md)
-* [Campaign Standard-tutorialvideo’s](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html)
-* [Campaign Classic-tutorialvideo’s](https://docs.adobe.com/content/help/nl-NL/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 **Bewaking van actieve profielen**
 
