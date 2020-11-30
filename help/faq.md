@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Veelgestelde vragen over Configuratiescherm
 description: Algemene vragen over het Configuratiescherm
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
 ht-degree: 100%
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 Dit is een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
 
-Raadpleeg de documentatie bij [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) voor meer informatie.
+Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl#manage-users-and-products) voor meer informatie.
 
 **Waar kan ik mijn IMS-organisatie-id vinden?**
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl#manage-users-and-products).
 
 U kunt ook **Admin Console** starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
