@@ -4,19 +4,19 @@ solution: Campaign
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: c56aba50fd3b79fba996e87fed5556dc54ccc7c8
+source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 10%
+source-wordcount: '1153'
+ht-degree: 8%
 
 ---
 
 
 # Beheer van GPG-sleutels {#gpg-keys-management}
 
-## GPG-codering {#about-gpg-encryption}
+## Informatie over GPG-codering {#about-gpg-encryption}
 
-Met GPG-codering kunt u uw gegevens beveiligen met een systeem van paren met openbare en persoonlijke sleutels die voldoen aan de [OpenPGP](https://www.openpgp.org/about/standard/) -specificatie.
+Met GPG-codering kunt u uw gegevens beveiligen met een systeem van paren met openbare en persoonlijke sleutels die voldoen aan de [OpenPGP](https://www.openpgp.org/about/standard/)-specificatie.
 
 Zodra uitgevoerd, kunt u inkomende gegevens hebben ontsleuteld en uitgaande gegevens worden gecodeerd alvorens de overdracht voorkomt, om ervoor te zorgen dat zij niet door iedereen zonder een geldig passend zeer belangrijk paar zullen worden betreden.
 
@@ -28,15 +28,15 @@ Dan kunt u:
 
 * **Binnenkomende gegevens** decoderen: Adobe Campaign ontvangt gegevens die van een extern systeem zijn versleuteld met een openbare sleutel die u hebt gedownload van het Configuratiescherm. Adobe Campaign decodeert de gegevens met een persoonlijke sleutel die via het Configuratiescherm wordt gegenereerd.
 
-## Gegevens versleutelen {#encrypting-data}
+## Gegevens {#encrypting-data} coderen
 
 Met het Configuratiescherm kunt u gegevens versleutelen die afkomstig zijn van uw Adobe Campaign-instantie.
 
 Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramma en vervolgens de openbare sleutel installeren in het Configuratiescherm. Vervolgens kunt u gegevens versleutelen voordat u deze vanuit uw instantie verzendt. Volg de onderstaande stappen om dit te doen.
 
-![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video-generate-key)
+![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
 
-1. Genereer een combinatie van openbare en persoonlijke sleutels met een PGP-coderingsprogramma volgens de [OpenPGP-specificatie](https://www.openpgp.org/about/standard/). Hiertoe installeert u een GPG-hulpprogramma of GNuGP-software.
+1. Genereer een combinatie van openbare/persoonlijke sleutels met een PGP-coderingsprogramma volgens de [OpenPGP-specificatie](https://www.openpgp.org/about/standard/). Hiertoe installeert u een GPG-hulpprogramma of GNuGP-software.
 
    >[!NOTE]
    >
@@ -50,18 +50,18 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
    * **sleuteltype**: RSA
    * **sleutellengte**: 1024 - 4096 bits
-   * **echte naam** en **e-mailadres**: Staat toe om te volgen wie tot het belangrijkste paar leidde. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
+   * **echte** naam en  **e-mailadres**: Staat toe om te volgen wie tot het belangrijkste paar leidde. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
    * **opmerking**: Als u een label toevoegt aan het opmerkingenveld, kunt u gemakkelijk de sleutel identificeren waarmee uw gegevens worden versleuteld.
    * **vervaldatum**: Datum of &quot;0&quot; voor geen vervaldatum.
    * **passphrase**
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u naar een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
+1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u in een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
 
    `gpg -a --export <fingerprint>`
 
-1. Als u de openbare sleutel in het Configuratiescherm wilt installeren, opent u de **[!UICONTROL Instance settings]** kaart en selecteert u het **[!UICONTROL GPG keys]** tabblad en het gewenste exemplaar.
+1. Als u de openbare sleutel in het Configuratiescherm wilt installeren, opent u de **[!UICONTROL Instance settings]**-kaart en selecteert u vervolgens het tabblad **[!UICONTROL GPG keys]** en de gewenste variant.
 
 1. Klik op de knop **[!UICONTROL Install Key]**.
 
@@ -77,13 +77,13 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
 1. Klik op de knop **[!UICONTROL Install Key]**.
 
-Zodra de openbare sleutel wordt geïnstalleerd, toont het in de lijst. U kunt de **...** om het te downloaden of zijn vingerafdruk te kopiëren.
+Zodra de openbare sleutel wordt geïnstalleerd, toont het in de lijst. U kunt **gebruiken..** om het te downloaden of zijn vingerafdruk te kopiëren.
 
 ![](assets/gpg_install_download.png)
 
 De sleutel is dan beschikbaar voor gebruik in de werkschema&#39;s van Adobe Campaign. U kunt het gebruiken om gegevens te coderen wanneer het gebruiken van de activiteiten van de gegevensextractie.
 
-![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video-use-key)
+![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
 
 Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onderwerp:
 
@@ -103,26 +103,26 @@ Met het Configuratiescherm kunt u externe gegevens die in Adobe Campaign-instant
 
 Hiervoor moet u een GPG-sleutelpaar rechtstreeks vanuit het Configuratiescherm genereren.
 
-* De **openbare sleutel** wordt gedeeld met het externe systeem, dat het zal gebruiken om de gegevens te coderen die naar Campagne moeten verzenden.
-* De **persoonlijke sleutel** wordt door Campagne gebruikt om de inkomende gecodeerde gegevens te decoderen.
+* De **openbare sleutel** zal met het externe systeem worden gedeeld, dat het zal gebruiken om de gegevens te coderen om naar Campagne te verzenden.
+* De **persoonlijke sleutel** zal door Campagne worden gebruikt om de inkomende gecodeerde gegevens te decrypteren.
 
-![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video-decrypt)
+![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
 
 Voer de volgende stappen uit om een sleutelpaar te genereren in het Configuratiescherm:
 
-1. Open de **[!UICONTROL Instance settings]** kaart en selecteer vervolgens het **[!UICONTROL GPG keys]** tabblad en het gewenste Adobe Campaign-exemplaar.
+1. Open de **[!UICONTROL Instance settings]**-kaart en selecteer vervolgens de tab **[!UICONTROL GPG keys]** en de gewenste Adobe Campaign-instantie.
 
 1. Klik op de knop **[!UICONTROL Generate Key]**.
 
    ![](assets/gpg_generate.png)
 
-1. Geef de naam van de toets op en klik op **[!UICONTROL Generate Key]**. Deze naam helpt u bij het identificeren van de sleutel die moet worden gebruikt voor decodering in Campagneworkflows
+1. Geef de naam van de sleutel op en klik op **[!UICONTROL Generate Key]**. Deze naam helpt u bij het identificeren van de sleutel die moet worden gebruikt voor decodering in Campagneworkflows
 
    ![](assets/gpg_generate_name.png)
 
 Zodra het zeer belangrijke paar wordt geproduceerd, toont de openbare sleutel in de lijst. De sleutelparen van de decryptie worden geproduceerd zonder vervaldatum.
 
-U kunt de **...** om de openbare sleutel te downloaden of zijn vingerafdruk te kopiëren.
+U kunt **gebruiken..** om de openbare sleutel te downloaden of zijn vingerafdruk te kopiëren.
 
 ![](assets/gpg_generate_list.png)
 
@@ -142,7 +142,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
 ## GPG-toetsen controleren
 
-Als u toegang wilt tot de GPG-sleutels die voor uw instanties zijn geïnstalleerd en gegenereerd, opent u de **[!UICONTROL Instance settings]** kaart en selecteert u het **[!UICONTROL GPG keys]** tabblad.
+Als u toegang wilt tot de GPG-sleutels die voor uw instanties zijn geïnstalleerd en gegenereerd, opent u de **[!UICONTROL Instance settings]**-kaart en selecteert u vervolgens het tabblad **[!UICONTROL GPG keys]**.
 
 ![](assets/gpg_list.png)
 
@@ -166,7 +166,7 @@ In de lijst worden alle GPG-sleutels voor versleuteling en ontsleuteling weergeg
    >
    >Er wordt geen e-mailmelding verzonden door het Configuratiescherm.
 
-We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Klik op de knop **..** selecteert u vervolgens **[!UICONTROL Delete Key].**.
+We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Om dit te doen, klik **..** en selecteer vervolgens **[!UICONTROL Delete Key].**.
 
 ![](assets/gpg_delete.png)
 
@@ -174,16 +174,11 @@ We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Klik op 
 >
 >Voordat u een sleutel verwijdert, moet u ervoor zorgen dat deze niet wordt gebruikt in Adobe Campaign-workflows om te voorkomen dat deze mislukken.
 
-## Tutorialvideo’s {#video}
+## Video over zelfstudie {#video}
 
-### GPG-sleutels voor gegevensversleuteling genereren en installeren {#video-generate-key}
+In de onderstaande video ziet u hoe u GPG-sleutels voor gegevenscodering kunt genereren en installeren.
+
+Aanvullende instructievideo&#39;s met betrekking tot het beheer van GPG-sleutels zijn beschikbaar op de pagina&#39;s [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings).
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
 
-### Gegevens versleutelen met een GPG-sleutel {#video-use-key}
-
->[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
-
-### Gegevens decoderen {#video-decrypt}
-
->[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
