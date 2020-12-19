@@ -18,7 +18,7 @@ Voor meer flexibiliteit in uw werk is het Configuratiescherm uitgerust met de fu
 
 Voer de volgende stappen uit om u te abonneren op deze waarschuwingen:
 
-1. Klik op de **[!UICONTROL Alerting notifications]** knop die beschikbaar is op een willekeurige locatie in het Configuratiescherm en klik vervolgens op **[!UICONTROL Subscribe]**.
+1. Klik op de **[!UICONTROL Alerting notifications]**-knop die beschikbaar is op een willekeurige locatie in het Configuratiescherm en klik vervolgens op **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
@@ -26,16 +26,16 @@ Voer de volgende stappen uit om u te abonneren op deze waarschuwingen:
 
    ![](assets/email_subscription.png)
 
-1. Nadat u zich hebt geabonneerd, geeft het Configuratiescherm een melding over systeemproblemen en worden de acties aanbevolen die moeten worden uitgevoerd. E-mailwaarschuwingen worden verzonden naar iedereen die zich heeft aangemeld voor **alle gevallen** waarvan zij beheerder zijn.
+1. Nadat u zich hebt geabonneerd, geeft het Configuratiescherm een melding over systeemproblemen en worden de acties aanbevolen die moeten worden uitgevoerd. E-mailwaarschuwingen worden verzonden naar iedereen die zich heeft aangemeld voor **alle instanties** waarvan zij beheerder zijn.
 
    ![](assets/alert_sample.png)
 
 
 De lijst van signaleringen ziet er als volgt uit:
 
-* **Opslaggebruik** SFTP: Een van uw SFTP-servers heeft 80% of meer van de capaciteit bereikt. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
+* **Opslaggebruik** SFTP: Een van uw SFTP-servers heeft 80% of meer van de capaciteit bereikt. Zie [SFTP-opslagbeheer](../../sftp/using/sftp-storage-management.md).
 
-* **Gebruik** database: Een van de databases van uw instanties heeft 80% of meer van de capaciteit bereikt. Zie [Database-controle](../../performance-monitoring/using/database-monitoring.md).
+* **Gebruik** database: Een van de databases van uw instanties heeft 80% of meer van de capaciteit bereikt. Zie [Databasebewaking](../../performance-monitoring/using/database-monitoring.md).
 
-* **Vervaldatum** SSL-certificaat: Een van de SSL-certificaten van uw subdomeinen is verlopen of verloopt over 60 dagen of minder. See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **Vervaldatum** SSL-certificaat: Een van de SSL-certificaten van uw subdomeinen is verlopen of verloopt over 60 dagen of minder. Zie [SSL-certificaten van subdomeinen controleren](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
