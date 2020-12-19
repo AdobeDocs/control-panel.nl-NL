@@ -21,8 +21,8 @@ Toegang tot SFTP-servers wordt mogelijk gemaakt met behulp van een SFTP-clientso
 
 Met het regelpaneel kunt u de onderstaande handelingen uitvoeren om uw SFTP-servers te beheren:
 
-* hun **opslagcapaciteit** te bewaken;
-* Met **IP-adressen kunt u objecten aanbieden**: Voeg IP adreswaaiers voor één of verscheidene servers toe of schrap,
-* Beheer de **openbare SSH-toetsen** voor toegang tot uw servers.
+* hun **opslagcapaciteit** bewaken;
+* Met **IP-adressen beheren kunt u een item toevoegen**: Voeg IP adreswaaiers voor één of verscheidene servers toe of schrap,
+* Beheer **openbare SSH-toetsen** om toegang te krijgen tot uw servers.
 
 Gedetailleerde informatie over elk van deze acties is beschikbaar in de onderstaande secties.
