@@ -16,7 +16,7 @@ ht-degree: 47%
 
 De startpagina van het Configuratiescherm geeft u toegang tot alle acties die op uw Campaign-instanties kunnen worden uitgevoerd.
 
-Zij worden vertegenwoordigd door kaarten die in onderwerpen, bijvoorbeeld **Opslag &amp; het Beheer** van het Gegevensbestand worden georganiseerd.
+Zij worden vertegenwoordigd door kaarten die in onderwerpen, bijvoorbeeld **Opslag &amp; het Beheer van het Gegevensbestand** worden georganiseerd.
 
 Met de aanstaande versies van de Campagne, zullen meer onderwerpen en kaarten ter beschikking worden gesteld.
 
@@ -36,6 +36,6 @@ Met de knop **[!UICONTROL Open]** hebt u rechtstreeks toegang tot het tabblad Co
 
 ## Help-bronnen {#help-resources}
 
-De **[!UICONTROL Help Resources]** sectie bevat nuttige documentatie die u helpt bij het gebruik van de producten van het Configuratiescherm en de Campagne. Aarzel niet om ze te verkennen.
+De sectie **[!UICONTROL Help Resources]** biedt nuttige documentatie om u te helpen bij het gebruik van de producten van het Configuratiescherm en de Campagne. Aarzel niet om ze te verkennen.
 
 ![](assets/helpresources.png)
