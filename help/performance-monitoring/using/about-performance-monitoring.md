@@ -12,11 +12,11 @@ ht-degree: 14%
 ---
 
 
-# Prestatiebewaking {#about-performance-monitoring}
+# Over prestatiebewaking {#about-performance-monitoring}
 
 Het Configuratiescherm biedt verschillende functies waarmee u uw instanties kunt controleren en optimale prestaties kunt garanderen.
 
-Met de **[!UICONTROL Performance monitoring]** kaart in de startpagina van het Configuratiescherm kunt u het gebruik van uw Campagne-instanties, zoals bijvoorbeeld hun databasecapaciteit, controleren. Raadpleeg [deze sectie](../../performance-monitoring/using/database-monitoring.md) voor meer informatie.
+Met de **[!UICONTROL Performance monitoring]**-kaart op de startpagina van het Configuratiescherm kunt u het gebruik van uw Campagneinstanties, zoals bijvoorbeeld hun databasecapaciteit, controleren. Raadpleeg [deze sectie](../../performance-monitoring/using/database-monitoring.md) voor meer informatie.
 
 ![](assets/performance_card.png)
 
