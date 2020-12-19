@@ -18,13 +18,13 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
 
 ![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
 
-1. Navigeer naar de [Adobe Experience Cloud](https://experiencecloud.adobe.com/)en selecteer vervolgens het **[!UICONTROL Administration]** tabblad.
+1. Navigeer naar [Adobe Experience Cloud](https://experiencecloud.adobe.com/) en selecteer vervolgens het tabblad **[!UICONTROL Administration]**.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
-   >Als het tabblad <b>Beheer</b> niet zichtbaar is, betekent dit dat u geen beheerdersrechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen met hen uit te voeren.
+   >Als het <b>lusje van het Beleid</b> niet zichtbaar is, betekent dit dat u geen Admin rechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen met hen uit te voeren.
 
 1. Start de **Admin Console** door op de beschikbare koppelingen te klikken.
 
@@ -46,7 +46,7 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
    >
    >U kunt verschillende Admin-gebruikers toevoegen voor elke Campagne-instantie. In dat geval hebben beheergebruikers alleen toegang tot het Configuratiescherm van het exemplaar waartoe ze behoren.
 
-1. De lijst met productprofielen voor de geselecteerde instantie wordt weergegeven. Klik op het **[!UICONTROL Administrators]** productprofiel om de lijst met Admin-gebruikers te openen.
+1. De lijst met productprofielen voor de geselecteerde instantie wordt weergegeven. Klik op het productprofiel **[!UICONTROL Administrators]** om de lijst met Admin-gebruikers te openen.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
    >
    >Admin-gebruikers behoren standaard tot het productprofiel &quot;Beheerders&quot;. Afhankelijk van uw organisatieconfiguratie kan de naam van het productprofiel anders zijn (&quot;admin&quot;, &quot;admins&quot;, enz.).
 
-1. De lijst met Admin-gebruikers wordt weergegeven. Klik op de **[!UICONTROL Add User]** knop om de gewenste gebruiker toe te voegen.
+1. De lijst met Admin-gebruikers wordt weergegeven. Klik op de knop **[!UICONTROL Add User]** om de gewenste gebruiker toe te voegen.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
