@@ -16,9 +16,9 @@ ht-degree: 16%
 
 Het is van essentieel belang om uw subdomeinen te controleren om ervoor te zorgen dat alle behoorlijk worden gevormd om met Adobe Campaign te werken.
 
-De lijst met subdomeinen voor elk van uw productie-instanties is rechtstreeks toegankelijk wanneer u de **[!UICONTROL Subdomains & Certificates]** kaart selecteert.
+De lijst met subdomeinen voor elk van uw productieinstanties is rechtstreeks toegankelijk wanneer u de **[!UICONTROL Subdomains & Certificates]**-kaart selecteert.
 
-De **[!UICONTROL Last verification]** kolom geeft aan wanneer een subdomein voor het laatst is geverifieerd. U kunt een verificatie op elk gewenst moment starten door op de knop **..** / **[!UICONTROL Verify subdomain]** knop.
+De kolom **[!UICONTROL Last verification]** geeft aan wanneer een subdomein voor het laatst is geverifieerd. U kunt een verificatie op elk gewenst moment starten door te klikken op **..** / **[!UICONTROL Verify subdomain]** knop.
 
 ![](assets/subdomain_verification.png)
 
