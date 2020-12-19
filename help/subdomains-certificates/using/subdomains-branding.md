@@ -50,13 +50,13 @@ In de onderstaande tabel wordt een overzicht gegeven van de werking van deze met
 | **Volledige delegatie** | Maak het subdomein en de naamruimterecord. Adobe configureert vervolgens alle DNS-records die voor Adobe Campaign nodig zijn.<br/><br/>In deze setup is Adobe volledig verantwoordelijk voor het beheer van het subdomein en alle DNS-records. | Laag |
 | **CNAME, aangepaste methode** | Maak het subdomein en de naamruimterecord. Adobe verstrekt dan de records die in uw DNS servers moeten worden geplaatst en configureert de overeenkomstige waarden in de DNS-servers van Adobe Campaign.<br/><br/>In deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS. | Hoog |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
+Aanvullende informatie over domeinconfiguratie is beschikbaar in [deze documentatie](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
 
 Als u om het even welke vraag betreffende de methodes van de subdomeinconfiguratie hebt, bereik uit aan het team van de Leverbaarheid van de Adobe, of uiteindelijk contacteer de Zorg van de Klant om het raadplegen van de Leverbaarheid te verzoeken.
 
 ## Gebruiksgevallen van subdomeinen (Campaign Classic){#subdomains-use-cases}
 
-Wanneer u subdomeinen instelt voor Campaign Classic-instanties, moet u het gebruiksgeval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein](../../subdomains-certificates/using/setting-up-new-subdomain.md)instellen).
+Bij het instellen van subdomeinen voor Campaign Classic-instanties moet u het geval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Mogelijke gevallen van gebruik zijn:
 
