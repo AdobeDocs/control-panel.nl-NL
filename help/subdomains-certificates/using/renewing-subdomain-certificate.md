@@ -36,7 +36,7 @@ Nadat de CSR is gegenereerd, kunt u deze downloaden en gebruiken om het SSL-cert
 1. **Installatie van het SSL-certificaat**
 Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdomein installeren.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met  [Campagne ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## Een Certificate Signing Request (CSR) genereren {#generating-csr}
 
@@ -49,7 +49,7 @@ Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdome
 >id="cp_select_subdomains"
 >title="Selecteer de subdomeinen voor uw CSR."
 >abstract="U kunt naar wens alle of alleen specifieke subdomeinen opnemen in uw Certificate Signing Request (CSR). Alleen geselecteerde subdomeinen worden gecertificeerd via het aangeschafte SSL-certificaat."
->additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Een Certificate Signing Request (CSR) genereren"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Een Certificate Signing Request (CSR) genereren"
 >additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
 
 Voer de volgende stappen uit om een Certificate Signing Request (CSR) te genereren:
@@ -100,7 +100,7 @@ Nadat u een Certificate Signing Request (CSR) hebt verkregen via het Configurati
 >id="cp_install_ssl_certificate"
 >title="SSL-certificaat installeren"
 >abstract="Installeer het SSL-certificaat dat u hebt aangeschaft bij de certificeringsinstantie die is goedgekeurd door uw organisatie."
->additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
 
 Nadat u een SSL-certificaat hebt aangeschaft, kunt u het op uw instantie installeren. Voordat u verdergaat, moet u op de hoogte zijn van de volgende voorwaarden:
 
