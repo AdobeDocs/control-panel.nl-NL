@@ -4,10 +4,10 @@ solution: Campaign
 title: Bewaking van actieve profielen
 description: Leer hoe u realtime-informatie krijgt over het nieuwste en historische gebruik en de evolutie van actieve profielen voor al uw Campaign-instanties.
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Ga als volgt te werk om dit te doen:
 >Actieve profielen worden geteld op basis van speciale technische workflows die dagelijks op uw instanties worden uitgevoerd:
 >
 >* De workflow [Billing](https://docs.adobe.com/help/nl-NL/campaign-standard/using/administrating/application-settings/technical-workflows.html) voor Campaign Standard,
->* De workflow [Number of active billing profiles](https://docs.adobe.com/content/help/nl-NL/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) voor Campaign Classic.
+>* De workflow [Number of active billing profiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) voor Campaign Classic.
 
 
 Het onderste gebied biedt een grafische weergave van het gebruik van actieve profielen in de afgelopen 30 dagen. Met de beschikbare filters in de rechterbovenhoek kunt u de weergegeven periode wijzigen in 1 jaar.
