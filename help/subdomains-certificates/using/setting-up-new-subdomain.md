@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw Campaign-instanties instelt
+feature: 'Configuratiescherm '
+role: Architect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1144'
 ht-degree: 47%
 
 ---
@@ -60,7 +63,7 @@ Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Ca
 
    ![](assets/subdomain3.png)
 
-1. Maak het gewenste subdomein en naamservers in de hostingoplossing die door uw organisatie wordt gebruikt. Daarvoor kopieert u de weergegeven informatie van de Adobe-naamserver en plakt u deze in de wizard. Raadpleeg de [videotutorial](https://video.tv.adobe.com/v/30175?captions=dut) voor meer informatie over het maken van een subdomein in een hostingoplossing.
+1. Maak het gewenste subdomein en naamservers in de hostingoplossing die door uw organisatie wordt gebruikt. Daarvoor kopieert u de weergegeven informatie van de Adobe-naamserver en plakt u deze in de wizard. Raadpleeg de [videotutorial](https://video.tv.adobe.com/v/30175) voor meer informatie over het maken van een subdomein in een hostingoplossing.
 
    ![](assets/subdomain4.png)
 
