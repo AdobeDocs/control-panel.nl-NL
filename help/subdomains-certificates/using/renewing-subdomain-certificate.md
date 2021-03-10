@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Het SSL-certificaat van een subdomein verlengen
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt verlengen.
+feature: 'Configuratiescherm '
+role: Architect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '862'
 ht-degree: 90%
 
 ---
