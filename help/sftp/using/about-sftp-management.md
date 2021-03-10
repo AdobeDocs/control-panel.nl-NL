@@ -4,11 +4,14 @@ solution: Campaign
 title: SFTP-beheer
 description: Meer informatie over SFTP-beheer in het Configuratiescherm
 testing: SSECD-836 2
+feature: 'Configuratiescherm '
+role: Architect
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
