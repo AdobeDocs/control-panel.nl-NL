@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Aanmelden bij uw SFTP-server
 description: Leer hoe u zich aanmeldt bij uw SFTP-server
+feature: 'Configuratiescherm '
+role: Architect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 54d3239a566491c854e5d46c297e72afeff83792
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 6%
+source-wordcount: '352'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +19,7 @@ ht-degree: 6%
 
 In de onderstaande stappen wordt beschreven hoe u verbinding kunt maken met uw SFTP-server via uw SFTP-clienttoepassing.
 
-![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](https://video.tv.adobe.com/v/27263?quality=12&captions=dut)
+![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](https://video.tv.adobe.com/v/27263?quality=12)
 
 Voordat u zich aanmeldt bij de server, moet u controleren of:
 
