@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Machtigingen beheren voor het Configuratiescherm
 description: Leer hoe u machtigingen voor het Configuratiescherm beheert
+feature: 'Configuratiescherm '
+role: Architect
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '273'
+ht-degree: 5%
 
 ---
 
