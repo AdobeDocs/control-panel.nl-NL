@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: URL-machtigingen
 description: Leer hoe u URL-machtigingen beheert in het Configuratiescherm
+feature: 'Configuratiescherm '
+role: Architect
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '612'
 ht-degree: 93%
 
 ---
