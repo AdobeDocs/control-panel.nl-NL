@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: IP-bereiken toevoegen aan de lijst van gewenste IP-adressen
 description: Leer hoe u IP-bereiken toevoegt aan de lijst van gewenste IP-adressen voor toegang tot SFTP-servers
+feature: 'Configuratiescherm '
+role: Architect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 94%
 
 ---
 
