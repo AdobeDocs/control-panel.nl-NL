@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Bewaking van actieve profielen
 description: Leer hoe u realtime-informatie krijgt over het nieuwste en historische gebruik en de evolutie van actieve profielen voor al uw Campaign-instanties.
+feature: 'Configuratiescherm '
+role: Architect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 97%
 
 ---
