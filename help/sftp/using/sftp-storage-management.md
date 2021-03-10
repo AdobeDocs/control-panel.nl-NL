@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: SFTP-opslagbeheer
 description: Leer hoe u de opslag van uw SFTP-server kunt controleren en beheren
+feature: 'Configuratiescherm '
+role: Architect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 91%
+source-wordcount: '356'
+ht-degree: 90%
 
 ---
 
