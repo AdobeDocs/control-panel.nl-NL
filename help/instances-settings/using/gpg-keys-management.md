@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
+feature: 'Configuratiescherm '
+role: Architect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: e41f92fc80f77a8d4a4067360725ce3d6efe3f4c
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1157'
 ht-degree: 8%
 
 ---
@@ -57,7 +60,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u in een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
+1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u naar een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
 
    `gpg -a --export <fingerprint>`
 
@@ -132,7 +135,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
 **Campaign Classic:**
 
-* [Een bestand decoderen of decoderen voordat het wordt verwerkt](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
+* [Een bestand uitpakken of decoderen voordat het wordt verwerkt](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
 * [Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
@@ -142,7 +145,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
 ## GPG-toetsen controleren
 
-Als u toegang wilt tot de GPG-sleutels die voor uw instanties zijn geïnstalleerd en gegenereerd, opent u de **[!UICONTROL Instance settings]**-kaart en selecteert u vervolgens het tabblad **[!UICONTROL GPG keys]**.
+Als u toegang wilt tot de GPG-sleutels die zijn geïnstalleerd en gegenereerd voor uw instanties, opent u de **[!UICONTROL Instance settings]**-kaart en selecteert u vervolgens het tabblad **[!UICONTROL GPG keys]**.
 
 ![](assets/gpg_list.png)
 
