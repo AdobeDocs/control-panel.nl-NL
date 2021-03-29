@@ -5,9 +5,9 @@ title: Configuratiescherm openen
 description: Leer hoe u het Configuratiescherm kunt openen
 feature: 'Configuratiescherm '
 role: Architect
-level: Begin
+level: Beginner
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Belangrijkste voordelen:
 >
 >Houd er rekening mee dat een upgrade naar de nieuwste Campaign-build niet vereist is voor toegang tot het Configuratiescherm.
 
-<table>
+<table style="table-layout:fixed">
 <tr>
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="voorwaarden" src="assets/do-not-localize/discover.png"/></a>
