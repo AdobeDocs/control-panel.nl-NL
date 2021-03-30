@@ -4,12 +4,12 @@ solution: Campaign
 title: Configuratiescherm-releases
 feature: 'Configuratiescherm '
 role: Architect
-level: Begin
+level: Beginner
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,9 @@ Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 
 >[!NOTE]
 >
->Houd er rekening mee dat Configuratiescherm alleen beschikbaar is voor klanten die op AWS worden gehost, behalve voor hybride omgevingen die nog niet worden ondersteund. U hebt geen upgrades nodig om toegang te krijgen tot het Configuratiescherm. Zorg ervoor dat u een Admin-gebruiker bent om het te kunnen openen.
+>Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin-toegang aan een gebruiker te verlenen, worden gedetailleerd beschreven in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Voor Campaign Classic moet uw exemplaar worden gehost op AWS en worden geüpgraded met de nieuwste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)-build of de [nieuwste GA-build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Leer hoe u uw versie kunt controleren in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Als u wilt controleren of uw instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze pagina](faq.md).
 
 ## Oktober 2020 {#october-2020}
 
@@ -49,8 +51,6 @@ Met Configuratiescherm kunt u nu het aantal actieve profielen bewaken dat door u
 >[!IMPORTANT]
 >
 >Bewaking van actieve profielen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
->
->Deze functie is beschikbaar voor klanten die op AWS worden gehost via de Campaign Standard-build 10368 en de Campaign Classic-build 8931. Als u een eerdere build gebruikt, moet u een upgrade uitvoeren om deze functie te kunnen gebruiken.
 
 ## Mei 2020 {#may-2020}
 
