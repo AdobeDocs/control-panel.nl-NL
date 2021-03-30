@@ -4,12 +4,12 @@ solution: Campaign
 title: Productdocumentatie
 feature: 'Configuratiescherm '
 role: Architect
-level: Begin
+level: Beginner
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,12 @@ Met het Configuratiescherm kunt u nu rechtstreeks vanuit de interface met gebrui
 **Verbeteringen voor databasebewaking**
 
 Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrische gegevens, zodat u gedetailleerde informatie kunt krijgen over de bronnen die ruimte in uw database verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
+
+>[!NOTE]
+>
+>Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin-toegang aan een gebruiker te verlenen, worden gedetailleerd beschreven in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Voor Campaign Classic moet uw exemplaar worden gehost op AWS en worden geüpgraded met de nieuwste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)-build of de [nieuwste GA-build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Leer hoe u uw versie kunt controleren in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Als u wilt controleren of uw instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze pagina](faq.md).
 
 ## Aanvullende bronnen {#additional-resources}
 
