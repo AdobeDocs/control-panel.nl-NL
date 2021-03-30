@@ -7,10 +7,10 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Beginner
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,10 @@ Belangrijkste voordelen:
 * Verbeter de beveiliging door toegangsinstellingen op basis van behoefte te controleren.
 
 >[!NOTE]
->Het Configuratiescherm is alleen toegankelijk voor Admin-gebruikers en is beschikbaar voor alle klanten die op AWS worden gehost, met uitzondering van hybride omgevingen die nog niet worden ondersteund. De stappen om Admin-toegang aan een gebruiker te verlenen, worden gedetailleerd beschreven in [deze sectie](../../discover/using/managing-permissions.md). Als u wilt controleren of uw instantie wordt gehost op AWS, voert u de stappen uit die in [deze sectie](../../faq.md) worden beschreven.
 >
->Houd er rekening mee dat een upgrade naar de nieuwste Campaign-build niet vereist is voor toegang tot het Configuratiescherm.
+>Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin-toegang aan een gebruiker te verlenen, worden gedetailleerd beschreven in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Voor Campaign Classic moet uw exemplaar worden gehost op AWS en worden geüpgraded met de nieuwste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)-build of de [nieuwste GA-build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Leer hoe u uw versie kunt controleren in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Als u wilt controleren of uw instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze pagina](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
