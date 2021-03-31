@@ -7,9 +7,9 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,9 @@ Selecteer de gewenste instantie in de **[!UICONTROL Instance List]** om informat
 >
 >Merk op dat de gegevens van dit dashboard gebaseerd op **[!UICONTROL Database cleanup technical workflow]** worden bijgewerkt die op uw instantie van de Campagne loopt (zie [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) en [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) documentatie).
 >
->U kunt de laatste keer controleren dat de workflow onder de metriek **[!UICONTROL Used Space]** en **[!UICONTROL Provided Space]** liep. Als de workflow al meer dan drie dagen niet meer wordt uitgevoerd, raden wij u aan de klantenservice van Adobe te raadplegen zodat zij onderzoeken waarom de workflow niet wordt uitgevoerd.
+>U kunt desgewenst controleren, kunt u berichten ontvangen wanneer één van uw gegevensbestanden zijn c laatste keer bereikt de werkschema onder **[!UICONTROL Used Space]** en **[!UICONTROL Provided Space]** metriek liep. Als de workflow al meer dan drie dagen niet meer wordt uitgevoerd, raden wij u aan de klantenservice van Adobe te raadplegen zodat zij onderzoeken waarom de workflow niet wordt uitgevoerd.
 
-In dit dashboard zijn aanvullende gegevens beschikbaar, die hieronder worden beschreven, om u te helpen het gebruik van de database van de instantie te analyseren:
-
-* [Databasegebruik](../../performance-monitoring/using/database-monitoring.md#database-utilization)
-* [Overzicht van opslag](../../performance-monitoring/using/database-monitoring.md#storage-overview)
-* [De 10 belangrijkste tijdelijke bronnen](../../performance-monitoring/using/database-monitoring.md#top-10)
+In dit dashboard zijn aanvullende gegevens beschikbaar, die hieronder worden beschreven, om u te helpen het gebruik van de database van de instantie te analyseren.
 
 ### Databasegebruik {#database-utilization}
 
@@ -130,7 +126,7 @@ In de onderstaande sectie vindt u nuttige informatie uit Campagne-documentatie o
 
 * Technische workflow voor opschonen van databases ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Handleiding voor](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html)  databaseonderhoud (Campaign Classic)
-* [Problemen met](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html)  databaseprestaties oplossen (Campaign Classic)
+* [Problemen met](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html)  databaseprestaties oplossen (Campaign Classic)
 * [Databasegerelateerde opties](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)  (Campaign Classic)
 * Gegevensbewaring ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
