@@ -5,12 +5,12 @@ title: URL-machtigingen
 description: Leer hoe u URL-machtigingen beheert in het Configuratiescherm
 feature: 'Configuratiescherm '
 role: Architect
-level: Intermediair
+level: Gemiddeld
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 93%
+source-wordcount: '607'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Wanneer een URL is toegevoegd, wordt hiernaar verwezen in het configuratiebestan
 **Verwante onderwerpen:**
 
 * [Campaign-server configureren](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [Uitgaande verbindingsbeveiliging](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [Uitgaande verbindingsbeveiliging](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## Aanbevolen procedures {#best-practices}
 
