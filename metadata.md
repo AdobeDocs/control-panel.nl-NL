@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution-title: Informatie en ondersteuning
 solution-hub-url: https://helpx.adobe.com/nl/support/campaign.html
 solution-image: assets/campaign-icon-24.png
@@ -11,12 +11,12 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/control-panel.nl-NL
 index: true
 feature: 'Configuratiescherm '
 role: Architect
-level: Begin
+level: Beginner
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 0079a7e893595c3825f0ab2b44b341c379462de8
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
