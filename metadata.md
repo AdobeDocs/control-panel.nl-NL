@@ -12,13 +12,13 @@ index: true
 feature: 'Configuratiescherm '
 role: Architect
 level: Beginner
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0079a7e893595c3825f0ab2b44b341c379462de8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '35'
+ht-degree: 100%
 
 ---
 
 
-# Metagegevens voor Configuratiescherm
+# Metadata voor configuratiescherm
