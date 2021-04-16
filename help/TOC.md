@@ -5,12 +5,12 @@ audience: end-user
 user-guide-title: Handleiding voor het Configuratiescherm
 feature: 'Configuratiescherm '
 role: Architect
-level: Begin
-translation-type: tm+mt
+level: Beginner
+translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
