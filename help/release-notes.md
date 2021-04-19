@@ -2,17 +2,18 @@
 product: campaign
 solution: Campaign
 title: Configuratiescherm-releases
+description: Opmerkingen bij de nieuwste release van het Configuratiescherm.
 feature: 'Configuratiescherm '
 role: Architect
 level: Beginner
+exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 translation-type: tm+mt
-source-git-commit: 555181ca19af2f850f0e85f94ea2dcb4a87a7c1f
+source-git-commit: 4c8347f7b0f4a776ea726f02029ea1c92a83406a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Configuratiescherm-releases {#control-panel-releases}
 
@@ -20,9 +21,9 @@ Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 
 >[!NOTE]
 >
->Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin-toegang aan een gebruiker te verlenen, worden gedetailleerd beschreven in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
->Voor Campaign Classic moet uw exemplaar worden gehost op AWS en worden geüpgraded met de nieuwste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html)-build of de [nieuwste GA-build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). Leer hoe u uw versie kunt controleren in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Als u wilt controleren of uw instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze pagina](faq.md).
+>Voor Campaign Classic moet uw versie worden gehost op AWS en worden bijgewerkt met de nieuwste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=nl)-build of de [nieuwste GA-build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl#release-notes). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md).
 
 ## Oktober 2020 {#october-2020}
 
