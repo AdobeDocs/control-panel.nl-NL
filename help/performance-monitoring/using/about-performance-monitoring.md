@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Prestatiebewaking
 description: Leer hoe u de prestaties van uw instanties kunt controleren in het Configuratiescherm
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
-level: Ervaren
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

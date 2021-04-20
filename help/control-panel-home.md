@@ -1,7 +1,7 @@
 ---
 title: Productdocumentatie
 description: Documentatie voor het regelpaneel.
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab

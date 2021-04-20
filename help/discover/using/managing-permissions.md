@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Machtigingen beheren voor het Configuratiescherm
 description: Leer hoe u machtigingen voor het Configuratiescherm beheert
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
-level: Gemiddeld
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt

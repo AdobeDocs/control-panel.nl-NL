@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Configuratiescherm openen
 description: Leer hoe u het Configuratiescherm kunt openen
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Beginner
 translation-type: tm+mt

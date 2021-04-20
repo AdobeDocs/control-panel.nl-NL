@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: SSL-certificaten van subdomeinen bewaken
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt bewaken
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
-level: Ervaren
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

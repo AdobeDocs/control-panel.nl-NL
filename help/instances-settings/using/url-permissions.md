@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: URL-machtigingen
 description: Leer hoe u URL-machtigingen beheert in het Configuratiescherm
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
-level: Gemiddeld
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt

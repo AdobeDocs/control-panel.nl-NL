@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Aanmelden bij uw SFTP-server
 description: Leer hoe u zich aanmeldt bij uw SFTP-server
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
-level: Ervaren
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

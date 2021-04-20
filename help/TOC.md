@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: configuratiescherm
 audience: end-user
 user-guide-title: Handleiding voor het Configuratiescherm
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Beginner
 translation-type: ht

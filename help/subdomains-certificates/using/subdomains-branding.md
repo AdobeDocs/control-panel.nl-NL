@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Branding van subdomeinen
 description: Meer informatie over branding van subdomeinen
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

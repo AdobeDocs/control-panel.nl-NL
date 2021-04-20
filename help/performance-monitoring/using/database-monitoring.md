@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Database controleren
 description: Leer de Campaign-database controleren in het configuratiescherm
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e

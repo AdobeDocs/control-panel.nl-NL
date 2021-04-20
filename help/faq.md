@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Veelgestelde vragen over Configuratiescherm
 description: Algemene vragen over het Configuratiescherm
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
