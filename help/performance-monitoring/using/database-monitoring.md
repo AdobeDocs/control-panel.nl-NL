@@ -7,11 +7,11 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '952'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Het overlopen van een versie van een database kan leiden tot verschillende probl
 
 >[!NOTE]
 >
->Als de hoeveelheid beschikbare databaseruimte, zoals weergegeven in het Configuratiescherm, niet overeenkomt met de hoeveelheid die in uw contract is opgegeven, neemt u contact op met de klantenservice.
+>Neem contact op met de klantenservice als de hoeveelheid beschikbare databaseruimte zoals weergegeven in het configuratiescherm niet overeenkomt met de hoeveelheid die in uw contract is gespecificeerd.
 
 ## Controle van het gebruik van databases {#monitoring-instances-database}
 
@@ -45,7 +45,7 @@ Selecteer de gewenste versie vanuit de **[!UICONTROL Instance List]** om informa
 >
 >Merk op dat de gegevens van dit dashboard worden bijgewerkt op basis van de **[!UICONTROL Database cleanup technical workflow]** die wordt uitgevoerd op uw Campaign-versie (zie documentatie [Campaign Standard](https://docs.adobe.com/nl/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) en [Campaign Classic](https://docs.adobe.com/help/nl-NL/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)).
 >
->Bovendien kunt u meldingen ontvangen wanneer een van uw databases de laatste keer dat de workflow onder de metriek **[!UICONTROL Used Space]** en **[!UICONTROL Provided Space]** liep, zijn c bereikt. Als de workflow al meer dan drie dagen niet meer is uitgevoerd, raden wij u aan de klantenservice van Adobe te raadplegen zodat ze kunnen onderzoeken waarom de workflow niet wordt uitgevoerd.
+>U kunt daarnaast berichten ontvangen wanneer één van uw databases vol is geraakt tijdens de laatste keer dat de workflow werd uitgevoerd met de metrische gegevens **[!UICONTROL Used Space]** en **[!UICONTROL Provided Space]**. Als de workflow al meer dan drie dagen niet meer is uitgevoerd, raden wij u aan de klantenservice van Adobe te raadplegen zodat ze kunnen onderzoeken waarom de workflow niet wordt uitgevoerd.
 
 De onderstaande aanvullende metrische gegevens zijn beschikbaar in dit dashboard om u te helpen het gebruik van de versie van de database te analyseren.
 
@@ -105,13 +105,13 @@ De knop **[!UICONTROL View all]** geeft u toegang tot gedetailleerde informatie 
 
 ![](assets/database-top10-view.png)
 
-De waarde in de kolom **[!UICONTROL Keep interim results]** geeft aan of de optie is ingeschakeld (1) of uitgeschakeld (0) in Campaign. Met deze optie kunt u de resultaten opslaan van de overgangen tussen de verschillende activiteiten van een workflow (zie [Campaign Standard](https://docs.adobe.com/content/help/nl/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) en [Campaign Classic](https://docs.adobe.com/content/help/nl/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs) documentatie).
+De waarde in de kolom **[!UICONTROL Keep interim results]** geeft aan of de optie is ingeschakeld (1) of uitgeschakeld (0) in Campaign. Hiermee kunt u de resultaten van de overgangen tussen de verschillende activiteiten van een workflow opslaan (zie documentatie voor [Campaign Standard](https://docs.adobe.com/content/help/nl/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) en [Campaign Classic](https://docs.adobe.com/content/help/nl/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)).
 
 >[!IMPORTANT]
 >
->Deze optie mag nooit worden ingeschakeld in een productiewerkstroom. Het wordt gebruikt om de resultaten te analyseren en is alleen ontworpen voor testdoeleinden en moet daarom alleen worden gebruikt in ontwikkelings- of testomgevingen.
+>Deze optie mag nooit worden ingeschakeld in een productieworkflow. Deze wordt gebruikt om de resultaten te analyseren en is alleen ontworpen voor testdoeleinden. De optie mag daarom alleen worden gebruikt in ontwikkelings- of testomgevingen.
 >
->Als de waarde in het Configuratiescherm aangeeft dat de optie is ingeschakeld voor een van uw workflows, raden we u ten zeerste aan deze optie uit te schakelen in Campagne.
+>Als de waarde in het configuratiescherm aangeeft dat de optie is ingeschakeld voor een van uw workflows, raden we u sterk aan  deze optie uit te schakelen in Campaign.
 
 ## Databaseoverbelasting voorkomen {#preventing-database-overload}
 
@@ -126,7 +126,7 @@ In het onderstaande gedeelte vindt u nuttige bronnen uit Campaign-documentatie o
 
 **Databaseonderhoud**
 
-* Technische workflow voor opschonen van databases ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Technische workflow voor opschonen van databases ([Campaign Standard](https://docs.adobe.com/nl/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/nl-NL/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Handleiding voor databaseonderhoud](https://docs.adobe.com/content/help/nl/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Problemen met databaseprestaties oplossen](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=nl) (Campaign Classic)
 * [Databasegerelateerde opties](https://docs.adobe.com/help/nl-NL/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
