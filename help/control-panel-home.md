@@ -5,7 +5,7 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: e7350750800f68a132ac4607e962221b7fd20909
+source-git-commit: 9c7a17d3e6d5bb953cb584f5a255d7b76d5c2973
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 68%
@@ -28,13 +28,17 @@ Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrisc
 
 >[!NOTE]
 >
->Configuratiescherm is beperkt tot beheergebruikers. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
->
->Voor Campaign Classic, merk op dat uw instantie op de Diensten van het Web van Amazon (AWS) moet worden ontvangen en aan de recentste [Bouwstijl van de Campagne GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) worden bevorderd.
->
->Leer hoe te om uw versie van Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) te controleren.
->
->Om te controleren of uw Campaign Classic-instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze pagina](faq.md).
+>* Configuratiescherm is beperkt tot beheergebruikers. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
+   >
+   >
+* Voor Campaign Classic, merk op dat uw instantie op de Diensten van het Web van Amazon (AWS) moet worden ontvangen en aan de recentste [Bouwstijl van de Campagne GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) worden bevorderd.
+   >   
+   >   
+   * Leer hoe te om uw versie van Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) te controleren.
+      >   
+      >   
+   * Om te controleren of uw Campaign Classic-instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze pagina](faq.md).
+
 
 ## Aanvullende bronnen {#additional-resources}
 
