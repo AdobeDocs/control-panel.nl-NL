@@ -5,11 +5,10 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-translation-type: ht
-source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: e7350750800f68a132ac4607e962221b7fd20909
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 68%
 
 ---
 
@@ -18,7 +17,6 @@ ht-degree: 100%
 ![](assets/do-not-localize/banner.png)
 
 ## Nieuwe functies
-
 
 **Subdomeinconfiguratie met gebruik van CNAME-records**
 
@@ -30,9 +28,13 @@ Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrisc
 
 >[!NOTE]
 >
->Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
+>Configuratiescherm is beperkt tot beheergebruikers. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
->Voor Campaign Classic moet uw versie worden gehost op AWS en worden bijgewerkt met de nieuwste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=nl)-build of de [nieuwste GA-build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl#release-notes). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md).
+>Voor Campaign Classic, merk op dat uw instantie op de Diensten van het Web van Amazon (AWS) moet worden ontvangen en aan de recentste [Bouwstijl van de Campagne GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) worden bevorderd.
+>
+>Leer hoe te om uw versie van Campaign Classic in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) te controleren.
+>
+>Om te controleren of uw Campaign Classic-instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze pagina](faq.md).
 
 ## Aanvullende bronnen {#additional-resources}
 
