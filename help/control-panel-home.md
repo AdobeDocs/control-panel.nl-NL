@@ -29,9 +29,8 @@ Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrisc
 >[!NOTE]
 >
 >* Het configuratiescherm is toegankelijk voor alle beheerders. [Meer info](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
-   >
-   >
-* Houd er bij Campaign Classic rekening mee dat uw versie moet worden gehost op Amazon Web Services (AWS) en moet worden geüpgraded naar de nieuwste versie van [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses). Lees [in dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) hoe u controleert welke Campaign Classic-versie u hebt. Volg de stappen op [deze pagina](faq.md) om te controleren of uw Campaign Classic-versie wordt gehost op AWS.
+>
+>* Houd er bij Campaign Classic rekening mee dat uw versie moet worden gehost op Amazon Web Services (AWS) en moet worden geüpgraded naar de nieuwste versie van [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses). Lees [in dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) hoe u controleert welke Campaign Classic-versie u hebt. Volg de stappen op [deze pagina](faq.md) om te controleren of uw Campaign Classic-versie wordt gehost op AWS.
 
 
 ## Aanvullende bronnen {#additional-resources}
