@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw Campaign-instanties instelt
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -65,6 +64,10 @@ Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Ca
 
 1. Maak het gewenste subdomein en naamservers in de hostingoplossing die door uw organisatie wordt gebruikt. Daarvoor kopieert u de weergegeven informatie van de Adobe-naamserver en plakt u deze in de wizard. Raadpleeg de [videotutorial](https://video.tv.adobe.com/v/30175) voor meer informatie over het maken van een subdomein in een hostingoplossing.
 
+   >[!NOTE]
+   >
+   > Bijvoorbeeld, zullen subdomeinen u toestaan om zowel marketing als transactionele mededelingen te verzenden.
+
    ![](assets/subdomain4.png)
 
 1. Klik op **[!UICONTROL Next]** wanneer het subdomein is gemaakt met de bijbehorende naamserverinformatie van Adobe.
@@ -95,7 +98,7 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
 
    ![](assets/cname-method-selection.png)
 
-1. Als u een Campaign Classic-versie hebt geselecteerd, selecteert u het gewenste gebruiksscenario voor het subdomein: **Marketingcommunicatie** of **Transactionele en operationele communicatie**. Algemene concepten in de gebruiksgevallen van subdomeinen worden weergegeven in [dit gedeelte](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
+1. Als u een Campaign Classic-versie hebt geselecteerd, selecteert u het gewenste gebruiksscenario voor het subdomein: **Marketingcommunicatie** of **Transactionele en operationele communicatie**. Algemene concepten in de gebruiksscenario&#39;s van subdomeinen worden weergegeven in [dit gedeelte](../../subdomains-certificates/using/subdomains-branding.md#about-subdomains-use-cases).
 
    ![](assets/cname-use-case.png)
 
@@ -119,7 +122,7 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
    >
    >Houd er rekening mee dat DNS-records die op uw server worden geplaatst, 30 dagen door het configuratiescherm worden bewaard. Na die periode moet u het subdomein helemaal opnieuw configureren.
 
-Nadat het subdomein is verzonden, worden verschillende controles en configuratiestappen  uitgevoerd door het configuratiescherm. Zie voor meer informatie hierover [Controles en configuratie van subdomeinen](#subdomain-checks-and-configuration).
+Nadat het subdomein is verzonden, worden verschillende controles en configuratiestappen  uitgevoerd door het configuratiescherm. Zie voor meer informatie [Controles en configuratie van subdomeinen](#subdomain-checks-and-configuration).
 
 ## Controles en configuratie van subdomeinen {#subdomain-checks-and-configuration}
 
@@ -159,7 +162,7 @@ Klik op de knoppen **[!UICONTROL Subdomain details]** en **[!UICONTROL Sender in
 
 ![](assets/sender_info.png)
 
-## Probleemoplossing {#troubleshooting}
+## Problemen oplossen {#troubleshooting}
 
 * In sommige gevallen verloopt de configuratie van het subdomein goed, maar wordt het subdomein mogelijk niet succesvol geverifieerd. Het subdomein blijft in de lijst **[!UICONTROL Configured]** staan met een taaklog dat informatie over de fout bevat. Neem contact op met de klantenservice als u het probleem niet kunt oplossen.
 * Als het subdomein als Unverified wordt weergegeven nadat het is geconfigureerd, start u een nieuwe subdomeincontrole (**...**/**[!UICONTROL Verify subdomain]**). Als nog steeds dezelfde status wordt weergegeven, is er mogelijk een wijziging in het ontvangersschema aangebracht die niet kan worden gecontroleerd met standaardprocessen. Probeer een campagne met dat subdomein te verzenden.
