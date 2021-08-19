@@ -3,21 +3,20 @@ product: campaign
 solution: Campaign
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1157'
 ht-degree: 8%
 
 ---
 
-
 # Beheer van GPG-sleutels {#gpg-keys-management}
 
-## Informatie over GPG-codering {#about-gpg-encryption}
+## GPG-codering {#about-gpg-encryption}
 
 Met GPG-codering kunt u uw gegevens beveiligen met een systeem van paren met openbare en persoonlijke sleutels die voldoen aan de [OpenPGP](https://www.openpgp.org/about/standard/)-specificatie.
 
@@ -31,7 +30,7 @@ Dan kunt u:
 
 * **Binnenkomende gegevens** decoderen: Adobe Campaign ontvangt gegevens die van een extern systeem zijn versleuteld met een openbare sleutel die u hebt gedownload van het Configuratiescherm. Adobe Campaign decodeert de gegevens met een persoonlijke sleutel die via het Configuratiescherm wordt gegenereerd.
 
-## Gegevens {#encrypting-data} coderen
+## Gegevens versleutelen {#encrypting-data}
 
 Met het Configuratiescherm kunt u gegevens versleutelen die afkomstig zijn van uw Adobe Campaign-instantie.
 
@@ -90,7 +89,7 @@ De sleutel is dan beschikbaar voor gebruik in de werkschema&#39;s van Adobe Camp
 
 Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onderwerp:
 
-**Campaign Classic:**
+**Campaign Classic v7 en Campagne v8:**
 
 * [Een bestand zoeken of versleutelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
@@ -100,7 +99,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onder
 * [Versleutelde data beheren](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
-## Gegevens decoderen {#decrypting-data}
+## Gegevens ontsleutelen {#decrypting-data}
 
 Met het Configuratiescherm kunt u externe gegevens die in Adobe Campaign-instanties komen, decoderen.
 
@@ -133,7 +132,7 @@ De openbare sleutel is dan beschikbaar om met om het even welk extern systeem te
 
 Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
-**Campaign Classic:**
+**Campaign Classic v7 en Campagne v8:**
 
 * [Een bestand uitpakken of decoderen voordat het wordt verwerkt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
 * [Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
@@ -184,4 +183,3 @@ In de onderstaande video ziet u hoe u GPG-sleutels voor gegevenscodering kunt ge
 Aanvullende instructievideo&#39;s met betrekking tot het beheer van GPG-sleutels zijn beschikbaar op de pagina&#39;s [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings).
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
-
