@@ -5,10 +5,10 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 88%
+source-wordcount: '225'
+ht-degree: 83%
 
 ---
 
@@ -32,6 +32,9 @@ Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrisc
    >
    >
 * Voor Campaign Classic v7, merk op dat uw instantie op de Diensten van het Web van Amazon (AWS) moet worden ontvangen en aan de recentste [Bouwstijl van de Campagne GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) worden bevorderd. Lees [in dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) hoe u controleert welke Campaign Classic-versie u hebt. Volg de stappen op [deze pagina](faq.md) om te controleren of uw Campaign Classic-versie wordt gehost op AWS.
+   >
+   >
+* De volgende mogelijkheden zijn niet beschikbaar voor Campagne v8: Subdomeinbeheer en certificaatbeheer.
 
 
 ## Aanvullende bronnen {#additional-resources}
