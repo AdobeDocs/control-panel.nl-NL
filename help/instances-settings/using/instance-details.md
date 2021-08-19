@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Instantiedetails
 description: Leer hoe u de instantiedetails in het Configuratiescherm kunt bewaken
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 87%
 
 ---
-
 
 # Instantiedetails {#instance-details}
 
@@ -28,9 +27,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Deze functie is alleen beschikbaar voor Campaign Classic-instanties.
+>Deze functie is alleen beschikbaar voor Campaign Classic v7- en Campagne v8-instanties.
 
-De architectuur van uw Adobe Campaign Classic-instantie kan verschillende servers bevatten om de flexibiliteit van marketingactiviteiten mogelijk te maken. U kunt bijvoorbeeld marketing-, realtime- (of Message Center-) en mid-sourcing-servers hebben ter ondersteuning van uw instantie.
+Uw Adobe Campaign-instantiearchitectuur kan verschillende servers bevatten om de flexibiliteit van marketingactiviteiten mogelijk te maken. U kunt bijvoorbeeld marketing-, realtime- (of Message Center-) en mid-sourcing-servers hebben ter ondersteuning van uw instantie.
 
 Met de functie Instantiedetails kunt u de platte architectuur van uw instantie weergeven. Naast serverinformatie wordt u ook geïnformeerd of uw instantie up-to-date is en worden waar nodig upgrades aanbevolen.
 
@@ -53,7 +52,7 @@ Voer de volgende stappen uit om informatie op te halen over de servers die zijn 
    >
    >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke instanties van Adobe Campaign Classic wordt geassocieerd
 
-1. Selecteer in het linkerdeelvenster de gewenste Campaign Classic-instantie.
+1. Selecteer in het linkerdeelvenster de gewenste instantie Campagne.
 
    >[!NOTE]
    >
