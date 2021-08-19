@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Het SSL-certificaat van een subdomein verlengen
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt verlengen.
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 90%
+source-wordcount: '868'
+ht-degree: 93%
 
 ---
-
 
 # Het SSL-certificaat van een subdomein verlengen {#renewing-subdomains-ssl-certificates}
 
@@ -28,7 +27,9 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->Subdomeinconfiguratie van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
+>De subdomeinconfiguratie via het configuratiescherm is beschikbaar in bèta en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
+>
+>Deze functie is niet beschikbaar voor Campagne v8.
 
 Het proces voor het verlengen van SSL-certificaten bestaat uit drie stappen:
 
@@ -39,7 +40,7 @@ Nadat de CSR is gegenereerd, kunt u deze downloaden en gebruiken om het SSL-cert
 1. **Installatie van het SSL-certificaat**
 Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdomein installeren.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met  [Campagne ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates).
 
 ## Een Certificate Signing Request (CSR) genereren {#generating-csr}
 
@@ -144,4 +145,4 @@ Nadat het SSL-certificaat is geïnstalleerd, worden de vervaldatum en het status
 **Verwante onderwerpen:**
 
 * [Branding van subdomeinen](../../subdomains-certificates/using/subdomains-branding.md)
-* [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Uw subdomeinen controleren](../../subdomains-certificates/using/monitoring-subdomains.md)
