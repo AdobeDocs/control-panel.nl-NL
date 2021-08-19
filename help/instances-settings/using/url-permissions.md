@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: URL-machtigingen
 description: Leer hoe u URL-machtigingen beheert in het Configuratiescherm
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
-
 
 # URL-machtigingen {#url-permissions}
 
@@ -27,9 +26,9 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->Deze functie is alleen beschikbaar voor Campaign Classic-instanties vanaf build 8850. Als u een eerdere build gebruikt, moet u een upgrade uitvoeren om deze functie te kunnen gebruiken.
+>Deze functie is alleen beschikbaar voor instanties van de categorieën Campagne v8 en Campaign Classic v7, van build 8850. Als u een eerdere build gebruikt, moet u een upgrade uitvoeren om deze functie te kunnen gebruiken.
 
-De standaardlijst met URL’s die via JavaScript-codes kunnen worden aangeroepen (workflows, enz.) door uw Campaign Classic-instanties, is beperkt. Dit zijn URL’s waardoor uw instanties correct kunnen werken.
+De standaardlijst met URL’s die via JavaScript-codes kunnen worden aangeroepen (workflows, enz.) door uw campagneinstanties beperkt zijn. Dit zijn URL’s waardoor uw instanties correct kunnen werken.
 
 Instanties mogen standaard geen verbinding maken met externe URL’s. In het Configuratiescherm kunt u enkele externe URL’s toevoegen aan de lijst met geoorloofde URL’s, zodat uw instantie er verbinding mee kan maken. Hierdoor kunt u uw Campaign-instanties verbinden met externe systemen zoals SFTP-servers of websites, om de overdracht van bestanden en/of data mogelijk te maken.
 
@@ -42,7 +41,7 @@ Wanneer een URL is toegevoegd, wordt hiernaar verwezen in het configuratiebestan
 * [Campaign-server configureren](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
 * [Uitgaande verbindingsbeveiliging](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
-## Aanbevolen procedures {#best-practices}
+## Best practices {#best-practices}
 
 * Verbind uw Campaign-instantie niet met websites/servers waarmee u geen verbinding wilt maken.
 * Verwijder URL’s waarmee u niet meer werkt. Houd er echter rekening mee dat als een ander gedeelte van uw bedrijf nog steeds verbinding maakt met de URL die u hebt verwijderd, niemand deze meer kan gebruiken.
@@ -61,7 +60,7 @@ Ga als volgt te werk om een URL toe te voegen waarmee uw instantie verbinding ka
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke instanties van Adobe Campaign Classic wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke instanties van Adobe Campaign wordt geassocieerd
    >
    >Het tabblad <b><span class="uicontrol">URL permissions</span></b> bevat alle externe URL’s waarmee uw instantie verbinding kan maken. Deze lijst bevat geen URL’s die vereist zijn om Campaign te laten werken (bijvoorbeeld verbindingen tussen infrastructuuronderdelen).
 
