@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: TXT-records beheren
 description: Leer hoe u TXT-records beheert voor verificatie van domeineigendom.
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 90%
+source-wordcount: '354'
+ht-degree: 92%
 
 ---
-
 
 # TXT-records beheren {#managing-txt-records}
 
@@ -21,6 +20,10 @@ ht-degree: 90%
 >id="cp_siteverification_add"
 >title="TXT-records beheren"
 >abstract="Bij sommige services, zoals Google, moet u een TXT-record aan uw domeininstellingen toevoegen om te verifiëren dat u eigenaar bent van het domein."
+
+>[!AVAILABILITY]
+>
+>Deze functie is niet beschikbaar voor Campagne v8.
 
 ## Informatie over TXT-records {#about-txt-records}
 
@@ -30,7 +33,7 @@ Om hoge inboxpercentages en lage spampercentages te waarborgen vereisen sommige 
 
 Gmail is momenteel een van de populairste aanbieders van e-mailadressen. Met Adobe Campaign kunt u speciale TXT-records voor Google-websiteverificatie toevoegen aan uw subdomeinen om ervoor te zorgen dat deze worden geverifieerd, zodat u verzekerd bent van goede bezorgbaarheid en geslaagde aflevering van e-mails op Gmail-adressen.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met  [Campagne ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates).
 
 ## Een Google TXT-record toevoegen voor een subdomein {#adding-a-google-txt-record}
 
