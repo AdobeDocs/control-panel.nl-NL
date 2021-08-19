@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Branding van subdomeinen
 description: Meer informatie over branding van subdomeinen
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 79%
+source-wordcount: '708'
+ht-degree: 80%
 
 ---
-
 
 # Branding van subdomeinen {#subdomains-branding}
 
@@ -23,11 +22,14 @@ ht-degree: 79%
 >abstract="Bewaak uw subdomeinen en de bijbehorende SSL-certificaten."
 >additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="SSL-certificaten van uw subdomeinen bewaken"
 
+
 ## Waarom zou ik subdomeinen instellen? {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->Subdomeinconfiguratie van het Controlebord is beschikbaar in bèta, en onderworpen aan regelmatige updates en wijzigingen zonder bericht.
+>De subdomeinconfiguratie via het configuratiescherm is beschikbaar in bèta en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
+>
+>Deze functie is niet beschikbaar voor Campagne v8.
 
 Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
@@ -53,7 +55,7 @@ In de onderstaande tabel wordt een overzicht gegeven van de werking van deze met
 | **Volledige delegatie** | Maak het subdomein en de naamruimterecord. Adobe configureert vervolgens alle DNS-records die voor Adobe Campaign nodig zijn.<br/><br/>In deze setup is Adobe volledig verantwoordelijk voor het beheer van het subdomein en alle DNS-records. | Laag |
 | **CNAME, aangepaste methode** | Maak het subdomein en de naamruimterecord. Adobe verstrekt dan de records die in uw DNS servers moeten worden geplaatst en configureert de overeenkomstige waarden in de DNS-servers van Adobe Campaign.<br/><br/>In deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS. | Hoog |
 
-Aanvullende informatie over domeinconfiguratie is beschikbaar in [deze documentatie](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
+Aanvullende informatie over domeinconfiguratie is beschikbaar in [deze documentatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 Als u om het even welke vraag betreffende de methodes van de subdomeinconfiguratie hebt, bereik uit aan het team van de Leverbaarheid van de Adobe, of uiteindelijk contacteer de Zorg van de Klant om het raadplegen van de Leverbaarheid te verzoeken.
 
@@ -81,4 +83,4 @@ Mogelijke gevallen van gebruik zijn:
 **Verwante onderwerpen:**
 
 * [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Uw subdomeinen controleren](../../subdomains-certificates/using/monitoring-subdomains.md)
