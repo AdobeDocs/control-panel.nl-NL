@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Bewaking van actieve profielen
 description: Leer hoe u realtime-informatie krijgt over het nieuwste en historische gebruik en de evolutie van actieve profielen voor al uw Campaign-instanties.
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '365'
+ht-degree: 92%
 
 ---
-
 
 # Bewaking van actieve profielen {#active-profiles-monitoring}
 
@@ -33,7 +32,7 @@ Profielen worden als actief beschouwd als ze de afgelopen twaalf maanden via een
 >
 >Er wordt geen rekening gehouden met de kanalen Facebook en Twitter.
 
-Raadpleeg de documentatie van [Campaign Standard](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campaign Classic](https://docs.adobe.com/content/help/nl-NL/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) voor meer informatie over actieve profielen.
+Raadpleeg voor meer informatie over actieve profielen de documenten [Campaign Standard](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campaign Classic v7](https://docs.adobe.com/content/help/nl-NL/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
 
 ## Actieve profielen bewaken {#monitoring-active-profiles}
 
