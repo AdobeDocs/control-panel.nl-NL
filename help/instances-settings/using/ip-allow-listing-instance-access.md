@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: IP-adressen toevoegen aan de lijst van gewenste IP-adressen
 description: Leer hoe u IP-adressen toevoegt aan de lijst van gewenste IP-adressen in het Configuratiescherm voor instantietoegang.
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 94%
+source-wordcount: '770'
+ht-degree: 89%
 
 ---
-
 
 # IP-adressen toevoegen aan de lijst van gewenste IP-adressen {#ip-allow-listing}
 
@@ -27,9 +26,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Deze functie is alleen beschikbaar voor Campaign Classic-instanties.
+>Deze functie is alleen beschikbaar voor Campaign Classic v7- en Campagne v8-instanties.
 
-Standaard is uw Adobe Campaign Classic-instantie niet toegankelijk via verschillende IP-adressen.
+Standaard is uw Adobe Campaign-instantie niet toegankelijk via verschillende IP-adressen.
 
 Als uw IP-adres niet aan de lijst van gewenste IP-adressen is toegevoegd, kunt u zich niet bij de instantie aanmelden vanaf dit adres. U kunt evenmin een API met uw Message Center of Marketing-instantie verbinden als het IP-adres niet uitdrukkelijk aan de lijst van gewenste IP-adressen met de instantie is toegevoegd.
 
@@ -39,7 +38,7 @@ Zodra IP-adressen in de lijst van gewenste IP-adressen staan, kunt u Campaign-op
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
-## Aanbevolen procedures {#best-practices}
+## Best practices {#best-practices}
 
 Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt aan de lijst van gewenste IP-adressen in het Configuratiescherm.
 
@@ -83,7 +82,7 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te
 
 1. Specificeer het type toegang dat u aan de IP-adressen wilt verlenen:
 
-   * **[!UICONTROL Campaign Console Access]**: De IP-adressen mogen verbinding maken met de Campaign Classic-console. Toegang tot de console is alleen ingeschakeld voor Marketing-instanties. Toegang tot MID- en RT-instanties is niet toegestaan en daarom niet ingeschakeld.
+   * **[!UICONTROL Campaign Console Access]**: De IP-adressen mogen verbinding maken met de Campagne Client Console. Toegang tot de console is alleen ingeschakeld voor Marketing-instanties. Toegang tot MID- en RT-instanties is niet toegestaan en daarom niet ingeschakeld.
    * **[!UICONTROL AEM connection]**: De opgegeven AEM IP-adressen mogen verbinding maken met de Marketing-instantie.
    * **[!UICONTROL External API connection]**: Externe API’s met de opgegeven IP-adressen kunnen verbinding maken met de Marketing- en/of Message Center-instantie (RT). Verbinding met de console van RT-instanties is niet ingeschakeld.
 
