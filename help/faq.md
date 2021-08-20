@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Veelgestelde vragen over Configuratiescherm
 description: Algemene vragen over het Configuratiescherm
-feature: Control Panel
+feature: 'Configuratiescherm '
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +26,7 @@ Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.
 
 **Waar kan ik mijn IMS-organisatie-id vinden?**
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl#manage-users-and-products).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 U kunt ook **Admin Console** starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -89,7 +88,7 @@ Als u wilt controleren of uw instantie wordt gehost op AWS, voert u deze stappen
 >
 >Als u naar AWS wilt worden gemigreerd, start u het proces door contact op te nemen met uw Customer Success Manager.
 
-## Configuratiescherm {#control-panel}
+## Configuratiescherm  {#control-panel}
 
 **Wat is het Configuratiescherm?**
 
@@ -100,6 +99,10 @@ Met het Configuratiescherm kunnen productbeheerders verschillende instellingen r
 Met het Configuratiescherm kunt u de opslag bijhouden, IP-adressen toevoegen aan de lijst van gewenste IP-adressen, SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften, enzovoort.
 
 Raadpleeg voor meer informatie de documentatie over acties die door het Configuratiescherm worden ondersteund.
+
+**Welke mogelijkheden niet worden ondersteund in Campagne v8, maar zijn beschikbaar in Campaign Classic v7**
+
+Functies met betrekking tot subdomeinen en certificaatbeheer worden nog niet ondersteund via het Configuratiescherm in Campagne v8. Neem contact op met de klantenservice van de campagne voor gerelateerde ondersteuning.
 
 **Is het Configuratiescherm alleen voor Adobe Campaign?**
 
