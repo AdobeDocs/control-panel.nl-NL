@@ -7,7 +7,7 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 92%
@@ -21,11 +21,11 @@ ht-degree: 92%
 >title="TXT-records beheren"
 >abstract="Bij sommige services, zoals Google, moet u een TXT-record aan uw domeininstellingen toevoegen om te verifiëren dat u eigenaar bent van het domein."
 
+## Informatie over TXT-records {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >Deze functie is niet beschikbaar voor Campagne v8.
-
-## Informatie over TXT-records {#about-txt-records}
 
 TXT-records zijn DNS-records die worden gebruikt om tekstgegevens over een domein te verstrekken en die kunnen worden gelezen door externe bronnen.
 
