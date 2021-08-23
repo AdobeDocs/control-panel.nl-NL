@@ -7,11 +7,10 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: ht
-source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
-workflow-type: ht
-source-wordcount: '952'
-ht-degree: 100%
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 96%
 
 ---
 
@@ -105,7 +104,7 @@ De knop **[!UICONTROL View all]** geeft u toegang tot gedetailleerde informatie 
 
 ![](assets/database-top10-view.png)
 
-De waarde in de kolom **[!UICONTROL Keep interim results]** geeft aan of de optie is ingeschakeld (1) of uitgeschakeld (0) in Campaign. Hiermee kunt u de resultaten van de overgangen tussen de verschillende activiteiten van een workflow opslaan (zie documentatie voor [Campaign Standard](https://docs.adobe.com/content/help/nl/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) en [Campaign Classic](https://docs.adobe.com/content/help/nl/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)).
+De waarde in de kolom **[!UICONTROL Keep interim results]** geeft aan of de optie is ingeschakeld (1) of uitgeschakeld (0) in Campaign. Hiermee kunt u de resultaten van de overgangen tussen de verschillende activiteiten van een workflow opslaan (zie documentatie voor [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html) en [Campaign Classic](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html#logs)).
 
 >[!IMPORTANT]
 >
@@ -121,13 +120,13 @@ In het onderstaande gedeelte vindt u nuttige bronnen uit Campaign-documentatie o
 
 **Workflows controleren**
 
-* [Best practices van workflows](https://docs.adobe.com/content/help/nl/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html)  (Campaign Standard)
+* [Best practices van workflows](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html)  (Campaign Standard)
 * [Uitvoering van workflow controleren](https://docs.adobe.com/help/nl-NL/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) (Campaign Classic)
 
 **Databaseonderhoud**
 
-* Technische workflow voor opschonen van databases ([Campaign Standard](https://docs.adobe.com/nl/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/nl-NL/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
-* [Handleiding voor databaseonderhoud](https://docs.adobe.com/content/help/nl/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
+* Technische workflow voor opschonen van databases ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* [Handleiding voor databaseonderhoud](https://https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) (Campaign Classic)
 * [Problemen met databaseprestaties oplossen](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=nl) (Campaign Classic)
 * [Databasegerelateerde opties](https://docs.adobe.com/help/nl-NL/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) (Campaign Classic)
 * Gegevensretentie ([Campaign Standard](https://docs.adobe.com/help/nl-NL/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/nl-NL/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
