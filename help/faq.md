@@ -7,34 +7,74 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 224bad296e416288ea717c904ce679653495c046
+source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 94%
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
 # Veelgestelde vragen {#faq}
 
+## Configuratiescherm  {#control-panel}
+
+### Wat is het Configuratiescherm?
+
+Met het Configuratiescherm kunnen productbeheerders verschillende instellingen rechtstreeks beheren en de capaciteit bewaken van SFTP-servers die op Adobe Campaign zijn aangesloten.
+
+### Wat zijn zoal de huidige mogelijkheden van het Configuratiescherm?
+
+Met het Configuratiescherm kunt u de opslag bijhouden, IP-adressen toevoegen aan de lijst van gewenste IP-adressen, SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften, enzovoort.
+
+Raadpleeg voor meer informatie de documentatie over acties die door het Configuratiescherm worden ondersteund.
+
+### Welke mogelijkheden niet worden ondersteund in Campagne v8, maar zijn beschikbaar in Campaign Classic v7{#v8-restrictions}
+
+Functies met betrekking tot subdomeinen en certificaatbeheer worden nog niet ondersteund via het Configuratiescherm in Campagne v8. Neem contact op met de klantenservice van de campagne voor gerelateerde ondersteuning.
+
+### Is het Configuratiescherm alleen voor Adobe Campaign?
+
+Ja, u kunt alleen instellingen voor Adobe Campaign beheren in het Configuratiescherm.
+
+### Kan ik het Configuratiescherm gebruiken?
+
+Het Configuratiescherm is alleen toegankelijk voor productbeheerders van onze huidige klanten voor wie Adobe Campaign is gehost op AWS. Hybride omgevingen worden nog niet ondersteund.
+
+Als u geen beheerder bent maar wel toegang wilt, vraagt u uw productbeheerder om u toe te voegen als beheerder.
+
+### Als gebruiker van Campaign Classic v7, wat zijn de voorwaarden om tot Controlebord toegang te hebben? {#v7-restrictions}
+
+Het configuratiescherm is toegankelijk voor alle beheerders. [Meer info](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
+
+Voor Campaign Classic v7, merk op dat uw instantie op de Diensten van het Web van Amazon (AWS) moet worden ontvangen en aan de recentste [Bouwstijl van de Campagne GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) worden bevorderd. Lees [in dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) hoe u controleert welke Campaign Classic-versie u hebt. Om te controleren of uw Campaign Classic-instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze sectie](#hosted-aws).
+
+### Hoe open ik het Configuratiescherm?
+
+Volg de gedetailleerde instructies in de documentatie ‘Configuratiescherm openen’.
+
+### Kost het gebruik van het Configuratiescherm extra?
+
+Nee, er zijn geen extra kosten als u een huidige Adobe Campaign-klant bent.
+
 ## IMS-organisatie-id {#ims-org-id}
 
-**Wat is een IMS-organisatie-id?**
+### Wat is een IMS-organisatie-id?
 
 Dit is een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
 
 Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl#manage-users-and-products) voor meer informatie.
 
-**Waar kan ik mijn IMS-organisatie-id vinden?**
+### Waar kan ik mijn IMS-organisatie-id vinden?
 
 U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 U kunt ook **Admin Console** starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**Waarom moet ik mijn IMS-organisatie-id weten?**
+### Waarom moet ik mijn IMS-organisatie-id weten?
 
 Om ervoor te zorgen dat u de instellingen voor uw instantie kunt beheren, willen we er zeker van zijn dat u de juiste informatie voor de juiste instantie krijgt als u meerdere instanties voor uw bedrijf gebruikt.
 
-**Wat gebeurt er als ik meerdere IMS-organisatie-id’s heb?**
+### Wat gebeurt er als ik meerdere IMS-organisatie-id’s heb?
 
 U kunt meer dan één IMS-organisatie-id hebben als u toegang hebt tot meerdere Adobe-oplossingen. De id die u onder uw Adobe Campaign-instantie ziet, is in dat geval de IMS-organisatie-id die u moet gebruiken.
 
@@ -44,7 +84,7 @@ U kunt meer dan één IMS-organisatie-id hebben als u toegang hebt tot meerdere 
 >
 >Als u verschillende IMS-organisatie-id’s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
 
-**Hoe weet ik of mijn Adobe Campaign-instantie wordt gehost op AWS?**
+### Hoe weet ik of mijn Adobe Campaign-instantie wordt gehost op AWS?{#hosted-aws}
 
 Als u wilt controleren of uw instantie wordt gehost op AWS, voert u deze stappen uit:
 
@@ -87,37 +127,3 @@ Als u wilt controleren of uw instantie wordt gehost op AWS, voert u deze stappen
 >[!NOTE]
 >
 >Als u naar AWS wilt worden gemigreerd, start u het proces door contact op te nemen met uw Customer Success Manager.
-
-## Configuratiescherm  {#control-panel}
-
-**Wat is het Configuratiescherm?**
-
-Met het Configuratiescherm kunnen productbeheerders verschillende instellingen rechtstreeks beheren en de capaciteit bewaken van SFTP-servers die op Adobe Campaign zijn aangesloten.
-
-**Wat zijn zoal de huidige mogelijkheden van het Configuratiescherm?**
-
-Met het Configuratiescherm kunt u de opslag bijhouden, IP-adressen toevoegen aan de lijst van gewenste IP-adressen, SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften, enzovoort.
-
-Raadpleeg voor meer informatie de documentatie over acties die door het Configuratiescherm worden ondersteund.
-
-**Welke mogelijkheden niet worden ondersteund in Campagne v8, maar zijn beschikbaar in Campaign Classic v7**
-
-Functies met betrekking tot subdomeinen en certificaatbeheer worden nog niet ondersteund via het Configuratiescherm in Campagne v8. Neem contact op met de klantenservice van de campagne voor gerelateerde ondersteuning.
-
-**Is het Configuratiescherm alleen voor Adobe Campaign?**
-
-Ja, u kunt alleen instellingen voor Adobe Campaign beheren in het Configuratiescherm.
-
-**Kan ik het Configuratiescherm gebruiken?**
-
-Het Configuratiescherm is alleen toegankelijk voor productbeheerders van onze huidige klanten voor wie Adobe Campaign is gehost op AWS. Hybride omgevingen worden nog niet ondersteund.
-
-Als u geen beheerder bent maar wel toegang wilt, vraagt u uw productbeheerder om u toe te voegen als beheerder.
-
-**Hoe open ik het Configuratiescherm?**
-
-Volg de gedetailleerde instructies in de documentatie ‘Configuratiescherm openen’.
-
-**Kost het gebruik van het Configuratiescherm extra?**
-
-Nee, er zijn geen extra kosten als u een huidige Adobe Campaign-klant bent.
