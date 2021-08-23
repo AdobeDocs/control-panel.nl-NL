@@ -7,10 +7,10 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 92%
+source-wordcount: '363'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ Profielen worden als actief beschouwd als ze de afgelopen twaalf maanden via een
 >
 >Er wordt geen rekening gehouden met de kanalen Facebook en Twitter.
 
-Raadpleeg voor meer informatie over actieve profielen de documenten [Campaign Standard](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campaign Classic v7](https://docs.adobe.com/content/help/nl-NL/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Raadpleeg voor meer informatie over actieve profielen de documenten [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
 
 ## Actieve profielen bewaken {#monitoring-active-profiles}
 
