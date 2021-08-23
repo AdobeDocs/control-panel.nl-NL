@@ -7,10 +7,10 @@ feature: 'Configuratiescherm '
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 87%
+source-wordcount: '556'
+ht-degree: 84%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 87%
 >id="cp_instancesettings_instancedetails"
 >title="Informatie over Instantiedetails"
 >abstract="Bekijk de details van uw Adobe Campaign-instanties: types, namen, buildinformatie en mogelijke upgradeaanbevelingen."
->additional-url="https://docs.adobe.com/content/help/nl-NL/campaign-classic/using/release-notes/latest-release.html" text="Opmerkingen bij de release van Campaign Classic"
->additional-url="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-notes.html" text="Opmerkingen bij de release van Campaign Standard"
+>additional-url="https://https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Opmerkingen bij de release van Campaign Classic"
+>additional-url="https://https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Opmerkingen bij de release van Campaign Standard"
 
 ## Informatie over Instantiedetails {#about-instance-details}
 
