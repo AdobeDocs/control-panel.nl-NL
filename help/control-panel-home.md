@@ -1,14 +1,14 @@
 ---
 title: Productdocumentatie
 description: Documentatie voor het configuratiescherm.
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
-workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 72%
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+workflow-type: ht
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
 
@@ -29,12 +29,10 @@ Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrisc
 >[!CAUTION]
 >
 >* Het configuratiescherm is toegankelijk voor alle beheerders. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel)
-   >
-   >
-* Voor Campaign Classic v7 gelden implementatiebeperkingen. [Meer informatie](faq.md#v7-restrictions)
-   >
-   >
-* Voor Campagne v8 zijn niet alle mogelijkheden beschikbaar. [Meer informatie](faq.md#v8-restrictions)
+>
+>* Voor Campaign Classic v7 gelden implementatiebeperkingen. [Meer informatie](faq.md#v7-restrictions)
+>
+>* Voor Campaign v8 zijn niet alle mogelijkheden beschikbaar. [Meer informatie](faq.md#v8-restrictions)
 
 
 ## Aanvullende bronnen {#additional-resources}
@@ -43,20 +41,20 @@ Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrisc
     <tr>
         <td><b>Campaign Standard</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=nl">Configuratiescherm-videotutorials voor Campaign Standard</a></li>
-            <li><a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/campaign-standard-home.html">Campaign Standard-productdocumentatie</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=nl">Tutorialvideo's van het configuratiescherm</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=nl">Campaign Standard-productdocumentatie</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=nl">Zelfstudievideo's voor Campaign Classic v7</a></li>
-            <li><a href="https://docs.adobe.com/content/help/nl-NL/campaign-classic/using/campaign-classic-home.html">Campaign Classic v7-productdocumentatie</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=nl">Tutorialvideo's van het configuratiescherm</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=nl">Productdocumentatie voor Campaign Classic v7</a></li>
         </ul>
         </td>
-        <td><b>Campagne v8</b><br/>
+        <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Zelfstudievideo's voor Campagne v8</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Campagne v8 productdocumentatie</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=nl">Tutorialvideo's van het configuratiescherm</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=nl">Productdocumentatie Campaign v8</a></li>
         </ul>
         </td>
     </tr>
