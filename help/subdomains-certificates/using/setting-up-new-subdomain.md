@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw Campaign-instanties instelt
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
-workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 97%
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="Nieuwe subdomeinen instellen en certificaten beheren"
 >abstract="U moet een nieuw subdomein instellen en de SSL-certificaten van uw subdomeinen beheren voordat u e-mails kunt verzenden of landingspagina’s kunt publiceren met Adobe Campaign."
->additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="SSL-certificaten van uw subdomeinen bewaken"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten van uw subdomeinen controleren"
 
 
 ## Lees hier meer {#must-read}
 
 >[!IMPORTANT]
 >
->De subdomeinconfiguratie via het configuratiescherm is beschikbaar in bèta en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
+>De subdomeinconfiguratie via het configuratiescherm is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
 >
->Deze functie is niet beschikbaar voor Campagne v8.
+>Deze functie is niet beschikbaar voor Campaign v8.
 
 Deze pagina biedt informatie over het instellen van nieuwe subdomeinen met volledige subdomeindelegatie of CNAMEs Algemene concepten voor deze twee methoden worden in dit gedeelte beschreven: [Branding van subdomeinen](../../subdomains-certificates/using/subdomains-branding.md).
 
@@ -69,7 +69,7 @@ Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Ca
 
    >[!NOTE]
    >
-   > Voor Adobe Campaign Standard kunt u met gedelegeerde subdomeinen zowel **Marketing** als **Transaction** communicatie verzenden.
+   > Voor Adobe Campaign Standard kunt u met gedelegeerde subdomeinen zowel **Marketing-** als **Transactionele** communicatie verzenden.
 
    ![](assets/subdomain4.png)
 
@@ -87,7 +87,7 @@ Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Ca
 
 Nadat het subdomein is verzonden, worden verschillende controles en configuratiestappen  uitgevoerd door het configuratiescherm. Zie voor meer informatie [Controles en configuratie van subdomeinen](#subdomain-checks-and-configuration).
 
-## Subdomeinconfiguratie met gebruik van CNAMEs {#use-cnames}
+## Subdomeinconfiguratie met gebruik van CNAME {#use-cnames}
 
 Volg de onderstaande stappen om een subdomein te configureren met gebruik van CNAMEs.
 
