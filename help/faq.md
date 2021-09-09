@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Veelgestelde vragen over Configuratiescherm
 description: Algemene vragen over het Configuratiescherm
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
-workflow-type: tm+mt
+source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,63 +18,63 @@ ht-degree: 87%
 
 ## Configuratiescherm  {#control-panel}
 
-### Wat is het Configuratiescherm?
+### Wat is het configuratiescherm?
 
-Met het Configuratiescherm kunnen productbeheerders verschillende instellingen rechtstreeks beheren en de capaciteit bewaken van SFTP-servers die op Adobe Campaign zijn aangesloten.
+Met het configuratiescherm kunnen productbeheerders verschillende instellingen rechtstreeks beheren en de capaciteit bewaken van SFTP-servers die met Adobe Campaign zijn verbonden.
 
-### Wat zijn zoal de huidige mogelijkheden van het Configuratiescherm?
+### Wat zijn de huidige mogelijkheden van het configuratiescherm?
 
 Met het Configuratiescherm kunt u de opslag bijhouden, IP-adressen toevoegen aan de lijst van gewenste IP-adressen, SSH-sleutels voor uw SFTP-servers beheren op basis van uw behoeften, enzovoort.
 
 Raadpleeg voor meer informatie de documentatie over acties die door het Configuratiescherm worden ondersteund.
 
-### Welke mogelijkheden niet worden ondersteund in Campagne v8, maar zijn beschikbaar in Campaign Classic v7{#v8-restrictions}
+### Mogelijkheden die niet worden ondersteund in Campaign v8, maar beschikbaar zijn in Campaign Classic v7{#v8-restrictions}
 
-Functies met betrekking tot subdomeinen en certificaatbeheer worden nog niet ondersteund via het Configuratiescherm in Campagne v8. Neem contact op met de klantenservice van de campagne voor gerelateerde ondersteuning.
+Functies met betrekking tot subdomeinen en certificaatbeheer worden nog niet ondersteund via het configuratiescherm in Campaign v8. Neem contact op met de klantenservice van Campaign voor gerelateerde ondersteuning.
 
-### Is het Configuratiescherm alleen voor Adobe Campaign?
+### Is het configuratiescherm alleen voor Adobe Campaign?
 
-Ja, u kunt alleen instellingen voor Adobe Campaign beheren in het Configuratiescherm.
+Ja, u kunt in het configuratiescherm alleen instellingen voor Adobe Campaign beheren.
 
-### Kan ik het Configuratiescherm gebruiken?
+### Kan ik het configuratiescherm gebruiken?
 
 Het Configuratiescherm is alleen toegankelijk voor productbeheerders van onze huidige klanten voor wie Adobe Campaign is gehost op AWS. Hybride omgevingen worden nog niet ondersteund.
 
 Als u geen beheerder bent maar wel toegang wilt, vraagt u uw productbeheerder om u toe te voegen als beheerder.
 
-### Als gebruiker van Campaign Classic v7, wat zijn de voorwaarden om tot Controlebord toegang te hebben? {#v7-restrictions}
+### Wat zijn de toegangsvoorwaarden tot het configuratiescherm voor een gebruiker van Campaign Classic v7? {#v7-restrictions}
 
 Het configuratiescherm is toegankelijk voor alle beheerders. [Meer info](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
-Voor Campaign Classic v7, merk op dat uw instantie op de Diensten van het Web van Amazon (AWS) moet worden ontvangen en aan de recentste [Bouwstijl van de Campagne GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) worden bevorderd. Lees [in dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) hoe u controleert welke Campaign Classic-versie u hebt. Om te controleren of uw Campaign Classic-instantie wordt gehost op AWS, voert u de stappen uit die worden beschreven in [deze sectie](#hosted-aws).
+Houd er bij Campaign Classic v7 rekening mee dat uw versie moet worden gehost op Amazon Web Services (AWS) en moet worden geüpgraded naar de nieuwste versie van [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses). Lees [in dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) hoe u controleert welke Campaign Classic-versie u hebt. Volg de stappen in [deze sectie](#hosted-aws) om te controleren of uw Campaign Classic-versie wordt gehost op AWS.
 
-### Hoe open ik het Configuratiescherm?
+### Hoe open ik het configuratiescherm?
 
 Volg de gedetailleerde instructies in de documentatie ‘Configuratiescherm openen’.
 
-### Kost het gebruik van het Configuratiescherm extra?
+### Kost het gebruik van het configuratiescherm extra?
 
 Nee, er zijn geen extra kosten als u een huidige Adobe Campaign-klant bent.
 
-## IMS-organisatie-id {#ims-org-id}
+## IMS-organisatie-ID {#ims-org-id}
 
-### Wat is een IMS-organisatie-id?
+### Wat is een IMS-organisatie-ID?
 
 Dit is een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
 
-Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl#manage-users-and-products) voor meer informatie.
+Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl) voor meer informatie.
 
-### Waar kan ik mijn IMS-organisatie-id vinden?
+### Waar kan ik mijn IMS-organisatie-ID vinden?
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl).
 
 U kunt ook **Admin Console** starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-### Waarom moet ik mijn IMS-organisatie-id weten?
+### Waarom moet ik mijn IMS-organisatie-ID weten?
 
-Om ervoor te zorgen dat u de instellingen voor uw instantie kunt beheren, willen we er zeker van zijn dat u de juiste informatie voor de juiste instantie krijgt als u meerdere instanties voor uw bedrijf gebruikt.
+We willen ervoor zorgen dat u de juiste versie krijgt als u meerdere versies voor uw bedrijf gebruikt, zodat u de instellingen voor uw versies kunt beheren.
 
-### Wat gebeurt er als ik meerdere IMS-organisatie-id’s heb?
+### Wat gebeurt er als ik meerdere IMS-organisatie-ID’s heb?
 
 U kunt meer dan één IMS-organisatie-id hebben als u toegang hebt tot meerdere Adobe-oplossingen. De id die u onder uw Adobe Campaign-instantie ziet, is in dat geval de IMS-organisatie-id die u moet gebruiken.
 
@@ -84,7 +84,7 @@ U kunt meer dan één IMS-organisatie-id hebben als u toegang hebt tot meerdere 
 >
 >Als u verschillende IMS-organisatie-id’s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
 
-### Hoe weet ik of mijn Adobe Campaign-instantie wordt gehost op AWS?{#hosted-aws}
+### Hoe weet ik of mijn Adobe Campaign-versie wordt gehost op AWS?{#hosted-aws}
 
 Als u wilt controleren of uw instantie wordt gehost op AWS, voert u deze stappen uit:
 
