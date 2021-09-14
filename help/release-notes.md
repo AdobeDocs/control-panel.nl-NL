@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Configuratiescherm-releases
 description: Opmerkingen bij de nieuwste release van het Configuratiescherm.
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: bffe0b17dad980e045bf4f56beadfb444a31dc88
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '669'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,10 @@ Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 >Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
 >Voor Campaign Classic v7 moet uw exemplaar worden gehost op AWS en worden geüpgraded met de nieuwste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=nl)-build of de [nieuwste GA-build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl#release-notes). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md).
+
+## Augustus 2021 {#august-2021}
+
+Het Configuratiescherm is nu beschikbaar voor Adobe Campaign v8, behalve de beheermogelijkheden **Subdomain** en **Certificate**, die nog niet worden ondersteund. Meer informatie in [Campagne v8 documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=en){target=&quot;_blank&quot;}
 
 ## Oktober 2020 {#october-2020}
 

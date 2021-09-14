@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: Beheer van GPG-sleutels
 description: Leer hoe u GPG-sleutels beheert voor het coderen en decoderen van gegevens in Adobe Campaign.
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1151'
 ht-degree: 8%
 
 ---

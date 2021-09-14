@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Branding van subdomeinen
 description: Meer informatie over branding van subdomeinen
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 79%
+source-wordcount: '705'
+ht-degree: 81%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 79%
 >id="cp_certificate_management"
 >title="Subdomeinen en SSL-certificaten"
 >abstract="Bewaak uw subdomeinen en de bijbehorende SSL-certificaten."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="SSL-certificaten van uw subdomeinen bewaken"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten van uw subdomeinen controleren"
 
 
 ## Waarom zou ik subdomeinen instellen? {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->De subdomeinconfiguratie via het configuratiescherm is beschikbaar in bèta en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
+>De subdomeinconfiguratie via het configuratiescherm is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
 >
->Deze functie is niet beschikbaar voor Campagne v8.
+>Deze functie is niet beschikbaar voor Campaign v8.
 
 Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 

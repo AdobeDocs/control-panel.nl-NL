@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Het SSL-certificaat van een subdomein verlengen
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt verlengen.
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 88%
+source-wordcount: '861'
+ht-degree: 89%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->De subdomeinconfiguratie via het configuratiescherm is beschikbaar in bèta en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
+>De subdomeinconfiguratie via het configuratiescherm is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
 >
->Deze functie is niet beschikbaar voor Campagne v8.
+>Deze functie is niet beschikbaar voor Campaign v8.
 
 Het proces voor het verlengen van SSL-certificaten bestaat uit drie stappen:
 

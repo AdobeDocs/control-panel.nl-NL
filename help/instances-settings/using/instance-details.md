@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: Instantiedetails
 description: Leer hoe u de instantiedetails in het Configuratiescherm kunt bewaken
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 84%
 
 ---

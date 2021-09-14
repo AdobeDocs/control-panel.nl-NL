@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: Bewaking van actieve profielen
 description: Leer hoe u realtime-informatie krijgt over het nieuwste en historische gebruik en de evolutie van actieve profielen voor al uw Campaign-instanties.
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '362'
 ht-degree: 86%
 
 ---
@@ -52,7 +52,7 @@ Ga als volgt te werk om dit te doen:
 >
 >Actieve profielen worden geteld op basis van speciale technische workflows die dagelijks op uw instanties worden uitgevoerd:
 >
->* De workflow [Billing](https://docs.adobe.com/help/nl-NL/campaign-standard/using/administrating/application-settings/technical-workflows.html) voor Campaign Standard,
+>* De workflow [Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor Campaign Standard,
 >* De workflow [Number of active billing profiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) voor Campaign Classic.
 
 

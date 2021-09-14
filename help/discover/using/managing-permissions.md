@@ -1,19 +1,18 @@
 ---
 product: campaign
 solution: Campaign
-title: Machtigingen beheren voor het Configuratiescherm
+title: Machtigingen om het Configuratiescherm te beheren
 description: Leer hoe u machtigingen voor het Configuratiescherm beheert
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
+source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 6%
 
 ---
-
 
 # Machtigingen voor Configuratiescherm beheren {#managing-permissions-control-panel}
 
@@ -21,21 +20,19 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
 
 ![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](../../discover/using/managing-permissions.md#video)
 
-1. Navigeer naar [Adobe Experience Cloud](https://experiencecloud.adobe.com/) en selecteer vervolgens het tabblad **[!UICONTROL Administration]**.
+1. Navigeer aan [Adobe Experience Cloud homepage](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-   ![](assets/do-not-localize/control_panel_add_user1.png)
+1. Start de **Admin Console** door op de beschikbare koppeling in de sectie **Snelle toegang** of in het menu rechtsboven te klikken.
+
+   ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Als het <b>lusje van het Beleid</b> niet zichtbaar is, betekent dit dat u geen Admin rechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen met hen uit te voeren.
+   >Als de **Admin Console** verbinding niet zichtbaar is, betekent dit dat u geen Admin rechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen met hen uit te voeren.
 
-1. Start de **Admin Console** door op de beschikbare koppelingen te klikken.
+1. Van **Admin Console**, selecteer het gewenste product van de Campagne van **[!UICONTROL Products and services]** lijst.
 
-   ![](assets/do-not-localize/control_panel_admin1.png)
-
-1. Selecteer het gewenste campagneproduct.
-
-   ![](assets/do-not-localize/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_product-list.png)
 
    >[!NOTE]
    >
@@ -43,13 +40,13 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
 
 1. De lijst met instanties voor het campagneproduct wordt weergegeven. Selecteer de instantie waaraan u een Admin-gebruiker wilt toevoegen.
 
-   ![](assets/do-not-localize/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user_4.png)
 
    >[!NOTE]
    >
-   >U kunt verschillende Admin-gebruikers toevoegen voor elke Campagne-instantie. In dat geval hebben beheergebruikers alleen toegang tot het Configuratiescherm van het exemplaar waartoe ze behoren.
+   >U kunt verschillende Admin-gebruikers toevoegen voor elke Campagne-instantie. Beheerders hebben alleen toegang tot het Configuratiescherm van de instantie waartoe ze behoren.
 
-1. De lijst met productprofielen voor de geselecteerde instantie wordt weergegeven. Klik op het productprofiel **[!UICONTROL Administrators]** om de lijst met Admin-gebruikers te openen.
+1. De lijst van **[!UICONTROL Product Profiles]** voor de geselecteerde instantie toont. Klik op het productprofiel **[!UICONTROL Administrators]** om de lijst met Admin-gebruikers te openen.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 

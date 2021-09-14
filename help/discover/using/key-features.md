@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Configuratiescherm openen
 description: Leer hoe u het Configuratiescherm kunt openen
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 12ec4cada1b038e6edc46457d5cebe6a0693bfe3
+source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >id="cp_overview"
 >title="Informatie over Configuratiescherm"
 >abstract="De startpagina van het Configuratiescherm geeft u toegang tot alle acties die op uw Campaign-instanties kunnen worden uitgevoerd."
->additional-url="https://docs.adobe.com/content/help/nl-NL/control-panel/using/discover-control-panel/discovering-the-interface.html" text="De interface verkennen"
+>additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="De interface verkennen"
 
 Met het Configuratiescherm kunt u de efficiëntie van uw werk als productbeheerder van Adobe Campaign Standard en/of Classic verhogen, doordat u de instellingen kunt beheren en het gebruik voor elk van uw instanties kunt bijhouden. Met de intuïtieve interface kunt u eenvoudig het gebruik van belangrijke elementen bewaken en beheertaken uitvoeren, zoals het toevoegen van IP-adressen aan de lijst van gewenste IP-adressen, SFTP-opslagbewaking, sleutelbeheer, enzovoort.
 
@@ -32,9 +32,9 @@ Belangrijkste voordelen:
 
 >[!NOTE]
 >
->Configuratiescherm is beperkt tot beheergebruikers. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
+>Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
->Voor Campaign Classic, merk op dat uw instantie op de Diensten van het Web van Amazon (AWS) moet worden ontvangen en aan de recentste [Bouwstijl van de Campagne GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses) worden bevorderd. Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](../../faq.md).
+>Houd er bij Campaign Classic rekening mee dat uw versie moet worden gehost op Amazon Web Services (AWS) en moet worden geüpgraded naar de nieuwste versie van [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>

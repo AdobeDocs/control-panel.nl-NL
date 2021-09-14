@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.
 
 ### Waar kan ik mijn IMS-organisatie-ID vinden?
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 U kunt ook **Admin Console** starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
