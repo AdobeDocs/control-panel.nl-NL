@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1183'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 >id="cp_instancesettings_gpg_management"
 >title="GPG-toetsen"
 >abstract="Op dit tabblad kunt u GPG-sleutels installeren en/of genereren voor een marketinginstantie om gegevens te coderen die vanuit Campagne worden verzonden en binnenkomende gegevens te decoderen."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestatiebewaking"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="Prestatiebewaking"
 
 ## GPG-codering {#about-gpg-encryption}
 
@@ -102,7 +102,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onder
 
 **Campaign Standard:**
 
-* [Versleutelde data beheren](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Versleutelde data beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## Gegevens ontsleutelen {#decrypting-data}
@@ -145,8 +145,8 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
 **Campaign Standard:**
 
-* [Versleutelde data beheren](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Versleutelde data beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG-toetsen controleren
 
@@ -186,6 +186,6 @@ We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Om dit t
 
 In de onderstaande video ziet u hoe u GPG-sleutels voor gegevenscodering kunt genereren en installeren.
 
-Aanvullende instructievideo&#39;s met betrekking tot het beheer van GPG-sleutels zijn beschikbaar op de pagina&#39;s [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings).
+Aanvullende instructievideo&#39;s met betrekking tot het beheer van GPG-sleutels zijn beschikbaar op de pagina&#39;s [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings).
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
