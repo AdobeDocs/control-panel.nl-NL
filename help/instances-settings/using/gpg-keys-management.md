@@ -7,14 +7,20 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1192'
 ht-degree: 8%
 
 ---
 
 # Beheer van GPG-sleutels {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="GPG-toetsen"
+>abstract="Op dit tabblad kunt u GPG-sleutels installeren en/of genereren voor een marketinginstantie om gegevens te coderen die vanuit Campagne worden verzonden en binnenkomende gegevens te decoderen."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestatiebewaking"
 
 ## GPG-codering {#about-gpg-encryption}
 
@@ -44,7 +50,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
    >
    >Er is open-source gratis software beschikbaar om sleutels te genereren. Nochtans, zorg ervoor u de richtlijnen van uw organisatie volgt en het nut van GPG gebruikt door uw organisatie van IT/Veiligheid wordt geadviseerd.
 
-1. Zodra het nut geïnstalleerd is, stel het bevel hieronder, in de Eind van MAC of het bevel van Vensters in werking.
+1. Zodra het nut geïnstalleerd is, stel het bevel hieronder, in de Eind van Mac of het bevel van Vensters in werking.
 
    `gpg --full-generate-key`
 
@@ -92,7 +98,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onder
 **Campaign Classic v7 en Campagne v8:**
 
 * [Een bestand zoeken of versleutelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 

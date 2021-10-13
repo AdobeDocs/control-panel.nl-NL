@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '1013'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,12 @@ Het overlopen van een versie van een database kan leiden tot verschillende probl
 >Neem contact op met de klantenservice als de hoeveelheid beschikbare databaseruimte zoals weergegeven in het configuratiescherm niet overeenkomt met de hoeveelheid die in uw contract is gespecificeerd.
 
 ## Databasegebruik controleren {#monitoring-instances-database}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_database"
+>title="Over databasebewaking"
+>abstract="Op dit tabblad krijgt u real-time informatie over het meest recente en historische databasegebruik en de evolutie voor elk van uw Campagneinstanties."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestatiebewaking"
 
 ![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl#performance-monitoring) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl#performance-monitoring).
 
@@ -61,6 +67,11 @@ U beweegt de muisaanwijzer over de grafiek om informatie weer te geven over het 
 ![](assets/databases_dashboard_detail.png)
 
 ### Overzicht van opslag {#storage-overview}
+
+>[!CONTEXTUALHELP]
+>id="cp_dbdetails_storagedetails"
+>title="Overzicht van opslag"
+>abstract="Op dit tabblad krijgt u gedetailleerde informatie over de verschillende campagnebronnen die databaseruimte verbruiken."
 
 Het gedeelte **[!UICONTROL Storage overview]** biedt een grafische weergave van de ruimte die wordt ingenomen door:
 

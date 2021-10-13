@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: IP-adressen toevoegen aan de lijst van gewenste IP-adressen
 description: Leer hoe u IP-adressen toevoegt aan de lijst van gewenste IP-adressen in het Configuratiescherm voor instantietoegang.
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 89%
+source-wordcount: '767'
+ht-degree: 88%
 
 ---
 
@@ -46,11 +46,11 @@ Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt
 * **Als u toegang tot uw instantie tijdelijk hebt ingeschakeld voor een IP-adres**, dient u de IP-adressen uit de lijst van gewenste IP-adressen te verwijderen zodra u niet langer wilt dat het verbinding maakt met uw instantie.
 * **U kunt beter geen IP-adressen van openbare gelegenheden (luchthavens, hotels, enz.) aan de lijst van gewenste IP-adressen toevoegen.** Gebruik het adres van uw bedrijfs-VPN om uw instantie te allen tijde veilig te houden.
 
-## IP-adressen toevoegen aan de lijst van gewenste IP-adressen voor instantie-toegang {#adding-ip-addresses-allow-list}
+## IP-adressen aan de lijst van gewenste personen toevoegen, bijvoorbeeld toegang tot instantie {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Nieuw IP-bereik toevoegen"
+>title="Configuratie van IP-bereik"
 >abstract="Definieer het IP-bereik dat u aan de lijst van gewenste IP-adressen wilt toevoegen om verbinding te maken met uw instantie."
 
 Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te voegen:

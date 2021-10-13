@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 84%
+source-wordcount: '552'
+ht-degree: 82%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Informatie over Instantiedetails"
->abstract="Bekijk de details van uw Adobe Campaign-instanties: types, namen, buildinformatie en mogelijke upgradeaanbevelingen."
->additional-url="https://https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Opmerkingen bij de release van Campaign Classic"
->additional-url="https://https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Opmerkingen bij de release van Campaign Standard"
+>abstract="Bekijk de details van je Adobe Campaign-instanties: types, namen, bouwt informatie, en mogelijke verbeteringsaanbevelingen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Opmerkingen bij de release van Campaign Classic"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Opmerkingen bij de release van Campaign Standard"
 
 ## Informatie over Instantiedetails {#about-instance-details}
 

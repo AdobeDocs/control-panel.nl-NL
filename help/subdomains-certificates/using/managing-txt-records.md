@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: TXT-records beheren
 description: Leer hoe u TXT-records beheert voor verificatie van domeineigendom.
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '364'
 ht-degree: 92%
 
 ---
@@ -20,12 +20,13 @@ ht-degree: 92%
 >id="cp_siteverification_add"
 >title="TXT-records beheren"
 >abstract="Bij sommige services, zoals Google, moet u een TXT-record aan uw domeininstellingen toevoegen om te verifiëren dat u eigenaar bent van het domein."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 ## Informatie over TXT-records {#about-txt-records}
 
 >[!AVAILABILITY]
 >
->Deze functie is niet beschikbaar voor Campagne v8.
+>Deze functie is niet beschikbaar voor Campaign v8.
 
 TXT-records zijn DNS-records die worden gebruikt om tekstgegevens over een domein te verstrekken en die kunnen worden gelezen door externe bronnen.
 

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 86%
+source-wordcount: '402'
+ht-degree: 78%
 
 ---
 
@@ -35,6 +35,12 @@ Profielen worden als actief beschouwd als ze de afgelopen twaalf maanden via een
 Raadpleeg voor meer informatie over actieve profielen de documenten [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
 
 ## Actieve profielen bewaken {#monitoring-active-profiles}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_active_profile"
+>title="Informatie over actieve profielen controleren"
+>abstract="Op dit tabblad krijgt u real-time informatie over het meest recente en historische gebruik en de evolutie van actieve profielen voor elk van uw campagneinstanties."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Prestatiebewaking"
 
 Met het Configuratiescherm kunt u het gebruik van actieve profielen voor al uw Campaign-instanties bewaken.
 

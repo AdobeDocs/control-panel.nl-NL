@@ -7,20 +7,14 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 97%
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
 # Belangrijkste kenmerken {#key-features}
-
->[!CONTEXTUALHELP]
->id="cp_overview"
->title="Informatie over Configuratiescherm"
->abstract="De startpagina van het Configuratiescherm geeft u toegang tot alle acties die op uw Campaign-instanties kunnen worden uitgevoerd."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="De interface verkennen"
 
 Met het Configuratiescherm kunt u de efficiëntie van uw werk als productbeheerder van Adobe Campaign Standard en/of Classic verhogen, doordat u de instellingen kunt beheren en het gebruik voor elk van uw instanties kunt bijhouden. Met de intuïtieve interface kunt u eenvoudig het gebruik van belangrijke elementen bewaken en beheertaken uitvoeren, zoals het toevoegen van IP-adressen aan de lijst van gewenste IP-adressen, SFTP-opslagbewaking, sleutelbeheer, enzovoort.
 

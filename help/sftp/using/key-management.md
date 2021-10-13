@@ -6,21 +6,20 @@ description: Leer hoe u sleutels beheert om verbinding te maken met SFTP-servers
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '646'
+ht-degree: 91%
 
 ---
-
 
 # Sleutelbeheer {#key-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="Informatie over sleutelbeheer"
->abstract="Op dit tabblad kunt u de openbare sleutels beheren."
+>title="Informatie over beheer van openbare sleutels"
+>abstract="Op dit tabblad kunt u openbare sleutels maken, beheren en bewerken."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Demovideo bekijken"
 
 Adobe raadt alle klanten aan verbinding te maken met hun SFTP-servers met een **openbaar/persoonlijk sleutelpaar**.
@@ -33,9 +32,9 @@ Zodra de toegang tot de server is ingesteld, moet u **de IP-adressen die toegang
 >
 >Het is momenteel niet mogelijk om een openbare SSH-sleutel te verwijderen.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met  [Campagne ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management).
 
-## Aanbevolen procedures {#best-practices}
+## Best practices {#best-practices}
 
 **De openbare SSH-sleutel**
 
@@ -53,8 +52,8 @@ In zeer zeldzame gevallen is op wachtwoord gebaseerde verificatie ingeschakeld o
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Nieuwe openbare sleutel toevoegen"
->abstract="Voeg een nieuwe openbare sleutel voor een instantie toe."
+>title="Toevoeging van openbare sleutels"
+>abstract="Genereer een openbare sleutel van SSH voor een instantie en voeg het aan Controlebord toe om tot de server toegang te hebben SFTP."
 
 >[!IMPORTANT]
 >

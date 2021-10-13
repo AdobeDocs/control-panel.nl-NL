@@ -6,14 +6,13 @@ description: Leer hoe u IP-bereiken toevoegt aan de lijst van gewenste IP-adress
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '631'
+ht-degree: 96%
 
 ---
-
 
 # IP-bereiken toevoegen aan de lijst van gewenste IP-adressen {#ip-range-allow-listing}
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 
 SFTP-servers zijn beveiligd. Als u er toegang toe wilt krijgen om bestanden te bekijken of nieuwe bestanden te schrijven, moet u het openbare IP-adres van het systeem dat of de client die gebruikmaakt van de servers, toevoegen aan de lijst van gewenste IP-adressen.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met  [Campagne ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management).
 
 ## Informatie over de CIDR-indeling {#about-cidr-format}
 
@@ -35,7 +34,7 @@ De syntaxis bestaat uit een IP-adres, gevolgd door een slash (/) en een decimaal
 
 U kunt op internet zoeken naar gratis online tools waarmee u het IP-bereik dat u hebt, kunt omzetten in CIDR-indeling.
 
-## Aanbevolen procedures {#best-practices}
+## Best practices {#best-practices}
 
 Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt aan de lijst van gewenste IP-adressen in het Configuratiescherm.
 
@@ -48,7 +47,7 @@ Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Nieuw IP-bereik toevoegen"
+>title="Configuratie van IP-bereik"
 >abstract="Definieer de IP-bereiken die u aan de lijst van gewenste IP-adressen wilt toevoegen om verbinding te maken met uw SFTP-servers."
 
 Ga als volgt te werk om een IP-bereik aan de lijst van gewenste IP-adressen toe te voegen:

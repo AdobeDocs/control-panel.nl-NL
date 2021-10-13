@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 81%
+source-wordcount: '753'
+ht-degree: 78%
 
 ---
 
@@ -20,8 +20,7 @@ ht-degree: 81%
 >id="cp_certificate_management"
 >title="Subdomeinen en SSL-certificaten"
 >abstract="Bewaak uw subdomeinen en de bijbehorende SSL-certificaten."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten van uw subdomeinen controleren"
-
+>additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten bewaken"
 
 ## Waarom zou ik subdomeinen instellen? {#why-setting-up-subdomains}
 
@@ -60,6 +59,13 @@ Aanvullende informatie over domeinconfiguratie is beschikbaar in [deze documenta
 Als u om het even welke vraag betreffende de methodes van de subdomeinconfiguratie hebt, bereik uit aan het team van de Leverbaarheid van de Adobe, of uiteindelijk contacteer de Zorg van de Klant om het raadplegen van de Leverbaarheid te verzoeken.
 
 ## Gebruiksgevallen van subdomeinen (Campaign Classic){#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="Selecteer het gebruiksgeval voor uw subdomein"
+>abstract="Het onderverdelen van uw subdomeinen door gebruiksgevallen is een beste praktijk voor leverbaarheid. Hierdoor wordt de reputatie van elk subdomein geïsoleerd en beschermd."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Branding van subdomeinen"
 
 Bij het instellen van subdomeinen voor Campaign Classic-instanties moet u het geval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 

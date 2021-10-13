@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: SSL-certificaten van subdomeinen bewaken
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt bewaken
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->Deze functie is niet beschikbaar voor Campagne v8.
+>Deze functie is niet beschikbaar voor Campaign v8.
 
 ## Informatie over SSL-certificaten {#about-ssl-certificates}
 
@@ -37,7 +37,7 @@ Adobe Campaign raadt u aan de subdomeinen te beveiligen die als host dienen voor
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="Subdomeindetails"
->abstract="Haal informatie op over uw subdomeinen."
+>abstract="Haal informatie op over de SSL-certificaten van uw subdomeinen."
 
 De status van de SSL-certificaten van uw subdomeinen is rechtstreeks beschikbaar in de lijst met subdomeinen wanneer u de kaart **[!UICONTROL Subdomains & Certificates]** selecteert.
 

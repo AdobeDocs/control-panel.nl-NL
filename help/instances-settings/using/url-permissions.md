@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: URL-machtigingen
 description: Leer hoe u URL-machtigingen beheert in het Configuratiescherm
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '604'
 ht-degree: 88%
 
 ---
@@ -51,7 +51,7 @@ Wanneer een URL is toegevoegd, wordt hiernaar verwezen in het configuratiebestan
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_url_add"
->title="Nieuwe URL toevoegen"
+>title="URL-definitie"
 >abstract="Voeg URL’s toe om verbindingen met uw Campaign-instantie toe te staan."
 
 Ga als volgt te werk om een URL toe te voegen waarmee uw instantie verbinding kan maken:
