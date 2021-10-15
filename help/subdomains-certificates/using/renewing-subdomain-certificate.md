@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 1f422833e1495525612e760714e50a9aaf744db5
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 87%
+source-wordcount: '836'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,6 @@ Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdome
 >id="cp_select_subdomains"
 >title="Selecteer de subdomeinen voor uw CSR."
 >abstract="U kunt naar wens alle of alleen specifieke subdomeinen opnemen in uw Certificate Signing Request (CSR). Alleen geselecteerde subdomeinen worden gecertificeerd via het aangeschafte SSL-certificaat."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Een Certificate Signing Request (CSR) genereren"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
 
 Voer de volgende stappen uit om een Certificate Signing Request (CSR) te genereren:
