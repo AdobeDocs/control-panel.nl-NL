@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 84%
+source-wordcount: '792'
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,27 @@ Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 >
 >Voor Campaign Classic v7 moet uw exemplaar worden gehost op AWS en worden geüpgraded met de nieuwste [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=nl)-build of de [nieuwste GA-build (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl#release-notes). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md).
 
+## Oktober 2021 {#october-2021}
+
+**IP-bereik en geldigheidsperiode openbare sleutel**
+
+Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers en openbare sleutels te plaatsen. Lees meer in de [IP waaier staat lijst](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) en [Zeer belangrijk beheer](sftp/using/key-management.md#installing-ssh-key) secties toe.
+
+**IP-bereik en openbare-sleuteluitgave**
+
+U kunt de [IP waaiers](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) en [openbare sleutels](sftp/using/key-management.md#editing-public-keys) nu uitgeven die u creeert. Deze functie is niet beschikbaar voor de items die zijn gemaakt vóór de huidige release van het Configuratiescherm.
+
+**Waarschuwing bij SFTP IP-bereik en vervaldatum van openbare sleutel**
+
+De functie voor e-mailwaarschuwingen bevat nu waarschuwingen over SFTP IP waarmee lijsten kunnen verlopen en de vervaldatum van de openbare sleutel voor SFTP. [Meer informatie](performance-monitoring/using/email-alerting.md)
+
+**Volledige ondersteuning met campagne v8**
+
+De beheermogelijkheden **Subdomain** en **Certificate** worden nu ondersteund door het Configuratiescherm in Adobe Campaign v8.
+
 ## Augustus 2021 {#august-2021}
+
+**Ondersteuning voor Campagne v8**
 
 Het Configuratiescherm is nu beschikbaar voor Adobe Campaign v8, behalve de beheermogelijkheden **Subdomain** en **Certificate**, die nog niet worden ondersteund. Meer informatie in [Campagne v8 documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html){target=&quot;_blank&quot;}
 
