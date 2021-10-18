@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 91%
+source-wordcount: '1053'
+ht-degree: 36%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
 >title="Informatie over beheer van openbare sleutels"
->abstract="Op dit tabblad kunt u openbare sleutels maken, beheren en bewerken."
+>abstract="Op dit tabblad maakt, beheert en bewerkt u de openbare sleutels."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Demovideo bekijken"
 
 Adobe raadt alle klanten aan verbinding te maken met hun SFTP-servers met een **openbaar/persoonlijk sleutelpaar**.
@@ -27,10 +27,6 @@ Adobe raadt alle klanten aan verbinding te maken met hun SFTP-servers met een **
 De stappen om een openbare SSH-sleutel te genereren en toe te voegen om toegang tot de SFTP-server te krijgen, worden hieronder beschreven, evenals aanbevelingen betreffende verificatie.
 
 Zodra de toegang tot de server is ingesteld, moet u **de IP-adressen die toegang tot de server vereisen, toevoegen aan de lijst van gewenste IP-adressen** zodat u er verbinding mee kunt maken. Raadpleeg [deze sectie](../../instances-settings/using/ip-allow-listing-instance-access.md) voor meer informatie.
-
->[!NOTE]
->
->Het is momenteel niet mogelijk om een openbare SSH-sleutel te verwijderen.
 
 ![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management).
 
@@ -42,7 +38,7 @@ Zorg ervoor dat u altijd dezelfde verificatie gebruikt om verbinding te maken me
 
 **API-integratie met gebruikersnaam en wachtwoord**
 
-In zeer zeldzame gevallen is op wachtwoord gebaseerde verificatie ingeschakeld op sommige SFTP-servers. Adobe raadt u aan verificatie op basis van sleutels te gebruiken, omdat deze methode efficiënter en veiliger is. U kunt verzoeken om over te schakelen op verificatie op basis van sleutels door contact op te nemen met de klantenservice.
+In zeer zeldzame gevallen, wordt op wachtwoord-gebaseerde authentificatie toegelaten op sommige servers SFTP. Adobe adviseert dat u op sleutel-gebaseerde authentificatie gebruikt, aangezien deze methode efficiënter en veiliger is. U kunt verzoeken om over te schakelen op verificatie op basis van sleutels door contact op te nemen met de klantenservice.
 
 >[!IMPORTANT]
 >
@@ -57,7 +53,7 @@ In zeer zeldzame gevallen is op wachtwoord gebaseerde verificatie ingeschakeld o
 
 >[!IMPORTANT]
 >
->In de onderstaande stappen wordt slechts een voorbeeld gegeven van het maken van een SSH-sleutel. Volg de richtlijnen van uw organisatie voor SSH-sleutels. Het voorbeeld hieronder is slechts een voorbeeld van hoe dit kan worden gedaan en dient als nuttig referentiepunt voor het communiceren van vereisten aan uw team of interne netwerkgroep.
+>U moet altijd uw organisatierichtlijnen met betrekking tot SSH sleutels volgen. De stappen hieronder zijn slechts één voorbeeld van hoe de zeer belangrijke verwezenlijking van SSH kan worden gedaan en zij kunnen als nuttig referentiepunt voor het communiceren van vereisten aan uw team of interne netwerkgroep dienen.
 
 1. Ga naar het tabblad **[!UICONTROL Key Management]** en klik op de knop **[!UICONTROL Add new public key]**.
 
@@ -65,19 +61,25 @@ In zeer zeldzame gevallen is op wachtwoord gebaseerde verificatie ingeschakeld o
 
 1. Selecteer in het dialoogvenster dat wordt geopend de gebruikersnaam waarvoor u de openbare sleutel wilt maken en de server waarvoor u de sleutel wilt activeren.
 
+   ![](assets/key1.png)
+
    >[!NOTE]
    >
-   >De interface controleert of een bepaalde gebruikersnaam actief is in een bepaalde instantie en geeft u een optie om de sleutel in één of meerdere instanties te activeren.
+   >In het Configuratiescherm wordt gecontroleerd of een bepaalde gebruikersnaam actief is op een bepaalde instantie en kunt u de toets op een of meerdere instanties activeren.
    >
    >Een of meer openbare SSH-sleutels kunnen voor elke gebruiker worden toegevoegd.
 
-   ![](assets/key1.png)
+1. Om uw openbare sleutels beter te beheren, kunt u een duur voor de beschikbaarheid van elke sleutel plaatsen. Hiervoor selecteert u een eenheid in de vervolgkeuzelijst **[!UICONTROL Type]** en definieert u een duur in het desbetreffende veld. Zie [deze sectie](#expiry) voor meer informatie over het vervallen van openbare sleutels.
 
-1. Kopieer de openbare SSH-sleutel en plak deze. Volg de onderstaande stappen voor uw besturingssysteem om een openbare sleutel te genereren:
+   ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >De openbare SSH-sleutel moet **2048 bits** zijn.
+   >Standaard is het veld **[!UICONTROL Type]** ingesteld op **[!UICONTROL Unlimited]**, wat betekent dat de openbare sleutel nooit vervalt.
+
+1. In het veld **[!UICONTROL Comment]** kunt u een reden opgeven om deze openbare sleutel toe te voegen (waarom, voor wie, enz.).
+
+1. Als u het veld **[!UICONTROL Public Key]** wilt invullen, moet u een openbare SSH-sleutel genereren. Voer de onderstaande stappen uit volgens uw besturingssysteem.
 
    **Linux en Mac:**
 
@@ -89,18 +91,82 @@ In zeer zeldzame gevallen is op wachtwoord gebaseerde verificatie ingeschakeld o
 
    **Windows:**
 
-   Wellicht moet u een hulpprogramma van derden installeren waarmee u een persoonlijk/openbaar sleutelpaar in de indeling ‘name.pub’ kunt genereren.
+   Wellicht moet u een hulpprogramma van derden installeren waarmee u persoonlijk/openbaar sleutelpaar in dezelfde indeling als &quot;name.pub&quot; kunt genereren.
 
 1. Open het pub-bestand, kopieer de hele tekenreeks die begint met ‘ssh...’ en plak deze in Configuratiescherm.
 
    ![](assets/publickey.png)
 
+   >[!NOTE]
+   >
+   >Het veld **[!UICONTROL Public Key]** accepteert alleen de OpenSSH-indeling. De openbare SSH-sleutel moet **2048 bits** zijn.
+
 1. Klik op de knop **[!UICONTROL Save]** om de sleutel te maken. In het Configuratiescherm worden de openbare sleutel en de bijbehorende vingerafdruk opgeslagen, gecodeerd met de SHA256-indeling.
 
-U kunt vingerafdrukken gebruiken om de persoonlijke sleutels die op uw computer zijn opgeslagen, af te stemmen op de overeenkomstige openbare sleutels die in Configuratiescherm zijn opgeslagen.
+>[!IMPORTANT]
+>
+>Als de sleutel u creeerde wordt gebruikt om een verbinding met een systeem te vestigen dat nooit eerder met de geselecteerde server van SFTP is verbonden, zult u openbare IP van dat systeem aan de lijst van gewenste personen moeten toevoegen alvorens u dit systeem met de server kunt gebruiken SFTP. Zie [deze sectie](ip-range-allow-listing.md).
+
+Met vingerafdrukken kunt u de persoonlijke sleutels die op uw computer zijn opgeslagen, afstemmen op de overeenkomstige openbare sleutels die in het Configuratiescherm zijn opgeslagen.
 
 ![](assets/fingerprint_compare.png)
 
 Met de knop **...** kunt u een bestaande sleutel verwijderen of de bijbehorende vingerafdruk naar het klembord kopiëren.
 
 ![](assets/key_options.png)
+
+## Openbare sleutels beheren {#managing-public-keys}
+
+De openbare sleutels die u creeert tonen op **[!UICONTROL Key Management]** tabel.
+
+U kunt de punten sorteren die op de aanmaakdatum of de versiedatum, op de gebruiker worden gebaseerd die creeerde of het, en op de IP waaiervervaldatum uitgeeft.
+
+U kunt ook in een openbare sleutel zoeken door een naam of opmerking te typen.
+
+![](assets/control_panel_key_management_sort.png)
+
+Om één of meerdere IP waaiers uit te geven, zie [deze sectie](#editing-public-keys).
+
+Als u een of meer openbare sleutels uit de lijst wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Delete public key]**.
+
+![](assets/control_panel_delete_key.png)
+
+### Vervaldatum {#expiry}
+
+De kolom **[!UICONTROL Expires]** toont hoeveel dagen blijven tot de openbare sleutel zal verlopen.
+
+Als u zich hebt geabonneerd op [e-mailwaarschuwingen](../../performance-monitoring/using/email-alerting.md), ontvangt u berichten per e-mail 10 dagen en 5 dagen voordat een openbare sleutel vervalt, en op de dag dat deze vervalt. Bij ontvangst van de waarschuwing kunt u [de openbare sleutel](#editing-public-keys) bewerken om zo nodig de geldigheidsperiode te verlengen.
+
+Een verlopen openbare sleutel wordt automatisch verwijderd na 7 dagen. Deze wordt als **[!UICONTROL Expired]** weergegeven in de kolom **[!UICONTROL Expires]**. Binnen deze periode van 7 dagen:
+
+* Een verlopen openbare sleutel kan niet meer worden gebruikt om verbinding te maken met de SFTP-server.
+
+* U kunt [een verlopen openbare sleutel bewerken en de duur ervan bijwerken om deze weer beschikbaar te maken.](#editing-public-keys)
+
+* U kunt deze verwijderen uit de lijst.
+
+## Openbare sleutels bewerken {#editing-public-keys}
+
+>[!CONTEXTUALHELP]
+>id="cp_sftp_publickey_update"
+>title="Openbare sleutels bewerken"
+>abstract="Werk de geselecteerde openbare sleutels bij om tot uw server van SFTP toegang te hebben."
+
+Volg onderstaande stappen om openbare sleutels te bewerken.
+
+>[!NOTE]
+>
+>U kunt alleen openbare sleutels bewerken die zijn gemaakt sinds de release van het Configuratiescherm in oktober 2021.
+
+1. Selecteer een of meer items in de lijst **[!UICONTROL Key Management]**.
+1. Klik op de knop **[!UICONTROL Update public key]**.
+
+   ![](assets/control_panel_edit_key.png)
+
+1. U kunt de vervaldatum van de openbare sleutel alleen bewerken en/of een nieuwe opmerking toevoegen.
+
+   >[!NOTE]
+   >
+   >Als u de gebruikersnaam, de instantie en de openbare sleutel wilt wijzigen in de OpenSSH-indeling, verwijdert u de openbare sleutel en maakt u een nieuwe sleutel die aan uw behoeften voldoet.
+
+1. Sla uw wijzigingen op.
