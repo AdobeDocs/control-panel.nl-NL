@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 88%
+source-wordcount: '770'
+ht-degree: 85%
 
 ---
 
@@ -53,13 +53,15 @@ Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt
 >title="Configuratie van IP-bereik"
 >abstract="Definieer het IP-bereik dat u aan de lijst van gewenste IP-adressen wilt toevoegen om verbinding te maken met uw instantie."
 
+>[!NOTE]
+>
+>Als de **[!UICONTROL Instance Settings]** De kaart is niet zichtbaar op de homepage van het Configuratiescherm. Dit betekent dat uw IMS-organisatie-id niet is gekoppeld aan Adobe Campaign Classic v7- of Campagne v8-instanties.
+
 Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te voegen:
 
 1. Open de **[!UICONTROL Instances Settings card]** voor toegang tot het tabblad voor toevoeging van IP-adressen aan de lijst van gewenste IP-adressen en klik vervolgens op **[!UICONTROL Add new IP Range]**.
 
-   >[!NOTE]
-   >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke instanties van Adobe Campaign Classic wordt geassocieerd
+
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -90,9 +92,11 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te
 
 1. Klik op de knop **[!UICONTROL Save]**. Het IP-bereik wordt toegevoegd aan de lijst van gewenste IP-adressen.
 
-   ![](assets/ip_whitelist_added.png)
+   <!--![](assets/ip_whitelist_added.png)-->
 
-Als u IP-bereiken uit de lijst van gewenste IP-adressen wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Delete IP range]**.
+Om één of meerdere IP waaiers van de lijst van gewenste personen te schrappen, selecteer hen, dan klik **[!UICONTROL Delete IP range]** knop.
+
+![](assets/ip_whitelist_delete.png)
 
 **Verwant onderwerp:**
 

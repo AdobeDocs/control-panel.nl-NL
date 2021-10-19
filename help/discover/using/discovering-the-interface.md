@@ -6,22 +6,21 @@ description: Meer informatie over de interface van het Configuratiescherm
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
+source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 47%
+source-wordcount: '124'
+ht-degree: 52%
 
 ---
-
 
 # De interface van het Configuratiescherm verkennen {#discovering-interface}
 
 De startpagina van het Configuratiescherm geeft u toegang tot alle acties die op uw Campaign-instanties kunnen worden uitgevoerd.
 
-Zij worden vertegenwoordigd door kaarten die in onderwerpen, bijvoorbeeld **Opslag &amp; het Beheer van het Gegevensbestand** worden georganiseerd.
+Zij worden vertegenwoordigd door kaarten die in onderwerpen worden georganiseerd, bijvoorbeeld **Prestatiebewaking**.
 
-Met de aanstaande versies van de Campagne, zullen meer onderwerpen en kaarten ter beschikking worden gesteld.
+<!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
 ![](assets/control_panel_interface.png)
 
@@ -39,6 +38,6 @@ Met de knop **[!UICONTROL Open]** hebt u rechtstreeks toegang tot het tabblad Co
 
 ## Help-bronnen {#help-resources}
 
-De sectie **[!UICONTROL Help Resources]** biedt nuttige documentatie om u te helpen bij het gebruik van de producten van het Configuratiescherm en de Campagne. Aarzel niet om ze te verkennen.
+De **[!UICONTROL Help Resources]** Deze sectie bevat nuttige documentatie die u helpt bij het gebruik van de producten van het Configuratiescherm en de Campagne. Aarzel niet om ze te verkennen.
 
 ![](assets/helpresources.png)
