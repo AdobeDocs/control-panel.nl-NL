@@ -30,7 +30,7 @@ SFTP-servers zijn beveiligd. Om tot hen toegang te hebben tot meningsdossiers of
 
 CIDR (Classless Inter-Domain Routing) is de ondersteunde indeling bij het toevoegen van IP-bereiken met de interface van het Configuratiescherm.
 
-De syntaxis bestaat uit een IP-adres, gevolgd door een slash (/) en een decimaal getal. Het formaat en zijn syntaxis zijn volledig gedetailleerd in [dit artikel](https://whatismyipaddress.com/cidr){target= &quot;_blank&quot;}.
+De syntaxis bestaat uit een IP-adres, gevolgd door een slash (/) en een decimaal getal. Het formaat en de syntaxis zijn volledig gedetailleerd in [dit artikel](https://whatismyipaddress.com/cidr){target=&quot;_blank&quot;}.
 
 U kunt op Internet naar vrije online hulpmiddelen zoeken die u zullen helpen de IP waaier omzetten die u in formaat CIDR hebt.
 
@@ -41,7 +41,7 @@ Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt
 * **Voeg IP-bereiken aan de lijst van gewenste IP-adressen toe**, niet afzonderlijke IP-adressen. Als u één IP-adres aan de lijst van gewenste IP-adressen wilt toevoegen, voegt u er ‘/32’ aan toe om aan te geven dat het bereik slechts één IP-adres bevat.
 * **Voeg geen zeer grote bereiken, bijvoorbeeld met meer dan 265 IP-adressen, aan de lijst van gewenste IP-adressen toe**. Alle bereiken in CIDR-indeling, die tussen /0 en /23 liggen, worden door het Configuratiescherm verworpen.
 * Alleen **openbare IP-adressen** kunnen aan de lijst van gewenste IP-adressen worden toegevoegd.
-* Zorg ervoor om **regelmatig IP adressen** te schrappen die u niet meer van de lijst van gewenste personen nodig hebt.
+* Zorg ervoor dat **IP-adressen regelmatig verwijderen** dat u niet meer van de lijst van gewenste personen nodig hebt.
 
 ## IP-adressen toevoegen aan de lijst van gewenste IP-adressen {#adding-ip-addresses-allow-list}
 
@@ -57,7 +57,7 @@ Ga als volgt te werk om een IP-bereik aan de lijst van gewenste IP-adressen toe 
 
    ![](assets/control_panel_add_range.png)
 
-1. Bepaal de IP waaier die u aan de lijst van gewenste personen wilt toevoegen. Dit gebied keurt slechts IP waaiers in formaat CIDR, zoals *192.150.5.0/24* goed.
+1. Bepaal de IP waaier die u aan de lijst van gewenste personen wilt toevoegen. Dit gebied keurt slechts IP waaiers in formaat CIDR, zoals goed *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 
@@ -75,20 +75,20 @@ Ga als volgt te werk om een IP-bereik aan de lijst van gewenste IP-adressen toe 
 
    >[!NOTE]
    >
-   >De volgende speciale tekens zijn toegestaan in het veld **[!UICONTROL Label]**:
+   >De volgende speciale tekens zijn toegestaan in de **[!UICONTROL Label]** veld:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. Om uw IP lijst van gewenste personen beter te beheren, kunt u een duur voor de beschikbaarheid van elke IP waaier plaatsen. Hiervoor selecteert u een eenheid in de vervolgkeuzelijst **[!UICONTROL Type]** en definieert u een duur in het desbetreffende veld. Voor meer op IP waaiervervaldatum, zie [deze sectie](#expiry).
+1. Om uw IP lijst van gewenste personen beter te beheren, kunt u een duur voor de beschikbaarheid van elke IP waaier plaatsen. Selecteer hiertoe een eenheid in het dialoogvenster **[!UICONTROL Type]** vervolgkeuzelijst en definieert een duur in het desbetreffende veld. Voor meer op IP waaiervervaldatum, zie [deze sectie](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >Standaard is het veld **[!UICONTROL Type]** ingesteld op **[!UICONTROL Unlimited]**, wat betekent dat het IP-bereik nooit vervalt.
+   >Standaard worden de **[!UICONTROL Type]** veld is ingesteld op **[!UICONTROL Unlimited]**, wat betekent dat de IP waaier nooit verloopt.
 
-1. In het **[!UICONTROL Comment]** gebied, kunt u op een reden wijzen om deze IP waaier (waarom, voor wie, enz.) toe te staan.
+1. In de **[!UICONTROL Comment]** veld, kunt u een reden aangeven voor het toestaan van dit IP-bereik (waarom, voor wie, enz.).
 
-1. Klik op de knop **[!UICONTROL Save]**. De IP waaiertoevoeging aan de lijst van gewenste personen zal als **[!UICONTROL Pending]** worden getoond tot het verzoek volledig wordt verwerkt, die slechts een paar seconden zou moeten vergen.
+1. Klik op de knop **[!UICONTROL Save]**. De IP waaiertoevoeging aan de lijst van gewenste personen zal worden getoond zoals **[!UICONTROL Pending]** tot het verzoek volledig wordt verwerkt, wat slechts een paar seconden zou moeten duren.
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,7 +98,7 @@ Ga als volgt te werk om een IP-bereik aan de lijst van gewenste IP-adressen toe 
 
 ## IP-bereiken beheren {#managing-ip-ranges}
 
-De IP waaiers die u vertoning op **[!UICONTROL IP Allow Listing]** tabel creeert.
+De IP waaiers die u vertoning in creeert **[!UICONTROL IP Allow Listing]** tab.
 
 U kunt de punten sorteren die op de aanmaakdatum of de versiedatum, op de gebruiker worden gebaseerd die creeerde of het, en op de IP waaiervervaldatum uitgeeft.
 
@@ -108,23 +108,23 @@ U kunt ook een IP-bereik doorzoeken door een label, bereik, naam of opmerking te
 
 Om één of meerdere IP waaiers uit te geven, zie [deze sectie](#editing-ip-ranges).
 
-Om één of meerdere IP waaiers van de lijst van gewenste personen te schrappen, selecteer hen, dan klik **[!UICONTROL Delete IP range]** knoop.
+Om één of meerdere IP waaiers van de lijst van gewenste personen te schrappen, selecteer hen, dan klik **[!UICONTROL Delete IP range]** knop.
 
 ![](assets/control_panel_delete_range.png)
 
 ### Vervaldatum {#expiry}
 
-De **[!UICONTROL Expires]** kolom toont hoeveel dagen blijven tot de IP waaier zal verlopen.
+De **[!UICONTROL Expires]** de kolom toont hoeveel dagen blijven tot de IP waaier zal verlopen.
 
-Als u zich hebt geabonneerd op [e-mailwaarschuwingen](../../performance-monitoring/using/email-alerting.md), ontvangt u berichten per e-mail 10 dagen en 5 dagen voordat een IP-bereik verloopt. Op de dag dat dit bereik vervalt, ontvangt u berichten. Na ontvangst van de waarschuwing, kunt u [de IP waaier ](#editing-ip-ranges) uitgeven om zijn geldigheidsperiode indien nodig te verlengen.
+Als u zich hebt geabonneerd op [e-mailwaarschuwing](../../performance-monitoring/using/email-alerting.md), ontvangt u berichten per e-mail 10 dagen en 5 dagen voordat een IP-reeks verloopt. Op de dag dat deze zal verlopen. Na ontvangst van de waarschuwing kunt u [geef de IP waaier uit](#editing-ip-ranges) zo nodig de geldigheidsduur ervan te verlengen.
 
-Een verlopen IP waaier zal automatisch worden geschrapt na 7 dagen. Deze wordt als **[!UICONTROL Expired]** weergegeven in de kolom **[!UICONTROL Expires]**. Binnen deze periode van 7 dagen:
+Een verlopen IP waaier zal automatisch worden geschrapt na 7 dagen. Het wordt weergegeven als **[!UICONTROL Expired]** in de **[!UICONTROL Expires]** kolom. Binnen deze periode van 7 dagen:
 
 * Een verlopen IP waaier kan niet meer worden gebruikt om tot de servers van SFTP toegang te hebben.
 
 * U kunt geen andere IP waaier tot stand brengen die een verlopen waaier overlapt. U moet eerst de verlopen IP waaier schrappen alvorens nieuwe te creëren.
 
-* U kunt [een verlopen IP waaier uitgeven en zijn duur bijwerken om het opnieuw ter beschikking te stellen.](#editing-ip-ranges)
+* U kunt [bewerken](#editing-ip-ranges) een verlopen IP waaier en werk zijn duur bij om het opnieuw ter beschikking te stellen.
 
 * U kunt het uit de lijst van gewenste personen schrappen.
 
@@ -161,7 +161,7 @@ Volg onderstaande stappen om IP-bereiken te bewerken.
 
 ## Wijzigingen bijhouden {#monitoring-changes}
 
-**[!UICONTROL Job Logs]** in de homepage van het Controlebord laat u alle veranderingen volgen en controleren die aan IP adressen op de lijst van gewenste personen zijn aangebracht.
+De **[!UICONTROL Job Logs]** in de homepage van het Controlebord kunt u alle veranderingen volgen en controleren die aan IP adressen op de lijst van gewenste personen zijn aangebracht.
 
 Raadpleeg [deze sectie](../../discover/using/discovering-the-interface.md) voor meer informatie over de interface van het Configuratiescherm.
 

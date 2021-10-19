@@ -69,17 +69,17 @@ In zeer zeldzame gevallen, wordt op wachtwoord-gebaseerde authentificatie toegel
    >
    >Een of meer openbare SSH-sleutels kunnen voor elke gebruiker worden toegevoegd.
 
-1. Om uw openbare sleutels beter te beheren, kunt u een duur voor de beschikbaarheid van elke sleutel plaatsen. Hiervoor selecteert u een eenheid in de vervolgkeuzelijst **[!UICONTROL Type]** en definieert u een duur in het desbetreffende veld. Zie [deze sectie](#expiry) voor meer informatie over het vervallen van openbare sleutels.
+1. Om uw openbare sleutels beter te beheren, kunt u een duur voor de beschikbaarheid van elke sleutel plaatsen. Selecteer hiertoe een eenheid in het dialoogvenster **[!UICONTROL Type]** vervolgkeuzelijst en definieert een duur in het desbetreffende veld. Voor meer informatie over het vervallen van openbare sleutels raadpleegt u [deze sectie](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >Standaard is het veld **[!UICONTROL Type]** ingesteld op **[!UICONTROL Unlimited]**, wat betekent dat de openbare sleutel nooit vervalt.
+   >Standaard worden de **[!UICONTROL Type]** veld is ingesteld op **[!UICONTROL Unlimited]**, hetgeen betekent dat de openbare sleutel nooit vervalt.
 
-1. In het veld **[!UICONTROL Comment]** kunt u een reden opgeven om deze openbare sleutel toe te voegen (waarom, voor wie, enz.).
+1. In de **[!UICONTROL Comment]** in het veld kunt u een reden opgeven om deze openbare sleutel toe te voegen (waarom, voor wie, enz.).
 
-1. Als u het veld **[!UICONTROL Public Key]** wilt invullen, moet u een openbare SSH-sleutel genereren. Voer de onderstaande stappen uit volgens uw besturingssysteem.
+1. Als u de **[!UICONTROL Public Key]** veld, moet u een openbare SSH-sleutel genereren. Voer de onderstaande stappen uit volgens uw besturingssysteem.
 
    **Linux en Mac:**
 
@@ -99,7 +99,7 @@ In zeer zeldzame gevallen, wordt op wachtwoord-gebaseerde authentificatie toegel
 
    >[!NOTE]
    >
-   >Het veld **[!UICONTROL Public Key]** accepteert alleen de OpenSSH-indeling. De openbare SSH-sleutel moet **2048 bits** zijn.
+   >De **[!UICONTROL Public Key]** -veld accepteert alleen de OpenSSH-indeling. De openbare SSH-sleutel moet **2048 bits** zijn.
 
 1. Klik op de knop **[!UICONTROL Save]** om de sleutel te maken. In het Configuratiescherm worden de openbare sleutel en de bijbehorende vingerafdruk opgeslagen, gecodeerd met de SHA256-indeling.
 
@@ -117,7 +117,7 @@ Met de knop **...** kunt u een bestaande sleutel verwijderen of de bijbehorende 
 
 ## Openbare sleutels beheren {#managing-public-keys}
 
-De openbare sleutels die u creeert tonen op **[!UICONTROL Key Management]** tabel.
+De openbare sleutels die u creeert tonen in **[!UICONTROL Key Management]** tab.
 
 U kunt de punten sorteren die op de aanmaakdatum of de versiedatum, op de gebruiker worden gebaseerd die creeerde of het, en op de IP waaiervervaldatum uitgeeft.
 
@@ -127,21 +127,21 @@ U kunt ook in een openbare sleutel zoeken door een naam of opmerking te typen.
 
 Om één of meerdere IP waaiers uit te geven, zie [deze sectie](#editing-public-keys).
 
-Als u een of meer openbare sleutels uit de lijst wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Delete public key]**.
+Als u een of meer openbare sleutels uit de lijst wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Delete public key]** knop.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Vervaldatum {#expiry}
 
-De kolom **[!UICONTROL Expires]** toont hoeveel dagen blijven tot de openbare sleutel zal verlopen.
+De **[!UICONTROL Expires]** de kolom toont hoeveel dagen blijven tot de openbare sleutel zal verlopen.
 
-Als u zich hebt geabonneerd op [e-mailwaarschuwingen](../../performance-monitoring/using/email-alerting.md), ontvangt u berichten per e-mail 10 dagen en 5 dagen voordat een openbare sleutel vervalt, en op de dag dat deze vervalt. Bij ontvangst van de waarschuwing kunt u [de openbare sleutel](#editing-public-keys) bewerken om zo nodig de geldigheidsperiode te verlengen.
+Als u zich hebt geabonneerd op [e-mailwaarschuwing](../../performance-monitoring/using/email-alerting.md)ontvangt u berichten per e-mail 10 dagen en 5 dagen voordat een openbare sleutel verloopt. Deze berichten verlopen op de dag dat de sleutel verstrijkt. Na ontvangst van de waarschuwing kunt u [de openbare sleutel bewerken](#editing-public-keys) zo nodig de geldigheidsduur ervan te verlengen.
 
-Een verlopen openbare sleutel wordt automatisch verwijderd na 7 dagen. Deze wordt als **[!UICONTROL Expired]** weergegeven in de kolom **[!UICONTROL Expires]**. Binnen deze periode van 7 dagen:
+Een verlopen openbare sleutel wordt automatisch verwijderd na 7 dagen. Het wordt weergegeven als **[!UICONTROL Expired]** in de **[!UICONTROL Expires]** kolom. Binnen deze periode van 7 dagen:
 
 * Een verlopen openbare sleutel kan niet meer worden gebruikt om verbinding te maken met de SFTP-server.
 
-* U kunt [een verlopen openbare sleutel bewerken en de duur ervan bijwerken om deze weer beschikbaar te maken.](#editing-public-keys)
+* U kunt [bewerken](#editing-public-keys) een verlopen openbare sleutel en de duur ervan bijwerken om deze opnieuw beschikbaar te maken.
 
 * U kunt deze verwijderen uit de lijst.
 
@@ -158,7 +158,7 @@ Volg onderstaande stappen om openbare sleutels te bewerken.
 >
 >U kunt alleen openbare sleutels bewerken die zijn gemaakt sinds de release van het Configuratiescherm in oktober 2021.
 
-1. Selecteer een of meer items in de lijst **[!UICONTROL Key Management]**.
+1. Selecteer een of meer items in het menu **[!UICONTROL Key Management]** lijst.
 1. Klik op de knop **[!UICONTROL Update public key]**.
 
    ![](assets/control_panel_edit_key.png)
