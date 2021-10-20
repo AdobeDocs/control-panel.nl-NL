@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 86%
+source-wordcount: '232'
+ht-degree: 54%
 
 ---
 
@@ -25,21 +25,23 @@ ht-degree: 86%
 
 ## Nieuwe functies
 
-**Subdomeinconfiguratie met gebruik van CNAME-records**
+**Volledige ondersteuning met campagne v8**
 
-Met het Configuratiescherm kunt u nu rechtstreeks vanuit de interface met gebruik van CNAME-records een subdomein configureren om met Adobe te werken. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
+Alle mogelijkheden, inclusief **Subdomein** en **Certificaat** beheer, worden nu ondersteund door het Configuratiescherm op Adobe Campaign v8. [Meer informatie](faq.md#v8-restrictions)
 
-**Verbeteringen voor databasebewaking**
+**Geldigheidsperiode IP-bereik en editie**
 
-Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrische gegevens, zodat u gedetailleerde informatie kunt krijgen over de bronnen die ruimte in uw database verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
+Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers te plaatsen en de IP waaiers uit te geven die u creeert. [Meer informatie](sftp/using/ip-range-allow-listing.md)
+
+**Geldigheidsperiode openbare sleutel en editie**
+
+Op dezelfde manier kunt u nu een duur voor de beschikbaarheid van openbare sleutels plaatsen en de openbare sleutels uitgeven die u creeert. [Meer informatie](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
 >* Het configuratiescherm is toegankelijk voor alle beheerders. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Voor Campaign Classic v7 gelden implementatiebeperkingen. [Meer informatie](faq.md#v7-restrictions)
->
->* Voor Campaign v8 zijn niet alle mogelijkheden beschikbaar. [Meer informatie](faq.md#v8-restrictions)
 
 
 ## Aanvullende bronnen {#additional-resources}
