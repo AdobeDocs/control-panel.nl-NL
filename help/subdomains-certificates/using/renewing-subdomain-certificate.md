@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 1f422833e1495525612e760714e50a9aaf744db5
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '828'
 ht-degree: 88%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >De subdomeinconfiguratie via het configuratiescherm is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
->
->Deze functie is niet beschikbaar voor Campaign v8.
 
 Het proces voor het verlengen van SSL-certificaten bestaat uit drie stappen:
 

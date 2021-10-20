@@ -7,24 +7,20 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 91%
 
 ---
 
 # SSL-certificaten van subdomeinen bewaken {#monitoring-ssl-certificates}
 
->[!AVAILABILITY]
->
->Deze functie is niet beschikbaar voor Campaign v8.
-
 ## Informatie over SSL-certificaten {#about-ssl-certificates}
 
 Adobe Campaign raadt u aan de subdomeinen te beveiligen die als host dienen voor uw landingspagina’s, met name de subdomeinen die vertrouwelijke informatie van uw klanten verzamelen.
 
-**SSL (Secure Socket Layer)-** codering zorgt ervoor dat de subdomeinen die u hebt geconfigureerd om met Adobe te werken, veilig zijn. Wanneer uw klant een webformulier invult of een landingspagina bezoekt die wordt gehost door Adobe Campaign, wordt de informatie standaard verzonden via een niet-beveiligd protocol (HTTP). Verzend informatie met een HTTPS-protocol voor extra beveiliging. Bijvoorbeeld: het subdomeinadres http://info.mijnwebsite.com/ is dan https://info.mijnwebsite.com/.
+**SSL-codering (Secure Socket Layer)** zorgt ervoor dat subdomeinen die u om met Adobe vormde te werken veilig zijn. Wanneer uw klant een webformulier invult of een landingspagina bezoekt die wordt gehost door Adobe Campaign, wordt de informatie standaard verzonden via een niet-beveiligd protocol (HTTP). Verzend informatie met een HTTPS-protocol voor extra beveiliging. Bijvoorbeeld: het subdomeinadres http://info.mijnwebsite.com/ is dan https://info.mijnwebsite.com/.
 
 **SSL-certificaten zijn niet geïnstalleerd op de geconfigureerde subdomeinen zelf**. Zij worden geïnstalleerd op bijbehorende subdomeinen, hoofdzakelijk de subdomeinen die landingspagina’s, resourcepagina’s, enz., hosten.
 

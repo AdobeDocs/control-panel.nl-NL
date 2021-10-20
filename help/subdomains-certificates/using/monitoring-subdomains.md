@@ -3,28 +3,24 @@ product: campaign
 solution: Campaign
 title: SSL-certificaten van subdomeinen bewaken
 description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt bewaken
-feature: 'Configuratiescherm '
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 17%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
 # Uw subdomeinen controleren {#monitoring-subdomains}
 
->[!AVAILABILITY]
->
->Deze functie is niet beschikbaar voor Campagne v8.
-
 Het is van essentieel belang om uw subdomeinen te controleren om ervoor te zorgen dat alle behoorlijk worden gevormd om met Adobe Campaign te werken.
 
-De lijst met subdomeinen voor elk van uw productieinstanties is rechtstreeks toegankelijk wanneer u de **[!UICONTROL Subdomains & Certificates]**-kaart selecteert.
+De lijst met subdomeinen voor elk van uw productie-instanties is rechtstreeks toegankelijk wanneer u de **[!UICONTROL Subdomains & Certificates]** kaart.
 
-De kolom **[!UICONTROL Last verification]** geeft aan wanneer een subdomein voor het laatst is geverifieerd. U kunt een verificatie op elk gewenst moment starten door te klikken op **..** / **[!UICONTROL Verify subdomain]** knop.
+De **[!UICONTROL Last verification]** de kolom geeft aan wanneer een subdomein voor het laatst is geverifieerd. U kunt een verificatie op elk gewenst moment starten door te klikken op de knop **...** / **[!UICONTROL Verify subdomain]** knop.
 
 ![](assets/subdomain_verification.png)
 

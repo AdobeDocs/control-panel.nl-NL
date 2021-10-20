@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '745'
 ht-degree: 78%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 78%
 >[!IMPORTANT]
 >
 >De subdomeinconfiguratie via het configuratiescherm is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
->
->Deze functie is niet beschikbaar voor Campaign v8.
 
 Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 
@@ -45,7 +43,7 @@ De configuratie van subdomain staat u toe om een onderafdeling van uw domein (te
 
 * **Volledige subdomeindelegatie aan Adobe Campaign** (aanbevolen): Het subdomein wordt volledig gedelegeerd aan Adobe. Adobe kan Campaign als een beheerde service leveren door alle DNS-aspecten die voor het leveren, weergeven en volgen van e-mailcampagnes nodig zijn, te controleren en handhaven.
 
-* **Gebruik van CNAME**&#39;s: Creeer subdomain en gebruik CNAMEs om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen Adobe en de klant de verantwoordelijkheid voor het onderhoud van DNS.
+* **Gebruik van CNAME&#39;s**: Creeer subdomain en gebruik CNAMEs om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen Adobe en de klant de verantwoordelijkheid voor het onderhoud van DNS.
 
 In de onderstaande tabel wordt een overzicht gegeven van de werking van deze methoden en van het betrokken inspanningsniveau:
 
@@ -67,7 +65,7 @@ Als u om het even welke vraag betreffende de methodes van de subdomeinconfigurat
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Branding van subdomeinen"
 
-Bij het instellen van subdomeinen voor Campaign Classic-instanties moet u het geval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Wanneer u subdomeinen instelt voor instanties Campaign Classic, moet u het geval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Mogelijke gevallen van gebruik zijn:
 
@@ -77,7 +75,7 @@ Mogelijke gevallen van gebruik zijn:
 
 **Met het oog op bezorgbaarheid kunt u uw subdomeinen het beste onderverdelen op basis van gebruiksscenario’s**. Hierdoor wordt de reputatie van elk subdomein geïsoleerd en beschermd. Als uw subdomein bijvoorbeeld voor marketingmededelingen door internetproviders wordt toegevoegd aan de lijst van afgewezen domeinen, wordt uw subdomein voor transactionele communicatie niet beïnvloed en kan dit subdomein nog steeds mededelingen verzenden.
 
-**U kunt subdomeinen voor zowel het Marketing als het Transactionele gebruiksgevallen** vormen:
+**U kunt subdomeinen voor zowel het Marketing als het Transactionele gebruiksgevallen vormen**:
 
 * Bij marketinggebruiksscenario’s worden subdomeinen geconfigureerd op **MID**-instanties (Mid-sourcing).
 * Voor transactionele gebruiksscenario’s worden subdomeinen geconfigureerd op ALLE **RT**-instanties (Message Center/Real-time messaging) om connectiviteit te verzekeren. De subdomeinen werken daarom met al uw RT-instanties.
