@@ -32,7 +32,7 @@ Profielen worden als actief beschouwd als ze de afgelopen twaalf maanden via een
 >
 >Er wordt geen rekening gehouden met de kanalen Facebook en Twitter.
 
-Raadpleeg voor meer informatie over actieve profielen de documenten [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Raadpleeg voor meer informatie over actieve profielen de categorie [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documenten.
 
 ## Actieve profielen bewaken {#monitoring-active-profiles}
 
