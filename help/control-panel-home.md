@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
+source-git-commit: 75d369f52be140732525411239ae18b7269e761f
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 86%
+source-wordcount: '243'
+ht-degree: 55%
 
 ---
 
@@ -25,13 +25,17 @@ ht-degree: 86%
 
 ## Nieuwe functies
 
-**Subdomeinconfiguratie met gebruik van CNAME-records**
+**Geldigheidsperiode IP-bereik en editie**
 
-Met het Configuratiescherm kunt u nu rechtstreeks vanuit de interface met gebruik van CNAME-records een subdomein configureren om met Adobe te werken. [Meer informatie](subdomains-certificates/using/setting-up-new-subdomain.md)
+Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers te plaatsen en de IP waaiers uit te geven die u creeert. [Meer informatie](sftp/using/ip-range-allow-listing.md)
 
-**Verbeteringen voor databasebewaking**
+**Geldigheidsperiode openbare sleutel en editie**
 
-Het tabblad **[!UICONTROL Database monitoring]** is uitgebreid met extra metrische gegevens, zodat u gedetailleerde informatie kunt krijgen over de bronnen die ruimte in uw database verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
+Op dezelfde manier kunt u nu een duur voor de beschikbaarheid van openbare sleutels plaatsen en de openbare sleutels uitgeven die u creeert. [Meer informatie](sftp/using/key-management.md)
+
+**Ondersteuning voor Campagne v8**
+
+Het Configuratiescherm is nu beschikbaar voor Adobe Campaign v8, behalve voor de **Subdomein** en **Certificaat** beheermogelijkheden, die nog niet worden ondersteund.
 
 >[!CAUTION]
 >
