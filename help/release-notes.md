@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: eb7cfbd68bdaaf3761e8901feecebea2d8b3b38a
+source-git-commit: 8b0f652559e0296a22b3eac92057e6f4487215e1
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,9 +38,9 @@ U kunt nu de [IP-bereiken](sftp/using/ip-range-allow-listing.md#editing-ip-range
 
 De functie voor e-mailwaarschuwingen bevat nu waarschuwingen over SFTP IP waarmee lijsten kunnen verlopen en de vervaldatum van de openbare sleutel voor SFTP. [Meer informatie](performance-monitoring/using/email-alerting.md)
 
-**Volledige ondersteuning met campagne v8**
+<!--**Full support with Campaign v8**
 
-De **Subdomein** en **Certificaat** beheermogelijkheden worden nu ondersteund door het Configuratiescherm in Adobe Campaign v8.
+The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.-->
 
 ## Augustus 2021 {#august-2021}
 
