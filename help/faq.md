@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: d6bf3db521085078499e88c9a2077f63914d9c4c
+source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 97%
+source-wordcount: '771'
+ht-degree: 91%
 
 ---
 
@@ -28,9 +28,9 @@ Met het Configuratiescherm kunt u de opslag bijhouden, IP-adressen toevoegen aan
 
 Raadpleeg voor meer informatie de documentatie over acties die door het Configuratiescherm worden ondersteund.
 
-### Mogelijkheden die niet worden ondersteund in Campaign v8, maar beschikbaar zijn in Campaign Classic v7{#v8-restrictions}
+### Zijn er sommige mogelijkheden nog niet ondersteund op Campagne v8 maar beschikbaar op Campaign Classic v7{#v8-restrictions}
 
-Functies met betrekking tot subdomeinen en certificaatbeheer worden nog niet ondersteund via het configuratiescherm in Campaign v8. Neem contact op met de klantenservice van Campaign voor gerelateerde ondersteuning.
+Nee. Alle mogelijkheden die beschikbaar zijn op Campaign Classic v7 worden nu ook ondersteund via het Configuratiescherm in Campagne v8, inclusief functies voor subdomein en certificaatbeheer.
 
 ### Is het configuratiescherm alleen voor Adobe Campaign?
 

@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 75d369f52be140732525411239ae18b7269e761f
+source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 55%
+source-wordcount: '232'
+ht-degree: 54%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 55%
 
 ## Nieuwe functies
 
+**Volledige ondersteuning met campagne v8**
+
+Alle mogelijkheden, inclusief **Subdomein** en **Certificaat** beheer, worden nu ondersteund door het Configuratiescherm op Adobe Campaign v8. [Meer informatie](faq.md#v8-restrictions)
+
 **Geldigheidsperiode IP-bereik en editie**
 
 Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers te plaatsen en de IP waaiers uit te geven die u creeert. [Meer informatie](sftp/using/ip-range-allow-listing.md)
@@ -33,17 +37,11 @@ Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers te plaatse
 
 Op dezelfde manier kunt u nu een duur voor de beschikbaarheid van openbare sleutels plaatsen en de openbare sleutels uitgeven die u creeert. [Meer informatie](sftp/using/key-management.md)
 
-**Ondersteuning voor Campagne v8**
-
-Het Configuratiescherm is nu beschikbaar voor Adobe Campaign v8, behalve voor de **Subdomein** en **Certificaat** beheermogelijkheden, die nog niet worden ondersteund.
-
 >[!CAUTION]
 >
 >* Het configuratiescherm is toegankelijk voor alle beheerders. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Voor Campaign Classic v7 gelden implementatiebeperkingen. [Meer informatie](faq.md#v7-restrictions)
->
->* Voor Campaign v8 zijn niet alle mogelijkheden beschikbaar. [Meer informatie](faq.md#v8-restrictions)
 
 
 ## Aanvullende bronnen {#additional-resources}
