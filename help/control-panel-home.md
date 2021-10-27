@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 54%
 >id="cp_overview"
 >title="Informatie over Configuratiescherm"
 >abstract="De startpagina van het Configuratiescherm geeft u toegang tot alle acties die op uw Campaign-instanties kunnen worden uitgevoerd."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="De interface verkennen"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html" text="Configuratiescherm openen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=nl" text="De interface verkennen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=nl" text="Configuratiescherm openen"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -39,7 +39,7 @@ Op dezelfde manier kunt u nu een duur voor de beschikbaarheid van openbare sleut
 
 >[!CAUTION]
 >
->* Het configuratiescherm is toegankelijk voor alle beheerders. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
+>* Het configuratiescherm is toegankelijk voor alle beheerders. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel)
 >
 >* Voor Campaign Classic v7 gelden implementatiebeperkingen. [Meer informatie](faq.md#v7-restrictions)
 
@@ -63,7 +63,7 @@ Op dezelfde manier kunt u nu een duur voor de beschikbaarheid van openbare sleut
         <td><b>Campaign v8</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=nl">Tutorialvideo's van het configuratiescherm</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html">Productdocumentatie Campaign v8</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl">Productdocumentatie Campaign v8</a></li>
         </ul>
         </td>
     </tr>

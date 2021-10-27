@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Als u geen beheerder bent maar wel toegang wilt, vraagt u uw productbeheerder om
 
 ### Wat zijn de toegangsvoorwaarden tot het configuratiescherm voor een gebruiker van Campaign Classic v7? {#v7-restrictions}
 
-Het configuratiescherm is toegankelijk voor alle beheerders. [Meer info](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
+Het configuratiescherm is toegankelijk voor alle beheerders. [Meer info](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
 Houd er bij Campaign Classic v7 rekening mee dat uw versie moet worden gehost op Amazon Web Services (AWS) en moet worden geüpgraded naar de nieuwste versie van [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses). Lees [in dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version) hoe u controleert welke Campaign Classic-versie u hebt. Volg de stappen in [deze sectie](#hosted-aws) om te controleren of uw Campaign Classic-versie wordt gehost op AWS.
 
@@ -62,7 +62,7 @@ Nee, er zijn geen extra kosten als u een huidige Adobe Campaign-klant bent.
 
 Dit is een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
 
-Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html) voor meer informatie.
+Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl) voor meer informatie.
 
 ### Waar kan ik mijn IMS-organisatie-ID vinden?
 

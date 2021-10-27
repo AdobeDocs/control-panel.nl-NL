@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '1334'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 >id="cp_subdomain_management"
 >title="Nieuwe subdomeinen instellen en certificaten beheren"
 >abstract="U moet een nieuw subdomein instellen en de SSL-certificaten van uw subdomeinen beheren voordat u e-mails kunt verzenden of landingspagina’s kunt publiceren met Adobe Campaign."
->additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten bewaken"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten bewaken"
 
 ## Lees hier meer {#must-read}
 
@@ -54,25 +54,25 @@ Bovendien mag u **geen afzonderlijk zonebestand maken** voor dit nieuwe subdomei
 >id="cp_add_new_subdomain"
 >title="Nieuw subdomein toevoegen"
 >abstract="Adobe beveelt volledige subdomeindelegatie aan. U kunt echter CNAME&#39;s of aangepaste methoden gebruiken om subdomeinen in te stellen."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 >additional-url="https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html" text="Contact opnemen met de klantenservice"
 
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
->title="Het subdomein maken en delegeren"
->abstract="Maak het subdomein dat u met Adobe Campaign wilt gebruiken in uw hostingoplossing en delegeer het aan Adobe."
+>title="Subdomein maken en delegeren"
+>abstract="Maak het subdomein dat u met Adobe Campaign wilt gebruiken, in uw hostingoplossing en delegeer het aan Adobe."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Subdomein verzenden"
->abstract="Bevestig en verzend subdomain dat in de vorige stappen is gevormd."
+>abstract="Bevestig en verzend het subdomein dat in de vorige stappen is gevormd."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Campaign.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=nl#subdomains-and-certificates?lang=nl) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=nl#subdomains-and-certificates?lang=nl)
 
 1. Selecteer in de kaart **[!UICONTROL Subdomains & Certificates]** de gewenste productieversie en klik op **[!UICONTROL Setup new subdomain]**.
 
@@ -108,8 +108,8 @@ Nadat het subdomein is verzonden, worden verschillende controles en configuratie
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_create_delegate"
->title="Uw subdomein configureren"
->abstract="In dit scherm, specificeer subdomain u het gebruiken van CNAMEs wilt vormen."
+>title="Subdomein configureren"
+>abstract="Geef in dit scherm het subdomein op dat u wilt configureren met behulp van CNAME&#39;s."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 >[!CONTEXTUALHELP]
@@ -121,12 +121,12 @@ Nadat het subdomein is verzonden, worden verschillende controles en configuratie
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Subdomein verzenden"
->abstract="Bevestig en verzend subdomain dat in de vorige stappen is gevormd."
+>abstract="Bevestig en verzend het subdomein dat in de vorige stappen is gevormd."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 Volg de onderstaande stappen om een subdomein te configureren met gebruik van CNAMEs.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
+![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=nl) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html?lang=nl)
 
 1. Selecteer in de kaart **[!UICONTROL Subdomains & Certificates]** de gewenste productieversie en klik op **[!UICONTROL Setup new subdomain]**.
 
