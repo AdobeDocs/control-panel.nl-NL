@@ -6,20 +6,19 @@ description: Leer hoe u de prestaties van uw instanties kunt controleren in het 
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 15%
+source-wordcount: '112'
+ht-degree: 19%
 
 ---
 
-
-# Over prestatiebewaking {#about-performance-monitoring}
+# Prestatiebewaking {#about-performance-monitoring}
 
 Het Configuratiescherm biedt verschillende functies waarmee u uw instanties kunt controleren en optimale prestaties kunt garanderen.
 
-Met de **[!UICONTROL Performance monitoring]**-kaart op de startpagina van het Configuratiescherm kunt u het gebruik van uw Campagneinstanties, zoals bijvoorbeeld hun databasecapaciteit, controleren. Raadpleeg [deze sectie](../../performance-monitoring/using/database-monitoring.md) voor meer informatie.
+De **[!UICONTROL Performance monitoring]** Met de kaart in de startpagina van het Configuratiescherm kunt u het gebruik van uw Campagneinstanties, zoals bijvoorbeeld hun databasecapaciteit, controleren. Raadpleeg [deze sectie](../../performance-monitoring/using/database-monitoring.md) voor meer informatie.
 
 ![](assets/performance_card.png)
 
@@ -28,4 +27,3 @@ Met de **[!UICONTROL Performance monitoring]**-kaart op de startpagina van het C
 >Met de aanstaande versies van het Controlebord, zullen de extra controlefuncties beschikbaar worden gemaakt in deze kaart.
 
 Bovendien kunt u zich via het Configuratiescherm aanmelden voor het ontvangen van e-mailmeldingen telkens wanneer een probleem wordt gedetecteerd in een van uw campagneexemplaren. Raadpleeg [deze sectie](../../performance-monitoring/using/email-alerting.md) voor meer informatie.
-

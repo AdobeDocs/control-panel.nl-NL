@@ -10,7 +10,7 @@ exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 >id="cp_siteverification_add"
 >title="TXT-records beheren"
 >abstract="Bij sommige services, zoals Google, moet u een TXT-record aan uw domeininstellingen toevoegen om te verifiëren dat u eigenaar bent van het domein."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 
 ## Informatie over TXT-records {#about-txt-records}
 

@@ -10,7 +10,7 @@ exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 8%
 >id="cp_instancesettings_gpg_management"
 >title="GPG-toetsen"
 >abstract="Op dit tabblad kunt u GPG-sleutels installeren en/of genereren voor een marketinginstantie om gegevens te coderen die vanuit Campagne worden verzonden en binnenkomende gegevens te decoderen."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="Prestatiebewaking"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl" text="Prestatiebewaking"
 
 ## GPG-codering {#about-gpg-encryption}
 
-Met GPG-codering kunt u uw gegevens beveiligen met een systeem van paren met openbare en persoonlijke sleutels die voldoen aan de [OpenPGP](https://www.openpgp.org/about/standard/)-specificatie.
+Met GPG-codering kunt u uw gegevens beveiligen met behulp van een systeem van paren met openbare en persoonlijke sleutels die de [OpenPGP](https://www.openpgp.org/about/standard/) specificatie.
 
 Zodra uitgevoerd, kunt u inkomende gegevens hebben ontsleuteld en uitgaande gegevens worden gecodeerd alvorens de overdracht voorkomt, om ervoor te zorgen dat zij niet door iedereen zonder een geldig passend zeer belangrijk paar zullen worden betreden.
 
@@ -32,9 +32,9 @@ Als u GPG-codering wilt implementeren met Campaign, moeten de GPG-sleutels recht
 
 Dan kunt u:
 
-* **Verzonden gegevens** versleutelen: Adobe Campaign verzendt gegevens nadat het met de geïnstalleerde openbare sleutel is gecodeerd.
+* **Verzonden gegevens versleutelen**: Adobe Campaign verzendt gegevens nadat het met de geïnstalleerde openbare sleutel is gecodeerd.
 
-* **Binnenkomende gegevens** decoderen: Adobe Campaign ontvangt gegevens die van een extern systeem zijn versleuteld met een openbare sleutel die u hebt gedownload van het Configuratiescherm. Adobe Campaign decodeert de gegevens met een persoonlijke sleutel die via het Configuratiescherm wordt gegenereerd.
+* **Binnenkomende gegevens decoderen**: Adobe Campaign ontvangt gegevens die van een extern systeem zijn versleuteld met een openbare sleutel die u hebt gedownload van het Configuratiescherm. Adobe Campaign decodeert de gegevens met een persoonlijke sleutel die via het Configuratiescherm wordt gegenereerd.
 
 ## Gegevens versleutelen {#encrypting-data}
 
@@ -58,7 +58,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
    * **sleuteltype**: RSA
    * **sleutellengte**: 1024 - 4096 bits
-   * **echte** naam en  **e-mailadres**: Staat toe om te volgen wie tot het belangrijkste paar leidde. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
+   * **echte naam** en **e-mailadres**: Staat toe om te volgen wie tot het belangrijkste paar leidde. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
    * **opmerking**: Als u een label toevoegt aan het opmerkingenveld, kunt u gemakkelijk de sleutel identificeren waarmee uw gegevens worden versleuteld.
    * **vervaldatum**: Datum of &quot;0&quot; voor geen vervaldatum.
    * **passphrase**
@@ -69,7 +69,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
    `gpg -a --export <fingerprint>`
 
-1. Als u de openbare sleutel in het Configuratiescherm wilt installeren, opent u de **[!UICONTROL Instance settings]**-kaart en selecteert u vervolgens het tabblad **[!UICONTROL GPG keys]** en de gewenste variant.
+1. Als u de openbare sleutel in het Configuratiescherm wilt installeren, opent u het dialoogvenster **[!UICONTROL Instance settings]** en selecteert u vervolgens de **[!UICONTROL GPG keys]** en de gewenste instantie.
 
 1. Klik op de knop **[!UICONTROL Install Key]**.
 
@@ -85,7 +85,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
 1. Klik op de knop **[!UICONTROL Install Key]**.
 
-Zodra de openbare sleutel wordt geïnstalleerd, toont het in de lijst. U kunt **gebruiken..** om het te downloaden of zijn vingerafdruk te kopiëren.
+Zodra de openbare sleutel wordt geïnstalleerd, toont het in de lijst. U kunt de **...** om het te downloaden of zijn vingerafdruk te kopiëren.
 
 ![](assets/gpg_install_download.png)
 
@@ -111,26 +111,26 @@ Met het Configuratiescherm kunt u externe gegevens die in Adobe Campaign-instant
 
 Hiervoor moet u een GPG-sleutelpaar rechtstreeks vanuit het Configuratiescherm genereren.
 
-* De **openbare sleutel** zal met het externe systeem worden gedeeld, dat het zal gebruiken om de gegevens te coderen om naar Campagne te verzenden.
-* De **persoonlijke sleutel** zal door Campagne worden gebruikt om de inkomende gecodeerde gegevens te decrypteren.
+* De **openbare sleutel** wordt gedeeld met het externe systeem, dat het zal gebruiken om de gegevens te coderen die naar Campagne moeten verzenden.
+* De **persoonlijke sleutel** wordt gebruikt door Campagne om de inkomende gecodeerde gegevens te decoderen.
 
 ![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
 
 Voer de volgende stappen uit om een sleutelpaar te genereren in het Configuratiescherm:
 
-1. Open de **[!UICONTROL Instance settings]**-kaart en selecteer vervolgens de tab **[!UICONTROL GPG keys]** en de gewenste Adobe Campaign-instantie.
+1. Open de **[!UICONTROL Instance settings]** en selecteert u vervolgens de **[!UICONTROL GPG keys]** en de gewenste Adobe Campaign-instantie.
 
 1. Klik op de knop **[!UICONTROL Generate Key]**.
 
    ![](assets/gpg_generate.png)
 
-1. Geef de naam van de sleutel op en klik op **[!UICONTROL Generate Key]**. Deze naam helpt u bij het identificeren van de sleutel die moet worden gebruikt voor decodering in Campagneworkflows
+1. Geef de naam van de toets op en klik vervolgens op **[!UICONTROL Generate Key]**. Deze naam helpt u bij het identificeren van de sleutel die moet worden gebruikt voor decodering in Campagneworkflows
 
    ![](assets/gpg_generate_name.png)
 
 Zodra het zeer belangrijke paar wordt geproduceerd, toont de openbare sleutel in de lijst. De sleutelparen van de decryptie worden geproduceerd zonder vervaldatum.
 
-U kunt **gebruiken..** om de openbare sleutel te downloaden of zijn vingerafdruk te kopiëren.
+U kunt de **...** om de openbare sleutel te downloaden of zijn vingerafdruk te kopiëren.
 
 ![](assets/gpg_generate_list.png)
 
@@ -150,7 +150,7 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
 ## GPG-toetsen controleren
 
-Als u toegang wilt tot de GPG-sleutels die zijn geïnstalleerd en gegenereerd voor uw instanties, opent u de **[!UICONTROL Instance settings]**-kaart en selecteert u vervolgens het tabblad **[!UICONTROL GPG keys]**.
+Als u toegang wilt tot de GPG-sleutels die zijn geïnstalleerd en gegenereerd voor uw instanties, opent u de **[!UICONTROL Instance settings]** en selecteert u vervolgens de **[!UICONTROL GPG keys]** tab.
 
 ![](assets/gpg_list.png)
 
@@ -174,7 +174,7 @@ In de lijst worden alle GPG-sleutels voor versleuteling en ontsleuteling weergeg
    >
    >Er wordt geen e-mailmelding verzonden door het Configuratiescherm.
 
-We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Om dit te doen, klik **..** en selecteer vervolgens **[!UICONTROL Delete Key].**.
+We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Om dit te doen, klik **...** dan selecteert u **[!UICONTROL Delete Key].**.
 
 ![](assets/gpg_delete.png)
 
@@ -186,6 +186,6 @@ We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Om dit t
 
 In de onderstaande video ziet u hoe u GPG-sleutels voor gegevenscodering kunt genereren en installeren.
 
-Aanvullende instructievideo&#39;s met betrekking tot het beheer van GPG-sleutels zijn beschikbaar op de pagina&#39;s [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings).
+Aanvullende &#39;Hoe kan ik&#39;-video&#39;s over het beheer van GPG-sleutels zijn beschikbaar in  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) pagina&#39;s met zelfstudies.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

@@ -116,7 +116,7 @@ Om één of meerdere IP waaiers van de lijst van gewenste personen te schrappen,
 
 De **[!UICONTROL Expires]** de kolom toont hoeveel dagen blijven tot de IP waaier zal verlopen.
 
-Als u zich hebt geabonneerd op [e-mailwaarschuwing](../../performance-monitoring/using/email-alerting.md), ontvangt u berichten per e-mail 10 dagen en 5 dagen voordat een IP-reeks verloopt. Op de dag dat deze zal verlopen. Na ontvangst van de waarschuwing kunt u [geef de IP waaier uit](#editing-ip-ranges) zo nodig de geldigheidsduur ervan te verlengen.
+Als u zich hebt geabonneerd op [e-mailwaarschuwing](../../performance-monitoring/using/email-alerting.md), ontvangt u berichten per e-mail 10 dagen en 5 dagen voordat een IP-bereik verloopt. Op de dag dat dit bereik vervalt. Na ontvangst van de waarschuwing kunt u [geef de IP waaier uit](#editing-ip-ranges) zo nodig de geldigheidsduur ervan te verlengen.
 
 Een verlopen IP waaier zal automatisch worden geschrapt na 7 dagen. Het wordt weergegeven als **[!UICONTROL Expired]** in de **[!UICONTROL Expires]** kolom. Binnen deze periode van 7 dagen:
 

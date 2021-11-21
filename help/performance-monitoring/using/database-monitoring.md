@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -136,7 +136,7 @@ In het onderstaande gedeelte vindt u nuttige bronnen uit Campaign-documentatie o
 
 **Databaseonderhoud**
 
-* Technische workflow voor het opschonen van databases: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=nl)
+* Technische workflow voor het opschonen van databases: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)
 * [Handleiding voor databaseonderhoud](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=nl) (Campaign Classic)
 * [Problemen met databaseprestaties oplossen](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=nl) (Campaign Classic)
 * [Databasegerelateerde opties](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl#database) (Campaign Classic)

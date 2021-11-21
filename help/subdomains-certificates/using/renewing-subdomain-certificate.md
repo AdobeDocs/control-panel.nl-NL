@@ -51,7 +51,7 @@ Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdome
 >id="cp_select_subdomains"
 >title="Selecteer de subdomeinen voor uw CSR."
 >abstract="U kunt naar wens alle of alleen specifieke subdomeinen opnemen in uw Certificate Signing Request (CSR). Alleen geselecteerde subdomeinen worden gecertificeerd via het aangeschafte SSL-certificaat."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Informatie over branding van subdomeinen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl" text="Informatie over branding van subdomeinen"
 
 Voer de volgende stappen uit om een Certificate Signing Request (CSR) te genereren:
 

@@ -18,25 +18,25 @@ ht-degree: 12%
 
 Het regelpaneel is rechtstreeks beschikbaar via de Experience Cloud of via het product zelf.
 
-Het is alleen toegankelijk voor **Admin-gebruikers**. Raadpleeg [deze sectie](../../discover/using/managing-permissions.md) voor meer informatie over het toewijzen van gebruikers aan de groep Beheerders.
+Het is toegankelijk voor **Admin-gebruikers** alleen. Voor meer op hoe te om gebruikers aan de groep van Beheerders toe te wijzen, verwijs naar [deze sectie](../../discover/using/managing-permissions.md).
 
 ## Toegang vanaf het Platform Experience Cloud {#access-experience-cloud-platform}
 
 Voer de onderstaande stappen uit om het Configuratiescherm te openen vanuit het Adobe Experience Cloud-Platform.
 
-1. Navigeer aan [Experience Cloud homepage](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Ga naar de [Experience Cloud homepage](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. Klik de specifieke verbinding in **Snelle Toegang** sectie.
+1. Klik op de toegewezen koppeling in het dialoogvenster **Snelle toegang** sectie.
 
    ![](assets/do-not-localize/quickaccess.png)
 
-Het regelpaneel is ook toegankelijk via de Experience Cloud-Platform **oplossingskiezer**:
+Het regelpaneel is ook toegankelijk via het Experience Cloud-Platform **oplossingskiezer**:
 
-1. Van [Adobe Experience Cloud homepage](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, selecteer **Campagne** van **Snelle Toegang** sectie of het hoogste menu op het recht.
+1. Van de [Homepage van Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, selecteer **Campagne** van de **Snelle toegang** of het bovenste menu aan de rechterkant.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
-1. De lijst van uw instanties van de Campagne toont. Klik op de **Control Panel**-kaart om deze te starten.
+1. De lijst van uw instanties van de Campagne toont. Klik op de knop **Deelvenster Beheer** -kaart om deze te starten.
 
    ![](assets/do-not-localize/control_panel_access2.png)
 
@@ -44,14 +44,14 @@ Het regelpaneel is ook toegankelijk via de Experience Cloud-Platform **oplossing
 
 >[!NOTE]
 >
->Toegang vanuit het product is alleen beschikbaar voor [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=nl){target=&quot;_blank&quot;}.
+>Toegang vanuit het product is beschikbaar voor [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=nl){target=&quot;_blank&quot;} alleen.
 
 1. Open uw Campaign Standard product.
 
-1. Selecteer het **[!UICONTROL Administration]** menu van **Navigatie** ruit.
+1. Selecteer **[!UICONTROL Administration]** van het menu **Navigatie** venster.
 
    ![](assets/control_panel_access3.png)
 
-1. Klik op het pictogram **[!UICONTROL Control Panel]**.
+1. Klik op de knop **[!UICONTROL Control Panel]** pictogram.
 
    ![](assets/control_panel_access4.png)

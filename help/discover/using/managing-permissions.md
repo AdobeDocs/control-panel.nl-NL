@@ -20,17 +20,17 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
 
 ![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](../../discover/using/managing-permissions.md#video)
 
-1. Navigeer aan [Adobe Experience Cloud homepage](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Ga naar de [Homepage van Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-1. Start de **Admin Console** door op de beschikbare koppeling in de sectie **Snelle toegang** of in het menu rechtsboven te klikken.
+1. De **Admin Console** door op de beschikbare koppeling van de **Snelle toegang** of in het menu rechtsboven.
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Als de **Admin Console** verbinding niet zichtbaar is, betekent dit dat u geen Admin rechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen met hen uit te voeren.
+   >Als de **Admin Console** De koppeling is niet zichtbaar, dit betekent dat u geen beheerdersrechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen met hen uit te voeren.
 
-1. Van **Admin Console**, selecteer het gewenste product van de Campagne van **[!UICONTROL Products and services]** lijst.
+1. Van de **Admin Console** selecteert u het gewenste campagneproduct in het menu **[!UICONTROL Products and services]** lijst.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
    >
    >U kunt verschillende Admin-gebruikers toevoegen voor elke Campagne-instantie. Beheerders hebben alleen toegang tot het Configuratiescherm van de instantie waartoe ze behoren.
 
-1. De lijst van **[!UICONTROL Product Profiles]** voor de geselecteerde instantie toont. Klik op het productprofiel **[!UICONTROL Administrators]** om de lijst met Admin-gebruikers te openen.
+1. De lijst van **[!UICONTROL Product Profiles]** voor de geselecteerde instantie wordt weergegeven. Klik op de knop **[!UICONTROL Administrators]** productprofiel voor toegang tot de lijst met Admin-gebruikers.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 

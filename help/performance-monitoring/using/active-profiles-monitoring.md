@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 76%
+ht-degree: 81%
 
 ---
 
@@ -40,7 +40,7 @@ Raadpleeg voor meer informatie over actieve profielen de categorie [Campaign Sta
 >id="cp_performancemonitoring_active_profile"
 >title="Informatie over actieve profielen controleren"
 >abstract="Op dit tabblad krijgt u real-time informatie over het meest recente en historische gebruik en de evolutie van actieve profielen voor elk van uw campagneinstanties."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html" text="Prestatiebewaking"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl" text="Prestatiebewaking"
 
 Met het Configuratiescherm kunt u het gebruik van actieve profielen voor al uw Campaign-instanties bewaken.
 
@@ -58,7 +58,7 @@ Ga als volgt te werk om dit te doen:
 >
 >Actieve profielen worden geteld op basis van speciale technische workflows die dagelijks op uw instanties worden uitgevoerd:
 >
->* De workflow [Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) voor Campaign Standard,
+>* De workflow [Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor Campaign Standard,
 >* De workflow [Number of active billing profiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) voor Campaign Classic.
 
 

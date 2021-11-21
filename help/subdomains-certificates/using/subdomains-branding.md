@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 >id="cp_certificate_management"
 >title="Subdomeinen en SSL-certificaten"
 >abstract="Bewaak uw subdomeinen en de bijbehorende SSL-certificaten."
->additional-url="://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten bewaken"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten bewaken"
 
 ## Waarom zou ik subdomeinen instellen? {#why-setting-up-subdomains}
 
@@ -62,8 +62,8 @@ Als u om het even welke vraag betreffende de methodes van de subdomeinconfigurat
 >id="cp_add_subdomain_usecase_selection"
 >title="Selecteer het gebruiksgeval voor uw subdomein"
 >abstract="Het onderverdelen van uw subdomeinen door gebruiksgevallen is een beste praktijk voor leverbaarheid. Hierdoor wordt de reputatie van elk subdomein geïsoleerd en beschermd."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html" text="Branding van subdomeinen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl" text="Branding van subdomeinen"
 
 Wanneer u subdomeinen instelt voor instanties Campaign Classic, moet u het geval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 

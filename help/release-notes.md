@@ -10,7 +10,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
 workflow-type: tm+mt
 source-wordcount: '792'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -20,7 +20,7 @@ Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 
 >[!NOTE]
 >
->Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel).
+>Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
 >Voor Campaign Classic v7 moet uw exemplaar worden gehost op AWS en worden bijgewerkt met de nieuwste [Gouden standaard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=nl) of de [nieuwste GA-build (21,1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=nl#release-notes). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md).
 
