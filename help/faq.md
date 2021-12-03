@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Met het Configuratiescherm kunt u de opslag bijhouden, IP-adressen toevoegen aan
 
 Raadpleeg voor meer informatie de documentatie over acties die door het Configuratiescherm worden ondersteund.
 
-### Zijn er sommige mogelijkheden nog niet ondersteund op Campagne v8 maar beschikbaar op Campaign Classic v7{#v8-restrictions}
+### Zijn sommige mogelijkheden nog niet ondersteund in Campaign v8, maar wel beschikbaar in Campaign Classic v7?{#v8-restrictions}
 
-Nee. Alle mogelijkheden die beschikbaar zijn op Campaign Classic v7 worden nu ook ondersteund via het Configuratiescherm in Campagne v8, inclusief functies voor subdomein en certificaatbeheer.
+Nee. Alle mogelijkheden die beschikbaar zijn in Campaign Classic v7, worden nu ook ondersteund via het configuratiescherm in Campaign v8, inclusief functies voor subdomein en certificaatbeheer.
 
 ### Is het configuratiescherm alleen voor Adobe Campaign?
 
@@ -66,7 +66,7 @@ Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.
 
 ### Waar kan ik mijn IMS-organisatie-ID vinden?
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl).
 
 U kunt ook **Admin Console** starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
