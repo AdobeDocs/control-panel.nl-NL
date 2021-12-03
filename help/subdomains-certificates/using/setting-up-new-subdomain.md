@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
 ht-degree: 100%
 
@@ -62,13 +62,13 @@ Bovendien mag u **geen afzonderlijk zonebestand maken** voor dit nieuwe subdomei
 >id="cp_add_subdomain_create_delegate"
 >title="Subdomein maken en delegeren"
 >abstract="Maak het subdomein dat u met Adobe Campaign wilt gebruiken, in uw hostingoplossing en delegeer het aan Adobe."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Subdomein verzenden"
 >abstract="Bevestig en verzend het subdomein dat in de vorige stappen is gevormd."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 
 Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Campaign.
 
@@ -110,19 +110,19 @@ Nadat het subdomein is verzonden, worden verschillende controles en configuratie
 >id="cp_add_cname_subdomain_create_delegate"
 >title="Subdomein configureren"
 >abstract="Geef in dit scherm het subdomein op dat u wilt configureren met behulp van CNAME&#39;s."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="Records genereren"
 >abstract="Navigeer naar uw hostingoplossing om de lijst met DNS-records te genereren die in dit scherm wordt weergegeven."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Subdomein verzenden"
 >abstract="Bevestig en verzend het subdomein dat in de vorige stappen is gevormd."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 
 Volg de onderstaande stappen om een subdomein te configureren met gebruik van CNAMEs.
 
