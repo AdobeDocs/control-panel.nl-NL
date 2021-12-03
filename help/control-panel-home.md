@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -25,17 +25,17 @@ ht-degree: 66%
 
 ## Nieuwe functies
 
-**Volledige ondersteuning met campagne v8**
+**Volledige ondersteuning met Campaign v8**
 
-Alle mogelijkheden, inclusief **Subdomein** en **Certificaat** beheer, worden nu ondersteund door het Configuratiescherm op Adobe Campaign v8. [Meer informatie](faq.md#v8-restrictions)
+Alle mogelijkheden, inclusief **Subdomein** en **Certificaat**-beheer, worden nu ondersteund door het configuratiescherm in Adobe Campaign v8. [Meer informatie](faq.md#v8-restrictions)
 
 **Geldigheidsperiode IP-bereik en editie**
 
-Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers te plaatsen en de IP waaiers uit te geven die u creeert. [Meer informatie](sftp/using/ip-range-allow-listing.md)
+Het is nu mogelijk om een duur voor de beschikbaarheid van een IP-bereik in te stellen en het IP-bereik dat u maakt, te bewerken. [Meer informatie](sftp/using/ip-range-allow-listing.md)
 
 **Geldigheidsperiode openbare sleutel en editie**
 
-Op dezelfde manier kunt u nu een duur voor de beschikbaarheid van openbare sleutels plaatsen en de openbare sleutels uitgeven die u creeert. [Meer informatie](sftp/using/key-management.md)
+Op dezelfde manier kunt u nu een duur voor de beschikbaarheid van openbare sleutels instellen en de openbare sleutels die u maakt, bewerken. [Meer informatie](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
