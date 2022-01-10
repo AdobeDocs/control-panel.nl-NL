@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8c604e9b1f657be938b04d096ac22efed99e1cbe
+source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 72%
+ht-degree: 70%
 
 ---
 
@@ -20,19 +20,19 @@ Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 
 >[!NOTE]
 >
->Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
+>Het Configuratiescherm is alleen toegankelijk voor Admin-gebruikers. Meer informatie over machtigingen in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
->Voor Campaign Classic v7 moet uw exemplaar worden gehost op AWS en worden bijgewerkt met de nieuwste [stabiele constructie](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/rn-overview.html). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md).
+>Voor Campaign Classic v7 moet uw exemplaar worden gehost op Amazon Web Services (AWS) en worden bijgewerkt naar de nieuwste [Stabiele build campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) (of om 9032 of hoger te bouwen). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md#hosted-aws).
 
 ## Oktober 2021 {#october-2021}
 
 **IP-bereik en geldigheidsperiode openbare sleutel**
 
-Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers en openbare sleutels te plaatsen. Read more in the [IP range allow listing](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) and [Key management](sftp/using/key-management.md#installing-ssh-key) sections.
+Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers en openbare sleutels te plaatsen. Lees meer in de [Aanbieding in IP-bereik toegestaan](sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list) en [Sleutelbeheer](sftp/using/key-management.md#installing-ssh-key) secties.
 
 **IP-bereik en openbare-sleuteluitgave**
 
-U kunt nu de [IP-bereiken](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) en [openbare sleutels](sftp/using/key-management.md#editing-public-keys) die u maakt. Note that this feature is not available for the items created before the current Control Panel release.
+U kunt nu de [IP-bereiken](sftp/using/ip-range-allow-listing.md#editing-ip-ranges) en [openbare sleutels](sftp/using/key-management.md#editing-public-keys) die u maakt. Deze functie is niet beschikbaar voor de items die zijn gemaakt vóór de huidige release van het Configuratiescherm.
 
 **Waarschuwing bij SFTP IP-bereik en vervaldatum van openbare sleutel**
 
@@ -40,7 +40,7 @@ De functie voor e-mailwaarschuwingen bevat nu waarschuwingen over SFTP IP waarme
 
 **Volledige ondersteuning met Campaign v8**
 
-The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.
+De **Subdomein** en **Certificaat** beheermogelijkheden worden nu ondersteund door het Configuratiescherm in Adobe Campaign v8.
 
 ## Augustus 2021 {#august-2021}
 
@@ -56,7 +56,7 @@ Met het Configuratiescherm kunt u nu rechtstreeks vanuit de interface met gebrui
 
 **Verbeteringen voor databasebewaking**
 
-Database monitoring has been enhanced with additional metrics that allow you to get detailed information on the resources that are consuming space on your database. [Meer informatie](performance-monitoring/using/database-monitoring.md)
+De controle van het gegevensbestand is verbeterd met extra metriek die u toestaan om gedetailleerde informatie over de middelen te krijgen die ruimte op uw gegevensbestand verbruiken. [Meer informatie](performance-monitoring/using/database-monitoring.md)
 
 ## Juni 2020 {#june-2020}
 
