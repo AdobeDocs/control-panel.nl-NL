@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 77%
 
 ---
 
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## Nieuwe functies
 
-**Volledige ondersteuning met Campaign v8**
+**Actieve query&#39;s controleren**
 
-Alle mogelijkheden, inclusief **Subdomein** en **Certificaat**-beheer, worden nu ondersteund door het configuratiescherm in Adobe Campaign v8. [Meer informatie](faq.md#v8-restrictions)
+In het Configuratiescherm kunt u nu query&#39;s controleren die al de langste tijd op uw instanties worden uitgevoerd. [Meer informatie](performance-monitoring/using/database-active-queries.md)
 
-**Geldigheidsperiode IP-bereik en editie**
+**Doorvoereenheden en latentie-bewaking**
 
-Het is nu mogelijk om een duur voor de beschikbaarheid van een IP-bereik in te stellen en het IP-bereik dat u maakt, te bewerken. [Meer informatie](sftp/using/ip-range-allow-listing.md)
+U kunt nu controleren hoe de leveringsproductie en de latentie over een periode op uw instanties trending. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
 
-**Geldigheidsperiode openbare sleutel en editie**
-
-Op dezelfde manier kunt u nu een duur voor de beschikbaarheid van openbare sleutels instellen en de openbare sleutels die u maakt, bewerken. [Meer informatie](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
