@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 70%
+source-wordcount: '858'
+ht-degree: 65%
 
 ---
 
@@ -23,6 +23,20 @@ Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 >Het Configuratiescherm is alleen toegankelijk voor Admin-gebruikers. Meer informatie over machtigingen in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
 >Voor Campaign Classic v7 moet uw exemplaar worden gehost op Amazon Web Services (AWS) en worden bijgewerkt naar de nieuwste [Stabiele build campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) (of om 9032 of hoger te bouwen). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md#hosted-aws).
+
+## Januari 2022 {#january-2022}
+
+**Actieve query&#39;s controleren**
+
+In het Configuratiescherm kunt u nu query&#39;s controleren die al de langste tijd op uw instanties worden uitgevoerd. [Meer informatie](performance-monitoring/using/database-active-queries.md)
+
+**Doorvoereenheden en latentie-bewaking**
+
+U kunt nu controleren hoe de leveringsproductie en de latentie over een periode op uw instanties trending. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
+
+**SSL-certificaatbewerkingen op nieuwe subdomeinen**
+
+SSL-certificaatbewerkingen kunnen nu worden uitgevoerd op een nieuw ingestelde subdomein, zelfs als de leverbaarheidscontrole nog wordt uitgevoerd. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Oktober 2021 {#october-2021}
 

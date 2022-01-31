@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 278788a69f06865b6a38d8a901077866e1bc88ee
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 96%
 
 ---
 
@@ -38,9 +38,7 @@ Deze pagina biedt informatie over het instellen van nieuwe subdomeinen met volle
 
 Subdomeinconfiguratie is alleen beschikbaar voor **productie** versies.
 
-Als de versie die u in de wizard selecteert, geen eerder ingestelde subdomeinen heeft, wordt het eerste geconfigureerde subdomein het **primaire subdomein** voor die versie en kunt u dit in de toekomst niet meer wijzigen.
-
-Als gevolg hiervan worden **reverse DNS-records** gemaakt voor andere subdomeinen die dit primaire subdomein gebruiken. **Antwoord- en bounce-adressen** voor andere subdomeinen worden gegenereerd vanuit het primaire subdomein.
+Als de versie die u in de wizard selecteert, geen eerder ingestelde subdomeinen heeft, wordt het eerste geconfigureerde subdomein het **primaire subdomein** voor die versie en kunt u dit in de toekomst niet meer wijzigen. Als gevolg hiervan worden **reverse DNS-records** gemaakt voor andere subdomeinen die dit primaire subdomein gebruiken. **Antwoord- en bounce-adressen** voor andere subdomeinen worden gegenereerd vanuit het primaire subdomein.
 
 ### Configuratie naamservers
 
@@ -62,13 +60,13 @@ Bovendien mag u **geen afzonderlijk zonebestand maken** voor dit nieuwe subdomei
 >id="cp_add_subdomain_create_delegate"
 >title="Subdomein maken en delegeren"
 >abstract="Maak het subdomein dat u met Adobe Campaign wilt gebruiken, in uw hostingoplossing en delegeer het aan Adobe."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Subdomein verzenden"
 >abstract="Bevestig en verzend het subdomein dat in de vorige stappen is gevormd."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Campaign.
 
@@ -110,19 +108,19 @@ Nadat het subdomein is verzonden, worden verschillende controles en configuratie
 >id="cp_add_cname_subdomain_create_delegate"
 >title="Subdomein configureren"
 >abstract="Geef in dit scherm het subdomein op dat u wilt configureren met behulp van CNAME&#39;s."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="Records genereren"
 >abstract="Navigeer naar uw hostingoplossing om de lijst met DNS-records te genereren die in dit scherm wordt weergegeven."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Subdomein verzenden"
 >abstract="Bevestig en verzend het subdomein dat in de vorige stappen is gevormd."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Een nieuw subdomein instellen"
 
 Volg de onderstaande stappen om een subdomein te configureren met gebruik van CNAMEs.
 
@@ -168,7 +166,7 @@ Nadat het subdomein is verzonden, worden verschillende controles en configuratie
 
    >[!NOTE]
    >
-   >Terwijl de subdomeinconfiguratie wordt uitgevoerd, worden andere verzoeken via het configuratiescherm in een wachtrij geplaatst en worden pas uitgevoerd nadat de subdomeinconfiguratie is voltooid, om prestatieproblemen te voorkomen.
+   >Merk op dat terwijl de looppas van de subdomeinconfiguratie, andere verzoeken van het Controlebord in een rij zullen zijn ingegaan en slechts uitgevoerd nadat de subdomeinconfiguratie voltooit, om het even welke prestatieskwesties te verhinderen.
 
 1. Als de controles succesvol zijn, begint het configuratiescherm met het instellen van het subdomein met DNS-records, bijkomende URL&#39;s, inboxen, enz.
 
@@ -183,6 +181,8 @@ Nadat het subdomein is verzonden, worden verschillende controles en configuratie
    >[!IMPORTANT]
    >
    >De aflevercontroles die worden uitgevoerd, omvatten het testen van feedbackloops en spamklachtloops. We raden daarom af om het subdomein te gebruiken voordat de audit is voltooid, omdat dit kan leiden tot een slechte reputatie van het subdomein.
+   >
+   >Nochtans, merk op dat u verrichtingen met betrekking tot SSL certificaten op uw subdomain kunt uitvoeren, zelfs als de leverbaarheidscontrole nog wordt verwerkt.
 
 1. Aan het einde van het proces zijn de subdomeinen geconfigureerd voor uw Adobe Campaign-instantie en zijn de onderstaande elementen gemaakt:
 

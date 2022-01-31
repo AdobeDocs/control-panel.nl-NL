@@ -6,10 +6,10 @@ user-guide-title: Handleiding voor het Configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 94%
 
 ---
 
@@ -39,8 +39,15 @@ ht-degree: 100%
    + [TXT-records beheren](subdomains-certificates/using/managing-txt-records.md)
 + Prestatiecontrole {#performance-monitoring}
    + [Informatie over prestatiebewaking](performance-monitoring/using/about-performance-monitoring.md)
-   + [Database controleren](performance-monitoring/using/database-monitoring.md)
+   + Database controleren {#database-monitoring}
+      + [Databasebewaking](performance-monitoring/using/database-monitoring.md)
+      + [Databasegebruik](performance-monitoring/using/database-utilization.md)
+      + [Overzicht van opslag](performance-monitoring/using/database-storage-overview.md)
+      + [De tien belangrijkste tijdelijke bronnen](performance-monitoring/using/database-top-ten-resources.md)
+      + [Actieve query&#39;s controleren](performance-monitoring/using/database-active-queries.md)
+      + [Databaseoverbelasting voorkomen](performance-monitoring/using/database-preventing-overload.md)
    + [Bewaking van actieve profielen](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Doorvoereenheden en latentie-bewaking](performance-monitoring/using/thoughputs-latencies.md)
    + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
 + Instantie-instellingen {#instances-settings}
    + [IP-adressen toevoegen aan de lijst van toegestane IP-adressen voor instantietoegang](instances-settings/using/ip-allow-listing-instance-access.md)
