@@ -2,55 +2,55 @@
 product: adobe campaign
 sub-product: control panel
 audience: end-user
-user-guide-title: Handleiding voor het Configuratiescherm
+user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Handleiding voor het Configuratiescherm {#using}
+# Handleiding voor het configuratiescherm {#using}
 
 + [Productdocumentatie](control-panel-home.md)
-+ [Release-opmerkingen](release-notes.md)
++ [Aanvullende informatie](release-notes.md)
 + Configuratiescherm verkennen {#discover-control-panel}
    + [Belangrijkste kenmerken](discover/using/key-features.md)
    + [Configuratiescherm openen](discover/using/accessing-control-panel.md)
-   + [Machtigingen voor Configuratiescherm beheren](discover/using/managing-permissions.md)
-   + [De interface van het Configuratiescherm verkennen](discover/using/discovering-the-interface.md)
+   + [Machtigingen voor het configuratiescherm beheren](discover/using/managing-permissions.md)
+   + [De interface van het configuratiescherm verkennen](discover/using/discovering-the-interface.md)
 + SFTP-beheer {#sftp-management}
    + [SFTP-beheer](sftp/using/about-sftp-management.md)
    + [SFTP-opslagbeheer](sftp/using/sftp-storage-management.md)
-   + [IP-bereiken toevoegen aan de lijst van gewenste IP-adressen](sftp/using/ip-range-allow-listing.md)
+   + [Lijst maken met toegestane IP-bereiken](sftp/using/ip-range-allow-listing.md)
    + [Sleutelbeheer](sftp/using/key-management.md)
    + [Aanmelden bij uw SFTP-server](sftp/using/logging-into-sftp-server.md)
    + [Algemene vragen](sftp/using/common-questions.md)
 + Subdomeinen en certificaten {#subdomains-and-certificates}
    + [Branding van subdomeinen](subdomains-certificates/using/subdomains-branding.md)
-   + [Uw subdomeinen controleren](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Uw subdomeinen bewaken](subdomains-certificates/using/monitoring-subdomains.md)
    + [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [SSL-certificaten bewaken](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [SSL-certificaten verlengen](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [TXT-records beheren](subdomains-certificates/using/managing-txt-records.md)
-+ Prestatiecontrole {#performance-monitoring}
-   + [Informatie over prestatiebewaking](performance-monitoring/using/about-performance-monitoring.md)
-   + Database controleren {#database-monitoring}
++ Prestatiebewaking {#performance-monitoring}
+   + [Prestatiebewaking](performance-monitoring/using/about-performance-monitoring.md)
+   + Databasebewaking {#database-monitoring}
       + [Databasebewaking](performance-monitoring/using/database-monitoring.md)
       + [Databasegebruik](performance-monitoring/using/database-utilization.md)
       + [Overzicht van opslag](performance-monitoring/using/database-storage-overview.md)
       + [De tien belangrijkste tijdelijke bronnen](performance-monitoring/using/database-top-ten-resources.md)
-      + [Actieve query&#39;s controleren](performance-monitoring/using/database-active-queries.md)
+      + [Actieve query&#39;s bewaken](performance-monitoring/using/database-active-queries.md)
       + [Databaseoverbelasting voorkomen](performance-monitoring/using/database-preventing-overload.md)
-   + [Bewaking van actieve profielen](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Doorvoereenheden en latentie-bewaking](performance-monitoring/using/thoughputs-latencies.md)
+   + [Actieve profielen bewaken](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Doorvoer en latentiebewaking](performance-monitoring/using/thoughputs-latencies.md)
    + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
 + Instantie-instellingen {#instances-settings}
-   + [IP-adressen toevoegen aan de lijst van toegestane IP-adressen voor instantietoegang](instances-settings/using/ip-allow-listing-instance-access.md)
+   + [IP-adressen toevoegen aan de lijst met toegestane IP-adressen voor instantietoegang](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-machtigingen](instances-settings/using/url-permissions.md)
    + [Instantiedetails](instances-settings/using/instance-details.md)
    + [Beheer van GPG-sleutels](instances-settings/using/gpg-keys-management.md)
