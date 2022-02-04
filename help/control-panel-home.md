@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 77%
 
 ## Nieuwe functies
 
-**Actieve query&#39;s controleren**
+**Actieve query&#39;s bewaken**
 
-In het Configuratiescherm kunt u nu query&#39;s controleren die al de langste tijd op uw instanties worden uitgevoerd. [Meer informatie](performance-monitoring/using/database-active-queries.md)
+In het configuratiescherm kunt u nu query&#39;s bewaken die het langst op uw instanties worden uitgevoerd. [Meer informatie](performance-monitoring/using/database-active-queries.md)
 
-**Doorvoereenheden en latentie-bewaking**
+**Doorvoer en latentiebewaking**
 
-U kunt nu controleren hoe de leveringsproductie en de latentie over een periode op uw instanties trending. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
+U kunt nu bewaken hoe de leveringsdoorvoer en latentie zich gedurende een bepaalde periode ontwikkelen op uw instanties. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
 
 
 >[!CAUTION]
