@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -43,3 +43,5 @@ De lijst van signaleringen ziet er als volgt uit:
 * **SFTP IP staat het verlopen van de lijst toe**: Één van de IP waaiers u bepaalde is verlopen of zal in 10 dagen of minder verlopen. Zie [Aanbieding in IP-bereik toegestaan](../../sftp/using/ip-range-allow-listing.md).
 
 * **Vervaldatum openbare sleutel SFTP**: Een van de openbare sleutels die u hebt gedefinieerd, is verlopen of verloopt over tien dagen of minder. Zie [Sleutelbeheer](../../sftp/using/key-management.md).
+
+* **Lange lopende Vragen**: Een query wordt al meer dan 24 uur uitgevoerd op een van uw instanties. Zie [Actieve query&#39;s controleren](database-active-queries.md).

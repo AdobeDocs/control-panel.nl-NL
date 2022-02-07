@@ -6,11 +6,10 @@ description: Ontdek hoe u actieve query's op uw Campaign-instanties kunt bewaken
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 6922e132321f67e1e8122e33ead3c5e54c639763
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 50%
 
 ---
 
@@ -24,4 +23,6 @@ De kolommen **[!UICONTROL Duration]** geven aan hoe lang een query op de instant
 
 >[!IMPORTANT]
 >
->Als een van de query&#39;s langer dan 24 uur actief is, neem dan contact op met de klantenservice zodat zij het probleem kunnen identificeren en oplossen. In dat geval moet u ze de kolomwaarde **[!UICONTROL PID]** geven, die een unieke ID voor de query is.
+>Als een van de vragen al meer dan 24 uur actief is, ontvangt u een e-mail als u zich hebt geabonneerd op [e-mailwaarschuwing](email-alerting.md).
+>
+>In dat geval dient u contact op te nemen met de klantenservice, zodat deze het probleem kan identificeren en oplossen. U moet de **[!UICONTROL PID]** kolomwaarde, die een unieke id is voor de query.
