@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
+source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,6 @@ Dit dashboard bevat aanvullende metriek waarmee u het gebruik van de database va
 * [Databasegebruik](../../performance-monitoring/using/database-utilization.md)
 * [Overzicht van opslag](../../performance-monitoring/using/database-storage-overview.md)
 * [De tien belangrijkste tijdelijke bronnen](../../performance-monitoring/using/database-top-ten-resources.md)
-
-<!--* [Active queries](../../performance-monitoring/using/database-active-queries.md)-->
+* [Actieve query&#39;s](../../performance-monitoring/using/database-active-queries.md)
 
 ![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl).
