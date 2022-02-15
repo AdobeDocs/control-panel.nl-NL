@@ -6,11 +6,10 @@ description: Ontdek hoe u actieve query's op uw Campaign-instanties kunt bewaken
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: efad3b82a498cfc88a06479e40c3e5c75d814740
+source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '103'
+ht-degree: 100%
 
 ---
 
