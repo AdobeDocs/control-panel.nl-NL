@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 70%
+source-wordcount: '882'
+ht-degree: 68%
 
 ---
 
@@ -23,6 +23,12 @@ Hier vindt u informatie over de meest recente Configuratiescherm-releases.
 >Het Configuratiescherm is alleen toegankelijk voor Admin-gebruikers. Meer informatie over machtigingen in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
 >Voor Campaign Classic v7 moet uw exemplaar worden gehost op Amazon Web Services (AWS) en worden bijgewerkt naar de nieuwste [Stabiele build campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) (of om 9032 of hoger te bouwen). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md#hosted-aws).
+
+## Februari 2022 {#february-2022}
+
+**Workflowparameters bewaken**
+
+U kunt nu workflowparameters controleren waarvoor specifieke aandacht nodig kan zijn om problemen met uw instanties te voorkomen. [Meer informatie](performance-monitoring/using/workflow-monitoring.md).
 
 ## Januari 2022 {#january-2022}
 

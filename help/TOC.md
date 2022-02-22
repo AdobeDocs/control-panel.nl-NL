@@ -6,9 +6,9 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 76301a1e222da17a2b4fd58d68d24efd04b07b1c
+source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 98%
 
 ---
@@ -45,6 +45,7 @@ ht-degree: 98%
       + [Overzicht van opslag](performance-monitoring/using/database-storage-overview.md)
       + [De tien belangrijkste tijdelijke bronnen](performance-monitoring/using/database-top-ten-resources.md)
       + [Actieve query&#39;s](performance-monitoring/using/database-active-queries.md)
+      + [Workflows controleren](performance-monitoring/using/workflow-monitoring.md)
       + [Databaseoverbelasting voorkomen](performance-monitoring/using/database-preventing-overload.md)
    + [Actieve profielen bewaken](performance-monitoring/using/active-profiles-monitoring.md)
    + [Doorvoer en latentiebewaking](performance-monitoring/using/thoughputs-latencies.md)

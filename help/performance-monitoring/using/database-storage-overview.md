@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 9accc4306bacab3bc27922f495c19138f905b1c5
+source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 84%
+source-wordcount: '160'
+ht-degree: 56%
 
 ---
 
@@ -35,8 +35,8 @@ Het gedeelte **[!UICONTROL Storage overview]** biedt een grafische weergave van 
 
 Klik op de knop **[!UICONTROL View details]** voor meer informatie over de verschillende assets die databaseruimte verbruiken.
 
+U kunt de vervolgkeuzelijst gebruiken om uw zoek- en weergavetabellen alleen te verfijnen van een specifiek elementtype (workflows, leveringen, ontvangers).
+
 ![](assets/database-storage-details.png)
 
-Gebruik het filter om uw zoekopdracht te verfijnen en alleen de tabellen van een specifieke asset weer te geven.
-
-![](assets/database-storage-overview-filter.png)
+Merk op dat dit scherm u ook toestaat om werkschemaparameters te controleren die specifieke aandacht kunnen vereisen om het even welke kwesties op uw instanties te vermijden. Meer informatie in [deze pagina](workflow-monitoring.md).

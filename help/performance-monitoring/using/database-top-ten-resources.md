@@ -6,10 +6,11 @@ description: Leer hoe u in het Configuratiescherm de tien grootste tijdelijke br
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
+source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 69%
 
 ---
 
@@ -21,24 +22,10 @@ Het controleren van workflows en verzendingen die grote tijdelijke resources mak
 
 >[!IMPORTANT]
 >
->De algemene aanbeveling is om te voorkomen dat er niet **meer dan 40 kolommen** zijn in niet-standaardresources.
+>De algemene aanbeveling is om te voorkomen dat er niet **meer dan 40 kolommen** zijn in niet-standaardresources. Als een workflow een groot aantal tabeltellingen of een grote databaseomvang bevat, raden we aan de workflow te controleren om te onderzoeken waarom deze zoveel gegevens genereert.
+>
+>Campaign Standard en Klassieke richtlijnen zijn ook beschikbaar in [deze pagina](database-preventing-overload.md) om overbelasting van databases te voorkomen.
 
 ![](assets/database-top10.png)
 
->[!NOTE]
->
->Als een workflow een groot aantal tabeltellingen of een grote databaseomvang bevat, raden we aan de workflow te controleren om te onderzoeken waarom deze zoveel gegevens genereert.
->
->Bronnen voor Campaign Standard en Classic zijn ook beschikbaar aan het eind van deze pagina om u te helpen bij het voorkomen van databaseoverbelasting.
-
-De knop **[!UICONTROL View all]** geeft u toegang tot gedetailleerde informatie over deze tijdelijke bronnen.
-
-![](assets/database-top10-view.png)
-
-De waarde in de kolom **[!UICONTROL Keep interim results]** geeft aan of de optie is ingeschakeld (1) of uitgeschakeld (0) in Campaign. Hiermee kunt u de resultaten van de overgangen tussen de verschillende activiteiten van een workflow opslaan (zie documentatie voor [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=nl) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=nl)).
-
->[!IMPORTANT]
->
->Deze optie mag nooit worden ingeschakeld in een productieworkflow. Deze wordt gebruikt om de resultaten te analyseren en is alleen ontworpen voor testdoeleinden. De optie mag daarom alleen worden gebruikt in ontwikkelings- of testomgevingen.
->
->Als de waarde in het configuratiescherm aangeeft dat de optie is ingeschakeld voor een van uw workflows, raden we u sterk aan deze optie uit te schakelen in Campaign.
+De **[!UICONTROL View all]** kunt u de knop **[!UICONTROL Storage overview]** details voor gedetailleerde informatie over deze tijdelijke middelen. Raadpleeg [deze pagina](database-storage-overview.md) voor meer informatie.
