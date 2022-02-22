@@ -4,7 +4,7 @@ description: Leer hoe u specifieke workflowparameters kunt controleren die aanda
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
+source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # Workflows controleren {#monitor-workflows}
 
-<!--## Clean paused and completed workflows
+<!-- Clean paused and completed workflows
 
 When [!DNL Adobe Campaign] workflows are paused or completed, they leave temporary tables on your instances database that consume space and can lead to performance issues.
 
@@ -41,7 +41,7 @@ To clean paused and completed workflows, follow these steps:
 
     ![](assets/wkf-monitoring-in-progress.png)
 
-## Monitor workflow parameters -->
+Monitor workflow parameters -->
 
 In Adobe Campaign is het mogelijk dat bepaalde parameters voor de workflow speciale aandacht vereisen om problemen met uw instanties te voorkomen. Het regelpaneel **[!UICONTROL Storage overview]** Met de details kunt u controleren of een van deze opties is ingeschakeld voor uw workflows.
 
