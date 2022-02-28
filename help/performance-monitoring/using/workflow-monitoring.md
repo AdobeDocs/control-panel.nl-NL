@@ -1,17 +1,18 @@
 ---
-title: Workflows controleren
-description: Leer hoe u specifieke workflowparameters kunt controleren die aandacht vereisen om problemen in uw instanties te voorkomen.
+title: Workflows bewaken
+description: Leer hoe u specifieke workflowparameters kunt bewaken die aandacht vereisen om problemen in uw instanties te voorkomen.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 062fce923fe638925a9fee22aeab589a890cfa37
-workflow-type: tm+mt
+exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
+source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-# Workflows controleren {#monitor-workflows}
+# Workflows bewaken {#monitor-workflows}
 
 <!-- Clean paused and completed workflows
 
@@ -43,36 +44,36 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-In Adobe Campaign is het mogelijk dat bepaalde parameters voor de workflow speciale aandacht vereisen om problemen met uw instanties te voorkomen. Het regelpaneel **[!UICONTROL Storage overview]** Met de details kunt u controleren of een van deze opties is ingeschakeld voor uw workflows.
+In Adobe Campaign is het mogelijk dat bepaalde parameters voor de workflow speciale aandacht vereisen om problemen met uw instanties te voorkomen. Met de details van het Configuratiescherm **[!UICONTROL Storage overview]** kunt u controleren of een van deze opties is ingeschakeld voor uw workflows.
 
 ![](assets/wkf-monitoring-parameters.png)
 
 ## **[!UICONTROL Keep interim results]** {#keep-results}
 
-Als deze optie is ingeschakeld (waarde &quot;1&quot;), worden de resultaten van de overgangen tussen de verschillende activiteiten van een workflow opgeslagen. Meer informatie in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=nl) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=nl) documentatie.
+Indien deze optie is ingeschakeld (waarde 1), worden de resultaten van de overgangen tussen de verschillende activiteiten van een workflow opgeslagen. Meer informatie in de documentatie van [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=nl) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=nl).
 
 >[!IMPORTANT]
 >
->Deze optie mag nooit worden ingeschakeld in een productieworkflow. Het wordt gebruikt voor analyse- en testdoeleinden en mag daarom alleen worden gebruikt in ontwikkelings- of testomgevingen. We raden u ten zeerste aan het uit te schakelen in Campaign.
+>Deze optie mag nooit worden ingeschakeld in een productieworkflow. Deze wordt gebruikt voor analyse- en testdoeleinden en mag daarom alleen worden gebruikt in ontwikkelings- of testomgevingen. We raden u ten zeerste aan de optie uit te schakelen in Campaign.
 
 ![](assets/wkf-monitoring-keep.png)
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in Adobe Campaign. Meer informatie in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#execution) documentatie.
+Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in Adobe Campaign. Meer informatie in de documentatie van [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=nl) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=nl#execution).
 
-De waarde &quot;1&quot; geeft aan dat de werkstroom de **Ernst** veld ingesteld op &quot;Productie&quot; en dat de optie voor het SQL-querylogboek is ingeschakeld.
+De waarde 1 geeft aan dat het veld **Ernst** voor de werklaag is ingesteld op Productie, en dat de SQL-querylogboekoptie is ingeschakeld.
 
 >[!IMPORTANT]
 >
->Het activeren van deze optie kan gevolgen hebben voor de prestaties en het invullen van de logbestanden op de server. Het mag alleen voor analyse- en diagnosedoeleinden worden gebruikt.
+>Het activeren van deze optie kan gevolgen hebben voor de prestaties en het invullen van de logbestanden op de server. De optie mag alleen voor analyse- en diagnosedoeleinden worden gebruikt.
 
 ![](assets/wkf-monitoring-sql.png)
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-In dit veld kunt u een operator toewijzen aan een workflow. Als de workflow mislukt, wordt de bijbehorende operator gewaarschuwd. Meer informatie in [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en#error-management) documentatie.
+In dit veld kunt u een operator toewijzen aan een workflow. Als de workflow mislukt, wordt de bijbehorende operator gewaarschuwd. Meer informatie in de documentatie van [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=nl#error-management) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=nl#error-management).
 
-De waarde &quot;1&quot; geeft aan dat de werkstroom de **Ernst** gebied dat aan &quot;Productie&quot;wordt geplaatst en dat geen supervisorgroep aan het werkschema is toegewezen.
+De waarde 1 geeft aan dat het veld **Ernst** voor de worklow is ingesteld op Productie en dat er geen supervisorgroep is toegewezen aan de workflow.
 
 ![](assets/wkf-monitoring-supervisors.png)
