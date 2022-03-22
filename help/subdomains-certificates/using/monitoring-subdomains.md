@@ -1,20 +1,20 @@
 ---
 product: campaign
 solution: Campaign
-title: SSL-certificaten van subdomeinen bewaken
-description: Leer hoe u de SSL-certificaten van uw subdomeinen kunt bewaken
+title: Uw subdomeinen bewaken
+description: Controleer uw subdomeinen om ervoor te zorgen dat allen behoorlijk om met Adobe Campaign worden gevormd te werken.
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 16%
+source-wordcount: '148'
+ht-degree: 10%
 
 ---
 
-# Uw subdomeinen controleren {#monitoring-subdomains}
+# Uw subdomeinen bewaken {#monitoring-subdomains}
 
 Het is van essentieel belang om uw subdomeinen te controleren om ervoor te zorgen dat alle behoorlijk worden gevormd om met Adobe Campaign te werken.
 
