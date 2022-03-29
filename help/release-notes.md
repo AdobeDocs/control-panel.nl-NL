@@ -4,10 +4,10 @@ solution: Campaign
 title: Configuratiescherm-releases
 description: Deze pagina bevat alle nieuwe functies en verbeteringen voor het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1022'
+ht-degree: 62%
 
 ---
 
@@ -32,7 +32,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor h
 <tbody>
 <tr>
 <td>
-<p>Throughputs en latency monitoring zijn nu beschikbaar aan alle Campaign Standard en v8 klanten met bouwstijlaantallen 9032,9330, 9346 of 9349 die standalone plaatsingen (zonder enige middeninstantie) hebben.</p><p>Raadpleeg voor meer informatie de <a href="performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie.</a></p>
+<p>Throughputs en latency monitoring zijn nu beschikbaar aan alle Campaign Standard en v8 klanten, en aan de klanten van de Campagne V7 met bouwstijlaantallen 9032.9330, 9346 of 9349 die standalone plaatsingen (zonder enige middeninstantie) hebben.</p><p>Raadpleeg voor meer informatie de <a href="performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie.</a></p>
 </td>
 </tr>
 </tbody>
