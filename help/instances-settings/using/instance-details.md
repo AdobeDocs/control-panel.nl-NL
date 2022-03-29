@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 82%
 >id="cp_instancesettings_instancedetails"
 >title="Informatie over Instantiedetails"
 >abstract="Bekijk de details van je Adobe Campaign-instanties: types, namen, bouwt informatie, en mogelijke verbeteringsaanbevelingen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Opmerkingen bij de release van Campaign Classic"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Opmerkingen bij de release van Campaign Standard"
 
 ## Informatie over Instantiedetails {#about-instance-details}
 
 >[!IMPORTANT]
 >
->Deze functie is alleen beschikbaar voor Campaign Classic v7- en Campagne v8-instanties.
+>Deze functie is alleen beschikbaar voor instanties van Campagne v7/v8.
 
 Uw Adobe Campaign-instantiearchitectuur kan verschillende servers bevatten om de flexibiliteit van marketingactiviteiten mogelijk te maken. U kunt bijvoorbeeld marketing-, realtime- (of Message Center-) en mid-sourcing-servers hebben ter ondersteuning van uw instantie.
 
@@ -35,7 +33,7 @@ Met de functie Instantiedetails kunt u de platte architectuur van uw instantie w
 
 >[!NOTE]
 >
->We raden u aan om uw instanties ten minste één keer per jaar te upgraden om te voorkomen dat de prestaties afnemen en om te profiteren van de nieuwste functies en oplossingen die Adobe Campaign Classic te bieden heeft.
+>We raden u aan om uw instanties ten minste één keer per jaar te upgraden om te voorkomen dat de prestaties afnemen en om te profiteren van de nieuwste functies en oplossingen die Adobe Campaign v7/v8 te bieden heeft.
 
 **Verwante onderwerpen:**
 
@@ -50,13 +48,13 @@ Voer de volgende stappen uit om informatie op te halen over de servers die zijn 
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke instanties van Adobe Campaign Classic wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie-id niet aan om het even welke instanties van Adobe Campaign v7/v8 wordt geassocieerd
 
 1. Selecteer in het linkerdeelvenster de gewenste instantie Campagne.
 
    >[!NOTE]
    >
-   >Alle Campaign-instanties worden weergegeven in de lijst in het linkerdeelvenster. Aangezien de functie Instance Details specifiek is voor Campaign Classic-instanties, wordt het bericht ‘Non-Applicable Instance’ weergegeven als u een Campaign Standard-instantie selecteert.
+   >Alle Campaign-instanties worden weergegeven in de lijst in het linkerdeelvenster. Aangezien de eigenschap van de Details van de Instantie aan de instanties van de Campagne v7/v8 slechts wordt gewijd, toont het &quot;Niet-Toepasselijke&quot;bericht van de Instantie als u een instantie van Campaign Standard selecteert.
 
 1. U ziet de servers die met de instantie verbonden zijn.
 

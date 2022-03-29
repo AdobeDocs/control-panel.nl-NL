@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Afhankelijk van uw contractvoorwaarden is mogelijk andere opslagcapaciteit op uw
 
 Het is van essentieel belang dat u regelmatig de beschikbare ruimte voor al uw SFTP-servers controleert. Anders kunt u mogelijk geen bestanden meer opslaan op de server of kunt u geen workflows uitvoeren die afhankelijk zijn van de updates van deze server.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management).
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html#sftp-management)
 
 ## Informatie over opslagcapaciteit weergeven {#accessing-storage-capacity-information}
 
@@ -44,6 +44,6 @@ Er zijn ook extra tips beschikbaar om u te adviseren wat u moet doen wanneer de 
 ## Aanbevolen procedures wanneer de grens van de opslagcapaciteit wordt bereikt {#best-practices-when-capacity-runs-out}
 
 1. **Verwijder oude of onnodige bestanden van de SFTP-server**. Raadpleeg [deze sectie](../../sftp/using/logging-into-sftp-server.md) voor meer informatie over het openen van de SFTP-servermap.
-1. Zorg ervoor dat de **workflows** die uw SFTP-servers opschonen, correct worden uitgevoerd. Raadpleeg de speciale documentatie van [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor meer informatie over technische workflows in Adobe Campaign.
+1. Zorg ervoor dat de **workflows** die uw SFTP-servers opschonen, correct worden uitgevoerd. Raadpleeg voor meer informatie over technische workflows in Adobe Campaign de betreffende [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) documenten.
 1. Neem contact op met uw accountteam om **meer opslagruimte aan te vragen** (hiervoor worden mogelijk extra kosten in rekening gebracht).
 1. Neem contact op met de **Klantenservice** als u denkt dat er een probleem is.

@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 9%
 
 ---
@@ -95,7 +95,7 @@ De sleutel is dan beschikbaar voor gebruik in de werkschema&#39;s van Adobe Camp
 
 Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onderwerp:
 
-**Campaign Classic v7 en Campagne v8:**
+**Campagne v7/v8:**
 
 * [Een bestand zoeken of versleutelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
 * [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
@@ -138,7 +138,7 @@ De openbare sleutel is dan beschikbaar om met om het even welk extern systeem te
 
 Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
-**Campaign Classic v7 en Campagne v8:**
+**Campagne v7 en v8:**
 
 * [Een bestand uitpakken of decoderen voordat het wordt verwerkt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
 * [Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
@@ -186,6 +186,6 @@ We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Om dit t
 
 In de onderstaande video ziet u hoe u GPG-sleutels voor gegevenscodering kunt genereren en installeren.
 
-Aanvullende &#39;Hoe kan ik&#39;-video&#39;s over het beheer van GPG-sleutels zijn beschikbaar in  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) pagina&#39;s met zelfstudies.
+Aanvullende &#39;Hoe kan ik&#39;-video&#39;s over het beheer van GPG-sleutels zijn beschikbaar in  [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) pagina&#39;s met zelfstudies.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

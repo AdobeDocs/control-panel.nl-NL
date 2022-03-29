@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: c52094b8145bdd84aa9e71430a811b8a7b32354d
-workflow-type: ht
-source-wordcount: '220'
-ht-degree: 100%
+source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 84%
 
 ---
 
@@ -23,16 +23,13 @@ ht-degree: 100%
 
 ![](assets/do-not-localize/banner.png)
 
+Het Controlebord van de campagne helpt u efficiency in uw werk als productbeheer van Campaign Standard en V7/v8 verhogen, door u toe te staan om montages te beheren en gebruik voor elk van uw instanties van de Campagne te volgen.
+
 ## Nieuwe functies
 
 **Workflowparameters bewaken**
 
 U kunt nu workflowparameters bewaken waarvoor specifieke aandacht nodig kan zijn om problemen met uw instanties te voorkomen. [Meer informatie](performance-monitoring/using/workflow-monitoring.md)
-
-
-**Actieve query&#39;s bewaken**
-
-In het configuratiescherm kunt u nu query&#39;s bewaken die het langst op uw instanties worden uitgevoerd. [Meer informatie](performance-monitoring/using/database-active-queries.md)
 
 **Doorvoer en latentiebewaking**
 
@@ -43,7 +40,7 @@ U kunt nu bewaken hoe de leveringsdoorvoer en latentie zich gedurende een bepaal
 >
 >* Het configuratiescherm is toegankelijk voor alle beheerders. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel)
 >
->* Voor Campaign Classic v7 gelden implementatiebeperkingen. [Meer informatie](faq.md#v7-restrictions)
+>* Voor Campaign v7 gelden implementatiebeperkingen. [Meer informatie](faq.md#v7-restrictions)
 
 
 ## Aanvullende bronnen {#additional-resources}
@@ -56,10 +53,10 @@ U kunt nu bewaken hoe de leveringsdoorvoer en latentie zich gedurende een bepaal
             <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=nl">Campaign Standard-productdocumentatie</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic v7</b><br/>
+        <td><b>Campaign v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=nl">Tutorialvideo's van het configuratiescherm</a></li>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=nl">Productdocumentatie voor Campaign Classic v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=nl">Productdocumentatie Campaign v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>

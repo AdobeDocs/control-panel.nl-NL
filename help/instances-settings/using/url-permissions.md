@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 88%
+source-wordcount: '600'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Deze functie is alleen beschikbaar voor instanties van de categorieën Campagne v8 en Campaign Classic v7, van build 8850. Als u een eerdere build gebruikt, moet u een upgrade uitvoeren om deze functie te kunnen gebruiken.
+>Deze functie is alleen beschikbaar voor instanties van Campagne v7/v8, van build 8850. Als u een eerdere build gebruikt, moet u een upgrade uitvoeren om deze functie te kunnen gebruiken.
 
 De standaardlijst met URL’s die via JavaScript-codes kunnen worden aangeroepen (workflows, enz.) door uw campagneinstanties beperkt zijn. Dit zijn URL’s waardoor uw instanties correct kunnen werken.
 
@@ -72,7 +72,7 @@ Ga als volgt te werk om een URL toe te voegen waarmee uw instantie verbinding ka
    >
    >Alle Campaign-instanties worden weergegeven in de lijst in het linkerdeelvenster.
    >
-   >Aangezien het beheer van URL-machtigingen specifiek is voor Campaign Classic-instanties, wordt het bericht ‘Non-Applicable Instance’ weergegeven als u een Campaign Standard-instantie selecteert.
+   >Aangezien het beheer van URL-machtigingen alleen is bestemd voor instanties van Campagne v7/v8, wordt het bericht &quot;Niet-toepasbare instantie&quot; weergegeven als u een instantie Campaign Standard selecteert.
 
 1. Typ de URL die u wilt autoriseren met het bijbehorende protocol (http, https of sftp).
 

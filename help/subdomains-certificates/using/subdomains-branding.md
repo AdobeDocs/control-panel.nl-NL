@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ Aanvullende informatie over domeinconfiguratie is beschikbaar in [deze documenta
 
 Als u om het even welke vraag betreffende de methodes van de subdomeinconfiguratie hebt, bereik uit aan het team van de Leverbaarheid van de Adobe, of uiteindelijk contacteer de Zorg van de Klant om het raadplegen van de Leverbaarheid te verzoeken.
 
-## Gebruiksgevallen van subdomeinen (Campaign Classic){#subdomains-use-cases}
+## Gebruiksgevallen van subdomeinen (campagne v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -65,7 +65,7 @@ Als u om het even welke vraag betreffende de methodes van de subdomeinconfigurat
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl" text="Branding van subdomeinen"
 
-Wanneer u subdomeinen instelt voor instanties Campaign Classic, moet u het geval selecteren waarvoor het subdomein wordt gebruikt (zie [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Wanneer u subdomeinen instelt voor instanties Campagne v7/v8, moet u het geval van het gebruik selecteren waarvoor subdomain zal worden gebruikt (zie [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Mogelijke gevallen van gebruik zijn:
 
@@ -82,9 +82,9 @@ Mogelijke gevallen van gebruik zijn:
 
 >[!NOTE]
 >
->Als u Campaign Classic gebruikt, kunt u in het Configuratiescherm zien welke RT-/MID-instanties zijn verbonden met de marketinginstantie waarmee u werkt. Raadpleeg voor meer informatie de sectie [Instantiedetails](../../instances-settings/using/instance-details.md).
+>Als u Campagne v7/v8 gebruikt, staat het Controlebord u toe om te zien welke instanties RT/MID met de instantie van de Marketing worden verbonden die u met werkt. Raadpleeg voor meer informatie de sectie [Instantiedetails](../../instances-settings/using/instance-details.md).
 
 **Verwante onderwerpen:**
 
 * [Een nieuw subdomein instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Uw subdomeinen controleren](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)

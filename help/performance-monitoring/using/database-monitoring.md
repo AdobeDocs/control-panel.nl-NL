@@ -6,10 +6,11 @@ description: Leer de Campaign-database controleren in het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 84%
+source-wordcount: '380'
+ht-degree: 81%
 
 ---
 
@@ -45,7 +46,7 @@ Bovendien kunt u berichten ontvangen wanneer één van uw databases zijn capacit
 
 ![](assets/databases_dashboard.png)
 
-De gegevens van dit dashboard worden bijgewerkt op basis van de **[!UICONTROL Database cleanup technical workflow]** die op uw instantie van de Campagne loopt (zie [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl#list-of-technical-workflows) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=nl) documentatie). U kunt de laatste keer controleren dat de workflow onder de **[!UICONTROL Used Space]** en **[!UICONTROL Provided Space]** metriek. Als de workflow al meer dan drie dagen niet meer is uitgevoerd, raden wij u aan de klantenservice van Adobe te raadplegen zodat ze kunnen onderzoeken waarom de workflow niet wordt uitgevoerd.
+De gegevens van dit dashboard worden bijgewerkt op basis van de **[!UICONTROL Database cleanup technical workflow]** die op uw instantie van de Campagne loopt (zie [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl#list-of-technical-workflows) en [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=nl) documentatie). U kunt de laatste keer controleren dat de workflow onder de **[!UICONTROL Used Space]** en **[!UICONTROL Provided Space]** metriek. Als de workflow al meer dan drie dagen niet meer is uitgevoerd, raden wij u aan de klantenservice van Adobe te raadplegen zodat ze kunnen onderzoeken waarom de workflow niet wordt uitgevoerd.
 
 Dit dashboard bevat aanvullende metriek waarmee u het gebruik van de database van de instantie kunt analyseren. Deze worden in de volgende secties beschreven:
 
@@ -54,4 +55,4 @@ Dit dashboard bevat aanvullende metriek waarmee u het gebruik van de database va
 * [De tien belangrijkste tijdelijke bronnen](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Actieve query&#39;s](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl).
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl)

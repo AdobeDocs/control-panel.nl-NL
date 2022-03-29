@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 37%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# IP-bereiken toevoegen aan de lijst van gewenste IP-adressen {#ip-range-allow-listing}
+# Lijst maken met toegestane IP-bereiken {#ip-range-allow-listing}
 
 >[!CONTEXTUALHELP]
 >id="cp_ip_whitelist"
@@ -24,7 +24,7 @@ ht-degree: 37%
 
 SFTP-servers zijn beveiligd. Om tot hen toegang te hebben tot meningsdossiers of nieuwe degenen te schrijven, moet u het openbare IP adres van het systeem of de cliënt toevoegen die tot de servers aan de lijst van gewenste personen toegang heeft.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management).
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management)
 
 ## Informatie over de CIDR-indeling {#about-cidr-format}
 

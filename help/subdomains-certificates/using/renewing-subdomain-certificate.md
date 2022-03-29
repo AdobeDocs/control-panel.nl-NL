@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 88%
+source-wordcount: '829'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Nadat de CSR is gegenereerd, kunt u deze downloaden en gebruiken om het SSL-cert
 1. **Installatie van het SSL-certificaat**
 Nadat u het SSL-certificaat hebt aangeschaft, kunt u het op het gewenste subdomein installeren.
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video ontdekken met [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates).
+![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
 
 ## Een Certificate Signing Request (CSR) genereren {#generating-csr}
 
@@ -142,4 +142,4 @@ Nadat het SSL-certificaat is geïnstalleerd, worden de vervaldatum en het status
 **Verwante onderwerpen:**
 
 * [Branding van subdomeinen](../../subdomains-certificates/using/subdomains-branding.md)
-* [Uw subdomeinen controleren](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)

@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 81%
+source-wordcount: '397'
+ht-degree: 78%
 
 ---
 
-# Bewaking van actieve profielen {#active-profiles-monitoring}
+# Actieve profielen bewaken {#active-profiles-monitoring}
 
 ## Actieve profielen {#about-active-profiles}
 
@@ -32,7 +32,7 @@ Profielen worden als actief beschouwd als ze de afgelopen twaalf maanden via een
 >
 >Er wordt geen rekening gehouden met de kanalen Facebook en Twitter.
 
-Raadpleeg voor meer informatie over actieve profielen de categorie [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documenten.
+Raadpleeg voor meer informatie over actieve profielen de categorie [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documenten.
 
 ## Actieve profielen bewaken {#monitoring-active-profiles}
 
@@ -59,7 +59,7 @@ Ga als volgt te werk om dit te doen:
 >Actieve profielen worden geteld op basis van speciale technische workflows die dagelijks op uw instanties worden uitgevoerd:
 >
 >* De workflow [Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor Campaign Standard,
->* De workflow [Number of active billing profiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) voor Campaign Classic.
+>* De [&quot;Aantal actieve factureringsprofielen&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow voor Campagne v7/v8.
 
 
 Het onderste gebied biedt een grafische weergave van het gebruik van actieve profielen in de afgelopen 30 dagen. Met de beschikbare filters in de rechterbovenhoek kunt u de weergegeven periode wijzigen in 1 jaar.

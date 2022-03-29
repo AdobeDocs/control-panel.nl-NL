@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 83%
+source-wordcount: '295'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Belangrijkste voordelen:
 >
 >Het configuratiescherm is toegankelijk voor alle beheerders. De stappen om beheerderstoegang aan een gebruiker te verlenen worden gedetailleerd beschreven in [dit gedeelte](managing-permissions.md).
 >
->Voor Campaign Classic moet uw exemplaar worden gehost op Amazon Web Services (AWS) en worden bijgewerkt naar de nieuwste [Stabiele build campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) of om 9032 of hoger te bouwen. Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](../../faq.md#hosted-aws).
+>Houd er bij Campagne v7/v8 rekening mee dat uw exemplaar moet worden gehost op Amazon Web Services (AWS) en moet worden bijgewerkt naar de nieuwste [Stabiele build campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) of om 9032 of hoger te bouwen. Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ Belangrijkste voordelen:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="voorwaarden" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Uw instantie-instellingen beheren</strong></a></div>
-        <br/><em>Leer hoe u uw instantie-instellingen beheert (alleen Campaign Classic).</em>
+        <br/><em>Leer hoe u uw instanties-instellingen beheert (alleen campagne v7/v8).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="voorwaarden" src="assets/do-not-localize/monitoring-performance.png"/></a>
