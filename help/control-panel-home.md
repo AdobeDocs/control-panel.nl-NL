@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-Het Controlebord van de campagne helpt u efficiency in uw werk als productbeheer van Campaign Standard en V7/v8 verhogen, door u toe te staan om montages te beheren en gebruik voor elk van uw instanties van de Campagne te volgen.
+Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Campaign Standard en V7/v8 efficiënter uitvoeren doordat u de instellingen kunt beheren en het gebruik voor elk van uw Campaign-instanties kunt bijhouden.
 
 ## Nieuwe functies
 
