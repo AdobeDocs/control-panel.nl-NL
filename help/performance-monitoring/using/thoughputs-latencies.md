@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Met het Configuratiescherm kunt u de doorvoer en latentie van de levering voor e
 
 >[!IMPORTANT]
 >
->Deze functie is beschikbaar voor alle Campaign Standard- en v8-klanten en voor Campagne V7-klanten met buildnummers 9032,9330, 9346 of 9349 die [standalone](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) implementaties (zonder tussenkomst).
+>Deze functie is beschikbaar voor alle Campaign Standard- en v8-klanten en voor Campaign V7-klanten met buildnummers 9032,9330, 9346 of 9349 die [standalone](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=nl) implementaties (zonder tussenkomst).
 
 Het is belangrijk om te bewaken hoe de leveringsdoorvoer en latentie zich ontwikkelen over een bepaalde periode om het gebruik van uw instanties te begrijpen en ervoor te zorgen dat ze goed presteren.
 
@@ -35,7 +35,7 @@ Deze informatie wordt beschikbaar gemaakt in het configuratiescherm voor elk van
 
    >[!NOTE]
    >
-   >Voor Campagne v7/v8 is het getoonde productienummer de productie die van MID (midsourcing) instanties wordt bereikt. Voor standalone marketing (MKT) plaatsingen (zonder enige instantie MID), productie van instantie MKT in plaats daarvan wordt getoond.
+   >Voor Campaign v7/v8 is het getoonde doorvoernummer de doorvoer die van MID-instanties (midsourcing) wordt bereikt. Voor MKT-implementaties (standalone marketing) (zonder enige MID-instantie) wordt in plaats daarvan de doorvoer van de MKT-instantie getoond.
 
 * Het gebied **[!UICONTROL Latency]** biedt informatie over de latentie die op de geselecteerde instantie wordt aangetroffen bij het verzenden van realtimetransactiecommunicatie. Latenties worden vastgelegd en visualiseerd met een percentiel van 95 en 99, wat betekent dat 95% en 99% van de verzoeken sneller moeten zijn dan de opgegeven latentie.
 
