@@ -4,10 +4,10 @@ solution: Campaign
 title: Configuratiescherm-releases
 description: Deze pagina bevat alle nieuwe functies en verbeteringen voor het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 62%
+source-wordcount: '1070'
+ht-degree: 60%
 
 ---
 
@@ -20,6 +20,23 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor h
 >Het Configuratiescherm is alleen toegankelijk voor Admin-gebruikers. Meer informatie over machtigingen in [deze sectie](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 >
 >Voor Campaign v7 moet uw exemplaar worden gehost op Amazon Web Services (AWS) en worden bijgewerkt naar de nieuwste [Stabiele build campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) (of om 9032 of hoger te bouwen). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md#hosted-aws).
+
+## April 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>De belangrijkste contacten en gebeurtenissen van de monitor op uw instanties</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt de afgelopen en aanstaande versies en de dienstoverzichten nu controleren die op uw instanties voorkomen, evenals tot een lijst van zeer belangrijke contacten bij Adobe voor om het even welk verzoek of kwestie toegang hebben.</p><p>Raadpleeg voor meer informatie de <a href="service-events/service-events.md">gedetailleerde documentatie.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Maart 2022 {#march-2022}
 

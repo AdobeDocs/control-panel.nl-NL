@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 82%
 
 ---
 
@@ -27,14 +27,9 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**Workflowparameters bewaken**
+**De belangrijkste contacten en gebeurtenissen van de monitor op uw instanties**
 
-U kunt nu workflowparameters bewaken waarvoor specifieke aandacht nodig kan zijn om problemen met uw instanties te voorkomen. [Meer informatie](performance-monitoring/using/workflow-monitoring.md)
-
-**Doorvoer en latentiebewaking**
-
-U kunt nu bewaken hoe de leveringsdoorvoer en latentie zich gedurende een bepaalde periode ontwikkelen op uw instanties. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
-
+U kunt de afgelopen en aanstaande versies en de dienstoverzichten nu controleren die op uw instanties voorkomen, evenals tot een lijst van zeer belangrijke contacten bij Adobe voor om het even welk verzoek of kwestie toegang hebben. [Meer informatie](service-events/service-events.md)
 
 >[!CAUTION]
 >
