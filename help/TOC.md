@@ -6,10 +6,10 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 93%
+source-wordcount: '124'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 93%
    + [Configuratiescherm openen](discover/using/accessing-control-panel.md)
    + [Machtigingen voor het configuratiescherm beheren](discover/using/managing-permissions.md)
    + [De interface van het configuratiescherm verkennen](discover/using/discovering-the-interface.md)
++ [Belangrijke contacten en gebeurtenissen controleren](service-events/service-events.md)
 + SFTP-beheer {#sftp-management}
    + [SFTP-beheer](sftp/using/about-sftp-management.md)
    + [SFTP-opslagbeheer](sftp/using/sftp-storage-management.md)
@@ -55,5 +56,4 @@ ht-degree: 93%
    + [URL-machtigingen](instances-settings/using/url-permissions.md)
    + [Instantiedetails](instances-settings/using/instance-details.md)
    + [Beheer van GPG-sleutels](instances-settings/using/gpg-keys-management.md)
-+ [Belangrijke contacten en gebeurtenissen op uw instanties identificeren](service-events/service-events.md)
 + [Veelgestelde vragen](faq.md)
