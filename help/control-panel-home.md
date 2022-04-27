@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**De belangrijkste contacten en gebeurtenissen van de monitor op uw instanties**
+**Belangrijke contacten en gebeurtenissen bewaken op uw instanties**
 
-U kunt de afgelopen en aanstaande versies en de dienstoverzichten nu controleren die op uw instanties voorkomen, evenals tot een lijst van zeer belangrijke contacten bij Adobe voor om het even welk verzoek of kwestie toegang hebben. [Meer informatie](service-events/service-events.md)
+U kunt nu eerdere en toekomstige releases en servicereviews van uw instanties bewaken, en bovendien toegang krijgen tot een lijst met belangrijke contacten bij Adobe voor elke aanvraag of probleem. [Meer informatie](service-events/service-events.md)
 
 >[!CAUTION]
 >
