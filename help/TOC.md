@@ -6,10 +6,10 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
-workflow-type: ht
-source-wordcount: '124'
-ht-degree: 100%
+source-git-commit: d99076ab844c348dbca2ae2ca2f3dc83da29406e
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 96%
 
 ---
 
@@ -56,4 +56,5 @@ ht-degree: 100%
    + [URL-machtigingen](instances-settings/using/url-permissions.md)
    + [Instantiedetails](instances-settings/using/instance-details.md)
    + [Beheer van GPG-sleutels](instances-settings/using/gpg-keys-management.md)
+   + [Connect MID/RT-instanties](instances-settings/using/external-accounts.md)
 + [Veelgestelde vragen](faq.md)
