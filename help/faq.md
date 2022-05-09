@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
-workflow-type: ht
-source-wordcount: '767'
-ht-degree: 100%
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 75%
 
 ---
 
@@ -56,33 +56,33 @@ Volg de gedetailleerde instructies in de documentatie ‘Configuratiescherm open
 
 Nee, er zijn geen extra kosten als u een huidige Adobe Campaign-klant bent.
 
-## IMS-organisatie-ID {#ims-org-id}
+## Organisatie-id {#ims-org-id}
 
-### Wat is een IMS-organisatie-ID?
+### Wat is een organisatie-id?
 
 Dit is een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
 
-Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl) voor meer informatie.
+Raadpleeg voor meer informatie [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){_blank}.
 
-### Waar kan ik mijn IMS-organisatie-ID vinden?
+### Waar kan ik mijn organisatie-id vinden?
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw IMS-organisatie-id onderaan de sectie voor het beheer van **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw organisatie-id onder aan Beheer **[!UICONTROL Quick Access]** sectie. U vindt meer gedetailleerde informatie in het gedeelte [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html){_blank}.
 
-U kunt ook **Admin Console** starten. Uw IMS-organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+U kunt ook **Admin Console** starten. Uw organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: `https://adminconsole.adobe.com/xxx@AdobeOrg/overview`.
 
-### Waarom moet ik mijn IMS-organisatie-ID weten?
+### Waarom moet ik mijn organisatie-id kennen?
 
 We willen ervoor zorgen dat u de juiste versie krijgt als u meerdere versies voor uw bedrijf gebruikt, zodat u de instellingen voor uw versies kunt beheren.
 
-### Wat gebeurt er als ik meerdere IMS-organisatie-ID’s heb?
+### Wat gebeurt er als ik meerdere organisatie-id&#39;s heb?
 
-U kunt meer dan één IMS-organisatie-id hebben als u toegang hebt tot meerdere Adobe-oplossingen. De id die u onder uw Adobe Campaign-instantie ziet, is in dat geval de IMS-organisatie-id die u moet gebruiken.
+U kunt meer dan één identiteitskaart van de Organisatie hebben als u toegang tot veelvoudige oplossingen van Adobe hebt. In dit geval is de juiste organisatie-id die u moet gebruiken, die welke u onder uw Adobe Campaign-exemplaar ziet.
 
 >[!NOTE]
 >
->Het is fantastisch als u dezelfde IMS-organisatie-id hebt voor Adobe Campaign en Adobe Analytics. Dezelfde IMS-organisatie-id voor Analytics en Campaign is een vereiste als u de oplossingen wilt integreren om complexe gebruiksscenario’s te benutten, zoals het achterlaten van winkelwagens (voor AA + AC).
+>Als je dezelfde organisatie-id hebt voor Adobe Campaign en Adobe Analytics, is dit geweldig. U hebt één organisatie-id tussen Analytics en Campagne nodig als u de oplossingen wilt integreren om te profiteren van complexe gebruikscituaties, zoals het achterlaten van winkelwagentjes (voor AA + AC).
 >
->Als u verschillende IMS-organisatie-id’s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
+>Als u verschillende organisatie-id&#39;s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
 
 ### Hoe weet ik of mijn Adobe Campaign-versie wordt gehost op AWS?{#hosted-aws}
 

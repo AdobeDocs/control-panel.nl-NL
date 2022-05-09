@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 86%
 
 ---
@@ -55,7 +55,7 @@ Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt
 
 >[!NOTE]
 >
->Als de **[!UICONTROL Instance Settings]** De kaart is niet zichtbaar op de homepage van het Configuratiescherm. Dit betekent dat uw IMS-organisatie-id niet is gekoppeld aan Adobe Campaign v7/v8-instanties.
+>Als de **[!UICONTROL Instance Settings]** De kaart is niet zichtbaar op de homepage van het Configuratiescherm. Dit betekent dat uw Organisatie-id niet is gekoppeld aan Adobe Campaign v7/v8-instanties.
 
 Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te voegen:
 
