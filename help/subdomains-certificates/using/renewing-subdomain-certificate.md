@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8f83b5c440ad9fd698a48776723fe71e0915f527
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 86%
+source-wordcount: '860'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->De subdomeinconfiguratie via het configuratiescherm is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
+>SSL-certificaatvernieuwing van het Configuratiescherm is beschikbaar in de bètaversie en kan vaak zonder voorafgaande kennisgeving worden bijgewerkt en gewijzigd.
+>
+>Als u een instantie met een hybride hostingmodel gebruikt, kunt u alleen certificaten weergeven die zijn gekoppeld aan de gedelegeerde subdomeinen. U kunt SSL-certificaten niet vernieuwen.
 
 Het proces voor het verlengen van SSL-certificaten bestaat uit drie stappen:
 

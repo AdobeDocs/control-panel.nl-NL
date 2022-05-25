@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 91%
+source-wordcount: '1366'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->De subdomeinconfiguratie via het configuratiescherm is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
+>Als u een instantie met een hybride het ontvangen model gebruikt, kunt u reeds gedelegeerde subdomeinen slechts bekijken, en u zult subdomeinen niet kunnen vormen.
 
 Deze pagina biedt informatie over het instellen van nieuwe subdomeinen met volledige subdomeindelegatie of CNAMEs Algemene concepten voor deze twee methoden worden in dit gedeelte beschreven: [Branding van subdomeinen](../../subdomains-certificates/using/subdomains-branding.md).
 

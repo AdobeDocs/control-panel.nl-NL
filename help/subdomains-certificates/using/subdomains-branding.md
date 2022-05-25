@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '729'
+ht-degree: 75%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten bewaken"
 
 ## Waarom zou ik subdomeinen instellen? {#why-setting-up-subdomains}
-
->[!IMPORTANT]
->
->De subdomeinconfiguratie via het configuratiescherm is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt en gewijzigd.
 
 Een subdomein is een divisie van uw domein die kan worden gebruikt om uw merken of diverse traffictypen (transactieberichten, marketinginformatie, enz.) te isoleren.
 

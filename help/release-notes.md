@@ -4,10 +4,10 @@ solution: Campaign
 title: Configuratiescherm-releases
 description: Deze pagina bevat alle nieuwe functies en verbeteringen voor het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 60%
+source-wordcount: '1174'
+ht-degree: 58%
 
 ---
 
@@ -21,18 +21,51 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor h
 >
 >Voor Campaign v7 moet uw exemplaar worden gehost op Amazon Web Services (AWS) en worden bijgewerkt naar de nieuwste [Stabiele build campagne](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=nl#rn-statuses) (of om 9032 of hoger te bouwen). Leer hoe u uw versie kunt controleren in [dit gedeelte](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=nl#getting-your-campaign-version). Controleer of uw versie wordt gehost op AWS door de volgende stappen te volgen op [deze pagina](faq.md#hosted-aws).
 
-## April 2022 {#april-2022}
+## Mei 2022 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>De belangrijkste contacten en gebeurtenissen van de monitor op uw instanties</strong><br/></th>
+<th><strong>Beschikbaarheid van bedieningspaneel voor hybride hostingmodel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt de afgelopen en aanstaande versies en de dienstoverzichten nu controleren die op uw instanties voorkomen, evenals tot een lijst van zeer belangrijke contacten bij Adobe voor om het even welk verzoek of kwestie toegang hebben.</p><p>Raadpleeg voor meer informatie de <a href="service-events/service-events.md">gedetailleerde documentatie.</a></p>
+<p>Het Configuratiescherm is nu beschikbaar voor klanten met een hybride hostingmodel. Deze klanten kunnen hefboomwerking de eigenschappen van Controlebord door hun MID/RT instantie URL te verstrekken die in hun marketing instantie in Controlebord wordt gevormd.</p><p>Raadpleeg voor meer informatie de <a href="instances-settings/using/external-accounts.md">gedetailleerde documentatie.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Updates voor doorvoer en latentie controleren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De mogelijkheden voor doorvoer en latentie-bewaking zijn verbeterd:<ul><li>U kunt nu de id's identificeren van de bovenste 5 leveringen die bijdragen aan de doorvoer van uw instantie.</li><li>Campaign Classic v7/v8-klanten kunnen nu de latentie voor een specifiek kanaal visualiseren.</p></li><p>Raadpleeg voor meer informatie de <a href="performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## April 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Belangrijke contacten en gebeurtenissen bewaken op uw instanties</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu eerdere en toekomstige releases en servicereviews van uw instanties bewaken, en bovendien toegang krijgen tot een lijst met belangrijke contacten bij Adobe voor elke aanvraag of probleem.</p><p>Raadpleeg voor meer informatie de <a href="service-events/service-events.md">gedetailleerde documentatie.</a></p>
 </td>
 </tr>
 </tbody>

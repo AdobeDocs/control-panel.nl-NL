@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 2458263ef5981a16d983912b498e320501df7889
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 86%
+source-wordcount: '831'
+ht-degree: 79%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 86%
 >[!IMPORTANT]
 >
 >Deze functie is alleen beschikbaar voor instanties van Campagne v7/v8.
+>
+>Als u een instantie met een hybride hostingmodel gebruikt, kunt u alleen IP-adressen toevoegen in &quot;Externe API-verbinding&quot; voor RT-instantie.
 
 Standaard is uw Adobe Campaign-instantie niet toegankelijk via verschillende IP-adressen.
 
@@ -55,7 +57,7 @@ Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt
 
 >[!NOTE]
 >
->Als de **[!UICONTROL Instance Settings]** De kaart is niet zichtbaar op de homepage van het Configuratiescherm. Dit betekent dat uw Organisatie-id niet is gekoppeld aan Adobe Campaign v7/v8-instanties.
+>Als de **[!UICONTROL Instance Settings]** De kaart is niet zichtbaar op de homepage van het Configuratiescherm. Dit betekent dat uw IMS-organisatie-id niet is gekoppeld aan Adobe Campaign v7/v8-instanties.
 
 Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te voegen:
 
@@ -88,11 +90,16 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te
    * **[!UICONTROL AEM connection]**: De opgegeven AEM IP-adressen mogen verbinding maken met de Marketing-instantie.
    * **[!UICONTROL External API connection]**: Externe API’s met de opgegeven IP-adressen kunnen verbinding maken met de Marketing- en/of Message Center-instantie (RT). Verbinding met de console van RT-instanties is niet ingeschakeld.
 
+      >[!NOTE]
+      >
+      >Als u een instantie met een hybride hostingmodel gebruikt, kunt u alleen IP-adressen toevoegen in &quot;Externe API-verbinding&quot; voor RT-instantie.
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Klik op de knop **[!UICONTROL Save]**. Het IP-bereik wordt toegevoegd aan de lijst van gewenste IP-adressen.
 
    <!--![](assets/ip_whitelist_added.png)-->
+
+Standaard is uw Adobe Campaign-instantie niet toegankelijk via verschillende IP-adressen.
 
 Om één of meerdere IP waaiers van de lijst van gewenste personen te schrappen, selecteer hen, dan klik **[!UICONTROL Delete IP range]** knop.
 
