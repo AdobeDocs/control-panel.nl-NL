@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 67%
 
 ---
 
@@ -27,9 +27,17 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**Belangrijke contacten en gebeurtenissen bewaken op uw instanties**
+**Beschikbaarheid van bedieningspaneel voor hybride hostingmodel**
 
-U kunt nu eerdere en toekomstige releases en servicereviews van uw instanties bewaken, en bovendien toegang krijgen tot een lijst met belangrijke contacten bij Adobe voor elke aanvraag of probleem. [Meer informatie](service-events/service-events.md)
+Het Configuratiescherm is nu beschikbaar voor klanten met een hybride hostingmodel. Deze klanten kunnen hefboomwerking de eigenschappen van Controlebord door hun MID/RT instantie URL te verstrekken die in hun marketing instantie in Controlebord wordt gevormd. [Meer informatie](instances-settings/using/external-accounts.md)
+
+
+**Updates voor doorvoer en latentie controleren**
+
+De mogelijkheden voor doorvoercontroles en latentiebewaking zijn verbeterd. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
+
+* U kunt nu de id&#39;s identificeren van de bovenste 5 leveringen die bijdragen aan de doorvoer van uw instantie.
+* Campaign Classic v7/v8-klanten kunnen nu de latentie voor een specifiek kanaal visualiseren.
 
 >[!CAUTION]
 >
