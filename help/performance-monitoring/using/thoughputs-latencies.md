@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,7 @@ Met het Configuratiescherm kunt u de doorvoer en latentie van de levering voor e
 
 >[!IMPORTANT]
 >
->Deze functie is beschikbaar voor alle Campaign Standard- en v8-klanten en voor Campaign V7-klanten met buildnummers 9032,9330, 9346 of 9349 die [standalone](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=nl) implementaties (zonder tussenkomst).
+>Deze functie is beschikbaar voor alle Campaign Standard- en v8-klanten en voor Campagne v7-klanten met buildnummers 9032 en hoger, inclusief [zelfstandige implementaties](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=nl) (zonder tusseninstantie).
 
 Het is belangrijk om te bewaken hoe de leveringsdoorvoer en latentie zich ontwikkelen over een bepaalde periode om het gebruik van uw instanties te begrijpen en ervoor te zorgen dat ze goed presteren.
 
