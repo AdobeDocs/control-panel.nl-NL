@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -27,17 +27,17 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**Beschikbaarheid van bedieningspaneel voor hybride hostingmodel**
+**Beschikbaarheid van configuratiescherm voor hybride hostingmodel**
 
-Het Configuratiescherm is nu beschikbaar voor klanten met een hybride hostingmodel. Deze klanten kunnen hefboomwerking de eigenschappen van Controlebord door hun MID/RT instantie URL te verstrekken die in hun marketing instantie in Controlebord wordt gevormd. [Meer informatie](instances-settings/using/external-accounts.md)
+Het configuratiescherm is nu beschikbaar voor klanten met een hybride hostingmodel. Deze klanten kunnen gebruikmaken van de functies van het configuratiescherm door in het configuratiescherm hun MID/RT-instantie-URL op te geven die is geconfigureerd in hun marketinginstantie. [Meer informatie](instances-settings/using/external-accounts.md)
 
 
 **Updates voor doorvoer en latentie controleren**
 
-De mogelijkheden voor doorvoercontroles en latentiebewaking zijn verbeterd. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
+Doorvoer- en latentiebewakingsmogelijkheden zijn verbeterd. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
 
-* U kunt nu de id&#39;s identificeren van de bovenste 5 leveringen die bijdragen aan de doorvoer van uw instantie.
-* Campaign Classic v7/v8-klanten kunnen nu de latentie voor een specifiek kanaal visualiseren.
+* U kunt nu de ID&#39;s identificeren van de top 5-leveringen die bijdragen aan de doorvoer van uw exemplaar.
+* Campaign Classic v7/v8-klanten kunnen nu latentie voor een specifiek kanaal visualiseren.
 
 >[!CAUTION]
 >
