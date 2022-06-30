@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 8db39899be5dfe610f39a6cecc23bd5f969078c6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '388'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_storage"
 >title="Opslagcapaciteit"
->abstract="Op dit tabblad kunt u de opslagcapaciteit en de gebruiksgegevens voor uw SFTP-servers weergeven. Alleen SFTP-servers waartoe u toegang hebt, worden hier weergegeven. Neem contact op met uw beheerder om toegang tot andere SFTP-servers aan te vragen."
+>abstract="Op dit tabblad kunt u de opslagcapaciteit en de gebruiksgegevens voor uw SFTP-servers weergeven. U kunt ook de top 10 dossiers vermelden die de meeste ruimte op een server van SFTP verbruiken door zijn naam te klikken. Alleen SFTP-servers waartoe u toegang hebt, worden hier weergegeven. Neem contact op met uw beheerder om toegang tot andere SFTP-servers aan te vragen."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4" text="Demovideo bekijken"
 
 Afhankelijk van uw contractvoorwaarden is mogelijk andere opslagcapaciteit op uw SFTP-server ingericht.
@@ -38,6 +38,10 @@ Voor elke instantie wordt met een visueel signaal aangegeven wanneer de opslagca
 
 * **Oranje**: de instantie gebruikt meer dan 80% van de capaciteit.
 * **Rood**: de instantie gebruikt meer dan 90% van de capaciteit.
+
+U kunt ook de top 10 dossiers identificeren die de meeste ruimte op een server van SFTP verbruiken door zijn naam te klikken.
+
+![](assets/sftp-top10.png)
 
 Er zijn ook extra tips beschikbaar om u te adviseren wat u moet doen wanneer de grens van de servercapaciteit bijna is bereikt.
 

@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 73%
 
 ---
 
@@ -27,17 +27,19 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**Beschikbaarheid van configuratiescherm voor hybride hostingmodel**
+**De 10 meest gebruikte bestanden ruimte op SFTP-servers**
 
-Het configuratiescherm is nu beschikbaar voor klanten met een hybride hostingmodel. Deze klanten kunnen gebruikmaken van de functies van het configuratiescherm door in het configuratiescherm hun MID/RT-instantie-URL op te geven die is geconfigureerd in hun marketinginstantie. [Meer informatie](instances-settings/using/external-accounts.md)
+U kunt nu de top 10 dossiers identificeren die de meeste ruimte op een server SFTP verbruiken. [Meer informatie](sftp/using/sftp-storage-management.md)
 
 
-**Updates voor doorvoer en latentie controleren**
+**Herinneringen voor serviceagenda**
 
-Doorvoer- en latentiebewakingsmogelijkheden zijn verbeterd. [Meer informatie](performance-monitoring/using/thoughputs-latencies.md)
+U kunt nu de Service Calendar gebruiken om herinneringen in te stellen zodat u per e-mail op de hoogte wordt gesteld voordat er een gebeurtenis op uw instanties plaatsvindt. [Meer informatie](instances-settings/using/external-accounts.md)
 
-* U kunt nu de ID&#39;s identificeren van de top 5-leveringen die bijdragen aan de doorvoer van uw exemplaar.
-* Campaign Classic v7/v8-klanten kunnen nu latentie voor een specifiek kanaal visualiseren.
+**Verbeteringen voor CSR-generatie van subdomeinen**
+
+Er zijn verschillende verbeteringen aangebracht in het CSR-generatieproces. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 
 >[!CAUTION]
 >

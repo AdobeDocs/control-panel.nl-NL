@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 9%
+source-wordcount: '1189'
+ht-degree: 8%
 
 ---
 
@@ -41,6 +41,10 @@ Dan kunt u:
 Met het Configuratiescherm kunt u gegevens versleutelen die afkomstig zijn van uw Adobe Campaign-instantie.
 
 Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramma en vervolgens de openbare sleutel installeren in het Configuratiescherm. Vervolgens kunt u gegevens versleutelen voordat u deze vanuit uw instantie verzendt. Volg de onderstaande stappen om dit te doen.
+
+>[!NOTE]
+>
+>U kunt maximaal 60 GPG-toetsen installeren in het Configuratiescherm.
 
 ![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
 

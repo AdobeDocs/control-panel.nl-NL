@@ -6,10 +6,10 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 73%
 
 ---
 
@@ -17,16 +17,21 @@ ht-degree: 100%
 # Handleiding voor het configuratiescherm {#using}
 
 + [Productdocumentatie](control-panel-home.md)
-+ [Aanvullende informatie](release-notes.md)
++ Aanvullende informatie {#release-notes}
+   + [Nieuwste release](rn/release-notes.md)
+   + Eerdere releases {#previous-releases}
+      + [Aanvullende informatie 2021](rn/release-notes-2021.md)
+      + [Aanvullende informatie 2020](rn/release-notes-2020.md)
+      + [Aanvullende informatie 20219](rn/release-notes-2019.md)
 + Configuratiescherm verkennen {#discover-control-panel}
    + [Belangrijkste kenmerken](discover/using/key-features.md)
-   + [Configuratiescherm openen](discover/using/accessing-control-panel.md)
-   + [Machtigingen voor het configuratiescherm beheren](discover/using/managing-permissions.md)
-   + [De interface van het configuratiescherm verkennen](discover/using/discovering-the-interface.md)
+   + [Deelvenster Toegangsbeheer](discover/using/accessing-control-panel.md)
+   + [Machtigingen beheren in Configuratiescherm](discover/using/managing-permissions.md)
+   + [Interface van het Configuratiescherm detecteren](discover/using/discovering-the-interface.md)
 + [Belangrijke contacten en gebeurtenissen bewaken](service-events/service-events.md)
 + SFTP-beheer {#sftp-management}
    + [SFTP-beheer](sftp/using/about-sftp-management.md)
-   + [SFTP-opslagbeheer](sftp/using/sftp-storage-management.md)
+   + [SFTP-opslag beheren](sftp/using/sftp-storage-management.md)
    + [Lijst maken met toegestane IP-bereiken](sftp/using/ip-range-allow-listing.md)
    + [Sleutelbeheer](sftp/using/key-management.md)
    + [Aanmelden bij uw SFTP-server](sftp/using/logging-into-sftp-server.md)
@@ -35,9 +40,12 @@ ht-degree: 100%
    + [Branding van subdomeinen](subdomains-certificates/using/subdomains-branding.md)
    + [Uw subdomeinen bewaken](subdomains-certificates/using/monitoring-subdomains.md)
    + [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [SSL-certificaten bewaken](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [SSL-certificaten verlengen](subdomains-certificates/using/renewing-subdomain-certificate.md)
    + [TXT-records beheren](subdomains-certificates/using/managing-txt-records.md)
+   + [SSL-certificaten controleren](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + SSL-certificaten verlengen {#renew-ssl}
+      + [SSL-certificaten vernieuwen](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [CSR genereren](subdomains-certificates/using/generate-csr.md)
+      + [Het SSL-certificaat installeren](subdomains-certificates/using/install-ssl-certificate.md)
 + Prestatiebewaking {#performance-monitoring}
    + [Prestatiebewaking](performance-monitoring/using/about-performance-monitoring.md)
    + Databasebewaking {#database-monitoring}
@@ -47,7 +55,7 @@ ht-degree: 100%
       + [De tien belangrijkste tijdelijke bronnen](performance-monitoring/using/database-top-ten-resources.md)
       + [Actieve query&#39;s](performance-monitoring/using/database-active-queries.md)
       + [Workflows bewaken](performance-monitoring/using/workflow-monitoring.md)
-      + [Databaseoverbelasting voorkomen](performance-monitoring/using/database-preventing-overload.md)
+      + [Overbelasting van database voorkomen](performance-monitoring/using/database-preventing-overload.md)
    + [Actieve profielen bewaken](performance-monitoring/using/active-profiles-monitoring.md)
    + [Doorvoer en latentiebewaking](performance-monitoring/using/thoughputs-latencies.md)
    + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
