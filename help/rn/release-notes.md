@@ -2,7 +2,7 @@
 title: Nieuwste release
 description: Deze pagina bevat alle nieuwe functies en verbeteringen voor het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 47%
@@ -42,7 +42,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor h
 <tbody>
 <tr>
 <td>
-<p>U kunt nu de Service Calendar gebruiken om herinneringen in te stellen zodat u per e-mail op de hoogte wordt gesteld voordat er een gebeurtenis op uw instanties plaatsvindt. <a href="../instances-settings/using/external-accounts.md">Meer informatie</a></p>
+<p>U kunt nu de Service Calendar gebruiken om herinneringen in te stellen zodat u per e-mail op de hoogte wordt gesteld voordat er een gebeurtenis op uw instanties plaatsvindt. <a href="../service-events/service-events.md">Meer informatie</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>

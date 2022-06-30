@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 73%
@@ -34,7 +34,7 @@ U kunt nu de top 10 dossiers identificeren die de meeste ruimte op een server SF
 
 **Herinneringen voor serviceagenda**
 
-U kunt nu de Service Calendar gebruiken om herinneringen in te stellen zodat u per e-mail op de hoogte wordt gesteld voordat er een gebeurtenis op uw instanties plaatsvindt. [Meer informatie](instances-settings/using/external-accounts.md)
+U kunt nu de Service Calendar gebruiken om herinneringen in te stellen zodat u per e-mail op de hoogte wordt gesteld voordat er een gebeurtenis op uw instanties plaatsvindt. [Meer informatie](service-events/service-events.md)
 
 **Verbeteringen voor CSR-generatie van subdomeinen**
 
