@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: f22a935769d74a2b8bae3f79cd53f2ee31d19737
-workflow-type: ht
+source-git-commit: 485069285709a7cc5c074f8813b322328e2840c0
+workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Indien deze optie is ingeschakeld (waarde 1), worden de resultaten van de overga
 
 ## **[!UICONTROL Show SQL log]** {#sql}
 
-Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in Adobe Campaign. Meer informatie in de documentatie van [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=nl) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=nl#execution).
+Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in Adobe Campaign. Meer informatie in de documentatie van [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=en) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=nl#execution).
 
 De waarde 1 geeft aan dat het veld **Ernst** voor de werklaag is ingesteld op Productie, en dat de SQL-querylogboekoptie is ingeschakeld.
 
@@ -72,7 +72,7 @@ De waarde 1 geeft aan dat het veld **Ernst** voor de werklaag is ingesteld op Pr
 
 ## **[!UICONTROL Supervisors]** {#supervisors}
 
-In dit veld kunt u een operator toewijzen aan een workflow. Als de workflow mislukt, wordt de bijbehorende operator gewaarschuwd. Meer informatie in de documentatie van [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=nl#error-management) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=nl#error-management).
+In dit veld kunt u een operator toewijzen aan een workflow. Als de workflow mislukt, wordt de bijbehorende operator gewaarschuwd. Meer informatie in de documentatie van [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/monitoring-workflow-execution.html?lang=en#error-management) en [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=nl#error-management).
 
 De waarde 1 geeft aan dat het veld **Ernst** voor de worklow is ingesteld op Productie en dat er geen supervisorgroep is toegewezen aan de workflow.
 
