@@ -1,10 +1,10 @@
 ---
 title: Aanvullende informatie 2021
-description: Deze pagina bevat een lijst met alle 2021 versies van het Configuratiescherm.
+description: Deze pagina bevat een lijst met alle 2021-releases van het Configuratiescherm.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>IP-bereik en geldigheidsperiode openbare sleutel</strong><br/></th>
+<th><strong>IP-bereik en geldigheidsperiode van openbare sleutel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Het is nu mogelijk om een duur voor de beschikbaarheid van IP waaiers en openbare sleutels te plaatsen. </p><p>Raadpleeg voor meer informatie de <a href="../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">Aanbieding in IP-bereik toegestaan</a> en <a href="../sftp/using/key-management.md#installing-ssh-key">Sleutelbeheer</a> secties.</p>
+<p>Het is nu mogelijk om een tijdsduur in te stellen voor de beschikbaarheid van IP-bereiken en openbare sleutels. </p><p>Raadpleeg voor meer informatie de secties <a href="../sftp/using/ip-range-allow-listing.md#adding-ip-addresses-allow-list">Lijst maken met toegestane IP-bereiken</a> en <a href="../sftp/using/key-management.md#installing-ssh-key">Sleutelbeheer</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -30,13 +30,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>IP-bereik en openbare-sleuteluitgave</strong><br/></th>
+<th><strong>IP-bereik en openbare sleutel bewerken</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu de <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP-bereiken</a> en <a href="../sftp/using/key-management.md#editing-public-keys">openbare sleutels</a> die u maakt. Deze functie is niet beschikbaar voor de items die zijn gemaakt vóór de huidige release van het Configuratiescherm.
+<p>U kunt nu aanpassingen aanbrengen aan de <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">IP-bereiken</a> en <a href="../sftp/using/key-management.md#editing-public-keys">openbare sleutels</a> die u maakt. Deze functie is niet beschikbaar voor items die zijn gemaakt vóór de huidige release van het Configuratiescherm.
 </td>
 </tr>
 </tbody>
@@ -45,13 +45,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>Waarschuwing bij SFTP IP-bereik en vervaldatum van openbare sleutel</strong><br/></th>
+<th><strong>Waarschuwing bij verlopen van SFTP IP-bereik en openbare sleutel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De functie voor e-mailwaarschuwingen bevat nu waarschuwingen over SFTP IP waarmee lijsten kunnen verlopen en de vervaldatum van de openbare sleutel voor SFTP.</p><p>Raadpleeg de <a href="../performance-monitoring/using/email-alerting.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>De functie voor waarschuwingen per e-mail waarschuwt nu ook wanneer lijsten met toegestane SFTP IP-bereiken bijna verlopen en de vervaldatum van de openbare SFTP-sleutel nadert.</p><p>Raadpleeg de <a href="../performance-monitoring/using/email-alerting.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ ht-degree: 10%
 <tbody>
 <tr>
 <td>
-<p>De <strong>Subdomein</strong> en <strong>Certificaat</strong> beheermogelijkheden worden nu ondersteund door het Configuratiescherm in Adobe Campaign v8.</a>.</p>
+<p>De mogelijkheden voor <strong>Subdomein</strong>- en <strong>Certificaat</strong>-beheer worden nu ondersteund door het Configuratiescherm in Adobe Campaign v8.</a></p>
 </td>
 </tr>
 </tbody>
@@ -77,13 +77,13 @@ ht-degree: 10%
 <table>
 <thead>
 <tr>
-<th><strong>Ondersteuning voor Campagne v8</strong><br/></th>
+<th><strong>Ondersteuning met Campaign v8</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Het Configuratiescherm is nu beschikbaar voor Adobe Campaign v8, behalve voor de <strong>Subdomein</strong> en <strong>Certificaat</strong> beheermogelijkheden, die nog niet worden ondersteund.</p><p>Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html" target="blank">Campagne v8-documentatie</a>.</p>
+<p>Het Configuratiescherm is nu beschikbaar voor Adobe Campaign v8, behalve voor de beheerfuncties <strong>Subdomein</strong> en <strong>Certificaat</strong>. Deze worden nog niet ondersteund.</p><p>Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=nl" target="blank">Campaign v8-documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
