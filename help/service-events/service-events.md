@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Servicekalender"
->abstract="De sectie Belangrijke contacten vermeldt de personen bij Adobe met wie u contact kunt opnemen voor elke aanvraag of probleem met uw instanties. In de sectie van de Kalender van de Gebeurtenis van de Dienst, kunt u versies en de dienstoverzichten voor de geselecteerde instantie identificeren en opstellingsherinneringen voor aanstaande gebeurtenissen."
+>abstract="De sectie Belangrijke contacten vermeldt de personen bij Adobe met wie u contact kunt opnemen voor elke aanvraag of probleem met uw instanties. In de sectie met gebeurtenissen van de servicekalender kunt u de versies en de servicereviews van de geselecteerde instantie identificeren en herinneringen voor aanstaande gebeurtenissen instellen."
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ De belangrijke contacten omvatten de volgende rollen:
 
 ## Gebeurtenissen {#events}
 
-### Monitorgebeurtenissen {#monitor-events}
+### Gebeurtenissen bewaken {#monitor-events}
 
 Het gedeelte **[!UICONTROL Service Event Calendar]** geeft alle eerdere en toekomstige releases en servicereviews weer voor de geselecteerde instantie.
 
@@ -73,25 +73,25 @@ U kunt een markering aan een of meer aanstaande gebeurtenissen toewijzen om ze t
 
 ### Herinneringen instellen {#reminders}
 
-Met de Kalender van de Dienst, kunt u herinneringen plaatsen om per e-mail op de hoogte te worden gebracht alvorens een gebeurtenis zal voorkomen.
+U kunt in de Servicekalender nu herinneringen instellen, zodat u een e-mail ontvangt voordat een gebeurtenis plaatsvindt.
 
 >[!NOTE]
 >
->Als u op de hoogte wilt worden gesteld van aanstaande gebeurtenissen, dient u zich te hebben geabonneerd op e-mailwaarschuwingen in het Configuratiescherm. [Meer informatie](../performance-monitoring/using/email-alerting.md)
+>Als u op de hoogte wilt worden gesteld van aanstaande gebeurtenissen, meldt u zich in het Configuratiescherm aan voor e-mailwaarschuwingen. [Meer informatie](../performance-monitoring/using/email-alerting.md)
 
 Ga als volgt te werk om een waarschuwing voor een gebeurtenis in te stellen:
 
-1. Klik op de knop met de ovaal naast de gebeurtenis waaraan u wilt worden herinnerd, en selecteer vervolgens **[!UICONTROL Set Reminder]**.
+1. Klik op de knop met de drie puntjes naast de gebeurtenis waarvoor u een herinnering wilt ontvangen en selecteer vervolgens **[!UICONTROL Set Reminder]**.
 
-1. Geef een titel op aan de herinnering en selecteer vervolgens de datum waarop u op de hoogte wilt worden gesteld voordat de gebeurtenis plaatsvindt.
+1. Geef de herinnering een naam en selecteer vervolgens de datum waarop u de melding wilt ontvangen voordat de gebeurtenis plaatsvindt.
 
    ![](assets/service-events-set-reminder.png)
 
    >[!NOTE]
    >
-   >Als u zich niet hebt geabonneerd op waarschuwingen in het Configuratiescherm, wordt een bericht weergegeven waarin u zich kunt inschrijven voor de ontvangst van e-mailberichten.
+   >Als u de waarschuwingen van het Configuratiescherm niet hebt ingeschakeld, wordt een bericht weergegeven waarin u zich kunt inschrijven voor de ontvangst van e-mails.
 
-1. De herinnering wordt nu ingesteld voor de geselecteerde gebeurtenis. U kunt de aanwijzer op elk gewenst moment boven de titel plaatsen om de titel weer te geven.
+1. De herinnering voor de geselecteerde gebeurtenis is nu ingesteld. U kunt de aanwijzer op elk gewenst moment boven de herinnering plaatsen om de titel weer te geven.
 
    ![](assets/service-events-reminder.png)
 
@@ -99,4 +99,4 @@ Ga als volgt te werk om een waarschuwing voor een gebeurtenis in te stellen:
    >
    >U kunt maximaal twee herinneringen instellen voor dezelfde gebeurtenis.
 
-1. Op de datum die in de herinnering is opgegeven, wordt een e-mail verzonden om u op de hoogte te brengen van de aanstaande gebeurtenis. De herinnering wordt automatisch verwijderd uit de **[!UICONTROL Reminders]** tel in het menu van de Kalender van de Dienst.
+1. Op de datum die in de herinnering is opgegeven, wordt een e-mail verzonden om u te herinneren aan de aanstaande gebeurtenis. De herinnering wordt dan automatisch afgetrokken van het aantal **[!UICONTROL Reminders]** in het Servicekalender-menu.
