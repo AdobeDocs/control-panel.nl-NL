@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,18 +27,18 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**De 10 meest gebruikte bestanden ruimte op SFTP-servers**
+**De tien bestanden die de meeste ruimte in beslag nemen op SFTP-servers**
 
-U kunt nu de top 10 dossiers identificeren die de meeste ruimte op een server SFTP verbruiken. [Meer informatie](sftp/using/sftp-storage-management.md)
+Het is nu mogelijk de top 10 vast te stellen van bestanden die de meeste ruimte op een SFTP-server verbruiken. [Meer informatie](sftp/using/sftp-storage-management.md)
 
 
-**Herinneringen voor serviceagenda**
+**Servicekalender-herinneringen**
 
-U kunt nu de Service Calendar gebruiken om herinneringen in te stellen zodat u per e-mail op de hoogte wordt gesteld voordat er een gebeurtenis op uw instanties plaatsvindt. [Meer informatie](service-events/service-events.md)
+U kunt in de servicekalender nu herinneringen instellen, zodat u een e-mail ontvangt voordat er een gebeurtenis plaatsvindt op uw instanties. [Meer informatie](service-events/service-events.md)
 
-**Verbeteringen voor CSR-generatie van subdomeinen**
+**Verbeteringen in de CSR-generatie voor subdomeinen**
 
-Er zijn verschillende verbeteringen aangebracht in het CSR-generatieproces. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
+Het proces voor het genereren van CSR&#39;s is op verschillende manieren verbeterd. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 
 >[!CAUTION]
