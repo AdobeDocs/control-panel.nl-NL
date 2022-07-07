@@ -8,45 +8,45 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
-# Een SSL-certificaat vernieuwen {#renewing-subdomains-ssl-certificates}
+# Een SSL-certificaat verlengen {#renewing-subdomains-ssl-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
->title="SSL-certificaatvernieuwing"
->abstract="Als u een SSL-certificaat wilt vernieuwen, moet u een CSR genereren, het SSL-certificaat voor uw subdomeinen aanschaffen en de certificaatbundel installeren."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Een Certificate Signing Request (CSR) genereren"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Een SSL-certificaat installeren"
+>title="SSL-certificaat verlengen"
+>abstract="Als u een SSL-certificaat wilt verlengen, moet u een CSR genereren, het SSL-certificaat voor uw subdomeinen aanschaffen en de certificaatbundel installeren."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#generating-csr" text="Een Certificate Signing Request (CSR) genereren"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#installing-ssl-certificate" text="Een SSL-certificaat installeren"
 
 >[!IMPORTANT]
 >
->SSL-certificaatvernieuwing van het Configuratiescherm is beschikbaar in de bètaversie en kan vaak zonder voorafgaande kennisgeving worden bijgewerkt en gewijzigd.
+>SSL-certificaten kunnen in de bètaversie vanuit het Configuratiescherm worden verlengd. Deze functie kan regelmatig en zonder kennisgeving worden bijgewerkt en gewijzigd.
 >
->Als u een instantie met een hybride hostingmodel gebruikt, kunt u alleen certificaten weergeven die zijn gekoppeld aan de gedelegeerde subdomeinen en kunt u deze niet vernieuwen.
+>Als u een instantie met een hybride hostingmodel gebruikt, kunt u alleen certificaten weergeven die zijn gekoppeld aan de gedelegeerde subdomeinen en u kunt deze niet verlengen.
 
 Het proces voor het verlengen van SSL-certificaten bestaat uit drie stappen:
 
-1. **Genereren van de CSR (Certificate Signing Request)**
+1. **Certificate Signing Request (CSR) genereren**
 
-   Voordat u een certificaat aanschaft, moet een Certificate Signing Request (CSR) worden gegenereerd voor de instantie en subdomeinen die u wilt beveiligen.  U moet informatie verstrekken die nodig is om de CSR te genereren (zoals algemene naam, organisatienaam en -adres, enz.). [Meer informatie](generate-csr.md)
+   Voordat u een certificaat aanschaft, moet een Certificate Signing Request (CSR) worden gegenereerd voor de instantie en subdomeinen die u wilt beveiligen. U moet informatie verstrekken die nodig is om het CSR te genereren (zoals algemene naam, organisatienaam en -adres, enz.). [Meer informatie](generate-csr.md)
 
 1. **Aankoop van het SSL-certificaat**
 
-   Zodra CSR wordt geproduceerd, kunt u het gebruiken om het SSL certificaat van de Autoriteit van het Certificaat te kopen die uw bedrijf goedkeurt.
+   Zodra het CSR is gegenereerd, kunt u het gebruiken om het SSL-certificaat aan te schaffen bij de certificeringsautoriteit die door uw bedrijf is goedgekeurd.
 
 1. **Installatie van het SSL-certificaat**
 
-   Installeer het aangeschafte SSL-certificaat op het gewenste subdomein om deze te beveiligen. [Meer informatie](install-ssl-certificate.md)
+   Installeer het aangeschafte SSL-certificaat op het gewenste subdomein om dit te beveiligen. [Meer informatie](install-ssl-certificate.md)
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Een video-uitleg van deze functie met [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=nl#subdomains-and-certificates) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=nl#adding-ssl-certificates).
 
 **Verwante onderwerpen:**
 
-* [Best Practice Guide voor levering - SSL-aanvraagproces voor een certificaat voor Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html)
+* [Best Practice-gids voor levering - aanvraagproces voor een SSL-certificaat voor Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=nl)
 * [Branding van subdomeinen](../../subdomains-certificates/using/subdomains-branding.md)
 * [Uw subdomeinen bewaken](../../subdomains-certificates/using/monitoring-subdomains.md)
