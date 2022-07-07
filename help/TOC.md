@@ -8,8 +8,8 @@ role: Architect
 level: Beginner
 source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 # Handleiding voor het configuratiescherm {#using}
 
 + [Productdocumentatie](control-panel-home.md)
-+ Aanvullende informatie {#release-notes}
++ Aanvullende informatie  {#release-notes}
    + [Nieuwste release](rn/release-notes.md)
    + Eerdere releases {#previous-releases}
       + [Aanvullende informatie 2022](rn/release-notes-2022.md)
@@ -27,8 +27,8 @@ ht-degree: 0%
 + Configuratiescherm verkennen {#discover-control-panel}
    + [Belangrijkste kenmerken](discover/using/key-features.md)
    + [Deelvenster Toegangsbeheer](discover/using/accessing-control-panel.md)
-   + [Machtigingen beheren in Configuratiescherm](discover/using/managing-permissions.md)
-   + [Interface van het Configuratiescherm detecteren](discover/using/discovering-the-interface.md)
+   + [Machtigingen voor het Configuratiescherm beheren](discover/using/managing-permissions.md)
+   + [De interface van het Configuratiescherm verkennen](discover/using/discovering-the-interface.md)
 + [Belangrijke contacten en gebeurtenissen bewaken](service-events/service-events.md)
 + SFTP-beheer {#sftp-management}
    + [SFTP-beheer](sftp/using/about-sftp-management.md)
@@ -44,8 +44,8 @@ ht-degree: 0%
    + [TXT-records beheren](subdomains-certificates/using/managing-txt-records.md)
    + [SSL-certificaten controleren](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + SSL-certificaten verlengen {#renew-ssl}
-      + [SSL-certificaten vernieuwen](subdomains-certificates/using/renewing-subdomain-certificate.md)
-      + [CSR genereren](subdomains-certificates/using/generate-csr.md)
+      + [Het verlengen van SSL-certificaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [Het CSR genereren](subdomains-certificates/using/generate-csr.md)
       + [Het SSL-certificaat installeren](subdomains-certificates/using/install-ssl-certificate.md)
 + Prestatiebewaking {#performance-monitoring}
    + [Prestatiebewaking](performance-monitoring/using/about-performance-monitoring.md)
@@ -58,7 +58,7 @@ ht-degree: 0%
       + [Workflows bewaken](performance-monitoring/using/workflow-monitoring.md)
       + [Overbelasting van database voorkomen](performance-monitoring/using/database-preventing-overload.md)
    + [Actieve profielen bewaken](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Doorvoer en latentiebewaking](performance-monitoring/using/thoughputs-latencies.md)
+   + [Bewaking van doorvoer en latentie](performance-monitoring/using/thoughputs-latencies.md)
    + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
 + Instantie-instellingen {#instances-settings}
    + [IP-adressen toevoegen aan de lijst met toegestane IP-adressen voor instantietoegang](instances-settings/using/ip-allow-listing-instance-access.md)

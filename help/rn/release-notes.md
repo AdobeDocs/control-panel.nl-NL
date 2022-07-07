@@ -1,11 +1,11 @@
 ---
 title: Nieuwste release
-description: Deze pagina bevat alle nieuwe functies en verbeteringen voor het Configuratiescherm
+description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 10%
+ht-degree: 93%
 
 ---
 
@@ -15,18 +15,18 @@ Deze pagina bevat de nieuwe functies en verbeteringen voor het regelpaneel.
 
 ## Juni 2022 {#june-2022}
 
-### Nieuwe functies?
+### Nieuwe functies
 
 <table>
 <thead>
 <tr>
-<th><strong>De 10 meest gebruikte bestanden ruimte op SFTP-servers</strong><br/></th>
+<th><strong>De tien bestanden die de meeste ruimte in beslag nemen op SFTP-servers</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu de top 10 dossiers identificeren die de meeste ruimte op een server SFTP verbruiken. <a href="../sftp/using/sftp-storage-management.md">Meer informatie</a></p>
+<p>Het is nu mogelijk de top 10 vast te stellen van bestanden die de meeste ruimte op een SFTP-server verbruiken. <a href="../sftp/using/sftp-storage-management.md">Meer informatie</a></p>
 <img src="../assets/do-not-localize/sftp.gif"/>
 </td>
 </tr>
@@ -36,13 +36,13 @@ Deze pagina bevat de nieuwe functies en verbeteringen voor het regelpaneel.
 <table>
 <thead>
 <tr>
-<th><strong>Herinneringen voor serviceagenda</strong><br/></th>
+<th><strong>Servicekalender-herinneringen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu de Service Calendar gebruiken om herinneringen in te stellen zodat u per e-mail op de hoogte wordt gesteld voordat er een gebeurtenis op uw instanties plaatsvindt. <a href="../service-events/service-events.md">Meer informatie</a></p>
+<p>U kunt in de Service Calendar nu herinneringen instellen, zodat u een e-mail ontvangt voordat er een gebeurtenis plaatsvindt op uw instanties. <a href="../service-events/service-events.md">Meer informatie</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
@@ -52,13 +52,13 @@ Deze pagina bevat de nieuwe functies en verbeteringen voor het regelpaneel.
 <table>
 <thead>
 <tr>
-<th><strong>Verbeteringen voor CSR-generatie van subdomeinen</strong><br/></th>
+<th><strong>Verbeteringen in de CSR-generatie voor subdomeinen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Er zijn verschillende verbeteringen aangebracht in het CSR-generatieproces. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Meer informatie</a></p><ul><li>Wanneer het produceren van CSR, kunt u één van inbegrepen subdomeinen nu selecteren als Gemeenschappelijke Naam.</li><li>U kunt het overzicht CSR nu kopiëren alvorens CSR te produceren.</li><li>Nadat een CSR is gegenereerd, kunt u deze opnieuw downloaden uit de taaklogboeken. Deze functie is niet van toepassing op certificaten die zijn gegenereerd vóór deze release.</li></ul><p>
+<p>Het proces voor het genereren van CSR's is op verschillende manieren verbeterd. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Meer informatie</a></p><ul><li>Bij het genereren van een CSR kunt u nu een van de inbegrepen subdomeinen selecteren als de algemene naam.</li><li>U kunt het CSR-overzicht nu kopiëren voordat u het CSR genereert.</li><li>Nadat een CSR is gegenereerd, kunt u het opnieuw downloaden uit de taaklogboeken. Dit is niet mogelijk voor certificaten die zijn gegenereerd vóór deze release.</li></ul><p>
 <img src="../assets/do-not-localize/CSR.gif"/>
 </td>
 </tr>
@@ -69,5 +69,5 @@ Deze pagina bevat de nieuwe functies en verbeteringen voor het regelpaneel.
 
 **Instantie-instellingen**
 
-* Het maximumaantal GPG-toetsen in het Configuratiescherm is verhoogd tot 60. [Meer informatie](../instances-settings/using/gpg-keys-management.md)
+* Het maximale aantal GPG-sleutels in het Configuratiescherm is verhoogd naar 60. [Meer informatie](../instances-settings/using/gpg-keys-management.md)
 
