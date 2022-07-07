@@ -8,7 +8,7 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Servicekalender"
->abstract="De sectie Belangrijke contacten vermeldt de personen bij Adobe met wie u contact kunt opnemen voor elke aanvraag of probleem met uw instanties. In de sectie met gebeurtenissen van de servicekalender kunt u de versies en de servicereviews van de geselecteerde instantie identificeren en herinneringen voor aanstaande gebeurtenissen instellen."
+>abstract="De sectie Belangrijke contacten vermeldt de personen bij Adobe met wie u contact kunt opnemen voor elke aanvraag of probleem met uw instanties. In de sectie Servicekalendergebeurtenis kunt u de versies en de servicereviews van de geselecteerde instantie identificeren en herinneringen voor aanstaande gebeurtenissen instellen."
 
 >[!IMPORTANT]
 >
