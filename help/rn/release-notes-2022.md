@@ -1,27 +1,30 @@
 ---
 title: Aanvullende informatie 2022
-description: Deze pagina bevat een lijst met alle 2022 versies van het Configuratiescherm.
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+description: Deze pagina bevat een lijst met alle in 2022 uitgebrachte releases van het Configuratiescherm.
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 66%
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
 # Aanvullende informatie 2021 {#rn-2022}
 
-## Mei 2022 {#may-2022}
+## Juni 2022 {#june-2022}
+
+### Nieuwe functies
 
 <table>
 <thead>
 <tr>
-<th><strong>Beschikbaarheid van configuratiescherm voor hybride hostingmodel</strong><br/></th>
+<th><strong>De tien bestanden die de meeste ruimte in beslag nemen op SFTP-servers</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Het configuratiescherm is nu beschikbaar voor klanten met een hybride hostingmodel. Deze klanten kunnen gebruikmaken van de functies van het configuratiescherm door in het configuratiescherm hun MID/RT-instantie-URL op te geven die is geconfigureerd in hun marketinginstantie.</p><p>Raadpleeg voor meer informatie de <a href="../instances-settings/using/external-accounts.md">gedetailleerde documentatie.</a></p>
+<p>Het is nu mogelijk de top 10 vast te stellen van bestanden die de meeste ruimte op een SFTP-server verbruiken. <a href="../sftp/using/sftp-storage-management.md">Meer informatie</a></p>
 </td>
 </tr>
 </tbody>
@@ -30,13 +33,67 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>Updates voor doorvoer en latentie controleren</strong><br/></th>
+<th><strong>Servicekalender-herinneringen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De mogelijkheden voor doorvoer en latentie-bewaking zijn verbeterd:<ul><li>U kunt nu de ID's identificeren van de top 5-leveringen die bijdragen aan de doorvoer van uw exemplaar.</li><li>Campaign Classic v7/v8-klanten kunnen nu latentie voor een specifiek kanaal visualiseren.</p></li><p>Raadpleeg voor meer informatie de <a href="../performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie.</a></p>
+<p>U kunt in de Service Calendar nu herinneringen instellen, zodat u een e-mail ontvangt voordat er een gebeurtenis plaatsvindt op uw instanties. <a href="../service-events/service-events.md">Meer informatie</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeteringen in de CSR-generatie voor subdomeinen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Het proces voor het genereren van CSR's is op verschillende manieren verbeterd. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Meer informatie</a></p><ul><li>Bij het genereren van een CSR kunt u nu een van de inbegrepen subdomeinen selecteren als de algemene naam.</li><li>U kunt het CSR-overzicht nu kopiëren voordat u het CSR genereert.</li><li>Nadat een CSR is gegenereerd, kunt u het opnieuw downloaden uit de taaklogboeken. Dit is niet mogelijk voor certificaten die zijn gegenereerd vóór deze release.</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen
+
+**Instantie-instellingen**
+
+* Het maximale aantal GPG-sleutels in het Configuratiescherm is verhoogd naar 60. [Meer informatie](../instances-settings/using/gpg-keys-management.md)
+
+## Mei 2022 {#may-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Beschikbaarheid van het Configuratiescherm voor hybride hostingmodel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Het Configuratiescherm is nu beschikbaar voor klanten met een hybride hostingmodel. Deze klanten kunnen gebruikmaken van de functies van het Configuratiescherm door in het Configuratiescherm hun MID/RT-instantie-URL op te geven die is geconfigureerd in hun marketinginstantie.</p><p>Raadpleeg de <a href="../instances-settings/using/external-accounts.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Bewakingsupdates voor doorvoer en latentie</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De bewakingsmogelijkheden voor doorvoer en latentie zijn verbeterd:<ul><li>U kunt nu de ID's identificeren van de top 5-leveringen die bijdragen aan de doorvoer van uw exemplaar.</li><li>Campaign Classic v7/v8-klanten kunnen nu latentie voor een specifiek kanaal visualiseren.</p></li><p>Raadpleeg de <a href="../performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -54,7 +111,7 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>U kunt nu eerdere en toekomstige releases en servicereviews van uw instanties bewaken, en bovendien toegang krijgen tot een lijst met belangrijke contacten bij Adobe voor elke aanvraag of probleem.</p><p>Raadpleeg voor meer informatie de <a href="../service-events/service-events.md">gedetailleerde documentatie.</a></p>
+<p>U kunt nu eerdere en toekomstige releases en servicereviews van uw instanties bewaken, en bovendien toegang krijgen tot een lijst met belangrijke contacten bij Adobe voor elke aanvraag of probleem.</p><p>Raadpleeg de <a href="../service-events/service-events.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -65,13 +122,13 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>Producties en beschikbaarheid van bewaking van wachttijden</strong><br/></th>
+<th><strong>Bewaking van doorvoer en latentie beschikbaar</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Throughputs en latency monitoring zijn nu beschikbaar aan alle Campaign Standard en v8 klanten, en aan de klanten van de Campagne V7 met bouwstijlaantallen 9032.9330, 9346 of 9349 die standalone plaatsingen (zonder enige middeninstantie) hebben.</p><p>Raadpleeg voor meer informatie de <a href="../performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie.</a></p>
+<p>Bewaking van doorvoer en latentie is beschikbaar voor alle Campaign Standard- en v8-klanten en voor Campaign V7-klanten met buildnummers 9032,9330, 9346 of 9349 en een standalone implementatie (zonder tussenkomst).</p><p>Raadpleeg de <a href="../performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -105,7 +162,7 @@ ht-degree: 66%
 <tbody>
 <tr>
 <td>
-<p>In het configuratiescherm kunt u nu query's bewaken die het langst op uw instanties worden uitgevoerd.</p><p>Raadpleeg de <a href="../performance-monitoring/using/database-active-queries.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>In het Configuratiescherm kunt u nu de query's bewaken die het langst op uw instanties worden uitgevoerd.</p><p>Raadpleeg de <a href="../performance-monitoring/using/database-active-queries.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -114,7 +171,7 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>Doorvoer en latentiebewaking</strong><br/></th>
+<th><strong>Bewaking van doorvoer en latentie</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -129,13 +186,13 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>SSL-certificaatbewerkingen op nieuwe subdomeinen</strong><br/></th>
+<th><strong>SSL-certificaten op nieuwe subdomeinen bewerken</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SSL-certificaatbewerkingen kunnen nu worden uitgevoerd op een nieuw ingestelde subdomein, zelfs als de leverbaarheidscontrole nog wordt uitgevoerd.</p><p>Raadpleeg de <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>SSL-certificaten op een net ingesteld subdomein kunnen nu worden bewerkt, zelfs als de leveringscontrole nog niet is voltooid.</p><p>Raadpleeg de <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
