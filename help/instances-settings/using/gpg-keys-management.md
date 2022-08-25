@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 8%
@@ -61,7 +61,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 1. Geef bij de aanwijzing de gewenste parameters voor de toets op. De vereiste parameters zijn:
 
    * **sleuteltype**: RSA
-   * **sleutellengte**: 1024 - 4096 bits
+   * **sleutellengte**: 3072 - 4096 bits
    * **echte naam** en **e-mailadres**: Staat toe om te volgen wie tot het belangrijkste paar leidde. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
    * **opmerking**: Als u een label toevoegt aan het opmerkingenveld, kunt u gemakkelijk de sleutel identificeren waarmee uw gegevens worden versleuteld.
    * **vervaldatum**: Datum of &quot;0&quot; voor geen vervaldatum.
