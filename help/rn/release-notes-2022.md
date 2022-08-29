@@ -2,14 +2,31 @@
 title: Aanvullende informatie 2022
 description: Deze pagina bevat een lijst met alle in 2022 uitgebrachte releases van het configuratiescherm.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# Aanvullende informatie 2021 {#rn-2022}
+# Aanvullende informatie 2022 {#rn-2022}
+
+## Juli 2022 {#july-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Installatie van subdomeinen van certificaten voor hybride hostingmodel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Klanten met een hybride hostingmodel kunnen nu de SSL-certificaten van hun subdomeinen vernieuwen via het configuratiescherm.</p><p>Raadpleeg de <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Juni 2022 {#june-2022}
 

@@ -2,10 +2,10 @@
 title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: ht
-source-wordcount: '59'
-ht-degree: 100%
+source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -13,19 +13,7 @@ ht-degree: 100%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het configuratiescherm.
 
-## Juli 2022 {#july-2022}
+## Augustus 2022 {#august-2022}
 
-<table>
-<thead>
-<tr>
-<th><strong>Installatie van subdomeinen van certificaten voor hybride hostingmodel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><p>Klanten met een hybride hostingmodel kunnen nu de SSL-certificaten van hun subdomeinen vernieuwen via het configuratiescherm.</p><p>Raadpleeg de <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* Klanten met een hybride hostingmodel kunnen hun subdomeinen nu controleren. [Meer informatie](../subdomains-certificates/using/monitoring-subdomains.md)
+* Het veld Organisatie-eenheid (OU) is nu optioneel in certificaataanvraag (CSR). [Meer informatie](../subdomains-certificates/using/renewing-subdomain-certificate.md)
