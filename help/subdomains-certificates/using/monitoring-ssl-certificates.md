@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,10 +54,6 @@ Het tabblad **[!UICONTROL Sender info]** bevat informatie over de geconfigureerd
 ![](assets/subdomain_details.png)
 
 Als het SSL-certificaat van een van uw subdomeinen bijna verlopen is, kunt u het rechtstreeks verlengen via het Configuratiescherm. Raadpleeg voor meer informatie deze sectie: [Het SSL-certificaat van een subdomein verlengen](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
-
->[!IMPORTANT]
->
->Verlenging van subdomeinen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig worden bijgewerkt en gewijzigd zonder kennisgeving.
 
 **Verwante onderwerpen:**
 
