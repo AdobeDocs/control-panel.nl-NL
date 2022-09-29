@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 4740a446265e5d06be35e66aa29676a24d4f7d29
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 99%
 
 ---
 
@@ -93,5 +93,5 @@ Zodra een MID/RT-instantie aan het configuratiescherm is toegevoegd, kunt u gebr
 * [Belangrijke contacten en gebeurtenissen bewaken](../../service-events/service-events.md)
 * [Uw instantiedetails bekijken](../../instances-settings/using/instance-details.md),
 * [IP-adressen toevoegen aan de lijst met gewenste personen](../../instances-settings/using/ip-allow-listing-instance-access.md) (voor RT-instanties),
-* [Informatie weergeven over gedelegeerde subdomeinen](../../subdomains-certificates/using/monitoring-subdomains.md),
+* [Nieuwe subdomeinen instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md),
 * [SSL-certificaten van subdomeinen vernieuwen](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
