@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 72%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Voer de volgende stappen uit om informatie op te halen over de servers die zijn 
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie-id niet aan om het even welke instanties van Adobe Campaign v7/v8 wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw organisatie-id niet aan om het even welke instanties van Adobe Campaign v7/v8 wordt geassocieerd
 
 1. Selecteer in het linkerdeelvenster de gewenste instantie Campagne.
 

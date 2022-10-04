@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Ga als volgt te werk om een URL toe te voegen waarmee uw instantie verbinding ka
 
    >[!NOTE]
    >
-   >Als de Instellingenkaart van de Instantie niet zichtbaar is op de homepage van het Controlebord, betekent dit dat uw IMS Organisatie ID niet met om het even welke instanties van Adobe Campaign wordt geassocieerd
+   >Als de Instellingenkaart van de Instantie niet zichtbaar op de homepage van het Controlebord is, betekent dit uw [organisatie-id](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl) is niet gekoppeld aan Adobe Campaign-instanties
    >
    >Het tabblad <b><span class="uicontrol">URL permissions</span></b> bevat alle externe URL’s waarmee uw instantie verbinding kan maken. Deze lijst bevat geen URL’s die vereist zijn om Campaign te laten werken (bijvoorbeeld verbindingen tussen infrastructuuronderdelen).
 
