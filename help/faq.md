@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -58,33 +58,33 @@ Volg de gedetailleerde instructies in de documentatie ‘Configuratiescherm open
 
 Nee, er zijn geen extra kosten als u een huidige Adobe Campaign-klant bent.
 
-## Organisatie-id {#ims-org-id}
+## Organisatie-ID {#ims-org-id}
 
-### Wat is een organisatie-id?
+### Wat is een organisatie-ID?
 
 Dit is een unieke id die aan uw instantie wordt gegeven wanneer u zich voor het eerst aanmeldt bij Adobe Experience Cloud. De notatie moet als volgt zijn: xxx@AdobeOrg.
 
 Raadpleeg de documentatie bij [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl) voor meer informatie.
 
-### Waar kan ik mijn organisatie-id vinden?
+### Waar kan ik mijn organisatie-ID vinden?
 
-U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U zult uw organisatie identiteitskaart bij de bodem van Beleid vinden **[!UICONTROL Quick Access]** sectie. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+U kunt onder andere naar [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]** gaan. U vindt uw organisatie-ID onder aan de sectie Beheer **[!UICONTROL Quick Access]**. Meer informatie vindt u in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl).
 
-U kunt ook **Admin Console** starten. Uw organisatie-id wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+U kunt ook **Admin Console** starten. Uw organisatie-ID wordt weergegeven in uw URL en ziet er ongeveer als volgt uit: https://adminconsole.adobe.com/nl/xxx@AdobeOrg/overview.
 
-### Waarom moet ik mijn organisatie-id kennen?
+### Waarom moet ik mijn organisatie-ID weten?
 
 We willen ervoor zorgen dat u de juiste versie krijgt als u meerdere versies voor uw bedrijf gebruikt, zodat u de instellingen voor uw versies kunt beheren.
 
-### Wat als ik veelvoudige organisatie IDs heb?
+### Wat als ik meerdere organisatie-ID’s heb?
 
-U kunt meer dan één organisatieID hebben als u toegang tot veelvoudige oplossingen van de Adobe hebt. In dit geval is de juiste organisatie-id die u moet gebruiken, die welke u onder uw Adobe Campaign-exemplaar ziet.
+U kunt meer dan één organisatie-ID hebben als u toegang hebt tot meerdere Adobe-oplossingen. In dit geval is de organisatie-ID die u moet gebruiken, degene die u ziet onder uw Adobe Campaign-instantie.
 
 >[!NOTE]
 >
->Als je dezelfde organisatie-id hebt voor Adobe Campaign en Adobe Analytics, is dit geweldig. U hebt één organisatie-id tussen Analytics en Campagne nodig als u de oplossingen wilt integreren om te profiteren van complexe gebruiksgevallen, zoals het verlaten van winkelwagentjes (voor AA + AC).
+>Als u dezelfde organisatie-ID hebt voor Adobe Campaign en Adobe Analytics, is dit prima. Eén organisatie-ID voor Analytics en Campaign is een vereiste als u de oplossingen wilt integreren om gebruik te maken van complexe gebruiksscenario’s, zoals het achterlaten van winkelwagens (voor AA + AC).
 >
->Als u verschillende organisatie-id&#39;s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze op één lijn te brengen.
+>Als u verschillende organisatie-ID’s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze af te stemmen.
 
 ### Hoe weet ik of mijn Adobe Campaign-versie wordt gehost op AWS?{#hosted-aws}
 
