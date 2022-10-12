@@ -3,9 +3,9 @@ title: Aanvullende informatie 2022
 description: Deze pagina bevat een lijst met alle in 2022 uitgebrachte releases van het configuratiescherm.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '544'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 95%
 
 ## Augustus 2022 {#august-2022}
 
-* Klanten met een hybride hostingmodel kunnen hun subdomeinen nu controleren. [Meer informatie](../subdomains-certificates/using/monitoring-subdomains.md)
-* Het veld Organisatie-eenheid (OU) is nu optioneel in de certificaataanvraag. [Meer informatie](../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* Klanten met een hybride hostingmodel kunnen nu hun subdomeinen verifiëren. [Meer informatie](../subdomains-certificates/using/monitoring-subdomains.md)
+* Het veld Organisatie-eenheid (OU) is nu optioneel in Certificate Generation Request (CSR). [Meer informatie](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Juli 2022 {#july-2022}
 
