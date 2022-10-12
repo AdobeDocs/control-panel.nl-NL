@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Hybride klanten moeten verbinding met het configuratiescherm maken via Experienc
 
 >[!NOTE]
 >
->Als u problemen ondervindt om toegang te krijgen tot het Configuratiescherm, is het zeer waarschijnlijk dat uw marketingexemplaar nog niet is toegewezen aan uw [organisatie-id](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl). Neem contact op met de klantenservice om deze configuratie te voltooien en verder te gaan. Als de verbinding is gelukt, wordt de startpagina van het configuratiescherm weergegeven.
+>Als u problemen ondervindt bij de toegang tot het configuratiescherm, is uw marketinginstantie waarschijnlijk nog niet toegewezen aan uw [organisatie-ID](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl). Neem contact op met de klantenservice om deze configuratie te voltooien en verder te gaan. Als de verbinding is gelukt, wordt de startpagina van het configuratiescherm weergegeven.
 
 Als u toegang wilt tot de mogelijkheden van het configuratiescherm, moet u de MID/RT-instantiegegevens opgeven op de kaart **[!UICONTROL Instances Settings]**. Volg de onderstaande stappen om dit te doen.
 
