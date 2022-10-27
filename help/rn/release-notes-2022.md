@@ -3,8 +3,8 @@ title: Aanvullende informatie 2022
 description: Deze pagina bevat een lijst met alle in 2022 uitgebrachte releases van het configuratiescherm.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '558'
 ht-degree: 100%
 
 ---
