@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 69%
 
 ---
 
@@ -32,7 +32,3 @@ In het onderstaande gedeelte vindt u nuttige bronnen uit Campaign-documentatie o
 * [Problemen met databaseprestaties oplossen](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=nl) (Campagne v7/v8)
 * [Databasegerelateerde opties](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=nl#database) (Campagne v7/v8)
 * Bewaren van gegevens: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/data-retention.html?lang=nl) - [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html?lang=nl#data-retention)
-
->[!NOTE]
->
->Bovendien kunt u berichten ontvangen wanneer één van uw databases zijn capaciteit bereikt. Hiervoor wordt u lid van [e-mailwaarschuwingen](../../performance-monitoring/using/email-alerting.md).

@@ -2,10 +2,10 @@
 title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: ht
-source-wordcount: '41'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het configuratiescherm.
 
-## September 2022 {#september-2022}
+## Oktober 2022 {#october-2022}
 
-Klanten met een hybride hostingmodel kunnen nu nieuwe subdomeinen instellen. [Meer informatie](../subdomains-certificates/using/setting-up-new-subdomain.md)
+E-mailwaarschuwingen geven je nu een melding wanneer een van je SSL-certificaten over 30 dagen of minder verloopt. [Meer informatie](../performance-monitoring/using/email-alerting.md)

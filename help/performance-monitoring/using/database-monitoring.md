@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 81%
+source-wordcount: '384'
+ht-degree: 78%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 81%
 
 ## Versies van databases {#about-instances-databases}
 
-Volgens uw contract wordt elk van uw Campaign-versies voorzien van een specifieke hoeveelheid gegevensbestandruimte.
-
-Databases omvatten alle **assets**, **workflows** en **gegevens** die zijn opgeslagen in Adobe Campaign.
+Volgens uw contract wordt elk van uw Campaign-versies voorzien van een specifieke hoeveelheid gegevensbestandruimte. Databases omvatten alle **assets**, **workflows** en **gegevens** die zijn opgeslagen in Adobe Campaign.
 
 Na verloop van tijd kunnen databases hun maximale capaciteit bereiken, vooral als de opgeslagen bronnen nooit vanuit de versie worden verwijderd of als er veel workflows in een gepauzeerde staat zijn.
 
 Het overlopen van een versie van een database kan leiden tot verschillende problemen (niet kunnen aanmelden, e-mails verzenden, enz.). Het is daarom van essentieel belang dat de databases van uw versies worden gecontroleerd om optimale prestaties te garanderen.
+
+Als u zich hebt geabonneerd op [e-mailwaarschuwing](../../performance-monitoring/using/email-alerting.md)ontvangt u meldingen per e-mail wanneer een van de databases van uw instanties 80% of meer van de capaciteit heeft bereikt.
 
 ## Databasegebruik controleren{#monitoring-database-usage}
 
@@ -37,8 +37,6 @@ Het overlopen van een versie van een database kan leiden tot verschillende probl
 Met het configuratiescherm kunt u het databasegebruik voor elk van uw Campaign-versies controleren. Open hiervoor de **[!UICONTROL Performance Monitoring]**-kaart en selecteer het tabblad **[!UICONTROL Databases]**.
 
 Selecteer de gewenste versie vanuit de **[!UICONTROL Instance List]** om informatie weer te geven over de capaciteit van de versiedatabase en de gebruikte ruimte.
-
-Bovendien kunt u berichten ontvangen wanneer één van uw databases zijn capaciteit bereikt. Hiervoor wordt u lid van [e-mailwaarschuwingen](../../performance-monitoring/using/email-alerting.md).
 
 >[!NOTE]
 >
@@ -55,4 +53,4 @@ Dit dashboard bevat aanvullende metriek waarmee u het gebruik van de database va
 * [De tien belangrijkste tijdelijke bronnen](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Actieve query&#39;s](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Deze functie in video detecteren met [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl)
+![](assets/do-not-localize/how-to-video.png) Een video-uitleg van deze functie met [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=nl).

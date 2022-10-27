@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: 6430a1719528e6b4d8c219eb5a88b6ace93b209d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 19%
+source-wordcount: '79'
+ht-degree: 17%
 
 ---
 
@@ -26,4 +26,3 @@ De **[!UICONTROL Performance monitoring]** Met de kaart in de startpagina van he
 >
 >Met de aanstaande versies van het Controlebord, zullen de extra controlefuncties beschikbaar worden gemaakt in deze kaart.
 
-Bovendien kunt u zich via het Configuratiescherm aanmelden voor het ontvangen van e-mailmeldingen telkens wanneer een probleem wordt gedetecteerd in een van uw campagneexemplaren. Raadpleeg [deze sectie](../../performance-monitoring/using/email-alerting.md) voor meer informatie.
