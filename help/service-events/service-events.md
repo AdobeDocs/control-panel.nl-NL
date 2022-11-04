@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Ga als volgt te werk om een waarschuwing voor een gebeurtenis in te stellen:
 
    >[!NOTE]
    >
-   >Als u zich niet hebt geabonneerd op waarschuwingen in het Configuratiescherm, wordt een bericht weergegeven waarin u zich kunt inschrijven voor het ontvangen van e-mailberichten.
+   >Als u niet bent aangemeld voor Configuratiescherm-waarschuwingen, wordt er een bericht weergegeven en kunt u zich inschrijven om e-mailmeldingen te ontvangen.
 
 1. De herinnering voor de geselecteerde gebeurtenis is nu ingesteld. U kunt de aanwijzer op elk gewenst moment boven de herinnering plaatsen om de titel weer te geven.
 
