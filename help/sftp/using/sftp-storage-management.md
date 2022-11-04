@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Afhankelijk van uw contractvoorwaarden is mogelijk andere opslagcapaciteit op uw
 
 Het is van essentieel belang dat u regelmatig de beschikbare ruimte voor al uw SFTP-servers controleert. Anders kunt u mogelijk geen bestanden meer opslaan op de server of kunt u geen workflows uitvoeren die afhankelijk zijn van de updates van deze server.
 
-Als u zich hebt geabonneerd op [e-mailwaarschuwing](../../performance-monitoring/using/email-alerting.md)ontvangt u meldingen per e-mail wanneer een van uw SFTP-servers 80% of meer van de capaciteit heeft bereikt. Zie [SFTP-opslagbeheer](../../sftp/using/sftp-storage-management.md).
+Als u bent aangemeld voor [e-mailwaarschuwingen](../../performance-monitoring/using/email-alerting.md), ontvangt u meldingen per e-mail wanneer een van uw SFTP-servers 80% of meer van zijn capaciteit heeft bereikt. Zie [SFTP-opslagbeheer](../../sftp/using/sftp-storage-management.md).
 
 ![](assets/do-not-localize/how-to-video.png) Een video-uitleg van deze functie met [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=nl#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=nl#sftp-management).
 
