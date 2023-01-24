@@ -2,14 +2,18 @@
 title: Aanvullende informatie 2022
 description: Deze pagina bevat een lijst met alle in 2022 uitgebrachte releases van het configuratiescherm.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
 workflow-type: ht
-source-wordcount: '558'
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
 
 # Aanvullende informatie 2022 {#rn-2022}
+
+## Oktober 2022 {#october-2022}
+
+Met E-mailwaarschuwingen krijgt u nu een melding wanneer een van uw SSL-certificaten binnen 30 dagen of minder verloopt. [Meer informatie](../performance-monitoring/using/email-alerting.md)
 
 ## September 2022 {#september-2022}
 
