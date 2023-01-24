@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: b6ccd751ee9885bacd955dfaf1ee61e923e0c07f
 workflow-type: tm+mt
-source-wordcount: '837'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,8 +27,6 @@ ht-degree: 79%
 >[!IMPORTANT]
 >
 >Deze functie is alleen beschikbaar voor instanties van Campagne v7/v8.
->
->Als u een instantie met een hybride hostingmodel gebruikt, kunt u alleen IP-adressen toevoegen in &quot;Externe API-verbinding&quot; voor RT-instantie.
 
 Standaard is uw Adobe Campaign-instantie niet toegankelijk via verschillende IP-adressen.
 
@@ -90,9 +88,10 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te
    * **[!UICONTROL AEM connection]**: De opgegeven AEM IP-adressen mogen verbinding maken met de Marketing-instantie.
    * **[!UICONTROL External API connection]**: Externe API’s met de opgegeven IP-adressen kunnen verbinding maken met de Marketing- en/of Message Center-instantie (RT). Verbinding met de console van RT-instanties is niet ingeschakeld.
 
-      >[!NOTE]
-      >
-      >Als u een instantie met een hybride hostingmodel gebruikt, kunt u alleen IP-adressen toevoegen in &quot;Externe API-verbinding&quot; voor RT-instantie.
+   >[!NOTE]
+   >
+   >Als u een instantie met een hybride hostingmodel gebruikt, kunt u alleen IP-adressen toevoegen in &quot;Externe API-verbinding&quot; voor instanties MID en RT.
+
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Klik op de knop **[!UICONTROL Save]**. Het IP-bereik wordt toegevoegd aan de lijst van gewenste IP-adressen.
