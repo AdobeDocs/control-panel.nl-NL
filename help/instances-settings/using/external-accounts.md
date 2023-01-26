@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '463'
+ht-degree: 100%
 
 ---
 
@@ -92,6 +92,6 @@ Zodra een MID/RT-instantie aan het configuratiescherm is toegevoegd, kunt u gebr
 
 * [Belangrijke contacten en gebeurtenissen bewaken](../../service-events/service-events.md)
 * [Uw instantiedetails bekijken](../../instances-settings/using/instance-details.md),
-* [IP-adressen toevoegen aan de lijst van gewenste personen](../../instances-settings/using/ip-allow-listing-instance-access.md),
+* [IP-adressen toevoegen aan de lijst met gewenste IP-adressen](../../instances-settings/using/ip-allow-listing-instance-access.md),
 * [Nieuwe subdomeinen instellen](../../subdomains-certificates/using/setting-up-new-subdomain.md),
 * [SSL-certificaten van subdomeinen vernieuwen](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
