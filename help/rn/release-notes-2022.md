@@ -2,8 +2,8 @@
 title: Aanvullende informatie 2022
 description: Deze pagina bevat een lijst met alle in 2022 uitgebrachte releases van het configuratiescherm.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Klanten met een hybride hostingmodel kunnen nu nieuwe subdomeinen instellen. [Me
 <tbody>
 <tr>
 <td>
-<p>De bewakingsmogelijkheden voor doorvoer en latentie zijn verbeterd:<ul><li>U kunt nu de ID's identificeren van de top 5-leveringen die bijdragen aan de doorvoer van uw exemplaar.</li><li>Campaign Classic v7/v8-klanten kunnen nu latentie voor een specifiek kanaal visualiseren.</p></li><p>Raadpleeg de <a href="../performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>De bewakingsmogelijkheden voor doorvoer en latentie zijn verbeterd:<ul><li>U kunt nu de ID's identificeren van de top 5-leveringen die bijdragen aan de doorvoer van uw exemplaar.</li><li>Campaign Classic v7/v8-klanten kunnen nu latentie voor een specifiek kanaal visualiseren.</p></li><p>Raadpleeg de <a href="../performance-monitoring/using/throughputs-latencies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Klanten met een hybride hostingmodel kunnen nu nieuwe subdomeinen instellen. [Me
 <tbody>
 <tr>
 <td>
-<p>Bewaking van doorvoer en latentie is beschikbaar voor alle Campaign Standard- en v8-klanten en voor Campaign V7-klanten met buildnummers 9032,9330, 9346 of 9349 en een standalone implementatie (zonder tussenkomst).</p><p>Raadpleeg de <a href="../performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Bewaking van doorvoer en latentie is beschikbaar voor alle Campaign Standard- en v8-klanten en voor Campaign V7-klanten met buildnummers 9032,9330, 9346 of 9349 en een standalone implementatie (zonder tussenkomst).</p><p>Raadpleeg de <a href="../performance-monitoring/using/throughputs-latencies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Klanten met een hybride hostingmodel kunnen nu nieuwe subdomeinen instellen. [Me
 <tbody>
 <tr>
 <td>
-<p>U kunt nu bewaken hoe de leveringsdoorvoer en latentie zich gedurende een bepaalde periode ontwikkelen op uw instanties.</p><p>Raadpleeg de <a href="../performance-monitoring/using/thoughputs-latencies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>U kunt nu bewaken hoe de leveringsdoorvoer en latentie zich gedurende een bepaalde periode ontwikkelen op uw instanties.</p><p>Raadpleeg de <a href="../performance-monitoring/using/throughputs-latencies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
