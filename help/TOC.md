@@ -6,8 +6,8 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
       + [Workflows bewaken](performance-monitoring/using/workflow-monitoring.md)
       + [Overbelasting van database voorkomen](performance-monitoring/using/database-preventing-overload.md)
    + [Actieve profielen bewaken](performance-monitoring/using/active-profiles-monitoring.md)
-   + [Bewaking van doorvoer en latentie](performance-monitoring/using/thoughputs-latencies.md)
+   + [Bewaking van doorvoer en latentie](performance-monitoring/using/throughputs-latencies.md)
    + [IP-adressen toevoegen aan de lijst met toegestane IP-adressen voor instantietoegang](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-machtigingen](instances-settings/using/url-permissions.md)
    + [Instantiedetails](instances-settings/using/instance-details.md)
