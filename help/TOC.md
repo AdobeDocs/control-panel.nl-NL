@@ -6,7 +6,7 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
@@ -31,7 +31,6 @@ ht-degree: 100%
    + [De interface van het Configuratiescherm verkennen](discover/using/discovering-the-interface.md)
 + [Belangrijke contacten en gebeurtenissen bewaken](service-events/service-events.md)
 + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
-+ Instantie-instellingen {#instances-settings}
 + SFTP-beheer {#sftp-management}
    + [SFTP-beheer](sftp/using/about-sftp-management.md)
    + [SFTP-opslag beheren](sftp/using/sftp-storage-management.md)
@@ -61,6 +60,7 @@ ht-degree: 100%
       + [Overbelasting van database voorkomen](performance-monitoring/using/database-preventing-overload.md)
    + [Actieve profielen bewaken](performance-monitoring/using/active-profiles-monitoring.md)
    + [Bewaking van doorvoer en latentie](performance-monitoring/using/throughputs-latencies.md)
++ Instantie-instellingen {#instances-settings}
    + [IP-adressen toevoegen aan de lijst met toegestane IP-adressen voor instantietoegang](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-machtigingen](instances-settings/using/url-permissions.md)
    + [Instantiedetails](instances-settings/using/instance-details.md)
