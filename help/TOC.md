@@ -6,10 +6,10 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 99241b1b4982049f844fcf51d307ace36ee70c94
+source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 + Aanvullende informatie  {#release-notes}
    + [Nieuwste release](rn/release-notes.md)
    + Eerdere releases {#previous-releases}
+      + [Aanvullende informatie 2023](rn/release-notes-2023.md)
       + [Aanvullende informatie 2022](rn/release-notes-2022.md)
       + [Aanvullende informatie 2021](rn/release-notes-2021.md)
       + [Aanvullende informatie 2020](rn/release-notes-2020.md)
@@ -42,10 +43,11 @@ ht-degree: 100%
    + [Branding van subdomeinen](subdomains-certificates/using/subdomains-branding.md)
    + [Uw subdomeinen bewaken](subdomains-certificates/using/monitoring-subdomains.md)
    + [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Delegatie van subdomeinen naar Adobe verwijderen](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [TXT-records beheren](subdomains-certificates/using/managing-txt-records.md)
-   + [SSL-certificaten controleren](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + SSL-certificaten verlengen {#renew-ssl}
-      + [Het verlengen van SSL-certificaten](subdomains-certificates/using/renewing-subdomain-certificate.md)
+   + SSL-certificaten beheren {#manage-certificates}
+      + [SSL-certificaten controleren](subdomains-certificates/using/monitoring-ssl-certificates.md)
+      + [SSL-certificaten verlengen](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Het CSR genereren](subdomains-certificates/using/generate-csr.md)
       + [Het SSL-certificaat installeren](subdomains-certificates/using/install-ssl-certificate.md)
 + Prestatiebewaking {#performance-monitoring}

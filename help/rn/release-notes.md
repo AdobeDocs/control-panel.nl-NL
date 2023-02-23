@@ -2,10 +2,10 @@
 title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
+source-git-commit: 37e4d287a82f9b750eb7fdac64d0ac9602a803c8
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 42%
+source-wordcount: '94'
+ht-degree: 34%
 
 ---
 
@@ -13,12 +13,14 @@ ht-degree: 42%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het configuratiescherm.
 
-## Januari 2023 {#january-2023}
+## Februari 2023 {#february-2023}
 
-**Nieuwe mogelijkheden voor hybride hostingmodellen**
+**Delegatie verwijderen voor subdomeinen die zijn gedelegeerd aan Adobe**
 
-Klanten met een hybride hostingmodel kunnen nu IP-adressen toevoegen aan de lijst van gewenste personen voor toegang tot MID-instanties. [Meer informatie](../instances-settings/using/ip-allow-listing-instance-access.md)
+U kunt de delegatie van subdomain nu verwijderen die aan Adobe, met inbegrip van de opstelling van CNAME is gedelegeerd. [Meer informatie](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**CSR-uitbreiding (Certificate Signing Request)**
+**Servicekalender**
 
-Het veld Plaats/locatie is nu optioneel tijdens het genereren van de certificaatondertekeningsaanvraag.
+De kalender van de dienst verstrekt nu een kalendermening om spoor van belangrijke gebeurtenissen te houden die op uw instanties voorkomen. Bovendien is informatie toegevoegd over de meldingen die zijn verzonden naar gebruikers die zijn geabonneerd op waarschuwingen van het Configuratiescherm. [Meer informatie](../service-events/service-events.md)
+
+![](assets/do-not-localize/gif-calendar.gif)
