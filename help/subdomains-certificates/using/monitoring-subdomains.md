@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: 76c42ba45b3430b1b93458f18b1b0e78f289fad1
+source-git-commit: f0c3df4727e89e3f6127fe4563908b955ccb820c
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 7%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
->title="Gedelegeerde subdomeinen verwijderen "
->abstract="In dit scherm kunt u elk subdomein verwijderen dat is gedelegeerd in het Configuratiescherm. Houd er rekening mee dat het verwijderen van subdomeinen niet ongedaan kan worden gemaakt en onomkeerbaar zal zijn zodra het is verzonden.<br><br>Als u probeert het primaire domein voor de geselecteerde instantie te verwijderen, wordt u gevraagd het domein te kiezen dat het zal vervangen."
+>title="Subdomeindelegatie verwijderen"
+>abstract="In dit scherm kunt u de delegatie van een subdomein naar Adobe verwijderen. Houd er rekening mee dat dit proces na verzending niet kan worden teruggedraaid of gestopt.<br><br>Als u de delegatie van een primair domein voor de geselecteerde instantie probeert te verwijderen, wordt u gevraagd het domein te kiezen dat het zal vervangen."
 
 Het is van essentieel belang om uw subdomeinen te controleren om ervoor te zorgen dat alle behoorlijk worden gevormd om met Adobe Campaign te werken.
 
