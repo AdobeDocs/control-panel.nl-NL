@@ -2,7 +2,7 @@
 title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 37e4d287a82f9b750eb7fdac64d0ac9602a803c8
+source-git-commit: 85726597c62cbca7d1055a5cb45271a63218a012
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 34%
@@ -18,6 +18,8 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van he
 **Delegatie verwijderen voor subdomeinen die zijn gedelegeerd aan Adobe**
 
 U kunt de delegatie van subdomain nu verwijderen die aan Adobe, met inbegrip van de opstelling van CNAME is gedelegeerd. [Meer informatie](../subdomains-certificates/using/remove-delegated-subdomains.md)
+
+![](assets/do-not-localize/gif-delegation.gif)
 
 **Servicekalender**
 
