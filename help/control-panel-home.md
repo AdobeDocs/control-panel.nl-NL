@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
-workflow-type: ht
-source-wordcount: '242'
-ht-degree: 100%
+source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 73%
 
 ---
 
@@ -26,19 +26,13 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**De tien bestanden die de meeste ruimte in beslag nemen op SFTP-servers**
+**Delegatie verwijderen voor subdomeinen die zijn gedelegeerd aan Adobe**
 
-Het is nu mogelijk de top 10 vast te stellen van bestanden die de meeste ruimte op een SFTP-server verbruiken. [Meer informatie](sftp/using/sftp-storage-management.md)
+U kunt de delegatie van subdomain nu verwijderen die aan Adobe, met inbegrip van de opstelling van CNAME is gedelegeerd. [Meer informatie](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
+**Servicekalender**
 
-**Servicekalender-herinneringen**
-
-U kunt in de servicekalender nu herinneringen instellen, zodat u een e-mail ontvangt voordat er een gebeurtenis plaatsvindt op uw instanties. [Meer informatie](service-events/service-events.md)
-
-**Verbeteringen in de CSR-generatie voor subdomeinen**
-
-Het proces voor het genereren van CSR&#39;s is op verschillende manieren verbeterd. [Meer informatie](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
+De kalender van de dienst verstrekt nu een kalendermening om spoor van belangrijke gebeurtenissen te houden die op uw instanties voorkomen. Bovendien is informatie toegevoegd over de meldingen die zijn verzonden naar gebruikers die zijn geabonneerd op waarschuwingen van het Configuratiescherm. [Meer informatie](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
