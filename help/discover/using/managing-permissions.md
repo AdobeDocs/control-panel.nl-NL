@@ -9,18 +9,18 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 6%
 
 ---
 
-# Machtigingen voor Configuratiescherm beheren {#managing-permissions-control-panel}
+# Machtigingen voor het configuratiescherm beheren {#managing-permissions-control-panel}
 
 Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagne-instantie. Voer de onderstaande stappen uit om gebruikers toe te wijzen aan de groep Beheerders en ze toegang te verlenen tot het Configuratiescherm.
 
 ![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](../../discover/using/managing-permissions.md#video)
 
-1. Ga naar de [Homepage van Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Ga naar de [Homepage van Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. De **Admin Console** door op de beschikbare koppeling van de **Snelle toegang** of in het menu rechtsboven.
 

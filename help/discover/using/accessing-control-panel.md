@@ -9,8 +9,8 @@ level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 12%
+source-wordcount: '174'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ Het is toegankelijk voor **Admin-gebruikers** alleen. Voor meer op hoe te om geb
 
 Voer de onderstaande stappen uit om het Configuratiescherm te openen vanuit het Adobe Experience Cloud-Platform.
 
-1. Ga naar de [Experience Cloud homepage](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Ga naar de [Experience Cloud homepage](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Klik op de toegewezen koppeling in het dialoogvenster **Snelle toegang** sectie.
 
@@ -32,7 +32,7 @@ Voer de onderstaande stappen uit om het Configuratiescherm te openen vanuit het 
 
 Het regelpaneel is ook toegankelijk via het Experience Cloud-Platform **oplossingskiezer**:
 
-1. Van de [Homepage van Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, selecteer **Campagne** van de **Snelle toegang** of het bovenste menu aan de rechterkant.
+1. Van de [Homepage van Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}, selecteert u **Campagne** van de **Snelle toegang** of het bovenste menu aan de rechterkant.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +44,7 @@ Het regelpaneel is ook toegankelijk via het Experience Cloud-Platform **oplossin
 
 >[!NOTE]
 >
->Toegang vanuit het product is beschikbaar voor [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=nl){target=&quot;_blank&quot;} alleen.
+>Toegang vanuit het product is beschikbaar voor [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=nl){target="_blank"} alleen.
 
 1. Open uw Campaign Standard product.
 

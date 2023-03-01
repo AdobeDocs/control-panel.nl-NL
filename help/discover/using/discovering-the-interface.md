@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: De interface van het Configuratiescherm verkennen
+title: De interface van het configuratiescherm verkennen
 description: Meer informatie over de interface van het Configuratiescherm
 feature: Control Panel
 role: Architect
@@ -14,7 +14,7 @@ ht-degree: 52%
 
 ---
 
-# De interface van het Configuratiescherm verkennen {#discovering-interface}
+# De interface van het configuratiescherm verkennen {#discovering-interface}
 
 De startpagina van het Configuratiescherm geeft u toegang tot alle acties die op uw Campaign-instanties kunnen worden uitgevoerd.
 
