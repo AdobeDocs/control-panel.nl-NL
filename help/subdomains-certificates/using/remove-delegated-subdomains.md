@@ -6,9 +6,9 @@ description: Leer hoe u het delegeren van subdomeinen naar Adobe kunt verwijdere
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 5a8c4c4d1c5c527135901cd41f2b0936af8737b4
+source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="Subdomeindelegatie verwijderen"
->abstract="In dit scherm kunt u de delegatie van een subdomein naar Adobe verwijderen. Houd er rekening mee dat dit proces na verzending niet kan worden teruggedraaid of gestopt.<br><br>Als u de delegatie van een primair domein voor de geselecteerde instantie probeert te verwijderen, wordt u gevraagd het domein te kiezen dat het zal vervangen."
+>abstract="In dit scherm kunt u de delegatie van een subdomein naar Adobe verwijderen. Onthoud dat dit proces niet ongedaan kan worden gemaakt en onomkeerbaar is totdat de uitvoering is voltooid.<br><br>Als u de delegatie van een primair domein voor de geselecteerde instantie probeert te verwijderen, wordt u gevraagd het domein te kiezen dat het zal vervangen."
 
 Met het Configuratiescherm kunt u de delegatie verwijderen van een subdomein dat is gedelegeerd aan Adobe, inclusief CNAME-instelling.
 
@@ -26,7 +26,7 @@ Met het Configuratiescherm kunt u de delegatie verwijderen van een subdomein dat
 
 Overweeg voordat u verdergaat zorgvuldig de effecten die optreden wanneer het verwijderingsproces wordt gestart:
 
-* Verwijderen van subdomeindelegatie kan niet ongedaan worden gemaakt en is onomkeerbaar zodra dit is gestart totdat het proces wordt uitgevoerd.
+* Zodra het proces wordt teweeggebracht, kan de verwijdering van de subdomeindelegatie niet ongedaan worden gemaakt en is onomkeerbaar tot de procesuitvoering volledig is.
 * Geen andere subdomeindelegatie kan worden verwijderd wanneer een gelijkaardig proces op een ander subdomein lopend is.
 * Een delegatie die op een subdomein is verwijderd, kan pas drie dagen na verwijdering opnieuw worden gedelegeerd.
 
