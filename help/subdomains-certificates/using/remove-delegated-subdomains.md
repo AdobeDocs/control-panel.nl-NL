@@ -6,9 +6,9 @@ description: Leer hoe u het delegeren van subdomeinen naar Adobe kunt verwijdere
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: deb99ceb789f40c905de1a76cca8deca6b979765
+source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '509'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,11 @@ ht-degree: 1%
 >title="Subdomeindelegatie verwijderen"
 >abstract="In dit scherm kunt u de delegatie van een subdomein naar Adobe verwijderen. Onthoud dat dit proces niet ongedaan kan worden gemaakt en onomkeerbaar is totdat de uitvoering is voltooid.<br><br>Als u de delegatie van een primair domein voor de geselecteerde instantie probeert te verwijderen, wordt u gevraagd het domein te kiezen dat het zal vervangen."
 
-Met het Configuratiescherm kunt u de delegatie verwijderen van een subdomein dat is gedelegeerd aan Adobe, inclusief CNAME-instelling.
+Met het Configuratiescherm kunt u de delegatie verwijderen van een subdomein dat is gedelegeerd aan Adobe.
+
+>[!NOTE]
+>
+>De verwijdering van de delegatie is momenteel niet beschikbaar voor subdomeinen die opstelling gebruikend CNAMEs zijn geweest.
 
 ## Belangrijke opmerkingen {#important}
 
