@@ -3,9 +3,9 @@ title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ U kunt nu de delegatie verwijderen van een subdomein dat volledig is gedelegeerd
 
 >[!NOTE]
 >
->De verwijdering van de delegatie is momenteel niet beschikbaar voor subdomeinen die opstelling gebruikend CNAMEs zijn geweest.
+>De verwijdering van de delegatie is momenteel niet beschikbaar voor subdomeinen die met behulp van CNAME&#39;s zijn ingesteld.
 
 **Servicekalender**
 
-De kalender van de dienst verstrekt nu een kalendermening om spoor van belangrijke gebeurtenissen te houden die op uw instanties voorkomen. Bovendien is informatie toegevoegd over de meldingen die zijn verzonden naar gebruikers die zijn geabonneerd op waarschuwingen van het Configuratiescherm. [Meer informatie](../service-events/service-events.md)
+Servicekalender biedt nu een kalenderweergave om belangrijke gebeurtenissen bij te houden die plaatsvinden in uw instanties. Daarnaast is er informatie toegevoegd over de meldingen die zijn verzonden naar gebruikers die zich hebben aangemeld voor waarschuwingen van het Configuratiescherm. [Meer informatie](../service-events/service-events.md)
 
 ![](assets/do-not-localize/gif-calendar.gif)
