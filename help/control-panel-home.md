@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 **Delegatie verwijderen voor subdomeinen die zijn gedelegeerd aan Adobe**
 
-U kunt de delegatie van subdomain nu verwijderen die aan Adobe, met inbegrip van de opstelling van CNAME is gedelegeerd. [Meer informatie](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+U kunt nu de delegatie verwijderen van een subdomein dat is gedelegeerd aan Adobe, inclusief CNAME-instellingen. [Meer informatie](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
 **Servicekalender**
 
-De kalender van de dienst verstrekt nu een kalendermening om spoor van belangrijke gebeurtenissen te houden die op uw instanties voorkomen. Bovendien is informatie toegevoegd over de meldingen die zijn verzonden naar gebruikers die zijn geabonneerd op waarschuwingen van het Configuratiescherm. [Meer informatie](../help/service-events/service-events.md)
+Servicekalender biedt nu een kalenderweergave om belangrijke gebeurtenissen bij te houden die plaatsvinden in uw instanties. Daarnaast is er informatie toegevoegd over de meldingen die zijn verzonden naar gebruikers die zich hebben aangemeld voor waarschuwingen van het Configuratiescherm. [Meer informatie](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
