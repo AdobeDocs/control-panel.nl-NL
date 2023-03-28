@@ -6,9 +6,9 @@ description: Leer hoe u de delegatie van subdomeinen aan Adobe kunt verwijderen.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '810'
 ht-degree: 59%
 
 ---
@@ -66,14 +66,16 @@ Wanneer het verwijderen van een CNAME-type delegatie, moet u **verwijder deze DN
 
 In de onderstaande tabel staan de acties die u wilt uitvoeren, afhankelijk van het type delegatie dat u verwijdert, en het type delegatie dat u hebt gebruikt om het vervangingsdomein in te stellen.
 
-| Verwijderde delegatie | Vervangend domein | Actie vereist |
+| Verwijderde delegatie | Domeindelegatie vervangen | Actie vereist |
 |  ---  |  ---  |  ---  |
-| Volledig | Geen vervangend domein | Geen actie vereist |
-| Volledig | CNAME | DNS-records toevoegen (optioneel op basis van de IP-affiniteiten) |
-| Volledig | Volledig | Geen actie vereist |
 | CNAME | Geen vervangend domein | DNS-records verwijderen |
-| CNAME | CNAME | DNS-records verwijderen en toevoegen (optioneel op basis van de IP-affiniteiten) |
+| CNAME | CNAME | DNS-records verwijderen<br/>DNS-records toevoegen *(facultatief afhankelijk van de IP-affiniteiten)* |
 | CNAME | Volledig | DNS-records verwijderen |
+| Volledig | Geen vervangend domein | Geen actie vereist |
+| Volledig | CNAME | DNS-records toevoegen *(facultatief afhankelijk van de IP-affiniteiten)* |
+| Volledig | Volledig | Geen actie vereist |
+
+{style="table-layout:auto"}
 
 Hiervoor is een extra **[!DNL Action]** De stappen worden weergegeven voordat de delegatie wordt verwijderd. Dit scherm maakt een lijst van de DNS verslagen om, afhankelijk van de context te verwijderen of toe te voegen.
 
