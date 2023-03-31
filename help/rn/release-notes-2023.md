@@ -2,7 +2,7 @@
 title: Aanvullende informatie 2023
 description: Deze pagina bevat een lijst met alle in 2023 uitgebrachte releases van het Configuratiescherm.
 source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
 ht-degree: 100%
 
