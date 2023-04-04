@@ -3,9 +3,9 @@ title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 83138e63558125757259849064552904594e2e0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '49'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -15,6 +15,6 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van he
 
 ## Maart 2023 {#march-2023}
 
-**Verwijderen van subdomeindelegatie voor CNAME&#39;s**
+**Subdomeindelegatie verwijderen voor CNAME&#39;s**
 
-U kunt de delegatie van subdomeinen nu verwijderen die gebruikend CNAMEs zijn gevormd. [Meer informatie](../subdomains-certificates/using/remove-delegated-subdomains.md)
+U kunt nu de delegatie van subdomeinen verwijderen die zijn geconfigureerd met gebruik van CNAME&#39;s. [Meer informatie](../subdomains-certificates/using/remove-delegated-subdomains.md)
