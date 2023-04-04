@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 >title="Subdomeindelegatie verwijderen"
 >abstract="In dit scherm kunt u de delegatie van een subdomein aan Adobe verwijderen. Houd er rekening mee dat dit proces niet ongedaan kan worden gemaakt en onomkeerbaar is totdat de uitvoering is voltooid.<br><br>Als u de delegatie van een primair domein voor de geselecteerde instantie probeert te verwijderen, wordt u gevraagd het domein te kiezen dat het gaat vervangen."
 
-Met het Configuratiescherm kunt u de delegatie verwijderen van een subdomein dat volledig is gedelegeerd aan Adobe of gedelegeerd via CNAME&#39;s.
+Met het Configuratiescherm kunt u de delegatie verwijderen van een subdomein dat volledig is gedelegeerd aan Adobe of is gedelegeerd met behulp van CNAME&#39;s.
 
 ## Belangrijke opmerkingen {#important}
 
@@ -48,7 +48,7 @@ Volg deze stappen om de delegatie van een subdomein naar Adobe te verwijderen:
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. Als u een CNAME-type delegatie verwijdert of als u een primair domein vervangt door een domein dat via CNAME is gedelegeerd, wordt een extra **[!UICONTROL Action]** step-weergaven om DNS-records te beheren. [Meer informatie in deze sectie](#dns)
+1. Als u een delegatie van het CNAME-type verwijdert of als u een primair domein vervangt door een domein dat is gedelegeerd met behulp van CNAME&#39;s, wordt een extra stap **[!UICONTROL Action]** weergegeven om DNS-records te beheren. [Meer informatie in dit gedeelte](#dns)
 
 1. Review het overzicht dat wordt weergegeven. Als u de verwijdering wilt bevestigen, typt u de URL van het domein waarvoor u de delegatie wilt verwijderen en klikt u op **[!UICONTROL Submit]**.
 
@@ -60,38 +60,38 @@ Nadat het verwijderen van de delegatie is gestart, wordt de taak in behandeling 
 
 ## DNS-recordbeheer {#dns}
 
-Om een domeindelegatie te vormen die CNAMEs gebruikt, vereist het Controlebord dat u specifieke verslagen op uw DNS server toevoegt. [Leer hoe u subdomeinen instelt met gebruik van CNAME&#39;s](setting-up-new-subdomain.md#use-cnames)
+Om een domeindelegatie te configureren met behulp van CNAME&#39;s vereist het Configuratiescherm dat u specifieke records op uw DNS-server toevoegt. [Leer hoe u subdomeinen instelt met gebruik van CNAME&#39;s](setting-up-new-subdomain.md#use-cnames)
 
-Wanneer het verwijderen van een CNAME-type delegatie, moet u **verwijder deze DNS-records** van uw server om problemen te voorkomen. Bovendien, als u de delegatie van primaire subdomain wilt verwijderen en het met een domein vervangen dat gebruikend CNAMEs is afgevaardigd, kunt u moeten **DNS-records toevoegen** op uw server, afhankelijk van de IP eigenschappen die voor subdomain worden geplaatst.
+Wanneer u een delegatie van het CNAME-type verwijdert, moet u **deze DNS-records verwijderen** van de server om problemen te voorkomen. Bovendien, als u de delegatie van een primair subdomein wilt verwijderen en vervangen door een domein dat is gedelegeerd met behulp van CNAME&#39;s, moet u wellicht **DNS-records toevoegen** op de server, afhankelijk van de IP-affiniteiten die zijn ingesteld voor het subdomein.
 
-In de onderstaande tabel staan de acties die u wilt uitvoeren, afhankelijk van het type delegatie dat u verwijdert, en het type delegatie dat u hebt gebruikt om het vervangingsdomein in te stellen.
+De onderstaande tabel geeft de uit te voeren actie(s) weer, afhankelijk van het type machtiging dat u verwijdert en het type machtiging dat is gebruikt om het vervangende domein in te stellen.
 
-| Verwijderde delegatie | Domeindelegatie vervangen | Actie vereist |
+| Delegatie verwijderd | Domeindelegatie vervangen | Actie vereist |
 |  ---  |  ---  |  ---  |
 | CNAME | Geen vervangend domein | DNS-records verwijderen |
-| CNAME | CNAME | DNS-records verwijderen<br/>DNS-records toevoegen *(facultatief afhankelijk van de IP-affiniteiten)* |
+| CNAME | CNAME | DNS-records verwijderen<br/>DNS-records toevoegen *(optioneel, afhankelijk van de IP-affiniteiten)* |
 | CNAME | Volledig | DNS-records verwijderen |
 | Volledig | Geen vervangend domein | Geen actie vereist |
-| Volledig | CNAME | DNS-records toevoegen *(facultatief afhankelijk van de IP-affiniteiten)* |
+| Volledig | CNAME | Voeg DNS-records toe *(optioneel, afhankelijk van de IP-affiniteiten)* |
 | Volledig | Volledig | Geen actie vereist |
 
 {style="table-layout:auto"}
 
-Hiervoor is een extra **[!DNL Action]** De stappen worden weergegeven voordat de delegatie wordt verwijderd. Dit scherm maakt een lijst van de DNS verslagen om, afhankelijk van de context te verwijderen of toe te voegen.
+Hiervoor wordt een extra stap **[!DNL Action]** weergegeven voordat de verwijdering van de delegatie wordt bevestigd. Dit scherm geeft de DNS-records weer die moeten worden verwijderd of toegevoegd, afhankelijk van de context.
 
 ![](assets/action-step.png)
 
 ### DNS-records verwijderen
 
-1. Navigeer naar uw DNS-server en verwijder de records in het Configuratiescherm.
-1. Ga terug naar Configuratiescherm en klik op **[!UICONTROL Next]** de delegatie te verwijderen.
+1. Navigeer naar de DNS-server en verwijder de records die worden vermeld in het Configuratiescherm.
+1. Ga terug naar het Configuratiescherm en klik op **[!UICONTROL Next]** om door te gaan met het verwijderen van de delegatie.
 
 ### DNS-records toevoegen
 
-1. Navigeer aan uw DNS server en voeg de verslagen toe die in Controlebord worden vermeld.
-1. Wacht op de DNS toevoeging om effectief te zijn.
-1. Ga terug naar Configuratiescherm en klik op **[!UICONTROL Verify]**.
-1. Nadat de toevoeging aan records is geverifieerd, klikt u op **[!UICONTROL Next]** de delegatie te verwijderen.
+1. Navigeer naar uw DNS-server en voeg de records toe die worden vermeld in het Configuratiescherm.
+1. Wacht tot de DNS-toevoeging effectief is.
+1. Ga terug naar het Configuratiescherm en klik op **[!UICONTROL Verify]**.
+1. Zodra de toevoeging van records is geverifieerd, klikt u op **[!UICONTROL Next]** om door te gaan met het verwijderen van de delegatie.
 
 ## Foutcodes {#FAQ}
 
