@@ -6,10 +6,11 @@ description: Leer hoe u de delegatie van subdomeinen aan Adobe kunt verwijderen.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
+source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +35,7 @@ Overweeg zorgvuldig de gevolgen die optreden zodra het verwijderingsproces is ge
 
 Volg deze stappen om de delegatie van een subdomein naar Adobe te verwijderen:
 
-1. Klik op de knop met 3 puntjes naast de domeindelegatie die u wilt verwijderen en selecteer **[!UICONTROL Remove delegated subdomain]**.
+1. Klik op de knop met 3 puntjes naast de domeindelegatie die u wilt verwijderen en selecteer **[!UICONTROL Remove delegation]**.
 
    ![](assets/undelegate-subdomain.png)
 
@@ -77,7 +78,7 @@ De onderstaande tabel geeft de uit te voeren actie(s) weer, afhankelijk van het 
 
 {style="table-layout:auto"}
 
-Hiervoor wordt een extra stap **[!DNL Action]** weergegeven voordat de verwijdering van de delegatie wordt bevestigd. Dit scherm geeft de DNS-records weer die moeten worden verwijderd of toegevoegd, afhankelijk van de context.
+Indien een van deze handelingen nodig is om de delegatie te verwijderen, wordt een extra **[!DNL Action]** De stappen worden weergegeven voordat de delegatie wordt verwijderd. Dit scherm geeft de DNS-records weer die moeten worden verwijderd of toegevoegd, afhankelijk van de context.
 
 ![](assets/action-step.png)
 
