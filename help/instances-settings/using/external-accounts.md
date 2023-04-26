@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 >title="Externe accounts"
 >abstract="In dit scherm kunnen klanten met een hybride hostingmodel hun MID/RT-instantie-URL opgeven die is geconfigureerd in de marketinginstantie in het configuratiescherm, om de mogelijkheden van het configuratiescherm te benutten."
 
-Met het configuratiescherm kunnen klanten met een hybride hostingmodel specifieke mogelijkheden van het configuratiescherm benutten. Hiervoor moeten ze de URL van de instantie MID/RT opgeven die in hun marketinginstantie in het configuratiescherm is geconfigureerd.
+Met het configuratiescherm kunnen klanten met een hybride hostingmodel specifieke mogelijkheden van het configuratiescherm benutten. Hiervoor moet u:
+
+* [Geef de URL van de MID/RT-instantie op](#add) geconfigureerd in uw marketingexemplaar in het Configuratiescherm,
+* [Voeg het MID/RT instantieIP adres aan de lijst van gewenste personen toe](#ip) om de marketinginstantie in staat te stellen er verbinding mee te maken.
 
 Raadpleeg voor meer informatie over hostmodellen de [Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=nl).
 
@@ -85,6 +88,14 @@ U kunt een MID/RT-instantie-URL op elk moment verwijderen of deactiveren door de
 Let op: u kunt elke actie controleren die wordt uitgevoerd op het tabblad **[!UICONTROL External Accounts]** op een MID/RT-instantie-URL vanuit de **[!UICONTROL Job Logs]**:
 
 ![](assets/external-account-logs.png)
+
+## Voeg het IP adres aan de lijst van gewenste personen toe {#ip}
+
+Zodra de instantie MID/RT is toegevoegd, moet u zijn IP adres aan de lijst van gewenste personen toevoegen zodat uw marketing instantie met het kan verbinden.
+
+Dit kan worden uitgevoerd vanaf het tabblad **[!UICONTROL IP Allow Listing]** in de **[!UICONTROL Instances Settings]** kaart. [Leer hoe te om IP adressen aan de lijst van gewenste personen toe te voegen](ip-allow-listing-instance-access.md)
+
+Zodra gedaan, zult u de mogelijkheden van het Controlebord met uw instantie kunnen gebruiken MID/RT.
 
 ## Beschikbare mogelijkheden voor hybride klanten {#capabilities}
 
