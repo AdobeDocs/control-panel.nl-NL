@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 79%
 >title="Externe accounts"
 >abstract="In dit scherm kunnen klanten met een hybride hostingmodel hun MID/RT-instantie-URL opgeven die is geconfigureerd in de marketinginstantie in het configuratiescherm, om de mogelijkheden van het configuratiescherm te benutten."
 
-Met het configuratiescherm kunnen klanten met een hybride hostingmodel specifieke mogelijkheden van het configuratiescherm benutten. Hiervoor moet u:
+Met het configuratiescherm kunnen klanten met een hybride hostingmodel specifieke mogelijkheden van het configuratiescherm benutten. Hiervoor moet u het volgende doen:
 
-* [Geef de URL van de MID/RT-instantie op](#add) geconfigureerd in uw marketingexemplaar in het Configuratiescherm,
-* [Voeg het MID/RT instantieIP adres aan de lijst van gewenste personen toe](#ip) om de marketinginstantie in staat te stellen er verbinding mee te maken.
+* [MID/RT-versie-URL opgeven](#add) zoals geconfigureerd in uw marketingversie in het bedieningspaneel;
+* [IP-adres van de MID/RT-versie toevoegen aan de lijst met gewenste personen](#ip) om de marketingversie verbinding te laten maken.
 
 Raadpleeg voor meer informatie over hostmodellen de [Campaign Classic-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=nl).
 
@@ -89,13 +89,13 @@ Let op: u kunt elke actie controleren die wordt uitgevoerd op het tabblad **[!UI
 
 ![](assets/external-account-logs.png)
 
-## Voeg het IP adres aan de lijst van gewenste personen toe {#ip}
+## IP-adres toevoegen aan de lijst met gewenste personen {#ip}
 
-Zodra de instantie MID/RT is toegevoegd, moet u zijn IP adres aan de lijst van gewenste personen toevoegen zodat uw marketing instantie met het kan verbinden.
+Zodra de MID/RT-versie is toegevoegd, moet u het IP-adres toevoegen aan de lijst met gewenste personen, zodat uw marketingversie er verbinding mee kan maken.
 
-Dit kan worden uitgevoerd vanaf het tabblad **[!UICONTROL IP Allow Listing]** in de **[!UICONTROL Instances Settings]** kaart. [Leer hoe te om IP adressen aan de lijst van gewenste personen toe te voegen](ip-allow-listing-instance-access.md)
+Dit kan worden uitgevoerd vanaf het tabblad **[!UICONTROL IP Allow Listing]** in de kaart **[!UICONTROL Instances Settings]**. [Leren hoe u IP-adressen toevoegt aan de lijst met gewenste personen](ip-allow-listing-instance-access.md)
 
-Zodra gedaan, zult u de mogelijkheden van het Controlebord met uw instantie kunnen gebruiken MID/RT.
+Zodra dat is gedaan, kunt u de mogelijkheden van het bedieningspaneel gebruiken met uw MID/RT-versie.
 
 ## Beschikbare mogelijkheden voor hybride klanten {#capabilities}
 
