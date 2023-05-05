@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '818'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ De onderstaande tabel geeft de uit te voeren actie(s) weer, afhankelijk van het 
 
 {style="table-layout:auto"}
 
-Indien een van deze handelingen nodig is om de delegatie te verwijderen, wordt een extra **[!DNL Action]** De stappen worden weergegeven voordat de delegatie wordt verwijderd. Dit scherm geeft de DNS-records weer die moeten worden verwijderd of toegevoegd, afhankelijk van de context.
+Als een van deze acties nodig is om de delegatie te verwijderen, verschijnt een extra **[!DNL Action]**-stap voordat de verwijdering van de delegatie wordt bevestigd. Dit scherm geeft de DNS-records weer die moeten worden verwijderd of toegevoegd, afhankelijk van de context.
 
 ![](assets/action-step.png)
 
