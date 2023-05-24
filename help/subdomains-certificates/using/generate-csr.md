@@ -64,7 +64,7 @@ Voer de volgende stappen uit om een Certificate Signing Request (CSR) te generer
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Copy CSR content]** kunt u alle informatie met betrekking tot CSR kopiëren (organisatie-id, instantie, naam van organisatie, algemene naam, opgenomen subdomeinen enz.)
+   >De **[!UICONTROL Copy CSR content]** kunt u alle informatie kopiëren die betrekking heeft op de CSR (organisatie-id, instantie, naam van organisatie, algemene naam, opgenomen subdomeinen enz.)
 
 1. Het csr-bestand dat overeenkomt met uw selectie, wordt automatisch gegenereerd en gedownload. U kunt het nu gebruiken om het SSL-certificaat aan te schaffen bij de Certificate Authority (certificeringsinstantie) die door uw bedrijf is goedgekeurd. Als u CSR opnieuw moet downloaden, voert u de in [deze sectie](#download).
 
