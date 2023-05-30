@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1205'
 ht-degree: 8%
 
 ---
@@ -64,6 +64,11 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
    * **sleutellengte**: 3072 - 4096 bits
    * **echte naam** en **e-mailadres**: Staat toe om te volgen wie tot het belangrijkste paar leidde. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
    * **opmerking**: Als u een label toevoegt aan het opmerkingenveld, kunt u gemakkelijk de sleutel identificeren waarmee uw gegevens worden versleuteld.
+
+      >[!IMPORTANT]
+      >
+      >Zorg ervoor dat dit veld niet leeg blijft en dat een opmerking wordt ingevuld.
+
    * **vervaldatum**: Datum of &quot;0&quot; voor geen vervaldatum.
    * **passphrase**
 
