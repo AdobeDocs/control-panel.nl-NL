@@ -2,10 +2,10 @@
 title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 83138e63558125757259849064552904594e2e0b
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 100%
+source-wordcount: '98'
+ht-degree: 29%
 
 ---
 
@@ -13,8 +13,10 @@ ht-degree: 100%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het configuratiescherm.
 
-## Maart 2023 {#march-2023}
+## Verbeteringen in juni 2023 {#june-2023}
 
-**Subdomeindelegatie verwijderen voor CNAME&#39;s**
+**SSL-certificaten van subdomeinen worden gedelegeerd aan Adobe**
 
-U kunt nu de delegatie van subdomeinen verwijderen die zijn geconfigureerd met gebruik van CNAME&#39;s. [Meer informatie](../subdomains-certificates/using/remove-delegated-subdomains.md)
+U kunt nu de SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAMEs aan opstelling gebruikt uw subdomain, zullen de certificaatverslagen automatisch worden geproduceerd en verstrekt om een certificaat in uw domein te produceren ontvangende oplossing.
+
+Deze mogelijkheid is alleen beschikbaar wanneer u een nieuw subdomein instelt. U kunt geen certificaten delegeren voor bestaande gedelegeerde subdomeinen. [Meer informatie](../subdomains-certificates/using/setting-up-new-subdomain.md)

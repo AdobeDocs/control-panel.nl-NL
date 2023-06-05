@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 81%
+source-wordcount: '1523'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="SSL-certificaten van subdomeinen delegeren aan Adobe"
->abstract="Met het Configuratiescherm kunt u SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAMEs aan opstelling gebruikt uw subdomain, zullen de certificaatverslagen automatisch worden geproduceerd en verstrekt om een certificaat in uw domein te produceren ontvangende oplossing."
+>abstract="Met het Configuratiescherm kunt u SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAMEs aan opstelling gebruikt uw subdomain, zullen de certificaatverslagen automatisch worden geproduceerd en verstrekt om een certificaat in uw domein te produceren ontvangende oplossing. Deze mogelijkheid is alleen beschikbaar wanneer u een nieuw subdomein instelt. U kunt geen certificaten delegeren voor bestaande gedelegeerde subdomeinen."
 
 ## Lees hier meer {#must-read}
 
