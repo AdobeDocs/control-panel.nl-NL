@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
+source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1502'
 ht-degree: 81%
 
 ---
@@ -165,7 +165,7 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
 
    ![](assets/cname-confirmation.png)
 
-1. Als u het certificaat van de subdomeinen wilt delegeren aan Adobe, wordt het certificaat automatisch gegenereerd. Kopieer deze records, een voor een of door een CSV-bestand te downloaden, en navigeer vervolgens naar de oplossing voor domeinhosting om het overeenkomende certificaat te genereren.
+1. Als u het certificaat van de subdomeinen aan Adobe wilt delegeren, worden de certificaatverslagen automatisch geproduceerd. Kopieer deze records, een voor een of door een CSV-bestand te downloaden, en navigeer vervolgens naar de oplossing voor domeinhosting om het overeenkomende certificaat te genereren.
 
    ![](assets/cname-csr-generation.png)
 
