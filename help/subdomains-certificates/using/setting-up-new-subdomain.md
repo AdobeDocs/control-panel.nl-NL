@@ -7,12 +7,13 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: 3b128832fa453981d358f225e160e3ef6c648b50
 workflow-type: tm+mt
-source-wordcount: '1339'
-ht-degree: 92%
+source-wordcount: '1501'
+ht-degree: 81%
 
 ---
+
 
 # Een nieuw subdomein instellen {#setting-up-subdomain}
 
@@ -21,6 +22,11 @@ ht-degree: 92%
 >title="Nieuwe subdomeinen instellen en certificaten beheren"
 >abstract="U moet een nieuw subdomein instellen en de SSL-certificaten van uw subdomeinen beheren voordat u e-mails kunt verzenden of landingspagina’s kunt publiceren met Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten bewaken"
+
+>[!CONTEXTUALHELP]
+>id="cp_managed_ssl"
+>title="SSL-certificaten van subdomeinen delegeren aan Adobe"
+>abstract="Met het Configuratiescherm kunt u SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAMEs aan opstelling gebruikt uw subdomain, zullen de certificaatverslagen automatisch worden geproduceerd en verstrekt om een certificaat in uw domein te produceren ontvangende oplossing."
 
 ## Lees hier meer {#must-read}
 
@@ -94,6 +100,8 @@ Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Ca
 
    Zorg ervoor dat u de **volledige naam** invult van het subdomein dat u wilt delegeren. Als u bijvoorbeeld het subdomein usoffers.email.weretail.com wilt delegeren, typt u &#39;usoffers.email.weretail.com&#39;.
 
+1. Als u de generatie van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** optie.
+
    ![](assets/subdomain6.png)
 
 Nadat het subdomein is verzonden, worden verschillende controles en configuratiestappen  uitgevoerd door het configuratiescherm. Zie voor meer informatie [Controles en configuratie van subdomeinen](#subdomain-checks-and-configuration).
@@ -134,25 +142,36 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
 
    ![](assets/cname-use-case.png)
 
-1. Voer het subdomein in dat u in uw hostingoplossing hebt gemaakt en klik op **[!UICONTROL Next]**.
+1. Ga subdomain in die u in uw het ontvangen oplossing creeerde. Als u de generatie van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** optie.
 
-   Zorg ervoor dat u de **volledige naam** invult van het subdomein dat u wilt instellen. Als u bijvoorbeeld het subdomein usoffers.email.weretail.com wilt instellen, typt u usoffers.email.weretail.com.
+   ![](assets/cname-adobe-managed.png)
 
-   ![](assets/cname-submit.png)
+   >[!NOTE]
+   >
+   >Zorg ervoor dat u de **volledige naam** invult van het subdomein dat u wilt instellen. Als u bijvoorbeeld het subdomein usoffers.email.weretail.com wilt instellen, typt u usoffers.email.weretail.com.
 
 1. De lijst van records die in uw DNS-serverweergaven moeten worden geplaatst. Kopieer deze records één voor één of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende DNS-records te genereren.
 
    ![](assets/cname-generate-record.png)
 
-1. Zorg ervoor dat alle DNS-records van vorige stappen zijn gegenereerd in uw domeinhostingoplossing. Als alles goed is geconfigureerd, selecteert u de eerste statement en klikt u op **[!UICONTROL Submit]** om te bevestigen.
+1. Zorg ervoor dat alle DNS-records van vorige stappen zijn gegenereerd in uw domeinhostingoplossing. Als alles goed is geconfigureerd, selecteert u de eerste statement en klikt u op **[!UICONTROL Next]** om te bevestigen.
 
-   ![](assets/cname-confirmation.png)
+   Als u de records wilt maken en de subdomeinconfiguratie later wilt verzenden, selecteert u de tweede instructie. U kunt dan de subdomeinconfiguratie direct vanuit het subdomeinbeheerschermgebied **[!UICONTROL Processing]** hervatten. Houd er rekening mee dat DNS-records die op uw server worden geplaatst, 30 dagen door het configuratiescherm worden bewaard. Na die periode moet u het subdomein helemaal opnieuw configureren.
+
 
    >[!NOTE]
    >
-   >Als u de records wilt maken en de subdomeinconfiguratie later wilt verzenden, selecteert u de tweede statement en klikt u op **[!UICONTROL Submit later]**. U kunt dan de subdomeinconfiguratie direct vanuit het subdomeinbeheerschermgebied **[!UICONTROL Processing]** hervatten.
-   >
-   >Houd er rekening mee dat DNS-records die op uw server worden geplaatst, 30 dagen door het configuratiescherm worden bewaard. Na die periode moet u het subdomein helemaal opnieuw configureren.
+   >Als u verkoos om het SSL certificaat niet aan Adobe te delegeren, is dit de laatste stap van de subdomeinconfiguratie. Klik op de knop **[!UICONTROL Submit]**.
+
+   ![](assets/cname-confirmation.png)
+
+1. Als u het certificaat van de subdomeinen wilt delegeren aan Adobe, wordt het certificaat automatisch gegenereerd. Kopieer deze records, een voor een of door een CSV-bestand te downloaden, en navigeer vervolgens naar de oplossing voor domeinhosting om het overeenkomende certificaat te genereren.
+
+   ![](assets/cname-csr-generation.png)
+
+1. Zorg ervoor dat alle certificaatverslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles goed is geconfigureerd, selecteert u de eerste statement en klikt u op **[!UICONTROL Submit]** om te bevestigen.
+
+   ![](assets/cnames-submit.png)
 
 Nadat het subdomein is verzonden, worden verschillende controles en configuratiestappen  uitgevoerd door het configuratiescherm. Zie voor meer informatie [Controles en configuratie van subdomeinen](#subdomain-checks-and-configuration).
 
