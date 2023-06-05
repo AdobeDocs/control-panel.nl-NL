@@ -2,14 +2,20 @@
 title: Aanvullende informatie 2023
 description: Deze pagina bevat een lijst met alle in 2023 uitgebrachte releases van het Configuratiescherm.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 11015d1a7c44abaeeb704138e2a3071d293715b7
+source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
 
 # Aanvullende informatie 2023 {#rn-2023}
+
+## Maart 2023 {#march-2023}
+
+**Subdomeindelegatie verwijderen voor CNAME&#39;s**
+
+U kunt nu de delegatie van subdomeinen verwijderen die zijn geconfigureerd met gebruik van CNAME&#39;s. [Meer informatie](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ## Februari 2023 {#february-2023}
 
