@@ -2,10 +2,10 @@
 title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 29%
+source-wordcount: '113'
+ht-degree: 25%
 
 ---
 
@@ -20,3 +20,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van he
 U kunt nu de SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAMEs aan opstelling gebruikt uw subdomain, zullen de certificaatverslagen automatisch worden geproduceerd en verstrekt om een certificaat in uw domein te produceren ontvangende oplossing.
 
 Deze mogelijkheid is alleen beschikbaar wanneer u een nieuw subdomein instelt. U kunt geen certificaten delegeren voor bestaande gedelegeerde subdomeinen. [Meer informatie](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Adobe beheerde SSL is een kostenloze functie die gratis beschikbaar is voor gebruikers.

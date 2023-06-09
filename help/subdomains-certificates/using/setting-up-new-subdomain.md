@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1628'
+ht-degree: 75%
 
 ---
 
@@ -44,13 +44,13 @@ Als de versie die u in de wizard selecteert, geen eerder ingestelde subdomeinen 
 
 ### SSL-certificaten van subdomeinen delegeren aan Adobe
 
-Wanneer u een nieuw subdomein instelt, kunt u het SSL-certificaat laten beheren door Adobe. Dit wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt.
+Wanneer u een nieuw subdomein instelt, kunt u het SSL-certificaat laten beheren door Adobe. Dit wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt. SSL-certificaatdelegatie is alleen beschikbaar wanneer u een nieuw subdomein instelt. Dit is niet beschikbaar voor al gedelegeerde subdomeinen.
 
 Als u CNAMEs aan opstelling gebruikt subdomain delegatie, zal Adobe certificaatverslagen verstrekken in uw domein ontvangende oplossing te gebruiken om uw certificaat te produceren.
 
 >[!NOTE]
 >
->De delegatie van SSL-certificaten is alleen beschikbaar wanneer u een nieuw subdomein instelt. Dit is niet beschikbaar voor al gedelegeerde subdomeinen.
+>Adobe beheerde SSL is een kostenloze functie die gratis beschikbaar is voor gebruikers.
 
 ### Configuratie naamservers
 
