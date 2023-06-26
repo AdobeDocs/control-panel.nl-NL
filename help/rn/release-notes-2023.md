@@ -2,14 +2,26 @@
 title: Aanvullende informatie 2023
 description: Deze pagina bevat een lijst met alle in 2023 uitgebrachte releases van het Configuratiescherm.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 99%
 
 ---
 
 # Aanvullende informatie 2023 {#rn-2023}
+
+## Verbeteringen in mei 2023 {#june-2023}
+
+**SSL-certificaten van subdomeinen delegeren naar Adobe**
+
+U kunt nu de SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAME&#39;s gebruikt om uw subdomein in te stellen, worden er automatisch certificatenrecords gemaakt en verstrekt om een certificaat te genereren in uw domeinhostingoplossing.
+
+Deze mogelijkheid is alleen beschikbaar als u een nieuw subdomein instelt. U kunt geen certificaten delegeren voor bestaande gedelegeerde subdomeinen. [Meer informatie](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers.
 
 ## Maart 2023 {#march-2023}
 

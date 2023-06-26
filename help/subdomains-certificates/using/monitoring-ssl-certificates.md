@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 70%
+source-wordcount: '413'
+ht-degree: 81%
 
 ---
 
@@ -30,15 +30,7 @@ Adobe Campaign raadt u aan de subdomeinen te beveiligen die als host dienen voor
 
 ## SSL-certificaten van subdomeinen delegeren aan Adobe
 
-Wanneer u een nieuw subdomein instelt, kunt u het SSL-certificaat laten beheren door Adobe. Dit wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt.
-
-Als u CNAMEs aan opstelling gebruikt subdomain delegatie, zal Adobe certificaatverslagen verstrekken in uw domein ontvangende oplossing te gebruiken om uw certificaat te produceren.
-
->[!NOTE]
->
->De delegatie van SSL-certificaten is alleen beschikbaar wanneer u een nieuw subdomein instelt. Dit is niet beschikbaar voor al gedelegeerde subdomeinen.
-
-De delegatie van SSL-certificaten wordt ingeschakeld wanneer u een nieuw subdomein instelt. Leer hoe u verder kunt gaan in [deze sectie](setting-up-new-subdomain.md).
+Het delegeren van SSL-certificaten van uw subdomeinen aan Adobe wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt. [Leer hoe u SSL-certificaten van subdomeinen kunt delegeren aan Adobe](delegate-ssl.md)
 
 ## SSL-certificaten bewaken {#monitoring-certificates}
 

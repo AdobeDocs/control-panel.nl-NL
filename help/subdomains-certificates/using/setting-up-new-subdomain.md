@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 75%
+source-wordcount: '1549'
+ht-degree: 80%
 
 ---
 
@@ -22,11 +22,6 @@ ht-degree: 75%
 >title="Nieuwe subdomeinen instellen en certificaten beheren"
 >abstract="U moet een nieuw subdomein instellen en de SSL-certificaten van uw subdomeinen beheren voordat u e-mails kunt verzenden of landingspagina’s kunt publiceren met Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=nl" text="SSL-certificaten bewaken"
-
->[!CONTEXTUALHELP]
->id="cp_managed_ssl"
->title="SSL-certificaten van subdomeinen delegeren aan Adobe"
->abstract="Met het Configuratiescherm kunt u SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAMEs aan opstelling gebruikt uw subdomain, zullen de certificaatverslagen automatisch worden geproduceerd en verstrekt om een certificaat in uw domein te produceren ontvangende oplossing. Deze mogelijkheid is alleen beschikbaar wanneer u een nieuw subdomein instelt. U kunt geen certificaten delegeren voor bestaande gedelegeerde subdomeinen."
 
 ## Lees hier meer {#must-read}
 
@@ -44,13 +39,13 @@ Als de versie die u in de wizard selecteert, geen eerder ingestelde subdomeinen 
 
 ### SSL-certificaten van subdomeinen delegeren aan Adobe
 
-Wanneer u een nieuw subdomein instelt, kunt u het SSL-certificaat laten beheren door Adobe. Dit wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt. SSL-certificaatdelegatie is alleen beschikbaar wanneer u een nieuw subdomein instelt. Dit is niet beschikbaar voor al gedelegeerde subdomeinen.
+Wanneer u een nieuw subdomein instelt, kunt u het SSL-certificaat laten beheren door Adobe. Dit wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt.
 
 Als u CNAMEs aan opstelling gebruikt subdomain delegatie, zal Adobe certificaatverslagen verstrekken in uw domein ontvangende oplossing te gebruiken om uw certificaat te produceren.
 
 >[!NOTE]
 >
->Adobe beheerde SSL is een kostenloze functie die gratis beschikbaar is voor gebruikers.
+>Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers.
 
 ### Configuratie naamservers
 
@@ -66,7 +61,6 @@ Bovendien mag u **geen afzonderlijk zonebestand maken** voor dit nieuwe subdomei
 >abstract="Adobe beveelt volledige subdomeindelegatie aan. U kunt echter CNAME&#39;s of aangepaste methoden gebruiken om subdomeinen in te stellen."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl" text="Een nieuw subdomein instellen"
 >additional-url="https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html" text="Contact opnemen met de klantenservice"
-
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_create_delegate"
@@ -110,7 +104,7 @@ Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Ca
 
    Zorg ervoor dat u de **volledige naam** invult van het subdomein dat u wilt delegeren. Als u bijvoorbeeld het subdomein usoffers.email.weretail.com wilt delegeren, typt u &#39;usoffers.email.weretail.com&#39;.
 
-1. Als u de generatie van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** optie.
+1. Als u de generatie van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** optie. [Meer informatie over het delegeren van SSL-certificaten](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -152,7 +146,9 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
 
    ![](assets/cname-use-case.png)
 
-1. Ga subdomain in die u in uw het ontvangen oplossing creeerde. Als u de generatie van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** optie.
+1. Ga subdomain in die u in uw het ontvangen oplossing creeerde.
+
+   Als u de generatie van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** optie. [Meer informatie over het delegeren van SSL-certificaten](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
@@ -167,7 +163,6 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
 1. Zorg ervoor dat alle DNS-records van vorige stappen zijn gegenereerd in uw domeinhostingoplossing. Als alles goed is geconfigureerd, selecteert u de eerste statement en klikt u op **[!UICONTROL Next]** om te bevestigen.
 
    Als u de records wilt maken en de subdomeinconfiguratie later wilt verzenden, selecteert u de tweede instructie. U kunt dan de subdomeinconfiguratie direct vanuit het subdomeinbeheerschermgebied **[!UICONTROL Processing]** hervatten. Houd er rekening mee dat DNS-records die op uw server worden geplaatst, 30 dagen door het configuratiescherm worden bewaard. Na die periode moet u het subdomein helemaal opnieuw configureren.
-
 
    >[!NOTE]
    >

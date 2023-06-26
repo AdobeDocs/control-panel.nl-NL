@@ -2,10 +2,10 @@
 title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+source-git-commit: 7dece51698349f792886b3a7cdb22b1e49e48b9e
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 55%
 
 ---
 
@@ -15,12 +15,6 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van he
 
 ## Verbeteringen juni 2023 {#june-2023}
 
-**SSL-certificaten van subdomeinen delegeren naar Adobe**
+* U kunt nu de SSL-certificaten van al gedelegeerde subdomeinen rechtstreeks vanuit de lijst met subdomeinen delegeren naar Adobe. [Meer informatie](../subdomains-certificates/using/delegate-ssl.md)
 
-U kunt nu de SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAME&#39;s gebruikt om uw subdomein in te stellen, worden er automatisch certificatenrecords gemaakt en verstrekt om een certificaat te genereren in uw domeinhostingoplossing.
-
-Deze mogelijkheid is alleen beschikbaar als u een nieuw subdomein instelt. U kunt geen certificaten delegeren voor bestaande gedelegeerde subdomeinen. [Meer informatie](../subdomains-certificates/using/setting-up-new-subdomain.md)
-
->[!NOTE]
->
->Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers.
+* De afzender van berichten is gewijzigd in `"alert@notifications.campaign.adobe.com"`.
