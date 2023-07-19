@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 81%
+source-wordcount: '567'
+ht-degree: 59%
 
 ---
 
@@ -28,9 +28,21 @@ Adobe Campaign raadt u aan de subdomeinen te beveiligen die als host dienen voor
 
 ![](assets/no_certificate.png)
 
-## SSL-certificaten van subdomeinen delegeren aan Adobe
+## SSL-certificaatbeheer {#management}
 
-Het delegeren van SSL-certificaten van uw subdomeinen aan Adobe wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt. [Leer hoe u SSL-certificaten van subdomeinen kunt delegeren aan Adobe](delegate-ssl.md)
+De controle van SSL-certificaten is een sleutel om ervoor te zorgen dat uw subdomeinen veilig zijn. Met het Controlebord, kunt u de SSL certificaten van uw subdomeinen direct installeren en vernieuwen door zich, of hen delegeren aan Adobe zodat dit proces automatisch zonder actie wordt uitgevoerd die van uw kant wordt vereist.
+
+Het delegeren van beheer van SSL-certificaten van uw subdomeinen aan Adobe wordt ten zeerste aanbevolen, aangezien Adobe het certificaat automatisch zal maken en elk jaar vernieuwen voordat het verloopt. Hierdoor wordt het risico op fouten verminderd die kunnen optreden wanneer certificaten handmatig worden beheerd. [Leer hoe u SSL-certificaten van subdomeinen kunt delegeren aan Adobe](delegate-ssl.md)
+
+Hieronder vindt u een uitgebreid overzicht van de effecten van handmatig certificaatbeheer, in tegenstelling tot het delegeren van deze bewerking aan Adobe:
+
+|       | Door de klant beheerd certificaat | Door Adobe beheerd certificaat |
+|  ---  |  ---  |  ---  |
+| Certificaatprovider | Certificeringsinstanties van derden | Adobe via AWS Certificate Managers |
+| Handmatige stappen | CSR-productie, aanschaf en installatie van certificaten | Geen |
+| Vernieuwingsproces | Verantwoordelijkheid van de klant | Automatisch beheerd door Adobe |
+| Subdomeinbeveiliging | Domein kan onbeveiligde subdomeinen (tracking, mirror en res) hebben, tenzij u certificaten installeert/vernieuwt. | Elk nieuw domein (als gekozen voor beheerde Adobe) zal alle subdomeinen hebben die door gebrek worden beveiligd. |
+| Certificaatkosten | De klant draagt de kosten van certificaten | Gratis |
 
 ## SSL-certificaten bewaken {#monitoring-certificates}
 

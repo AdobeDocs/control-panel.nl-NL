@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 80%
+source-wordcount: '1555'
+ht-degree: 84%
 
 ---
 
@@ -41,11 +41,11 @@ Als de versie die u in de wizard selecteert, geen eerder ingestelde subdomeinen 
 
 Wanneer u een nieuw subdomein instelt, kunt u het SSL-certificaat laten beheren door Adobe. Dit wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt.
 
-Als u CNAMEs aan opstelling gebruikt subdomain delegatie, zal Adobe certificaatverslagen verstrekken in uw domein ontvangende oplossing te gebruiken om uw certificaat te produceren.
+Als u CNAME&#39;s gebruikt om een subdomeindelegatie in te stellen, levert Adobe certificaatrecords die u kunt gebruiken in uw domeinhostingoplossing om uw certificaat te genereren.
 
 >[!NOTE]
 >
->Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers.
+>Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers. [Meer informatie over SSL-certificaatbeheer](monitoring-ssl-certificates.md#management)
 
 ### Configuratie naamservers
 
@@ -170,11 +170,11 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
 
    ![](assets/cname-confirmation.png)
 
-1. Als u het certificaat van de subdomeinen aan Adobe wilt delegeren, worden de certificaatverslagen automatisch geproduceerd. Kopieer deze records, een voor een of door een CSV-bestand te downloaden, en navigeer vervolgens naar de oplossing voor domeinhosting om het overeenkomende certificaat te genereren.
+1. Als u het certificaat van de subdomeinen aan Adobe wilt delegeren, worden de certificaatverslagen automatisch geproduceerd. Kopieer deze records een voor een of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende certificaat te genereren.
 
    ![](assets/cname-csr-generation.png)
 
-1. Zorg ervoor dat alle certificaatverslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles goed is geconfigureerd, selecteert u de eerste statement en klikt u op **[!UICONTROL Submit]** om te bevestigen.
+1. Zorg ervoor dat alle certificaatrecords zijn gegenereerd in uw domeinhostingoplossing. Als alles goed is geconfigureerd, selecteert u de eerste statement en klikt u op **[!UICONTROL Submit]** om te bevestigen.
 
    ![](assets/cnames-submit.png)
 

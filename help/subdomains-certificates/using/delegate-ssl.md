@@ -6,10 +6,10 @@ description: Leren hoe u de SSL-certificaten van uw subdomeinen kunt delegeren a
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0eefdbde25c955c84ee7534976256ca4df9a686c
-workflow-type: ht
-source-wordcount: '297'
-ht-degree: 100%
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >title="SSL-certificaten van subdomeinen delegeren aan Adobe"
 >abstract="In het Configuratiescherm kunt u SSL-certificaten van uw subdomeinen laten beheren door Adobe. Als u CNAME&#39;s gebruikt om uw subdomein in te stellen, worden er automatisch certificaatrecords gemaakt en verstrekt om een certificaat te genereren in uw domeinhostingoplossing."
 
-Het delegeren van SSL-certificaten van uw subdomeinen aan Adobe wordt sterk aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt.
+Het delegeren van beheer van SSL-certificaten van uw subdomeinen aan Adobe wordt ten zeerste aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt.
 
 Als u CNAME&#39;s gebruikt om een subdomeindelegatie in te stellen, levert Adobe certificaatrecords die u kunt gebruiken in uw domeinhostingoplossing om uw certificaat te genereren.
 
@@ -28,7 +28,8 @@ De delegatie van SSL-certificaten naar Adobe kan worden uitgevoerd bij het inste
 
 >[!NOTE]
 >
->Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers.
+>Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers. Het delegeren van het certificaat van een subdomein aan Adobe is transparant en heeft geen invloed op uw campagnes en de leverbaarheid. [Meer informatie over SSL-certificaatbeheer](monitoring-ssl-certificates.md#management)
+
 
 ## SSL-certificaten van nieuwe subdomeinen delegeren {#new}
 

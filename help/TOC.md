@@ -6,10 +6,10 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 96%
 
 ---
 
@@ -42,15 +42,14 @@ ht-degree: 100%
 + Subdomeinen en certificaten {#subdomains-and-certificates}
    + [Branding van subdomeinen](subdomains-certificates/using/subdomains-branding.md)
    + [Uw subdomeinen bewaken](subdomains-certificates/using/monitoring-subdomains.md)
-   + [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Delegatie van subdomeinen naar Adobe verwijderen](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + [TXT-records beheren](subdomains-certificates/using/managing-txt-records.md)
-   + SSL-certificaten beheren {#manage-certificates}
+   + Subdomeinen delegeren {#delegate-subdomains}
+      + [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
+      + [Delegatie van subdomeinen naar Adobe verwijderen](subdomains-certificates/using/remove-delegated-subdomains.md)
+      + [TXT-records beheren](subdomains-certificates/using/managing-txt-records.md)
+   + SSL-certificaten van subdomeinen beheren {#manage-certificates}
       + [SSL-certificaten controleren](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [SSL-certificaten delegeren aan Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [SSL-certificaten verlengen](subdomains-certificates/using/renewing-subdomain-certificate.md)
-      + [Het CSR genereren](subdomains-certificates/using/generate-csr.md)
-      + [Het SSL-certificaat installeren](subdomains-certificates/using/install-ssl-certificate.md)
 + Prestatiebewaking {#performance-monitoring}
    + [Prestatiebewaking](performance-monitoring/using/about-performance-monitoring.md)
    + Databasebewaking {#database-monitoring}
