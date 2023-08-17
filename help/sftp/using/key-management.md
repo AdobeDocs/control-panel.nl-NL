@@ -38,7 +38,7 @@ Zorg ervoor dat u altijd dezelfde verificatie gebruikt om verbinding te maken me
 
 **API-integratie met gebruikersnaam en wachtwoord**
 
-In zeer zeldzame gevallen, wordt op wachtwoord-gebaseerde authentificatie toegelaten op sommige servers SFTP. Adobe adviseert dat u op sleutel-gebaseerde authentificatie gebruikt, aangezien deze methode efficiënter en veiliger is. U kunt verzoeken om over te schakelen op verificatie op basis van sleutels door contact op te nemen met de klantenservice.
+In zeer zeldzame gevallen, wordt op wachtwoord-gebaseerde authentificatie toegelaten op sommige servers SFTP. De Adobe adviseert dat u op sleutel-gebaseerde authentificatie gebruikt, aangezien deze methode efficiënter en veiliger is. U kunt verzoeken om over te schakelen op verificatie op basis van sleutels door contact op te nemen met de klantenservice.
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ In zeer zeldzame gevallen, wordt op wachtwoord-gebaseerde authentificatie toegel
    >
    >Een of meer openbare SSH-sleutels kunnen voor elke gebruiker worden toegevoegd.
 
-1. Om uw openbare sleutels beter te beheren, kunt u een duur voor de beschikbaarheid van elke sleutel plaatsen. Selecteer hiertoe een eenheid in het dialoogvenster **[!UICONTROL Type]** vervolgkeuzelijst en definieert een duur in het desbetreffende veld. Voor meer informatie over het vervallen van openbare sleutels raadpleegt u [deze sectie](#expiry).
+1. Om uw openbare sleutels beter te beheren, kunt u een duur voor de beschikbaarheid van elke sleutel plaatsen. Selecteer hiertoe een eenheid in het dialoogvenster **[!UICONTROL Type]** vervolgkeuzelijst en definieert een duur in het desbetreffende veld. Zie voor meer informatie over het vervallen van openbare sleutels [deze sectie](#expiry).
 
    ![](assets/key_expiry.png)
 
@@ -79,7 +79,7 @@ In zeer zeldzame gevallen, wordt op wachtwoord-gebaseerde authentificatie toegel
 
 1. In de **[!UICONTROL Comment]** in het veld kunt u een reden opgeven om deze openbare sleutel toe te voegen (waarom, voor wie, enz.).
 
-1. Als u de **[!UICONTROL Public Key]** veld, moet u een openbare SSH-sleutel genereren. Voer de onderstaande stappen uit volgens uw besturingssysteem.
+1. Als u de opdracht **[!UICONTROL Public Key]** veld, moet u een openbare SSH-sleutel genereren. Voer de onderstaande stappen uit volgens uw besturingssysteem.
 
    **Linux en Mac:**
 

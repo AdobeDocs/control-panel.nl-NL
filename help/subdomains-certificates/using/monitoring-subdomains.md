@@ -29,7 +29,7 @@ De **[!UICONTROL Last verification]** de kolom geeft aan wanneer een subdomein v
 >
 >Adobe raadt het gebruik van subdomeinen zonder certificaatdatum niet aan, omdat dit kan betekenen dat deze subdomeinen problemen met betrekking tot de leverbaarheid hebben.
 
-Wanneer het lanceren van een controle, worden verscheidene verrichtingen uitgevoerd om te controleren dat subdomain correct wordt gevormd (de controle van de instantiekant, e-mail die test verzendt, enz.) Als de verificatie van het subdomein mislukt, neemt u contact op met de klantenservice van Adobe voor verder onderzoek.
+Wanneer het lanceren van een controle, worden verscheidene verrichtingen uitgevoerd om te controleren dat subdomain correct wordt gevormd (de controle van de instantiekant, e-mail die test verzendt, enz.) Als de verificatie van het subdomein mislukt, neemt u contact op met de klantenservice van de Adobe voor verder onderzoek.
 
 **Verwante onderwerpen:**
 

@@ -32,7 +32,7 @@ Als u GPG-codering wilt implementeren met Campaign, moeten de GPG-sleutels recht
 
 Dan kunt u:
 
-* **Verzonden gegevens versleutelen**: Adobe Campaign verzendt gegevens nadat het met de geïnstalleerde openbare sleutel is gecodeerd.
+* **Verzonden gegevens versleutelen**: Adobe Campaign verzendt gegevens nadat deze met de geïnstalleerde openbare sleutel zijn gecodeerd.
 
 * **Binnenkomende gegevens decoderen**: Adobe Campaign ontvangt gegevens die van een extern systeem zijn versleuteld met een openbare sleutel die u hebt gedownload van het Configuratiescherm. Adobe Campaign decodeert de gegevens met een persoonlijke sleutel die via het Configuratiescherm wordt gegenereerd.
 
@@ -44,7 +44,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
 >[!NOTE]
 >
->U kunt maximaal 60 GPG-toetsen installeren in het Configuratiescherm.
+>U kunt maximaal 60 GPG-toetsen installeren in het regelpaneel.
 
 ![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
 
@@ -62,19 +62,18 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 
    * **sleuteltype**: RSA
    * **sleutellengte**: 3072 - 4096 bits
-   * **echte naam** en **e-mailadres**: Staat toe om te volgen wie tot het belangrijkste paar leidde. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
-   * **opmerking**: Als u een label toevoegt aan het opmerkingenveld, kunt u gemakkelijk de sleutel identificeren waarmee uw gegevens worden versleuteld.
+   * **echte naam** en **mailadres**: Hiermee kunt u bijhouden wie het sleutelpaar heeft gemaakt. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
+   * **opmerking**: als u een label toevoegt aan het opmerkingenveld, kunt u gemakkelijk de sleutel identificeren waarmee uw gegevens worden versleuteld.
+     >[!IMPORTANT]
+     >
+     >Zorg ervoor dat dit veld niet leeg blijft en dat een opmerking wordt ingevuld.
 
-      >[!IMPORTANT]
-      >
-      >Zorg ervoor dat dit veld niet leeg blijft en dat een opmerking wordt ingevuld.
-
-   * **vervaldatum**: Datum of &quot;0&quot; voor geen vervaldatum.
+   * **vervaldatum**: Datum of 0 voor geen vervaldatum.
    * **passphrase**
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u naar een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
+1. Als dit eenmaal is bevestigd, genereert het script een sleutel met de bijbehorende vingerafdruk, die u in een bestand kunt exporteren of rechtstreeks in het Configuratiescherm kunt plakken. Als u het bestand wilt exporteren, voert u deze opdracht uit, gevolgd door de vingerafdruk van de sleutel die u hebt gegenereerd.
 
    `gpg -a --export <fingerprint>`
 
@@ -98,7 +97,7 @@ Zodra de openbare sleutel wordt geïnstalleerd, toont het in de lijst. U kunt de
 
 ![](assets/gpg_install_download.png)
 
-De sleutel is dan beschikbaar voor gebruik in de werkschema&#39;s van Adobe Campaign. U kunt het gebruiken om gegevens te coderen wanneer het gebruiken van de activiteiten van de gegevensextractie.
+De sleutel is dan beschikbaar voor gebruik in de werkschema&#39;s van Adobe Campaign. U kunt het gebruiken om gegevens te coderen wanneer het gebruiken van gegevens extractieactiviteiten.
 
 ![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
 
@@ -107,12 +106,12 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onder
 **Campagne v7/v8:**
 
 * [Een bestand zoeken of versleutelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Hoofdlettergebruik: gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Versleutelde data beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
+* [Hoofdlettergebruik: gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## Gegevens ontsleutelen {#decrypting-data}
 
@@ -150,12 +149,12 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 **Campagne v7 en v8:**
 
 * [Een bestand uitpakken of decoderen voordat het wordt verwerkt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
-* [Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
+* [Hoofdlettergebruik: gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [Versleutelde data beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Hoofdlettergebruik: gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## GPG-toetsen controleren
 
@@ -165,23 +164,23 @@ Als u toegang wilt tot de GPG-sleutels die zijn geïnstalleerd en gegenereerd vo
 
 In de lijst worden alle GPG-sleutels voor versleuteling en ontsleuteling weergegeven die voor uw instanties zijn geïnstalleerd en gegenereerd, met gedetailleerde informatie over elke sleutel:
 
-* **[!UICONTROL Name]**: De naam die is gedefinieerd tijdens het installeren of genereren van de sleutel.
-* **[!UICONTROL Use case]**: Deze kolom geeft het gebruiksgeval van de toets aan:
+* **[!UICONTROL Name]**: De naam die is gedefinieerd tijdens het installeren of genereren van de toets.
+* **[!UICONTROL Use case]**: In deze kolom wordt het gebruiksgeval van de toets aangegeven:
 
-   ![](assets/gpg_icon_encrypt.png): De sleutel is geïnstalleerd voor gegevenscodering.
+  ![](assets/gpg_icon_encrypt.png): De sleutel is geïnstalleerd voor gegevenscodering.
 
-   ![](assets/gpg_icon_decrypt.png): De sleutel is geproduceerd om gegevensdecryptie toe te staan.
+  ![](assets/gpg_icon_decrypt.png): De sleutel is gegenereerd voor gegevensdecodering.
 
 * **[!UICONTROL Fingerprint]**: de vingerafdruk van de toets.
 * **[!UICONTROL Expires]**: De vervaldatum van de toets. Let op: het Configuratiescherm geeft visuele indicaties als de sleutel de vervaldatum nadert:
 
    * Dringend (rood) wordt 30 dagen eerder getoond.
    * Waarschuwing (geel) wordt 60 dagen eerder weergegeven.
-   * Een &quot;Verlopen&quot; rode banner wordt weergegeven zodra een toets is verlopen.
+   * Een &#39;&#39;Verlopen&#39;&#39; rode banner wordt weergegeven zodra een toets is verlopen.
 
-   >[!NOTE]
-   >
-   >Er wordt geen e-mailmelding verzonden door het Configuratiescherm.
+  >[!NOTE]
+  >
+  >Er wordt geen e-mailmelding verzonden door het regelpaneel.
 
 We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Om dit te doen, klik **...** dan selecteert u **[!UICONTROL Delete Key].**.
 

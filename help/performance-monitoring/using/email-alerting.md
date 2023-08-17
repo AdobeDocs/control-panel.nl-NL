@@ -26,7 +26,7 @@ De lijst van signaleringen ziet er als volgt uit:
 
 * **Databasegebruik**: Een van de databases van uw instanties heeft 80% of meer van de capaciteit bereikt. Zie [Bewaking van databases](../../performance-monitoring/using/database-monitoring.md).
 
-* **SFTP IP staat het verlopen van de lijst toe**: Één van de IP waaiers u bepaalde is verlopen of zal in 10 dagen of minder verlopen. Zie [Aanbieding in IP-bereik toegestaan](../../sftp/using/ip-range-allow-listing.md).
+* **SFTP IP staat het verlopen van de lijst toe**: Een van de door u gedefinieerde IP-bereiken is verlopen of zal in tien dagen of minder verlopen. Zie [Aanbieding in IP-bereik toegestaan](../../sftp/using/ip-range-allow-listing.md).
 
 * **Vervaldatum openbare sleutel SFTP**: Een van de openbare sleutels die u hebt gedefinieerd, is verlopen of verloopt over tien dagen of minder. Zie [Sleutelbeheer](../../sftp/using/key-management.md).
 

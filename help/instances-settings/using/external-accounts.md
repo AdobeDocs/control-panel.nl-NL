@@ -67,13 +67,13 @@ Als u toegang wilt tot de mogelijkheden van het configuratiescherm, moet u de MI
 
    * **[!UICONTROL URL]**: URL van de instantie, te vinden in de Campaign Client Console in het menu **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**.
 
-      ![](assets/external-account-url.png)
+     ![](assets/external-account-url.png)
 
    * **[!UICONTROL Operator]**/**[!UICONTROL Password]**: referenties van de operator verstrekt na initiële voorziening door Adobe Admin.
 
-      >[!NOTE]
-      >
-      >Als deze gegevens niet beschikbaar zijn, neemt u contact op met de klantenservice.
+     >[!NOTE]
+     >
+     >Als deze gegevens niet beschikbaar zijn, neemt u contact op met de klantenservice.
 
 1. Klik op **[!UICONTROL Save]** om te bevestigen.
 

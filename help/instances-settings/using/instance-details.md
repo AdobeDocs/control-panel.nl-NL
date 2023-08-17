@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Informatie over Instantiedetails"
->abstract="Bekijk de details van je Adobe Campaign-instanties: types, namen, bouwt informatie, en mogelijke verbeteringsaanbevelingen."
+>abstract="Bekijk de details van uw instanties van Adobe Campaign: types, namen, bouwstijlinformatie, en mogelijke verbeteringsaanbevelingen."
 
 ## Informatie over Instantiedetails {#about-instance-details}
 
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om informatie op te halen over de servers die zijn 
 
    >[!NOTE]
    >
-   >Alle Campaign-instanties worden weergegeven in de lijst in het linkerdeelvenster. Aangezien de eigenschap van de Details van de Instantie aan de instanties van de Campagne v7/v8 slechts wordt gewijd, toont het &quot;Niet-Toepasselijke&quot;bericht van de Instantie als u een instantie van Campaign Standard selecteert.
+   >Alle Campaign-instanties worden weergegeven in de lijst in het linkerdeelvenster. Aangezien de eigenschap van de Details van de Instantie aan de instanties van de Campagne v7/v8 slechts wordt gewijd, toont het bericht &quot;Niet-Toepasselijke Instantie&quot;als u een instantie van het Campaign Standard selecteert.
 
 1. U ziet de servers die met de instantie verbonden zijn.
 

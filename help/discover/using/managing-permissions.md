@@ -28,7 +28,7 @@ Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagn
 
    >[!NOTE]
    >
-   >Als de **Admin Console** De koppeling is niet zichtbaar, dit betekent dat u geen beheerdersrechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen met hen uit te voeren.
+   >Als de **Admin Console** De koppeling is niet zichtbaar, dit betekent dat u geen beheerdersrechten voor uw organisatie hebt. Neem contact op met uw organisatiebeheerders om de stappen uit te voeren.
 
 1. Van de **Admin Console** selecteert u het gewenste campagneproduct in het menu **[!UICONTROL Products and services]** lijst.
 

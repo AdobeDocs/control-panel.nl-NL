@@ -40,7 +40,6 @@ Servicekalender biedt nu een kalenderweergave om belangrijke gebeurtenissen bij 
 >
 >* Voor Campaign v7 gelden implementatiebeperkingen. [Meer informatie](faq.md#v7-restrictions)
 
-
 ## Aanvullende bronnen {#additional-resources}
 
 <table>

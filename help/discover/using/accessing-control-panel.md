@@ -16,21 +16,21 @@ ht-degree: 13%
 
 # Configuratiescherm openen {#accessing-control-panel}
 
-Het regelpaneel is rechtstreeks beschikbaar via de Experience Cloud of via het product zelf.
+Het Configuratiescherm is rechtstreeks beschikbaar via het Experience Cloud of via het product zelf.
 
-Het is toegankelijk voor **Admin-gebruikers** alleen. Voor meer op hoe te om gebruikers aan de groep van Beheerders toe te wijzen, verwijs naar [deze sectie](../../discover/using/managing-permissions.md).
+Het is toegankelijk voor **Beheergebruikers** alleen. Voor meer op hoe te om gebruikers aan de groep van Beheerders toe te wijzen, verwijs [deze sectie](../../discover/using/managing-permissions.md).
 
-## Toegang vanaf het Platform Experience Cloud {#access-experience-cloud-platform}
+## Toegang vanaf het platform van de Experience Cloud {#access-experience-cloud-platform}
 
-Voer de onderstaande stappen uit om het Configuratiescherm te openen vanuit het Adobe Experience Cloud-Platform.
+Volg onderstaande stappen om het Configuratiescherm te openen vanuit het Adobe Experience Cloud-platform.
 
-1. Ga naar de [Experience Cloud homepage](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Ga naar de [Homepage van Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Klik op de toegewezen koppeling in het dialoogvenster **Snelle toegang** sectie.
 
    ![](assets/do-not-localize/quickaccess.png)
 
-Het regelpaneel is ook toegankelijk via het Experience Cloud-Platform **oplossingskiezer**:
+Het bedieningspaneel is ook toegankelijk via het platform Experience Cloud **oplossingskiezer**:
 
 1. Van de [Homepage van Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}, selecteert u **Campagne** van de **Snelle toegang** of het bovenste menu aan de rechterkant.
 
@@ -46,9 +46,9 @@ Het regelpaneel is ook toegankelijk via het Experience Cloud-Platform **oplossin
 >
 >Toegang vanuit het product is beschikbaar voor [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=nl){target="_blank"} alleen.
 
-1. Open uw Campaign Standard product.
+1. Open het product van uw Campaign Standard.
 
-1. Selecteer **[!UICONTROL Administration]** van het menu **Navigatie** venster.
+1. Selecteer de **[!UICONTROL Administration]** van het menu **Navigatie** venster.
 
    ![](assets/control_panel_access3.png)
 

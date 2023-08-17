@@ -72,7 +72,7 @@ Ga als volgt te werk om een URL toe te voegen waarmee uw instantie verbinding ka
    >
    >Alle Campaign-instanties worden weergegeven in de lijst in het linkerdeelvenster.
    >
-   >Aangezien het beheer van URL-machtigingen alleen is bestemd voor instanties van Campagne v7/v8, wordt het bericht &quot;Niet-toepasbare instantie&quot; weergegeven als u een instantie Campaign Standard selecteert.
+   >Aangezien het beheer van URL-machtigingen alleen is bestemd voor instanties van Campagne v7/v8, wordt het bericht &quot;Niet-toepasbare instantie&quot; weergegeven als u een instantie van een Campaign Standard selecteert.
 
 1. Typ de URL die u wilt autoriseren met het bijbehorende protocol (http, https of sftp).
 

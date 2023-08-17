@@ -39,7 +39,7 @@ De configuratie van subdomain staat u toe om een onderafdeling van uw domein (te
 
 * **Volledige subdomeindelegatie aan Adobe Campaign** (aanbevolen): Het subdomein wordt volledig gedelegeerd aan Adobe. Adobe kan Campaign als een beheerde service leveren door alle DNS-aspecten die voor het leveren, weergeven en volgen van e-mailcampagnes nodig zijn, te controleren en handhaven.
 
-* **Gebruik van CNAME&#39;s**: Creeer subdomain en gebruik CNAMEs om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen Adobe en de klant de verantwoordelijkheid voor het onderhoud van DNS.
+* **Gebruik van CNAME&#39;s**: Maak een subdomein en gebruik CNAME&#39;s om te wijzen naar records die specifiek zijn voor een Adobe. Met deze configuratie delen Adobe en de klant de verantwoordelijkheid voor het onderhoud van DNS.
 
 In de onderstaande tabel wordt een overzicht gegeven van de werking van deze methoden en van het betrokken inspanningsniveau:
 
@@ -71,7 +71,7 @@ Mogelijke gevallen van gebruik zijn:
 
 **Met het oog op bezorgbaarheid kunt u uw subdomeinen het beste onderverdelen op basis van gebruiksscenario’s**. Hierdoor wordt de reputatie van elk subdomein geïsoleerd en beschermd. Als uw subdomein bijvoorbeeld voor marketingmededelingen door internetproviders wordt toegevoegd aan de lijst van afgewezen domeinen, wordt uw subdomein voor transactionele communicatie niet beïnvloed en kan dit subdomein nog steeds mededelingen verzenden.
 
-**U kunt subdomeinen voor zowel het Marketing als het Transactionele gebruiksgevallen vormen**:
+**U kunt subdomeinen voor zowel het Marketing als het Transactiegebruik vormen gevallen**:
 
 * Bij marketinggebruiksscenario’s worden subdomeinen geconfigureerd op **MID**-instanties (Mid-sourcing).
 * Voor transactionele gebruiksscenario’s worden subdomeinen geconfigureerd op ALLE **RT**-instanties (Message Center/Real-time messaging) om connectiviteit te verzekeren. De subdomeinen werken daarom met al uw RT-instanties.

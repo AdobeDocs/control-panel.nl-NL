@@ -81,7 +81,6 @@ Ga als volgt te werk om IP-adressen aan de lijst van gewenste IP-adressen toe te
    * **[!UICONTROL Label]**: Het label dat in de lijst van gewenste IP-adressen wordt weergegeven.
    * **[!UICONTROL Name]**: De naam moet uniek zijn voor het toegangstype, de instantie (in het geval van een externe API-verbinding) en het IP-adres.
 
-
 1. Specificeer het type toegang dat u aan de IP-adressen wilt verlenen:
 
    * **[!UICONTROL Campaign Console Access]**: De IP-adressen mogen verbinding maken met de Campagne Client Console. Toegang tot de console is alleen ingeschakeld voor Marketing-instanties. Toegang tot MID- en RT-instanties is niet toegestaan en daarom niet ingeschakeld.

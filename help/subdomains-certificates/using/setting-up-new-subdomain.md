@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
 source-wordcount: '1555'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -45,7 +45,7 @@ Als u CNAME&#39;s gebruikt om een subdomeindelegatie in te stellen, levert Adobe
 
 >[!NOTE]
 >
->Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers. [Meer informatie over SSL-certificaatbeheer](monitoring-ssl-certificates.md#management)
+>Door Adobe beheerde SSL is een kosteloze functie die gratis beschikbaar is voor gebruikers. [Meer informatie over beheer van SSL-certificaten](monitoring-ssl-certificates.md#management)
 
 ### Configuratie naamservers
 
@@ -104,7 +104,7 @@ Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Ca
 
    Zorg ervoor dat u de **volledige naam** invult van het subdomein dat u wilt delegeren. Als u bijvoorbeeld het subdomein usoffers.email.weretail.com wilt delegeren, typt u &#39;usoffers.email.weretail.com&#39;.
 
-1. Als u de generatie van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** optie. [Meer informatie over het delegeren van SSL-certificaten](delegate-ssl.md)
+1. Als u het genereren van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** -optie. [Meer informatie over SSL-bevoegdheidsdelegatie](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -148,7 +148,7 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
 
 1. Ga subdomain in die u in uw het ontvangen oplossing creeerde.
 
-   Als u de generatie van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** optie. [Meer informatie over het delegeren van SSL-certificaten](delegate-ssl.md)
+   Als u het genereren van het SSL-certificaat van het subdomein wilt delegeren aan Adobe, schakelt u het **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** -optie. [Meer informatie over SSL-bevoegdheidsdelegatie](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 

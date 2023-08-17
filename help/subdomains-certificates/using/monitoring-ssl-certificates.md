@@ -10,7 +10,7 @@ exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 59%
+ht-degree: 64%
 
 ---
 
@@ -32,11 +32,11 @@ Adobe Campaign raadt u aan de subdomeinen te beveiligen die als host dienen voor
 
 De controle van SSL-certificaten is een sleutel om ervoor te zorgen dat uw subdomeinen veilig zijn. Met het Controlebord, kunt u de SSL certificaten van uw subdomeinen direct installeren en vernieuwen door zich, of hen delegeren aan Adobe zodat dit proces automatisch zonder actie wordt uitgevoerd die van uw kant wordt vereist.
 
-Het delegeren van beheer van SSL-certificaten van uw subdomeinen aan Adobe wordt ten zeerste aanbevolen, aangezien Adobe het certificaat automatisch zal maken en elk jaar vernieuwen voordat het verloopt. Hierdoor wordt het risico op fouten verminderd die kunnen optreden wanneer certificaten handmatig worden beheerd. [Leer hoe u SSL-certificaten van subdomeinen kunt delegeren aan Adobe](delegate-ssl.md)
+Het delegeren van SSL-certificaten van uw subdomeinen aan Adobe wordt sterk aanbevolen, omdat Adobe het certificaat automatisch maakt en elk jaar vernieuwt voordat het certificaat verloopt. Hierdoor wordt het risico op fouten verminderd die kunnen optreden wanneer certificaten handmatig worden beheerd. [Leer hoe u SSL-certificaten van subdomeinen kunt delegeren aan Adobe](delegate-ssl.md)
 
-Hieronder vindt u een uitgebreid overzicht van de effecten van handmatig certificaatbeheer, in tegenstelling tot het delegeren van deze bewerking aan Adobe:
+Hieronder vindt u een uitgebreid overzicht van de effecten die zijn gekoppeld aan handmatig certificaatbeheer, in tegenstelling tot het delegeren van deze bewerking naar Adobe:
 
-|       | Door de klant beheerd certificaat | Door Adobe beheerd certificaat |
+|       | Door de klant beheerd certificaat | Certificaat met beheerde Adobe |
 |  ---  |  ---  |  ---  |
 | Certificaatprovider | Certificeringsinstanties van derden | Adobe via AWS Certificate Managers |
 | Handmatige stappen | CSR-productie, aanschaf en installatie van certificaten | Geen |

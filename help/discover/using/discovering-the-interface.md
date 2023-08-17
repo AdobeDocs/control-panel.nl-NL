@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: De interface van het configuratiescherm verkennen
-description: Meer informatie over de interface van het Configuratiescherm
+description: Meer informatie over de interface van het regelpaneel
 feature: Control Panel
 role: Architect
 level: Intermediate

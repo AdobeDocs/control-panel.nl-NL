@@ -25,7 +25,7 @@ Het gedeelte **[!UICONTROL Storage overview]** biedt een grafische weergave van 
 
 * **[!UICONTROL System resources]**
 
-   Let op: als systeembronnen een groot deel van de databaseruimte verbruiken, raden wij u aan de klantenservice te raadplegen.
+  Let op: als systeembronnen een groot deel van de databaseruimte verbruiken, raden wij u aan de klantenservice te raadplegen.
 
 * **[!UICONTROL Out-of-the-box tables]** standaard geleverd bij uw Campaign-versies,
 * **[!UICONTROL Temporary tables]** gemaakt door workflows en verzendingen;

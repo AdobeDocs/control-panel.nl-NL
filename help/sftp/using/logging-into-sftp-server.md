@@ -24,7 +24,7 @@ Voordat u zich aanmeldt bij de server, moet u controleren of:
 
 * Uw SFTP-server is **gehost door Adobe**.
 * Uw **gebruikersnaam** is ingesteld voor de server. U kunt deze informatie rechtstreeks controleren in het Configuratiescherm, in het dialoogvenster **Sleutelbeheer** van de SFTP-kaart.
-* U hebt een **persoonlijke en openbare sleutel** om u aan te melden bij de SFTP-server. Zie [deze sectie](../../sftp/using/key-management.md) voor meer informatie over het toevoegen van de SSH-toets.
+* U hebt een **persoonlijke en openbare sleutel** aanmelden bij de SFTP-server. Zie [deze sectie](../../sftp/using/key-management.md) voor meer informatie over het toevoegen van de SSH-toets.
 * Uw **het openbare IP adres is toegevoegd aan de lijst van gewenste personen** op de SFTP-server. Indien niet, raadpleeg [deze sectie](../../sftp/using/ip-range-allow-listing.md) voor meer op hoe te om uw IP waaier aan de lijst van gewenste personen toe te voegen.
 * U hebt toegang tot een **SFTP-clientsoftware**. U kunt uw afdeling van IT voor de cliënttoepassing raadplegen SFTP die zij om adviseren te gebruiken, of onderzoek naar op Internet als dit door uw bedrijfsbeleid wordt toegestaan.
 
@@ -56,6 +56,6 @@ Voer de volgende stappen uit om verbinding te maken met uw SFTP-server:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Klik op **[!UICONTROL Connect]** om u aan te melden bij uw SFTP-server.
+1. Als alle gegevens zijn ingevuld, klikt u op **[!UICONTROL Connect]** aan login aan uw server SFTP.
 
    ![](assets/do-not-localize/sftpconnected.png)

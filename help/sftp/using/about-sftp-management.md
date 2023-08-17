@@ -19,12 +19,12 @@ ht-degree: 16%
 
 In het configuratiescherm kunt u werken met alle SFTP-servers die verbonden zijn met Campaign-instanties waar u toegang toe hebt. De meeste instanties hebben SFTP-servers aangesloten (in sommige gevallen zijn ontwikkelings- en werkgebiedinstanties mogelijk niet verbonden met SFTP-servers).
 
-Toegang tot SFTP-servers wordt mogelijk gemaakt met behulp van een SFTP-clientsoftware, die u online kunt zoeken en downloaden. Als u verbinding wilt maken met een server, via een dergelijke clienttoepassing of een API, moet u een openbare SSH-sleutel instellen en het IP-adres toevoegen dat verbinding maakt met uw SFTP-server met de lijst van gewenste personen.
+Toegang tot SFTP-servers wordt mogelijk gemaakt met een SFTP-clientsoftware, die u online kunt zoeken en downloaden. Als u verbinding wilt maken met een server, via een dergelijke clienttoepassing of een API, moet u een openbare SSH-sleutel instellen en het IP-adres toevoegen dat verbinding maakt met uw SFTP-server met de lijst van gewenste personen.
 
 Met het regelpaneel kunt u de onderstaande handelingen uitvoeren om uw SFTP-servers te beheren:
 
 * hun **opslagcapaciteit**,
-* Beheren **IP-adressen staan aanbieding toe**: Voeg IP adreswaaiers voor één of verscheidene servers toe of schrap,
+* Beheren **IP-adressen staan aanbieding toe**: voeg IP adreswaaiers voor één of verscheidene servers toe of schrap,
 * Beheren **openbare SSH-sleutels** om toegang te krijgen tot uw servers.
 
 Gedetailleerde informatie over elk van deze acties is beschikbaar in de onderstaande secties.
