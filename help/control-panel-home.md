@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d0ba7f99eefd565ffa52dbe22771df0cd5438899
+source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,14 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**Delegatie verwijderen voor subdomeinen die zijn gedelegeerd aan Adobe**
+**DMARC &amp; BIMI records management**
 
-U kunt nu de delegatie verwijderen van een subdomein dat is gedelegeerd aan Adobe, inclusief CNAME-instellingen. [Meer informatie](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
+U kunt nu DMARC- en BIMI-records rechtstreeks vanuit het Configuratiescherm toevoegen:
 
-**Servicekalender**
+* **DMARC-records** verstrek een manier om het domein van de afzender voor authentiek te verklaren en onbevoegd gebruik van het domein voor kwaadwillige doeleinden te verhinderen. [Leer hoe u DMARC-records toevoegt](subdomains-certificates/using/dmarc.md)
 
-Servicekalender biedt nu een kalenderweergave om belangrijke gebeurtenissen bij te houden die plaatsvinden in uw instanties. Daarnaast is er informatie toegevoegd over de meldingen die zijn verzonden naar gebruikers die zich hebben aangemeld voor waarschuwingen van het Configuratiescherm. [Meer informatie](../help/service-events/service-events.md)
+
+* **BIMI-records** staat u toe om een goedgekeurd logo naast uw e-mails in postvakjes van brievenbusleveranciers te tonen om merkherkenning en vertrouwen te verbeteren. [Meer informatie over het toevoegen van BIMI-records](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >

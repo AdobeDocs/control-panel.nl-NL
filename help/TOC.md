@@ -6,10 +6,10 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 87%
 
 ---
 
@@ -45,7 +45,11 @@ ht-degree: 100%
    + Subdomeinen delegeren {#delegate-subdomains}
       + [Een nieuw subdomein instellen](subdomains-certificates/using/setting-up-new-subdomain.md)
       + [Delegatie van subdomeinen naar Adobe verwijderen](subdomains-certificates/using/remove-delegated-subdomains.md)
-      + [TXT-records beheren](subdomains-certificates/using/managing-txt-records.md)
+   + Werken met TXT-records (Google, BIMI, DMARC) {#txt-records}
+      + [Aan de slag met TXT-records](subdomains-certificates/using/gs-txt-records.md)
+      + [Verificatiegegevens voor Google-site toevoegen](subdomains-certificates/using/managing-txt-records.md)
+      + [DMARC-records toevoegen](subdomains-certificates/using/dmarc.md)
+      + [BIMI-records toevoegen](subdomains-certificates/using/bimi.md)
    + SSL-certificaten van subdomeinen beheren {#manage-certificates}
       + [SSL-certificaten controleren](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [SSL-certificaten delegeren aan Adobe](subdomains-certificates/using/delegate-ssl.md)

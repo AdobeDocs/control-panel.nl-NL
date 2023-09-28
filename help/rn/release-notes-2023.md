@@ -2,16 +2,22 @@
 title: Aanvullende informatie 2023
 description: Deze pagina bevat een lijst met alle in 2023 uitgebrachte releases van het Configuratiescherm.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # Aanvullende informatie 2023 {#rn-2023}
 
-## Verbeteringen in mei 2023 {#june-2023}
+## Juni 2023 {#june-2023}
+
+* U kunt nu de SSL-certificaten van al gedelegeerde subdomeinen rechtstreeks vanuit de lijst met subdomeinen delegeren naar Adobe. [Meer informatie](../subdomains-certificates/using/delegate-ssl.md)
+
+* De afzender van e-mailmeldingen is gewijzigd naar `"alert@notifications.campaign.adobe.com"`.
+
+## Verbeteringen in mei 2023 {#may-2023}
 
 **SSL-certificaten van subdomeinen delegeren naar Adobe**
 
