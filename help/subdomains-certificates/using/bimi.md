@@ -6,9 +6,9 @@ description: Leer hoe u een BIMI-record voor een subdomein toevoegt.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 0ad4c1f12eb035c8d543777be2a8806d507be5be
+source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Voer de volgende stappen uit om een BIMI-record toe te voegen voor een subdomein
 
 1. In de **[!UICONTROL Company Logo URL]**, geeft u de URL op van het SVG-bestand dat uw logo bevat.
 
-1. De **[!UICONTROL Certificate URL]** veld is optioneel. Hiermee kunt u een URL (Verified Mark Certificate of VMC) toevoegen om te bevestigen dat uw organisatie de wettelijke eigenaar van het logo is, zodat spammers en andere kwaadwillige gebruikers geen merklogo&#39;s kunnen gebruiken die zij niet hebben.
+1. Hoog **[!UICONTROL Certificate URL]** is facultatief, is het nodig voor sommige brievenbusleveranciers zoals Gmail en Apple die 80% van de brievenbusmarkt dekken. Daarom raden we aan een VMC (Verified Mark Certificate) te verkrijgen om BIMI echt te benutten.
 
    +++Hoe krijg ik een VMC?
 
@@ -56,6 +56,8 @@ Voer de volgende stappen uit om een BIMI-record toe te voegen voor een subdomein
    1. Nadat u hebt gecontroleerd of uw logo een handelsmerk heeft, neemt u contact op met de certificeringsinstantie DigiCert of Entrust (CA) om een VMC aan te vragen.
 
    1. Als uw VMC is goedgekeurd, ontvangt u een PEM-bestand (Privacy Enhanced Mail) van een entiteitscertificaat. Voeg andere tussenliggende certificaten die u van de CA krijgt, toe aan dit PEM-bestand. Upload het PEM-bestand (samen met toegevoegde bestanden) naar uw openbare webserver en noteer de URL van het PEM-bestand. U gebruikt de URL in uw BIMI TXT-record.
+
+   1. Zodra het BIMI-record op de pagina met subdomeindetails voor een bepaald subdomein wordt weergegeven, kunt u de BIMI-controle gebruiken die beschikbaar is [hier](https://bimigroup.org/bimi-generator/) om te controleren of het BIMI-bestand correct functioneert.
 
    Gedetailleerde informatie over de BIMI-implementatie is beschikbaar in de [BIMI-standaarddocumentatie](https://bimigroup.org/implementation-guide/)
 +++
