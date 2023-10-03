@@ -6,19 +6,21 @@ description: Leer hoe u een BIMI-record voor een subdomein toevoegt.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dfb6f548c4d53df7eb807d9aa21065449927f945
+exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-
 # BIMI-records toevoegen {#dmarc}
 
 ## BIMI-records {#about}
 
-Merk Indicators for Message Identification (BIMI) is een industrienorm die het mogelijk maakt een goedgekeurd logo te gebruiken naast de e-mail van een afzender in de postvakjes van postbusaanbieders om de merkherkenning en het vertrouwen te vergroten. Het helpt e-mailspoofing en phishing te verhinderen door de identiteit van de afzender door authentificatie te verifiëren DMARC, die het voor kwaadwillige acteurs moeilijker maakt om zich van wettige merken in e-mails te doen gevoelen. Gedetailleerde informatie over de BIMI-implementatie is beschikbaar op [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+Merk Indicators for Message Identification (BIMI) is een industrienorm die het mogelijk maakt een goedgekeurd logo te gebruiken naast de e-mail van een afzender in de postvakjes van postbusaanbieders om de merkherkenning en het vertrouwen te vergroten. Het helpt e-mailspoofing en phishing te verhinderen door de identiteit van de afzender door authentificatie te verifiëren DMARC, die het voor kwaadwillige acteurs moeilijker maakt om zich van wettige merken in e-mails te doen gevoelen.
+
+Gedetailleerde informatie over de BIMI-implementatie is beschikbaar op [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 

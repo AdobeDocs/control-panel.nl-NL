@@ -6,13 +6,13 @@ description: Leer hoe u een DMARC-record voor een subdomein toevoegt.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # DMARC-records toevoegen {#dmarc}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Op domein gebaseerde Message Authentication, Reporting and Conformance (DMARC) is een standaard voor een e-mailverificatieprotocol waarmee organisaties hun e-maildomeinen beschermen tegen phishing en spoofing-aanvallen. Het staat u toe om te beslissen hoe een brievenbusleverancier e-mails zou moeten behandelen die SPF en controles DKIM ontbreken, die een manier verstrekken om het domein van de afzender voor authentiek te verklaren en onbevoegd gebruik van het domein voor kwaadwillige doeleinden te verhinderen.
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+Gedetailleerde informatie over DMARC-implementatie is beschikbaar in [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## Beperkingen en voorwaarden {#limitations}
 
