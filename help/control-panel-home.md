@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**DMARC &amp; BIMI records management**
+**DMARC- en BIMI-recordbeheer**
 
 U kunt nu DMARC- en BIMI-records rechtstreeks vanuit het Configuratiescherm toevoegen:
 
-* **DMARC-records** verstrek een manier om het domein van de afzender voor authentiek te verklaren en onbevoegd gebruik van het domein voor kwaadwillige doeleinden te verhinderen. [Leer hoe u DMARC-records toevoegt](subdomains-certificates/using/dmarc.md)
+* **DMARC-records** bieden een manier om het domein van de afzender te verifiëren en ongeoorloofd gebruik van het domein voor kwaadaardige doeleinden te voorkomen. [Meer informatie over het toevoegen van DMARC-records](subdomains-certificates/using/dmarc.md)
 
 
-* **BIMI-records** staat u toe om een goedgekeurd logo naast uw e-mails in postvakjes van brievenbusleveranciers te tonen om merkherkenning en vertrouwen te verbeteren. [Meer informatie over het toevoegen van BIMI-records](subdomains-certificates/using/bimi.md)
+* Met **BIMI-records** kunt u een goedgekeurd logo naast uw e-mails in postvakjes van brievenbusleveranciers weergeven om merkherkenning en vertrouwen te verbeteren. [Meer informatie over het toevoegen van BIMI-records](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >
