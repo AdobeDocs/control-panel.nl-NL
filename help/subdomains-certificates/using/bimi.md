@@ -8,62 +8,62 @@ role: Architect
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # BIMI-records toevoegen {#dmarc}
 
-## BIMI-records {#about}
+## Over BIMI-records {#about}
 
-Merk Indicators for Message Identification (BIMI) is een industrienorm die het mogelijk maakt een goedgekeurd logo te gebruiken naast de e-mail van een afzender in de postvakjes van postbusaanbieders om de merkherkenning en het vertrouwen te vergroten. Het helpt e-mailspoofing en phishing te verhinderen door de identiteit van de afzender door authentificatie te verifiëren DMARC, die het voor kwaadwillige acteurs moeilijker maakt om zich van wettige merken in e-mails te doen gevoelen.
+Brand Indicators for Message Identification (BIMI) is een industriestandaard waarmee een goedgekeurd logo naast de e-mail van een afzender kan worden weergegeven in het postvak IN van e-mailproviders om de merkherkenning en het vertrouwen te vergroten. Dit helpt e-mailspoofing en phishing te voorkomen door de identiteit van de afzender te verifiëren via DMARC-verificatie, waardoor het voor kwaadwillenden moeilijker wordt om zich in e-mails voor te doen als legitieme merken.
 
-Gedetailleerde informatie over de BIMI-implementatie is beschikbaar op [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)
+Gedetailleerde informatie over BIMI-implementatie is beschikbaar in [Handleiding voor best practices inzake leverbaarheid van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=nl)
 
 ![](assets/bimi-example.png){width="70%" align="center"}
 
 ## Beperkingen en voorwaarden {#limitations}
 
-* SPF-, DKIM- en DMARC-records zijn voorwaarden voor het maken van een BIMI-record.
+* SPF-, DKIM- en DMARC-records zijn vereist voor het maken van een BIMI-record.
 * BIMI-records kunnen alleen worden toegevoegd voor subdomeinen die gebruikmaken van Volledige subdomeindelegatie. [Meer informatie over configuratiemethoden voor subdomeinen](subdomains-branding.md#subdomain-delegation-methods)
 * Voorwaarden voor DMARC-records:
 
-   * Het beleidstype van het verslag voor subdomain moet aan &quot;Quarantine&quot;of &quot;Weigeren&quot;worden geplaatst. BIMI-bestanden worden niet gemaakt als het DMARC-beleidstype is ingesteld op Geen.
-   * Het percentage e-mailberichten waarop het DMARC-beleid wordt toegepast, moet 100% zijn. BIMI ondersteunt geen DMARC-beleid met dit percentage ingesteld op minder dan 100%.
+   * Het recordbeleidstype voor het subdomein moet op Quarantine of Reject worden ingesteld. Het maken van BIMI-records is niet beschikbaar als het DMARC-beleidstype is ingesteld op Geen.
+   * Het percentage e-mailberichten waarop het DMARC-beleid wordt toegepast, moet 100% zijn. BIMI ondersteunt geen DMARC-beleid waarbij dit percentage is ingesteld op minder dan 100%.
 
-[Leer hoe te om DMARC verslagen te vormen](dmarc.md)
+[Meer informatie over het configureren van DMARC-records](dmarc.md)
 
 ## Een BIMI-record toevoegen voor een subdomein {#add}
 
 Voer de volgende stappen uit om een BIMI-record toe te voegen voor een subdomein:
 
-1. Klik in de lijst met subdomeinen op de knop met de ovaal naast het gewenste subdomein en selecteer **[!UICONTROL Subdomain details]**.
+1. Klik in de lijst met subdomeinen op de knop met 3 puntjes naast het gewenste subdomein en selecteer **[!UICONTROL Subdomain details]**.
 
-1. Klik op de knop **[!UICONTROL Add TXT record]** en kies vervolgens **[!UICONTROL BIMI]** van de **[!UICONTROL Record type]** vervolgkeuzelijst.
+1. Klik op de knop **[!UICONTROL Add TXT record]** en kies vervolgens **[!UICONTROL BIMI]** in de vervolgkeuzelijst **[!UICONTROL Record type]**.
 
    ![](assets/bimi-add.png)
 
-1. In de **[!UICONTROL Company Logo URL]**, geeft u de URL op van het SVG-bestand dat uw logo bevat.
+1. In de **[!UICONTROL Company Logo URL]** geeft u de URL op van het SVG-bestand met uw logo.
 
-1. Hoog **[!UICONTROL Certificate URL]** is facultatief, is het nodig voor sommige brievenbusleveranciers zoals Gmail en Apple die 80% van de brievenbusmarkt dekken. Daarom raden we aan een VMC (Verified Mark Certificate) te verkrijgen om BIMI echt te benutten.
+1. Hoewel **[!UICONTROL Certificate URL]** optioneel is, is het vereist voor sommige e-mailproviders als Gmail en Apple, die 80% van de e-mailmarkt bestrijken. Daarom raden we aan een VMC (Verified Mark Certificate) te verkrijgen om BIMI echt te benutten.
 
    +++Hoe krijg ik een VMC?
 
    De belangrijkste stappen om VMC te krijgen zijn als volgt:
 
-   1. Registreer uw merklogo als een handelsmerk bij een bureau voor intellectuele eigendom dat door VMC-emittenten wordt erkend. Als u een legaal team hebt, raden we u aan met hen samen te werken om uw logo te laten markeren of om te controleren of het al gedeponeerd is.
+   1. Registreer uw merklogo als handelsmerk bij een bureau voor intellectuele eigendom dat is erkend door VMC-uitgevers. Als u een juridisch team hebt, raden we u aan met hen samen te werken om uw logo als handelsmerk te laten vastleggen, of om te controleren of het al als handelsmerk bestaat.
 
-   1. Nadat u hebt gecontroleerd of uw logo een handelsmerk heeft, neemt u contact op met de certificeringsinstantie DigiCert of Entrust (CA) om een VMC aan te vragen.
+   1. Nadat u hebt gecontroleerd of uw logo al een handelsmerk is, neemt u contact op met de certificeringsinstantie DigiCert of Entrust (CA) om een VMC aan te vragen.
 
-   1. Als uw VMC is goedgekeurd, ontvangt u een PEM-bestand (Privacy Enhanced Mail) van een entiteitscertificaat. Voeg andere tussenliggende certificaten die u van de CA krijgt, toe aan dit PEM-bestand. Upload het PEM-bestand (samen met toegevoegde bestanden) naar uw openbare webserver en noteer de URL van het PEM-bestand. U gebruikt de URL in uw BIMI TXT-record.
+   1. Als uw VMC is goedgekeurd, ontvangt u een PEM-bestand (Privacy Enhanced Mail) met een entiteitscertificaat. Voeg andere tussenliggende certificaten die u van de CA krijgt, toe aan dit PEM-bestand. Upload het PEM-bestand (samen met toegevoegde bestanden) naar uw openbare webserver en noteer de URL van het PEM-bestand. U gebruikt de URL in uw BIMI TXT-record.
 
-   1. Zodra het BIMI-record op de pagina met subdomeindetails voor een bepaald subdomein wordt weergegeven, kunt u de BIMI-controle gebruiken die beschikbaar is [hier](https://bimigroup.org/bimi-generator/) om te controleren of het BIMI-bestand correct functioneert.
+   1. Zodra de BIMI-record zichtbaar is op de subdomeindetailpagina voor een bepaald subdomein, kunt u de BIMI Inspector gebruiken die [hier](https://bimigroup.org/bimi-generator/) beschikbaar is om te controleren of de BIMI-record correct functioneert.
 
    Gedetailleerde informatie over de BIMI-implementatie is beschikbaar in de [BIMI-standaarddocumentatie](https://bimigroup.org/implementation-guide/)
 +++
 
-1. Klikken **[!UICONTROL Add]** ter bevestiging van de aanmaak van BIMI-bestanden.
+1. Klik op **[!UICONTROL Add]** om het maken van een BIMI-record te bevestigen.
 
-Nadat de BIMI-record is gemaakt (ongeveer 5 minuten), wordt deze weergegeven in het detailscherm van de subdomeinen. [Leer hoe u TXT-records voor uw subdomeinen kunt controleren](gs-txt-records.md#monitor)
+Zodra het maken van de BIMI-record is verwerkt (ongeveer 5 minuten), wordt het weergegeven in het detailscherm van het subdomein. [Meer informatie over het bewaken van TXT-records voor uw subdomeinen](gs-txt-records.md#monitor)
