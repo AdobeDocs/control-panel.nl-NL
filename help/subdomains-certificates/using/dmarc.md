@@ -8,77 +8,77 @@ role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # DMARC-records toevoegen {#dmarc}
 
-## Informatie over DMARC-records {#about}
+## DMARC-records {#about}
 
-Op domein gebaseerde Message Authentication, Reporting and Conformance (DMARC) is een standaard voor een e-mailverificatieprotocol waarmee organisaties hun e-maildomeinen beschermen tegen phishing en spoofing-aanvallen. Het staat u toe om te beslissen hoe een brievenbusleverancier e-mails zou moeten behandelen die SPF en controles DKIM ontbreken, die een manier verstrekken om het domein van de afzender voor authentiek te verklaren en onbevoegd gebruik van het domein voor kwaadwillige doeleinden te verhinderen.
+Domain based Message Authentication, Reporting and Conformance (DMARC) is een protocolstandaard voor e-mailverificatie waarmee organisaties hun e-maildomeinen beschermen tegen phishing- en spoofingaanvallen. Hiermee kunt u beslissen hoe een e-mailprovider moet omgaan met e-mails die de SPF- en DKIM-controles niet doorstaan, waardoor u een manier hebt om het domein van de afzender te verifiëren en ongeoorloofd gebruik van het domein voor kwaadaardige doeleinden te voorkomen.
 
-Gedetailleerde informatie over DMARC-implementatie is beschikbaar in [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
+Gedetailleerde informatie over de DMARC-implementatie is beschikbaar in de [Handleiding voor best practices inzake leverbaarheid van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl)
 
 ## Beperkingen en voorwaarden {#limitations}
 
-* SPF en DKIM verslagen zijn eerste vereisten voor het creëren van een DMARC verslag.
-* DMARC-records kunnen alleen worden toegevoegd voor subdomeinen die gebruikmaken van Volledige subdomeindelegatie. [Meer informatie over configuratiemethoden voor subdomeinen](subdomains-branding.md#subdomain-delegation-methods)
+* SPF- en DKIM-records zijn vereisten voor het maken van een DMARC-record.
+* DMARC-records kunnen alleen worden toegevoegd voor subdomeinen met volledige subdomeindelegatie. [Meer informatie over configuratiemethoden voor subdomeinen](subdomains-branding.md#subdomain-delegation-methods)
 
-## Een DMARC-record toevoegen voor een subdomein {#add}
+## Een DMARC-record voor een subdomein toevoegen {#add}
 
 Ga als volgt te werk om een DMARC-record voor een subdomein toe te voegen:
 
-1. Klik in de lijst met subdomeinen op de knop met de ovaal naast het gewenste subdomein en selecteer **[!UICONTROL Subdomain details]**.
+1. Klik in de lijst met subdomeinen op de knop met 3 puntjes naast het gewenste subdomein en selecteer **[!UICONTROL Subdomain details]**.
 
-1. Klik op de knop **[!UICONTROL Add TXT record]** en kies vervolgens **[!UICONTROL DMARC]** van de **[!UICONTROL Record Type]** vervolgkeuzelijst.
+1. Klik op de knop **[!UICONTROL Add TXT record]** en kies vervolgens **[!UICONTROL DMARC]** in de vervolgkeuzelijst **[!UICONTROL Record Type]**.
 
    ![](assets/dmarc-add.png)
 
-1. Kies de optie **[!UICONTROL Policy Type]** dat de ontvangende server moet volgen wanneer een van uw e-mails mislukt. Beschikbare beleidstypen zijn:
+1. Kies het **[!UICONTROL Policy Type]** dat de ontvangende server moet volgen als een van uw e-mails mislukt. Beschikbare beleidstypen zijn:
 
    * **[!UICONTROL None]**,
    * **[!UICONTROL Quarantine]** (plaatsing spammap),
    * **[!UICONTROL Reject]** (e-mail blokkeren).
 
-   Als beste praktijken, wordt het geadviseerd om implementatie DMARC langzaam uit te voeren door uw beleid DMARC van p=none, aan p=quarantaine, aan p=weiger te escaleren aangezien u DMARC inzicht in de potentiële invloed van DMARC krijgt.
+   Als best practice wordt aanbevolen om de DMARC-implementatie langzaam uit te rollen door uw DMARC-beleid te escaleren van p=none naar p=quarantaine en dan naar p=reject, naarmate u DMARC-inzicht krijgt in de potentiële impact van DMARC.
 
-   * **Stap 1:** Analyseer terugkoppelen u ontvangt en gebruikt (p=none), die de ontvanger vertelt om geen acties tegen berichten uit te voeren die authentificatie ontbreken, maar nog e-mailrapporten naar de afzender verzenden. Ook, herzie en los kwesties met SPF/DKIM op als de wettige berichten authentificatie ontbreken.
+   * **Stap 1:** analyseer de feedback die u ontvangt, en gebruik (p=none). Dit laat de ontvanger weten dat deze geen actie moet ondernemen tegen berichten waarbij de verificatie mislukt, maar wel e-mailrapporten blijven sturen. Bekijk en los ook problemen met SPF/DKIM op als legitieme berichten niet kunnen worden geverifieerd.
 
-   * **Stap 2:** Bepaal als SPF en DKIM worden gericht en authentificatie voor al wettige e-mail overgaan, en dan het beleid verplaatsen naar (p=quarantaine), dat de ontvangende e-mailserver aan quarantainemail vertelt die authentificatie ontbreekt (dit betekent over het algemeen het plaatsen van die berichten in de spamomslag). Als het beleid aan quarantaine wordt geplaatst, adviseert het dat u met een klein percentage van uw e-mails begint.
+   * **Stap 2:** bepaal of SPF en DKIM op elkaar zijn afgestemd en de verificatie voor alle legitieme e-mail doorstaan, en stel het beleid vervolgens in op (p=quarantaine), wat de ontvangende e-mailserver laat weten dat deze e-mails die niet door de verificatie komen, in quarantaine moet plaatsen (dit betekent doorgaans dat deze berichten in de spammap worden geplaatst). Als het beleid op quarantaine wordt ingesteld, wordt u geadviseerd met een klein percentage van uw e-mails te beginnen.
 
-   * **Stap 3:** Pas het beleid aan (p=afwijzen). NOTA: Gelieve te gebruiken dit beleid met voorzichtigheid en te bepalen als het voor uw organisatie aangewezen is. Het p= afwijzingsbeleid vertelt de ontvanger om het even welke e-mail voor het domein volledig te ontkennen (stuiteren) dat authentificatie ontbreekt. Als dit beleid is ingeschakeld, heeft alleen e-mail die is geverifieerd als 100% en die is geverifieerd door uw domein, een kans bij plaatsing in Postvak IN.
-
-   >[!NOTE]
-   >
-   > BIMI-record maken is niet beschikbaar als het gegevenstype DMARC-record is ingesteld op Geen.
-
-1. Vul de e-mailadressen in die de DMARC-rapporten moeten ontvangen. Wanneer een van uw e-mailberichten mislukt, worden DMARC-rapporten automatisch naar het e-mailadres van uw keuze verzonden:
-
-   * Samengevoegde DMARC-rapporten bevatten informatie op hoog niveau, zoals bijvoorbeeld het aantal e-mailberichten dat gedurende een bepaalde periode is mislukt.
-   * De forensische DMARC mislukkingsrapporten verstrekken gedetailleerde informatie zoals, bijvoorbeeld, welk IP adres de ontbroken e-mail voortkomt uit.
-
-1. Als het DMARC-beleid is ingesteld op Geen, voert u een percentage in dat van toepassing is op 100% van de e-mailberichten.
-
-   Als het beleid is ingesteld op Afwijzen of Quarantine, wordt u aangeraden te beginnen met een klein percentage van uw e-mailberichten. Naarmate meer e-mails van uw domeinverificatie via ontvangende servers verlopen, werkt u uw record langzaam bij met een hoger percentage.
+   * **Stap 3:** stel het beleid in op (p=reject). OPMERKING: Wees voorzichtig met dit beleid en bepaal of het geschikt is voor uw organisatie. Het beleid p=reject laat de ontvanger weten dat elke e-mail voor het domein dat niet door de verificatie komt, moet worden geweigerd (teruggestuurd). Als dit beleid is ingeschakeld, heeft alleen e-mail voor 100% is geverifieerd door uw domein, een kans op plaatsing in het postvak IN.
 
    >[!NOTE]
    >
-   >Als uw domein BIMI gebruikt, moet uw beleid DMARC een percentagewaarde van 100% hebben. BIMI ondersteunt geen DMARC-beleid met deze waarde ingesteld op minder dan 100%.
+   > BIMI-records maken is niet beschikbaar als het beleidstype voor DMARC-records is ingesteld op None.
+
+1. Vul de e-mailadressen in die de DMARC-rapporten moeten ontvangen. Wanneer een van uw e-mails niet kan worden geverifieerd, worden DMARC-rapporten automatisch naar het e-mailadres van uw keuze verzonden:
+
+   * Aggregate-DMARC-rapporten bieden informatie op hoog niveau, zoals bijvoorbeeld het aantal e-mails dat niet kon worden geverifieerd gedurende een bepaalde periode.
+   * Forensische DMARC-foutrapporten bieden gedetailleerde informatie, zoals bijvoorbeeld van welk IP-adres de e-mail die niet kon worden geverifieerd, afkomstig is.
+
+1. Als het DMARC-beleid is ingesteld op None, voert u een percentage in dat geldt voor 100% van de e-mails.
+
+   Als het beleid is ingesteld op Reject of Quarantaine, raden we u aan te beginnen met een klein percentage e-mails. Naarmate meer e-mails van uw domein de verificatie op ontvangende servers met succes doorstaan, werkt u uw record langzaam bij met een hoger percentage.
+
+   >[!NOTE]
+   >
+   >Als uw domein BIMI gebruikt, moet uw DMARC-beleid een percentagewaarde van 100% hebben. BIMI ondersteunt geen DMARC-beleid waarvan deze waarde is ingesteld op minder dan 100%.
 
    ![](assets/dmarc-add2.png)
 
-1. DMARC-rapporten worden elke 24 uur verzonden. U kunt de verzendfrequentie van rapporten wijzigen in het dialoogvenster **[!UICONTROL Reporting Interval]** veld. De minimaal toegestane interval is 1 uur, terwijl de maximaal toegestane waarde 2190 uur (d.w.z. 3 maanden) is.
+1. DMARC-rapporten worden elke 24 uur verzonden. U kunt de verzendfrequentie van rapporten wijzigen in het veld **[!UICONTROL Reporting Interval]**. Het minimaal toegestane interval is 1 uur, en de maximaal toegestane waarde is 2190 uur (namelijk 3 maanden).
 
-1. In de **SPF** en **[!UICONTROL DKIM Identifier Alignment]** in de velden, geeft u aan hoe strikt de ontvangende servers moeten zijn bij het controleren van SPF- en DKIM-verificatie voor een e-mail.
+1. Geef in de velden **SPF** en **[!UICONTROL DKIM Identifier Alignment]** op hoe streng de ontvangende servers moeten zijn bij het controleren van de SPF- en DKIM-verificatie voor een e-mail.
 
-   * **[!UICONTROL Relaxed]** modus: de server accepteert verificatie, zelfs als de e-mail vanuit een subdomein wordt verzonden,
-   * **[!UICONTROL Strict]** de wijze keurt authentificatie slechts goed wanneer het afzenderdomein precies met SPF en domein DKIM aanpast.
+   * Modus **[!UICONTROL Relaxed]**: de server accepteert verificatie ook als de e-mail vanuit een subdomein is verzonden,
+   * De modus **[!UICONTROL Strict]** accepteert verificatie alleen als het domein van de afzender exact overeenkomt met een SPF- en DKIM-domein.
 
-   Laten we zeggen dat we met de `http://www.luma.com` domein. In de modus &quot;Ontspannen&quot; komen e-mails van de `marketing.luma.com` subdomain zal door de server worden geautoriseerd, terwijl zij op &quot;Strikte&quot;wijze zullen worden verworpen.
+   Stel dat we werken met het domein `http://www.luma.com`. In de modus Ontspannen worden e-mails vanuit het subdomein `marketing.luma.com` geverifieerd door de server, terwijl ze in de modus Streng worden afgewezen.
 
-1. Klikken **[!UICONTROL Add]** om het maken van DMARC-records te bevestigen.
+1. Klik op **[!UICONTROL Add]** om het maken van de DMARC-record te bevestigen.
 
-Nadat de DMARC-record is gemaakt (ongeveer 5 minuten), wordt deze weergegeven in het detailscherm van de subdomeinen. [Leer hoe u TXT-records voor uw subdomeinen kunt controleren](gs-txt-records.md#monitor)
+Zodra het maken van de DMARC-record is verwerkt (ongeveer 5 minuten), wordt deze weergegeven in het detailscherm van het subdomein. [Meer informatie over het bewaken van TXT-records voor uw subdomeinen](gs-txt-records.md#monitor)
