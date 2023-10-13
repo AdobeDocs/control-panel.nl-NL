@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 79%
@@ -50,12 +50,12 @@ Belangrijkste voordelen:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="voorwaarden" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Uw instantie-instellingen beheren</strong></a></div>
-        <br/><em>Leer hoe u uw instanties-instellingen beheert (alleen campagne v7/v8).</em>
+        <em>Leer hoe u uw instanties-instellingen beheert (alleen campagne v7/v8).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="voorwaarden" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Prestaties bewaken</strong></a></div>
-        <br/><em>Leer hoe u het gebruik van belangrijke resources op uw instanties kunt bewaken.</em>
+        <em>Leer hoe u het gebruik van belangrijke resources op uw instanties kunt bewaken.</em>
     </td>
 </tr>
 </table>
