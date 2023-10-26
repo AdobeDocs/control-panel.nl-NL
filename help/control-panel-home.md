@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 62%
 
 ---
 
@@ -26,14 +26,21 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 ## Nieuwe functies
 
-**DMARC- en BIMI-recordbeheer**
+**Gebruikersinterface**
 
-U kunt nu DMARC- en BIMI-records rechtstreeks vanuit het Configuratiescherm toevoegen:
+* Het Configuratiescherm is nu beschikbaar in andere talen. [Meer informatie](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-* **DMARC-records** bieden een manier om het domein van de afzender te verifiëren en ongeoorloofd gebruik van het domein voor kwaadaardige doeleinden te voorkomen. [Meer informatie over het toevoegen van DMARC-records](subdomains-certificates/using/dmarc.md)
+**Bewaking van actieve profielen**
 
+* U kunt nu het aantal actieve profielen controleren waarop u voor uw organisatie recht hebt, en het totale aantal profielen dat binnen uw organisatie wordt gebruikt in alle gevallen, als u veelvoudige instanties gebruikt. [Meer informatie](performance-monitoring/using/active-profiles-monitoring.md)
 
-* Met **BIMI-records** kunt u een goedgekeurd logo naast uw e-mails in het postvak IN van e-mailproviders weergeven om merkherkenning en vertrouwen te verbeteren. [Meer informatie over het toevoegen van BIMI-records](subdomains-certificates/using/bimi.md)
+**DMARC-records**
+
+* Meerdere e-mailadressen kunnen nu e-mails met samengevoegde rapporten en foutrapporten ontvangen. [Meer informatie](subdomains-certificates/using/dmarc.md)
+* Er zijn wijzigingen aangebracht als zowel DMARC- als BIMI-records bestaan voor een subdomein:
+
+   * DMARC-records kunnen niet worden verwijderd. Als u een BIMI-record wilt verwijderen, moet u eerst de BIMI-record verwijderen.
+   * DMARC-records kunnen worden bewerkt, maar de beleidsdowngrade naar &quot;None&quot; is niet toegestaan en de percentagewaarde ervan moet 100 zijn.
 
 >[!CAUTION]
 >

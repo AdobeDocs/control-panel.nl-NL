@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 80%
+source-wordcount: '433'
+ht-degree: 40%
 
 ---
 
-# Actieve profielen bewaken {#active-profiles-monitoring}
+# Actieve profielen controleren {#active-profiles-monitoring}
 
 ## Actieve profielen {#about-active-profiles}
 
@@ -34,33 +34,30 @@ Profielen worden als actief beschouwd als ze de afgelopen twaalf maanden via een
 
 Raadpleeg voor meer informatie over actieve profielen de categorie [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documenten.
 
-## Actieve profielen bewaken {#monitoring-active-profiles}
+## Het gebruik van actieve profielen controleren {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Informatie over actieve profielen controleren"
->abstract="Op dit tabblad krijgt u real-time informatie over het meest recente en historische gebruik en de evolutie van actieve profielen voor elk van uw campagneinstanties."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl" text="Prestatiebewaking"
+>abstract="Op dit tabblad krijgt u real-time informatie over het meest recente en historische gebruik en de evolutie van actieve profielen voor elk onderdeel van uw campagne en uw organisatie."
 
-Met het Configuratiescherm kunt u het gebruik van actieve profielen voor al uw Campaign-instanties bewaken.
+Informatie over het gebruik van actieve profielen wordt bijgewerkt in het Configuratiescherm op basis van speciale informatie [!DNL Campaign] technische workflows die dagelijks op uw instanties worden uitgevoerd:
+* De workflow [Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor Campaign Standard,
+* De [&quot;Aantal actieve factureringsprofielen&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=nl) workflow voor Campagne v7/v8.
 
-Ga als volgt te werk om dit te doen:
 
-1. Open de **[!UICONTROL Performance Monitoring]**-kaart en selecteer vervolgens het tabblad **[!UICONTROL Active Profiles]**.
+Als u het actieve profielgebruik in het Configuratiescherm wilt controleren, navigeert u naar het **[!UICONTROL Performance Monitoring]** kaart > **[!UICONTROL Active Profiles]** en selecteert u de gewenste instantie in het menu **[!UICONTROL Instance List]**.
 
-1. Selecteer de gewenste instantie in het menu **[!UICONTROL Instance List]**.
-
-1. U ziet het aantal actieve profielen dat door de instantie wordt gebruikt en de laatste keer dat de factureringsworkflow op uw instantie is uitgevoerd.
+Er wordt informatie weergegeven over uw gebruik van actieve profielen.
 
 ![](assets/active-profiles-graph.png)
 
->[!NOTE]
->
->Actieve profielen worden geteld op basis van speciale technische workflows die dagelijks op uw instanties worden uitgevoerd:
->
->* De workflow [Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor Campaign Standard,
->* De [&quot;Aantal actieve factureringsprofielen&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=nl) workflow voor Campagne v7/v8.
+In het bovenste gedeelte wordt de volgende informatie weergegeven:
 
-Het onderste gebied biedt een grafische weergave van het gebruik van actieve profielen in de afgelopen 30 dagen. Met de beschikbare filters in de rechterbovenhoek kunt u de weergegeven periode wijzigen in 1 jaar.
+* Het aantal actieve profielen dat momenteel wordt gebruikt in de geselecteerde instantie, samen met het tijdstempel van de meest recente uitvoering van de factureringsworkflow voor uw instantie.
 
-Als u een van de grafiekbalken aanwijst, kunt u het exacte aantal actieve profielen ophalen dat wordt gebruikt in de geselecteerde periode.
+* Het totale aantal actieve profielen dat binnen uw organisatie wordt gebruikt. Deze sectie is zichtbaar slechts als u veelvoudige instanties verbonden aan uw organisatie hebt.
+
+* Het totale aantal actieve profielen dat is toegewezen aan uw organisatie.
+
+In de onderste sectie ziet u het actieve profielgebruik in de afgelopen 30 dagen. U kunt dit tijdkader in 1 jaar veranderen gebruikend het filter dat in de hoger-juiste hoek wordt gevestigd. Als u de cursor boven de grafiek houdt, kunt u het exacte aantal actieve profielen ophalen dat wordt gebruikt voor de geselecteerde periode.

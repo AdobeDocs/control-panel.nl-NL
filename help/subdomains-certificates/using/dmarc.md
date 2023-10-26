@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,9 @@ Gedetailleerde informatie over de DMARC-implementatie is beschikbaar in de [Hand
 
 * SPF- en DKIM-records zijn vereisten voor het maken van een DMARC-record.
 * DMARC-records kunnen alleen worden toegevoegd voor subdomeinen met volledige subdomeindelegatie. [Meer informatie over configuratiemethoden voor subdomeinen](subdomains-branding.md#subdomain-delegation-methods)
+* Als zowel DMARC- als BIMI-records bestaan voor een subdomein:
+   * DMARC-records kunnen niet worden verwijderd. Als u een DMARC-record wilt verwijderen, verwijdert u eerst de BIMI-record.
+   * DMARC verslagen kunnen worden uitgegeven, maar de DMARC beleidsondergraving aan &quot;niets&quot;wordt niet toegestaan en de percentagewaarde moet aan &quot;100&quot;worden geplaatst.
 
 ## Een DMARC-record voor een subdomein toevoegen {#add}
 
@@ -55,7 +58,7 @@ Ga als volgt te werk om een DMARC-record voor een subdomein toe te voegen:
    >
    > BIMI-records maken is niet beschikbaar als het beleidstype voor DMARC-records is ingesteld op None.
 
-1. Vul de e-mailadressen in die de DMARC-rapporten moeten ontvangen. Wanneer een van uw e-mails niet kan worden geverifieerd, worden DMARC-rapporten automatisch naar het e-mailadres van uw keuze verzonden:
+1. Vul de e-mailadressen in die de DMARC-rapporten moeten ontvangen. U kunt meerdere e-mailadressen toevoegen, gescheiden door komma&#39;s. Wanneer een van uw e-mails niet kan worden geverifieerd, worden DMARC-rapporten automatisch naar het e-mailadres van uw keuze verzonden:
 
    * Aggregate-DMARC-rapporten bieden informatie op hoog niveau, zoals bijvoorbeeld het aantal e-mails dat niet kon worden geverifieerd gedurende een bepaalde periode.
    * Forensische DMARC-foutrapporten bieden gedetailleerde informatie, zoals bijvoorbeeld van welk IP-adres de e-mail die niet kon worden geverifieerd, afkomstig is.

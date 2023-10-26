@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
+source-git-commit: ca503b824422227e762eeaf75a4cf5aeed4801f8
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 29%
 
 ---
 
@@ -41,3 +41,22 @@ Met de knop **[!UICONTROL Open]** hebt u rechtstreeks toegang tot het tabblad Co
 De **[!UICONTROL Help Resources]** Deze sectie bevat nuttige documentatie die u helpt bij het gebruik van de producten van het Configuratiescherm en de Campagne. Aarzel niet om ze te verkennen.
 
 ![](assets/helpresources.png)
+
+## Ondersteunde talen {#languages}
+
+De gebruikersinterface van het Configuratiescherm is ontworpen voor weergave in de taal die overeenkomt met de configuratie van uw browser.
+
+Als uw browser aan een taal wordt geplaatst die niet wordt gesteund, controleert het Controlebord de eerste drie talen in de de taallijst van uw browser tot het een gesteunde taal vindt. Als geen van de eerste drie talen wordt ondersteund door het Configuratiescherm, wordt standaard Engels (Verenigde Staten) gebruikt.
+
+Hieronder volgt een lijst met talen die momenteel worden ondersteund door het Configuratiescherm:
+
+* Engels (Verenigde Staten)
+* Duits
+* Frans
+* Japans
+* Italiaans
+* Spaans (Spanje)
+* Koreaans
+* Portugees (Brazilië)
+* Chinees (vereenvoudigd)
+* Chinees (traditioneel)

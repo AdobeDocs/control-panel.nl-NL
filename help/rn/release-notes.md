@@ -2,10 +2,10 @@
 title: Nieuwste release
 description: Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het Configuratiescherm
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 26%
 
 ---
 
@@ -13,22 +13,21 @@ ht-degree: 100%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen van het configuratiescherm.
 
-## September 2023 {#september-2023}
+## Oktober 2023 {#october-2023}
 
-<table>
-<thead>
-<tr>
-<th><strong>DMARC- en BIMI-recordbeheer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><p>U kunt nu DMARC- en BIMI-records rechtstreeks vanuit het Configuratiescherm toevoegen:
+**Gebruikersinterface**
 
-<ul><li><strong>DMARC-records</strong> bieden een manier om het domein van de afzender te verifiëren en ongeoorloofd gebruik van het domein voor kwaadaardige doeleinden te voorkomen. <a href="../subdomains-certificates/using/dmarc.md">Meer informatie over het toevoegen van DMARC-records</a></li>
-<li>Met <strong>BIMI-records</strong> kunt u een  goedgekeurd logo naast uw e-mails in het postvak IN van e-mailproviders weergeven om merkherkenning en vertrouwen te verbeteren. <a href="../subdomains-certificates/using/bimi.md">Meer informatie over het toevoegen van BIMI-records</a></li></ul>
-</td>
-</tr>
-</tbody>
-</table>
+* Het Configuratiescherm is nu beschikbaar in andere talen. [Meer informatie](../discover/using/discovering-the-interface.md#supported-languages-languages)
+
+**Bewaking van actieve profielen**
+
+* U kunt nu het aantal actieve profielen controleren waarop u voor uw organisatie recht hebt, en het totale aantal profielen dat binnen uw organisatie wordt gebruikt in alle gevallen, als u veelvoudige instanties gebruikt. [Meer informatie](../performance-monitoring/using/active-profiles-monitoring.md)
+
+**DMARC-records**
+
+* Meerdere e-mailadressen kunnen nu e-mails met samengevoegde rapporten en foutrapporten ontvangen. [Meer informatie](../subdomains-certificates/using/dmarc.md)
+* Er zijn wijzigingen aangebracht als zowel DMARC- als BIMI-records bestaan voor een subdomein:
+
+   * DMARC-records kunnen niet worden verwijderd. Als u een BIMI-record wilt verwijderen, moet u eerst de BIMI-record verwijderen.
+   * DMARC-records kunnen worden bewerkt, maar de beleidsdowngrade naar &quot;None&quot; is niet toegestaan en de percentagewaarde ervan moet 100 zijn.
+
