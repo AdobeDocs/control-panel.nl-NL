@@ -2,14 +2,34 @@
 title: Aanvullende informatie 2023
 description: Deze pagina bevat een lijst met alle in 2023 uitgebrachte releases van het Configuratiescherm.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
 workflow-type: ht
-source-wordcount: '270'
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # Aanvullende informatie 2023 {#rn-2023}
+
+## September 2023 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>DMARC- en BIMI-recordbeheer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>U kunt nu DMARC- en BIMI-records rechtstreeks vanuit het Configuratiescherm toevoegen:
+
+<ul><li><strong>DMARC-records</strong> bieden een manier om het domein van de afzender te verifiëren en ongeoorloofd gebruik van het domein voor kwaadaardige doeleinden te voorkomen. <a href="../subdomains-certificates/using/dmarc.md">Meer informatie over het toevoegen van DMARC-records</a></li>
+<li>Met <strong>BIMI-records</strong> kunt u een goedgekeurd logo naast uw e-mails in het postvak IN van e-mailproviders weergeven om merkherkenning en vertrouwen te verbeteren. <a href="../subdomains-certificates/using/bimi.md">Meer informatie over het toevoegen van BIMI-records</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Juni 2023 {#june-2023}
 
