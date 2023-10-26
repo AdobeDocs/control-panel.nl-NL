@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 40%
@@ -56,7 +56,11 @@ In het bovenste gedeelte wordt de volgende informatie weergegeven:
 
 * Het aantal actieve profielen dat momenteel wordt gebruikt in de geselecteerde instantie, samen met het tijdstempel van de meest recente uitvoering van de factureringsworkflow voor uw instantie.
 
-* Het totale aantal actieve profielen dat binnen uw organisatie wordt gebruikt. Deze sectie is zichtbaar slechts als u veelvoudige instanties verbonden aan uw organisatie hebt.
+* Het totale aantal actieve profielen dat binnen uw organisatie wordt gebruikt.
+
+  >[!NOTE]
+  >
+  >Deze sectie is zichtbaar slechts als u veelvoudige instanties verbonden aan uw organisatie hebt.
 
 * Het totale aantal actieve profielen dat is toegewezen aan uw organisatie.
 
