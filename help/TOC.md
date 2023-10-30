@@ -6,7 +6,7 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 98%
@@ -30,6 +30,7 @@ ht-degree: 98%
    + [Deelvenster Toegangsbeheer](discover/using/accessing-control-panel.md)
    + [Machtigingen voor het Configuratiescherm beheren](discover/using/managing-permissions.md)
    + [De interface van het Configuratiescherm verkennen](discover/using/discovering-the-interface.md)
+   + [Veelgestelde vragen](faq.md)
 + Gebeurtenissen en e-mailwaarschuwingen {#alerts-events}
    + [Belangrijke contacten en gebeurtenissen bewaken](service-events/service-events.md)
    + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
@@ -73,4 +74,3 @@ ht-degree: 98%
    + [Instantiedetails](instances-settings/using/instance-details.md)
    + [Beheer van GPG-sleutels](instances-settings/using/gpg-keys-management.md)
    + [MID/RT-instanties toevoegen (hybride model)](instances-settings/using/external-accounts.md)
-+ [Veelgestelde vragen](faq.md)
