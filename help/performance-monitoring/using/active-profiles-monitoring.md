@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 40%
 
 >[!IMPORTANT]
 >
->Bewaking van actieve profielen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig en zonder kennisgeving worden bijgewerkt en gewijzigd. Het is beschikbaar bij Campaign Standard 10368 bouwstijl.
+>Bewaking van actieve profielen vanuit het Configuratiescherm is beschikbaar in de bètaversie en kan regelmatig en zonder kennisgeving worden bijgewerkt en gewijzigd. Dit is beschikbaar vanaf de Campaign Standard 10368-build.
 
 Volgens uw contract worden al uw Campaign-instanties ingericht met een specifieke hoeveelheid actieve profielen die voor factureringsdoeleinden worden geteld. Raadpleeg uw meest recente contract voor informatie over het aantal aangeschafte actieve profielen.
 
@@ -32,21 +32,21 @@ Profielen worden als actief beschouwd als ze de afgelopen twaalf maanden via een
 >
 >Er wordt geen rekening gehouden met de kanalen Facebook en Twitter.
 
-Raadpleeg voor meer informatie over actieve profielen de categorie [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) en [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documenten.
+Voor meer informatie over actieve profielen raadpleegt u de documentaties voor [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=nl) en [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=nl#active-profiles).
 
 ## Het gebruik van actieve profielen controleren {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Informatie over actieve profielen controleren"
->abstract="Op dit tabblad krijgt u real-time informatie over het meest recente en historische gebruik en de evolutie van actieve profielen voor elk onderdeel van uw campagne en uw organisatie."
+>abstract="Op dit tabblad kunt u realtime-informatie krijgen over het nieuwste en historische gebruik en de evolutie van actieve profielen voor elk in uw Campaign-instanties en uw organisatie."
 
 Informatie over het gebruik van actieve profielen wordt bijgewerkt in het Configuratiescherm op basis van speciale informatie [!DNL Campaign] technische workflows die dagelijks op uw instanties worden uitgevoerd:
-* De workflow [Billing](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor Campaign Standard,
-* De [&quot;Aantal actieve factureringsprofielen&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=nl) workflow voor Campagne v7/v8.
+* De workflow [Facturering](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor Campaign Standard,
+* De workflow [Aantal actieve factureringsprofielen](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=nl) voor Campaign v7/v8.
 
 
-Als u het actieve profielgebruik in het Configuratiescherm wilt controleren, navigeert u naar het **[!UICONTROL Performance Monitoring]** kaart > **[!UICONTROL Active Profiles]** en selecteert u de gewenste instantie in het menu **[!UICONTROL Instance List]**.
+Om uw actieve profielgebruik in het Configuratiescherm te controleren gaat u naar het tabblad **[!UICONTROL Performance Monitoring]** > **[!UICONTROL Active Profiles]** en selecteert u de gewenste instantie van **[!UICONTROL Instance List]**.
 
 Er wordt informatie weergegeven over uw gebruik van actieve profielen.
 
@@ -60,8 +60,8 @@ In het bovenste gedeelte wordt de volgende informatie weergegeven:
 
   >[!NOTE]
   >
-  >Deze sectie is zichtbaar slechts als u veelvoudige instanties verbonden aan uw organisatie hebt.
+  >Dit gedeelte is alleen zichtbaar als er meerdere exemplaren aan uw organisatie zijn gekoppeld.
 
 * Het totale aantal actieve profielen dat is toegewezen aan uw organisatie.
 
-In de onderste sectie ziet u het actieve profielgebruik in de afgelopen 30 dagen. U kunt dit tijdkader in 1 jaar veranderen gebruikend het filter dat in de hoger-juiste hoek wordt gevestigd. Als u de cursor boven de grafiek houdt, kunt u het exacte aantal actieve profielen ophalen dat wordt gebruikt voor de geselecteerde periode.
+Het onderste gedeelte biedt een visuele weergave van het actieve profielgebruik gedurende de afgelopen 30 dagen. U kunt dit tijdschema wijzigen naar 1 jaar met behulp van het filter in de rechterbovenhoek. Als u een van de grafiekbalken aanwijst, kunt u het exacte aantal actieve profielen ophalen dat in de geselecteerde periode is gebruikt.
