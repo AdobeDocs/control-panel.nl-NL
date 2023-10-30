@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Een nieuw subdomein instellen
 description: Leer hoe u een nieuw subdomein voor uw Campaign-instanties instelt
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 85%

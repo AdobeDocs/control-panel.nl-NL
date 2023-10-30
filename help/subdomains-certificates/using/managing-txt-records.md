@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Verificatierecords voor Google-sites toevoegen voor een subdomein
 description: Leer hoe u een Google Site Verification-record toevoegt voor een subdomein voor domeineigendomsverificatie.
-feature: Control Panel
-role: Architect
+feature: Control Panel, Subdomains and Certificates
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
@@ -22,9 +22,9 @@ Gmail is momenteel een van de populairste aanbieders van e-mailadressen. Met Ado
 
 Ga als volgt te werk om een Google TXT-record toe te voegen aan uw subdomein dat wordt gebruikt voor het e-mailen naar Gmail-adressen:
 
-1. Klik in de lijst met subdomeinen op de knop met de ovaal naast het gewenste subdomein en selecteer **[!UICONTROL Subdomain details]**.
+1. Klik in de lijst met subdomeinen op de knop met 3 puntjes naast het gewenste subdomein en selecteer **[!UICONTROL Subdomain details]**.
 
-1. Klik op de knop **[!UICONTROL Add TXT record]** en kies vervolgens **[!UICONTROL Google Site Verification]** van de **[!UICONTROL Record Type]** vervolgkeuzelijst.
+1. Klik op de knop **[!UICONTROL Add TXT record]** en kies vervolgens **[!UICONTROL Google Site Verification]** in de vervolgkeuzelijst **[!UICONTROL Record Type]**.
 
 1. Voer de waarde in die wordt gegenereerd in G Suite Admin-hulpprogramma&#39;s. Raadpleeg [G Suite-beheerder Help](https://support.google.com/a/answer/183895) voor meer informatie.
 
