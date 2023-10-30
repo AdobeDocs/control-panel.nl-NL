@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Camp
 
 **Bewaking van actieve profielen**
 
-* U kunt nu het aantal actieve profielen controleren waarop u voor uw organisatie recht hebt, en het totale aantal profielen dat binnen uw organisatie wordt gebruikt in alle gevallen, als u veelvoudige instanties gebruikt. [Meer informatie](performance-monitoring/using/active-profiles-monitoring.md)
+* U kunt nu het aantal actieve profielen controleren waarop uw organisatie recht heeft, en het totale aantal profielen dat binnen uw organisatie wordt gebruikt in alle instanties, als u meerdere instanties gebruikt. [Meer informatie](performance-monitoring/using/active-profiles-monitoring.md)
 
 **DMARC-records**
 
 * Meerdere e-mailadressen kunnen nu e-mails met samengevoegde rapporten en foutrapporten ontvangen. [Meer informatie](subdomains-certificates/using/dmarc.md)
-* Er zijn wijzigingen aangebracht als zowel DMARC- als BIMI-records bestaan voor een subdomein:
+* Er zijn wijzigingen aangebracht als er zowel DMARC- als BIMI-records bestaan voor een subdomein:
 
    * DMARC-records kunnen niet worden verwijderd. Als u een BIMI-record wilt verwijderen, moet u eerst de BIMI-record verwijderen.
-   * DMARC-records kunnen worden bewerkt, maar de beleidsdowngrade naar &quot;None&quot; is niet toegestaan en de percentagewaarde ervan moet 100 zijn.
+   * DMARC-records kunnen worden bewerkt, maar de beleidsdowngrade naar Geen is niet toegestaan en de percentagewaarde ervan moet 100 zijn.
 
 >[!CAUTION]
 >
