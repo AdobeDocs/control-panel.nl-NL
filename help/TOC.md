@@ -6,10 +6,10 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+source-git-commit: 9ce224c2d7c9f7c3f7691f000b5e1a43cef0853d
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,9 @@ ht-degree: 100%
    + [Deelvenster Toegangsbeheer](discover/using/accessing-control-panel.md)
    + [Machtigingen voor het Configuratiescherm beheren](discover/using/managing-permissions.md)
    + [De interface van het Configuratiescherm verkennen](discover/using/discovering-the-interface.md)
-+ [Belangrijke contacten en gebeurtenissen bewaken](service-events/service-events.md)
-+ [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
++ Gebeurtenissen en e-mailwaarschuwingen {#alerts-events}
+   + [Belangrijke contacten en gebeurtenissen bewaken](service-events/service-events.md)
+   + [E-mailwaarschuwingen](performance-monitoring/using/email-alerting.md)
 + SFTP-beheer {#sftp-management}
    + [SFTP-beheer](sftp/using/about-sftp-management.md)
    + [SFTP-opslag beheren](sftp/using/sftp-storage-management.md)
