@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Gedetailleerde informatie over de DMARC-implementatie is beschikbaar in de [Hand
 
 * SPF- en DKIM-records zijn vereisten voor het maken van een DMARC-record.
 * DMARC-records kunnen alleen worden toegevoegd voor subdomeinen met volledige subdomeindelegatie. [Meer informatie over configuratiemethoden voor subdomeinen](subdomains-branding.md#subdomain-delegation-methods)
-* Als zowel DMARC- als BIMI-records bestaan voor een subdomein:
+* Als er zowel DMARC- als BIMI-records bestaan voor een subdomein:
    * DMARC-records kunnen niet worden verwijderd. Als u een DMARC-record wilt verwijderen, verwijdert u eerst de BIMI-record.
-   * DMARC verslagen kunnen worden uitgegeven, maar de DMARC beleidsondergraving aan &quot;niets&quot;wordt niet toegestaan en de percentagewaarde moet aan &quot;100&quot;worden geplaatst.
+   * DMARC-records kunnen worden bewerkt, maar het DMARC-beleid downgraden naar Geen is niet toegestaan en de percentagewaarde moet worden ingesteld op 100.
 
 ## Een DMARC-record voor een subdomein toevoegen {#add}
 
