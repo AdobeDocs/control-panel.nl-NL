@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
+source-git-commit: 5980b9d978e20996ac58fb730a286f0c0b92b781
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 62%
@@ -19,8 +19,6 @@ ht-degree: 62%
 >title="Informatie over Configuratiescherm"
 >abstract="De startpagina van het Configuratiescherm geeft u toegang tot alle acties die op uw Campaign-instanties kunnen worden uitgevoerd."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=nl" text="Configuratiescherm openen"
-
-![](assets/do-not-localize/banner.png)
 
 Met het Campaign-configuratiescherm kunt u uw werk als productbeheerder van Campaign Standard en V7/v8 efficiënter uitvoeren doordat u de instellingen kunt beheren en het gebruik voor elk van uw Campaign-instanties kunt bijhouden.
 
