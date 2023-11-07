@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '433'
-ht-degree: 100%
+source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 90%
 
 ---
 
@@ -41,11 +41,6 @@ Voor meer informatie over actieve profielen raadpleegt u de documentaties voor [
 >title="Informatie over actieve profielen controleren"
 >abstract="Op dit tabblad kunt u realtime-informatie krijgen over het nieuwste en historische gebruik en de evolutie van actieve profielen voor elk in uw Campaign-instanties en uw organisatie."
 
-Informatie over het gebruik van actieve profielen wordt bijgewerkt in het Configuratiescherm op basis van speciale informatie [!DNL Campaign] technische workflows die dagelijks op uw instanties worden uitgevoerd:
-* De workflow [Facturering](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) voor Campaign Standard,
-* De workflow [Aantal actieve factureringsprofielen](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=nl) voor Campaign v7/v8.
-
-
 Om uw actieve profielgebruik in het Configuratiescherm te controleren gaat u naar het tabblad **[!UICONTROL Performance Monitoring]** > **[!UICONTROL Active Profiles]** en selecteert u de gewenste instantie van **[!UICONTROL Instance List]**.
 
 Er wordt informatie weergegeven over uw gebruik van actieve profielen.
@@ -65,3 +60,10 @@ In het bovenste gedeelte wordt de volgende informatie weergegeven:
 * Het totale aantal actieve profielen dat is toegewezen aan uw organisatie.
 
 Het onderste gedeelte biedt een visuele weergave van het actieve profielgebruik gedurende de afgelopen 30 dagen. U kunt dit tijdschema wijzigen naar 1 jaar met behulp van het filter in de rechterbovenhoek. Als u een van de grafiekbalken aanwijst, kunt u het exacte aantal actieve profielen ophalen dat in de geselecteerde periode is gebruikt.
+
+Informatie over het gebruik van actieve profielen wordt bijgewerkt in het Configuratiescherm op basis van speciale informatie [!DNL Campaign] Technische workflows voor facturering die regelmatig op uw exemplaar worden uitgevoerd.
+
+| Campaign-versie | Technische workflow | Runs |
+|  ---  |  ---  |  ---  |
+| Campaign Standard | [Facturering](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) | Dagelijks |
+| Campagne v7/v8 | [Facturering](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Maandelijks |
