@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '780'
-ht-degree: 100%
+source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,9 @@ Gedetailleerde informatie over de DMARC-implementatie is beschikbaar in de [Hand
 
 * SPF- en DKIM-records zijn vereisten voor het maken van een DMARC-record.
 * DMARC-records kunnen alleen worden toegevoegd voor subdomeinen met volledige subdomeindelegatie. [Meer informatie over configuratiemethoden voor subdomeinen](subdomains-branding.md#subdomain-delegation-methods)
+
+  Om een DMARC- verslag op een op CNAME-Gebaseerd subdomain te vestigen, kunt u het DMARC- verslag op zijn ouderdomein vormen. Dit zorgt ervoor dat alle bijbehorende subdomeinen de DMARC verslagparameters erven, zelfs wanneer afgevaardigd door CNAMEs.
+
 * Als er zowel DMARC- als BIMI-records bestaan voor een subdomein:
    * DMARC-records kunnen niet worden verwijderd. Als u een DMARC-record wilt verwijderen, verwijdert u eerst de BIMI-record.
    * DMARC-records kunnen worden bewerkt, maar het DMARC-beleid downgraden naar Geen is niet toegestaan en de percentagewaarde moet worden ingesteld op 100.
