@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 Brand Indicators for Message Identification (BIMI) is een industriestandaard waarmee een goedgekeurd logo naast de e-mail van een afzender kan worden weergegeven in het postvak IN van e-mailproviders om de merkherkenning en het vertrouwen te vergroten. Dit helpt e-mailspoofing en phishing te voorkomen door de identiteit van de afzender te verifiëren via DMARC-verificatie, waardoor het voor kwaadwillenden moeilijker wordt om zich in e-mails voor te doen als legitieme merken.
 
-U kunt meerdere logo&#39;s voor een bepaald subdomein hebben. Hiervoor moet u één BIMI-record instellen voor elk logo en een BIMI-kiezer aan elke record toewijzen. [Leer hoe u een BIMI-record toevoegt](#add)
+U kunt voor een bepaald subdomein meerdere logo&#39;s gebruiken. Hiervoor moet u één BIMI-record instellen voor elk logo en een BIMI-kiezer aan elke record toewijzen. [Meer informatie over het toevoegen van BIMI-records](#add)
 
 Gedetailleerde informatie over BIMI-implementatie is beschikbaar in [Handleiding voor best practices inzake leverbaarheid van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=nl)
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om een BIMI-record toe te voegen voor een subdomein
 
    ![](assets/bimi-add.png)
 
-1. De **[!UICONTROL Selector]** kunt u een BIMI-kiezer voor de record opgeven. Een BIMI-kiezer is een unieke id die u aan een BIMI-record kunt toewijzen. Hierdoor kunt u meerdere logo&#39;s voor een bepaald subdomein definiëren.
+1. In het veld **[!UICONTROL Selector]** kunt u een BIMI-kiezer voor de record opgeven. Een BIMI-kiezer is een unieke ID die u aan een BIMI-record kunt toewijzen. Hierdoor kunt u voor een bepaald subdomein meerdere logo&#39;s definiëren.
 
 1. In de **[!UICONTROL Company Logo URL]** geeft u de URL op van het SVG-bestand met uw logo.
 
