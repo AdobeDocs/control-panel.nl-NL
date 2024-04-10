@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 38%
+source-wordcount: '1027'
+ht-degree: 35%
 
 ---
 
@@ -30,7 +30,7 @@ SFTP-servers zijn beveiligd. Om tot hen toegang te hebben tot meningsdossiers of
 
 CIDR (Classless Inter-Domain Routing) is de ondersteunde indeling bij het toevoegen van IP-bereiken met de interface van het Configuratiescherm.
 
-De syntaxis bestaat uit een IP-adres, gevolgd door een slash (/) en een decimaal getal. De indeling en bijbehorende syntaxis worden uitgebreid beschreven in [dit artikel](https://whatismyipaddress.com/cidr){target="_blank"}.
+De syntaxis bestaat uit een IP-adres, gevolgd door een slash (/) en een decimaal getal. Het formaat en de syntaxis zijn volledig gedetailleerd in [dit artikel](https://whatismyipaddress.com/cidr){target="_blank"}.
 
 U kunt op Internet naar vrije online hulpmiddelen zoeken die u zullen helpen de IP waaier omzetten die u in formaat CIDR hebt.
 
@@ -43,7 +43,7 @@ Volg de onderstaande aanbevelingen en beperkingen wanneer u IP-adressen toevoegt
 * Alleen **openbare IP-adressen** kunnen aan de lijst van gewenste IP-adressen worden toegevoegd.
 * Zorg ervoor dat **IP-adressen regelmatig verwijderen** dat u niet meer van de lijst van gewenste personen nodig hebt.
 
-## IP-adressen toevoegen aan de lijst van gewenste IP-adressen {#adding-ip-addresses-allow-list}
+## IP-adressen toevoegen aan de lijst van gewenste personen {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"

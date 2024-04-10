@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 36%
+source-wordcount: '1030'
+ht-degree: 33%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 36%
 
 Adobe raadt alle klanten aan verbinding te maken met hun SFTP-servers met een **openbaar/persoonlijk sleutelpaar**.
 
-De stappen om een openbare SSH-sleutel te genereren en toe te voegen om toegang tot de SFTP-server te krijgen, worden hieronder beschreven, evenals aanbevelingen betreffende verificatie.
+De stappen om een openbare sleutel van SSH te produceren en het toe te voegen om tot de server toegang te hebben SFTP worden hieronder beschreven, evenals aanbevelingen betreffende authentificatie.
 
 Zodra de toegang tot de server is ingesteld, moet u **de IP-adressen die toegang tot de server vereisen, toevoegen aan de lijst van gewenste IP-adressen** zodat u er verbinding mee kunt maken. Raadpleeg [deze sectie](../../instances-settings/using/ip-allow-listing-instance-access.md) voor meer informatie.
 
@@ -44,7 +44,7 @@ In zeer zeldzame gevallen, wordt op wachtwoord-gebaseerde authentificatie toegel
 >
 >Als uw wachtwoord verloopt, kunt u zich niet bij uw SFTP-accounts aanmelden, zelfs als er sleutels op het systeem geïnstalleerd zijn.
 
-## De SSH-sleutel installeren {#installing-ssh-key}
+## De SSH-toets installeren {#installing-ssh-key}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
