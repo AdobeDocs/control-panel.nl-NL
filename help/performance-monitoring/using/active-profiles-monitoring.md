@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Profielen worden als actief beschouwd als ze de afgelopen twaalf maanden via een
 
 >[!NOTE]
 >
->Er wordt geen rekening gehouden met de kanalen facebook en X (voorheen bekend als Twitter).
+>Facebook- en X-kanalen (voorheen bekend als Twitter) worden niet in aanmerking genomen.
 
 Voor meer informatie over actieve profielen raadpleegt u de documentaties voor [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=nl) en [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=nl#active-profiles).
 
@@ -61,10 +61,10 @@ In het bovenste gedeelte wordt de volgende informatie weergegeven:
 
 Het onderste gedeelte biedt een visuele weergave van het actieve profielgebruik gedurende de afgelopen 30 dagen. U kunt dit tijdschema wijzigen naar 1 jaar met behulp van het filter in de rechterbovenhoek. Als u een van de grafiekbalken aanwijst, kunt u het exacte aantal actieve profielen ophalen dat in de geselecteerde periode is gebruikt.
 
-Informatie over het gebruik van actieve profielen wordt bijgewerkt in het Configuratiescherm op basis van speciale informatie [!DNL Campaign] Technische workflows voor facturering die regelmatig op uw exemplaar worden uitgevoerd.
+Informatie over het gebruik van actieve profielen wordt bijgewerkt in het Configuratiescherm op basis van technische [!DNL Campaign] factureringsworkflows die regelmatig op uw instanties worden uitgevoerd.
 
-| Campaign-versie | Technische workflow | Runs |
+| Campaign-versie | Technische workflow | Wordt uitgevoerd |
 |  ---  |  ---  |  ---  |
 | Campaign Standard | [Facturering](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=nl) | Dagelijks |
-| Campagne v7/v8 | [Facturering](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=nl) | Maandelijks |
+| Campaign v7/v8 | [Facturering](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=nl) | Maandelijks |
 

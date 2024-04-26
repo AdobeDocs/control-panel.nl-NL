@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Ga als volgt te werk om een DMARC-record voor een subdomein toe te voegen:
 
    >[!CAUTION]
    >
-   >Als de e-mailadressen u toevoegt om rapporten te ontvangen buiten het domein zijn waarvoor het DMARC- verslag wordt gecreeerd, moet u hun extern domein machtigen om aan DNS te specificeren dat u dit domein bezit. Hiervoor voert u de stappen uit die in het dialoogvenster [dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+   >Als de e-mailadressen die u toevoegt om rapporten te ontvangen, zich buiten het domein bevinden waarvoor de DMARC- record is gemaakt, moet u hun externe domein machtigen om bij de DNS op te geven dat u de eigenaar van dit domein bent. Voer hiervoor de stappen uit die worden beschreven in de [documentatie van dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. Als het DMARC-beleid is ingesteld op None, voert u een percentage in dat geldt voor 100% van de e-mails.
 
