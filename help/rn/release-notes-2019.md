@@ -4,11 +4,13 @@ description: Deze pagina bevat een lijst met alle in 2019 uitgebrachte releases 
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 73%
 
 ---
 
@@ -16,14 +18,14 @@ ht-degree: 100%
 
 ## September 2019 {#september-2019}
 
-Er zijn nieuwe mogelijkheden toegevoegd waarmee Admin-gebruikers IP-adressen aan de lijst van toegestane IP-adressen kunnen toevoegen om verbinding te maken met Campaign v7/v8-instanties.
+Wij hebben nieuwe mogelijkheden voor gebruikers Admin toegevoegd om IP adressen aan de lijst van gewenste personen toe te voegen om met de instanties van de Campagne v7/v8 te verbinden.
 Bovendien kunnen Admin-gebruikers nu de lijst met Campaign v7/v8-instanties en de geschiktheid voor het ontvangen van build-upgrades weergeven.
 
 Raadpleeg de [desbetreffende documentatie](../instances-settings/using/ip-allow-listing-instance-access.md) voor meer informatie.
 
 ## Augustus 2019 {#august-2019}
 
-Er zijn nieuwe mogelijkheden toegevoegd waarmee Admin-gebruikers berichten kunnen ontvangen voordat SSL-certificaten voor hun domeinen verlopen. Raadpleeg de [gedetailleerde documentatie](../subdomains-certificates/using/monitoring-ssl-certificates.md)voor meer informatie.
+We hebben nieuwe mogelijkheden voor Admin-gebruikers toegevoegd om meldingen te ontvangen voordat SSL-certificaten voor hun domeinen verlopen. Raadpleeg de [gedetailleerde documentatie](../subdomains-certificates/using/monitoring-ssl-certificates.md)voor meer informatie.
 
 Bovendien kunnen Admin-gebruikers nu SSH-sleutels verwijderen die zijn toegevoegd om toegang te verkrijgen tot SFTP-servers.
 

@@ -4,11 +4,13 @@ description: Deze pagina bevat een lijst met alle 2020-releases van het Configur
 feature: Control Panel, Release Notes
 role: Admin
 level: Experienced
+hide: true
+hidefromtoc: true
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -163,7 +165,7 @@ ht-degree: 100%
 
 ## Januari 2020 {#january-2020}
 
-We hebben nieuwe mogelijkheden voor Admin-gebruikers toegevoegd om subdomeinen te configureren en SSL-certificaten te verlengen via het Configuratiescherm.
+Wij hebben nieuwe mogelijkheden voor gebruikers Admin toegevoegd om subdomeinen te vormen en SSL certificaten van Controlebord te vernieuwen.
 
 Raadpleeg deze pagina’s voor meer informatie:
 * [Een nieuw subdomein instellen](../subdomains-certificates/using/setting-up-new-subdomain.md)

@@ -6,9 +6,9 @@ user-guide-title: Handleiding voor het configuratiescherm
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: a892d5ff82fd0160faca2dbe76d3cd1b71073cff
+source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '180'
 ht-degree: 98%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 98%
 # Handleiding voor het configuratiescherm {#using}
 
 + [Productdocumentatie](control-panel-home.md)
-+ Aanvullende informatie  {#release-notes}
++ Release-opmerkingen {#release-notes}
    + [Nieuwste release](rn/release-notes.md)
    + Eerdere releases {#previous-releases}
-      + [Aanvullende informatie 2023](rn/release-notes-2023.md)
-      + [Aanvullende informatie 2022](rn/release-notes-2022.md)
-      + [Aanvullende informatie 2021](rn/release-notes-2021.md)
-      + [Aanvullende informatie 2020](rn/release-notes-2020.md)
-      + [Aanvullende informatie 2019](rn/release-notes-2019.md)
+      + [2023](rn/release-notes-2023.md)
+      + [2022](rn/release-notes-2022.md)
+      + [2021](rn/release-notes-2021.md)
+      + [2020](rn/release-notes-2020.md)
+      + [2019](rn/release-notes-2019.md)
 + Configuratiescherm verkennen {#discover-control-panel}
    + [Belangrijkste kenmerken](discover/using/key-features.md)
    + [Deelvenster Toegangsbeheer](discover/using/accessing-control-panel.md)
