@@ -5,7 +5,7 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
 workflow-type: ht
 source-wordcount: '260'
 ht-degree: 100%
@@ -77,3 +77,4 @@ In dit veld kunt u een operator toewijzen aan een workflow. Als de workflow misl
 De waarde 1 geeft aan dat het veld **Ernst** voor de worklow is ingesteld op Productie en dat er geen supervisorgroep is toegewezen aan de workflow.
 
 ![](assets/wkf-monitoring-supervisors.png)
+
