@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,19 +78,19 @@ We willen ervoor zorgen dat u de juiste versie krijgt als u meerdere versies voo
 
 ### Wat als ik meerdere organisatie-ID’s heb?
 
-U kunt meer dan één organisatie-ID hebben als u toegang hebt tot meerdere Adobe-oplossingen. In dit geval is de organisatie-ID die u moet gebruiken, degene die u ziet onder uw Adobe Campaign-instantie.
+U hebt één organisatie-id tussen Analytics en Campagne nodig als u de oplossingen wilt integreren om te profiteren van complexe gebruikscategorieën zoals winkelwagentjes (voor Adobe Analytics + Adobe Campaign). U kunt meer dan één organisatie-ID hebben als u toegang hebt tot meerdere Adobe-oplossingen. In dit geval is de organisatie-ID die u moet gebruiken, degene die u ziet onder uw Adobe Campaign-instantie.
 
+<!--
 >[!NOTE]
 >
->Als u dezelfde organisatie-ID hebt voor Adobe Campaign en Adobe Analytics, is dit prima. Eén organisatie-ID voor Analytics en Campaign is een vereiste als u de oplossingen wilt integreren om gebruik te maken van complexe gebruiksscenario’s, zoals het achterlaten van winkelwagens (voor AA + AC).
->
->Als u verschillende organisatie-ID’s voor Adobe Campaign en Adobe Analytics hebt, neemt u contact op met de klantenservice om deze af te stemmen.
+>If you have different organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+-->
 
 ### Hoe weet ik of mijn Adobe Campaign-versie wordt gehost op AWS?{#hosted-aws}
 
 Als u wilt controleren of uw instantie wordt gehost op AWS, voert u deze stappen uit:
 
-1. Haal uw login-URL op. Dit is de URL die u gebruikt om u aan te melden bij uw Campaign-instantie. De URL eindigt meestal met .campaign.adobe.com of .neolane.net.
+1. Haal uw login-URL op. Het is de URL die u gebruikt om u aan te melden bij uw Campagne-instantie. Deze eindigt meestal met &quot;.campagne.adobe.com&quot; of&quot;.neolane.net&quot;.
 1. Open de terminal en voer vervolgens een **[!DNL nslookup]**-bewerking uit op de login-URL.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
