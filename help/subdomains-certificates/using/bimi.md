@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: ht
-source-wordcount: '562'
-ht-degree: 100%
+source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 80%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 100%
 
 ## Over BIMI-records {#about}
 
-Brand Indicators for Message Identification (BIMI) is een industriestandaard waarmee een goedgekeurd logo naast de e-mail van een afzender kan worden weergegeven in het postvak IN van e-mailproviders om de merkherkenning en het vertrouwen te vergroten. Dit helpt e-mailspoofing en phishing te voorkomen door de identiteit van de afzender te verifiëren via DMARC-verificatie, waardoor het voor kwaadwillenden moeilijker wordt om zich in e-mails voor te doen als legitieme merken.
-
-U kunt voor een bepaald subdomein meerdere logo&#39;s gebruiken. Hiervoor moet u één BIMI-record instellen voor elk logo en een BIMI-kiezer aan elke record toewijzen. [Meer informatie over het toevoegen van BIMI-records](#add)
+Merk Indicators for Message Identification (BIMI) is een industrienorm die het mogelijk maakt een goedgekeurd logo te gebruiken naast de e-mail van een afzender in de postvakjes van postbusaanbieders om de merkherkenning en het vertrouwen te vergroten.
 
 Gedetailleerde informatie over BIMI-implementatie is beschikbaar in [Handleiding voor best practices inzake leverbaarheid van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=nl)
 
@@ -29,10 +27,12 @@ Gedetailleerde informatie over BIMI-implementatie is beschikbaar in [Handleidin
 ## Beperkingen en voorwaarden {#limitations}
 
 * SPF-, DKIM- en DMARC-records zijn vereist voor het maken van een BIMI-record.
-* BIMI-records kunnen alleen worden toegevoegd voor subdomeinen die gebruikmaken van Volledige subdomeindelegatie. [Meer informatie over configuratiemethoden voor subdomeinen](subdomains-branding.md#subdomain-delegation-methods)
+
+* Het BIMI-record moet in DNS worden gepubliceerd, voor een volledig gedelegeerd domein is dit mogelijk via het Configuratiescherm. [Meer informatie over configuratiemethoden voor subdomeinen](subdomains-branding.md#subdomain-delegation-methods)
+
 * Voorwaarden voor DMARC-records:
 
-   * Het recordbeleidstype voor het subdomein moet op Quarantine of Reject worden ingesteld. Het maken van BIMI-records is niet beschikbaar als het DMARC-beleidstype is ingesteld op Geen.
+   * Het beleidstype van het verslag voor het organisatorische domein moet aan &quot;Quarantine&quot;of &quot;Weigeren&quot;worden geplaatst. Het maken van BIMI-records is niet beschikbaar als het DMARC-beleidstype is ingesteld op Geen.
    * Het percentage e-mailberichten waarop het DMARC-beleid wordt toegepast, moet 100% zijn. BIMI ondersteunt geen DMARC-beleid waarbij dit percentage is ingesteld op minder dan 100%.
 
 [Meer informatie over het configureren van DMARC-records](dmarc.md)
@@ -47,11 +47,11 @@ Voer de volgende stappen uit om een BIMI-record toe te voegen voor een subdomein
 
    ![](assets/bimi-add.png)
 
-1. In het veld **[!UICONTROL Selector]** kunt u een BIMI-kiezer voor de record opgeven. Een BIMI-kiezer is een unieke ID die u aan een BIMI-record kunt toewijzen. Hierdoor kunt u voor een bepaald subdomein meerdere logo&#39;s definiëren.
+1. In het veld **[!UICONTROL Selector]** kunt u een BIMI-kiezer voor de record opgeven. Een BIMI-kiezer is een unieke ID die u aan een BIMI-record kunt toewijzen. Hierdoor kunt u meerdere logo&#39;s voor een bepaald subdomein definiëren. Dit wordt momenteel niet gesteund door brievenbusleveranciers.
 
 1. In de **[!UICONTROL Company Logo URL]** geeft u de URL op van het SVG-bestand met uw logo.
 
-1. Hoewel **[!UICONTROL Certificate URL]** optioneel is, is het vereist voor sommige e-mailproviders als Gmail en Apple, die 80% van de e-mailmarkt bestrijken. Daarom raden we aan een VMC (Verified Mark Certificate) te verkrijgen om BIMI echt te benutten.
+1. Hoewel **[!UICONTROL Certificate URL]** optioneel is, is het vereist voor sommige postbusproviders zoals Gmail en Apple. Daarom raden we aan een VMC (Verified Mark Certificate) te verkrijgen om BIMI echt te benutten.
 
    +++Hoe krijg ik een VMC?
 
