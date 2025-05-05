@@ -37,8 +37,8 @@ Met de functie Instantiedetails kunt u de platte architectuur van uw instantie w
 
 **Verwante onderwerpen:**
 
-* [Een build-upgrade uitvoeren](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
-* [Adobe Campaign bijwerken](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
+* [Een build-upgrade uitvoeren](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=nl-NL)
+* [Adobe Campaign bijwerken](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html?lang=nl-NL)
 
 ## Informatie over uw instanties ophalen {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ Beschikbare informatie is:
    * Geel: U doet er goed aan een upgrade uit te voeren. De nieuwste functies en oplossingen ontbreken.
    * Rood: Voer zo snel mogelijk een upgrade uit. Er ontbreken nieuwe functies en de prestaties van de server zijn mogelijk niet optimaal.
 
-Als een van uw servers moet worden bijgewerkt, raadpleegt u [deze documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html) voor meer informatie over verdere stappen.
+Als een van uw servers moet worden bijgewerkt, raadpleegt u [deze documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=nl-NL) voor meer informatie over verdere stappen.
 
 ## Algemene vragen {#common-questions}
 

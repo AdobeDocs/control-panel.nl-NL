@@ -106,13 +106,13 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onder
 
 **Campagne v7/v8:**
 
-* [Een bestand zoeken of versleutelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Hoofdlettergebruik: gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Een bestand zoeken of versleutelen](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=nl-NL)
+* [Hoofdlettergebruik: gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=nl-NL#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
-* [Versleutelde data beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Hoofdlettergebruik: gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
+* [Versleutelde data beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=nl-NL)
+* [Hoofdlettergebruik: gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=nl-NL#use-case-gpg-encrypt)
 
 ## Gegevens ontsleutelen {#decrypting-data}
 
@@ -149,13 +149,13 @@ Raadpleeg de documentatie bij Adobe Campaign voor meer informatie:
 
 **Campagne v7 en v8:**
 
-* [Een bestand uitpakken of decoderen voordat het wordt verwerkt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html)
-* [Hoofdlettergebruik: gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html#use-case-gpg-decrypt)
+* [Een bestand uitpakken of decoderen voordat het wordt verwerkt](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=nl-NL)
+* [Hoofdlettergebruik: gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=nl-NL#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
-* [Versleutelde data beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Hoofdlettergebruik: gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Versleutelde data beheren](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=nl-NL)
+* [Hoofdlettergebruik: gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=nl-NL#use-case-gpg-decrypt)
 
 ## GPG-toetsen controleren
 
@@ -195,6 +195,6 @@ We raden u aan alle toetsen die u niet meer nodig hebt, te verwijderen. Om dit t
 
 In de onderstaande video ziet u hoe u GPG-sleutels voor gegevenscodering kunt genereren en installeren.
 
-Aanvullende &#39;Hoe kan ik&#39;-video&#39;s over het beheer van GPG-sleutels zijn beschikbaar in  [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) pagina&#39;s met zelfstudies.
+Aanvullende &#39;Hoe kan ik&#39;-video&#39;s over het beheer van GPG-sleutels zijn beschikbaar in  [Campagne v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=nl-NL#instance-settings) en [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=nl-NL#instance-settings) pagina&#39;s met zelfstudies.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

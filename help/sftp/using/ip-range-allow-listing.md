@@ -24,7 +24,7 @@ ht-degree: 35%
 
 SFTP-servers zijn beveiligd. Om tot hen toegang te hebben tot meningsdossiers of nieuwe degenen te schrijven, moet u het openbare IP adres van het systeem of de cliënt toevoegen die tot de servers aan de lijst van gewenste personen toegang heeft.
 
-![](assets/do-not-localize/how-to-video.png) Een video-uitleg van deze functie met [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html#sftp-management).
+![](assets/do-not-localize/how-to-video.png) Een video-uitleg van deze functie met [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=nl-NL#sftp-management) of [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=nl-NL#sftp-management).
 
 ## Informatie over de CIDR-indeling {#about-cidr-format}
 

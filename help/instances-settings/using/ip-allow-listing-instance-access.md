@@ -36,7 +36,7 @@ Via het Configuratiescherm kunt u nieuwe verbindingen met uw instanties instelle
 
 Zodra IP-adressen in de lijst van gewenste IP-adressen staan, kunt u Campaign-operators maken en aan de IP-adressen koppelen, zodat de gebruikers toegang tot de instantie kunnen krijgen.
 
-![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=nl-NL#instance-settings)
 
 ## Best practices {#best-practices}
 
@@ -105,4 +105,4 @@ Om één of meerdere IP waaiers van de lijst van gewenste personen te schrappen,
 
 **Verwant onderwerp:**
 
-* [Een beveiligingszone koppelen aan een operator](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
+* [Een beveiligingszone koppelen aan een operator](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=nl-NL#linking-a-security-zone-to-an-operator)
