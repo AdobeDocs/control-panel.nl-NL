@@ -46,7 +46,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
 >
 >U kunt maximaal 60 GPG-toetsen installeren in het regelpaneel.
 
-![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
+![](assets/do-not-localize/how-to-video.png) [ Ontdek deze functie in video](#video)
 
 1. Genereer een combinatie van openbare/persoonlijke sleutels met een PGP-coderingsprogramma volgens de [OpenPGP-specificatie](https://www.openpgp.org/about/standard/). Hiertoe installeert u een GPG-hulpprogramma of GNuGP-software.
 
@@ -64,6 +64,7 @@ Hiervoor moet u een GPG-sleutelpaar genereren van een PGP-versleutelingsprogramm
    * **sleutellengte**: 3072 - 4096 bits
    * **echte naam** en **mailadres**: Hiermee kunt u bijhouden wie het sleutelpaar heeft gemaakt. Voer een naam en e-mailadres in die aan uw organisatie of afdeling zijn gekoppeld.
    * **opmerking**: als u een label toevoegt aan het opmerkingenveld, kunt u gemakkelijk de sleutel identificeren waarmee uw gegevens worden versleuteld.
+
      >[!IMPORTANT]
      >
      >Zorg ervoor dat dit veld niet leeg blijft en dat een opmerking wordt ingevuld.
@@ -99,7 +100,7 @@ Zodra de openbare sleutel wordt geïnstalleerd, toont het in de lijst. U kunt de
 
 De sleutel is dan beschikbaar voor gebruik in de werkschema&#39;s van Adobe Campaign. U kunt het gebruiken om gegevens te coderen wanneer het gebruiken van gegevens extractieactiviteiten.
 
-![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
+![](assets/do-not-localize/how-to-video.png) [ Ontdek deze functie in video](#video)
 
 Raadpleeg de documentatie bij Adobe Campaign voor meer informatie over dit onderwerp:
 
@@ -122,7 +123,7 @@ Hiervoor moet u een GPG-sleutelpaar rechtstreeks vanuit het Configuratiescherm g
 * De **openbare sleutel** wordt gedeeld met het externe systeem, dat het zal gebruiken om de gegevens te coderen die naar Campagne moeten verzenden.
 * De **persoonlijke sleutel** wordt gebruikt door Campagne om de inkomende gecodeerde gegevens te decoderen.
 
-![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](#video)
+![](assets/do-not-localize/how-to-video.png) [ Ontdek deze functie in video](#video)
 
 Voer de volgende stappen uit om een sleutelpaar te genereren in het Configuratiescherm:
 

@@ -18,7 +18,7 @@ ht-degree: 6%
 
 Het Configuratiescherm is beschikbaar voor alle Admin-gebruikers van een Campagne-instantie. Voer de onderstaande stappen uit om gebruikers toe te wijzen aan de groep Beheerders en ze toegang te verlenen tot het Configuratiescherm.
 
-![](assets/do-not-localize/how-to-video.png)[ Ontdek deze functie in video](../../discover/using/managing-permissions.md#video)
+![](assets/do-not-localize/how-to-video.png) [ Ontdek deze functie in video](../../discover/using/managing-permissions.md#video)
 
 1. Ga naar de [Homepage van Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
