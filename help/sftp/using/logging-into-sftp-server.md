@@ -18,7 +18,7 @@ ht-degree: 6%
 
 In de onderstaande stappen wordt beschreven hoe u verbinding kunt maken met uw SFTP-server via uw SFTP-clienttoepassing.
 
-![](assets/do-not-localize/how-to-video.png) [ Ontdek deze functie in video](https://video.tv.adobe.com/v/27263?quality=12)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Ontdek deze functie in video](https://video.tv.adobe.com/v/27263?quality=12)
 
 Voordat u zich aanmeldt bij de server, moet u controleren of:
 

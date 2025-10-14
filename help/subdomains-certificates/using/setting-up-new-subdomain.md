@@ -105,7 +105,7 @@ Volg de onderstaande stappen om een subdomein volledig te delegeren aan Adobe Ca
    Zorg ervoor dat u de **volledige naam** invult van het subdomein dat u wilt delegeren. Als u bijvoorbeeld het subdomein &quot;email.weretail.com&quot; wilt delegeren, typt u &quot;email.weretail.com&quot;.
 
 
-1. Schakel de optie **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** in als u het genereren van het SSL-certificaat van het subdomein wilt delegeren naar Adobe. [ Leer meer op SSL certificaatdelegatie ](delegate-ssl.md)
+1. Schakel de optie **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** in als u het genereren van het SSL-certificaat van het subdomein wilt delegeren naar Adobe. [&#x200B; Leer meer op SSL certificaatdelegatie &#x200B;](delegate-ssl.md)
 
    ![](assets/subdomain6.png)
 
@@ -149,7 +149,7 @@ Volg de onderstaande stappen om een subdomein te configureren met gebruik van CN
 
 1. Ga subdomain in die u in uw het ontvangen oplossing creeerde.
 
-   Schakel de optie **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** in als u het genereren van het SSL-certificaat van het subdomein wilt delegeren naar Adobe. [ Leer meer op SSL certificaatdelegatie ](delegate-ssl.md)
+   Schakel de optie **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** in als u het genereren van het SSL-certificaat van het subdomein wilt delegeren naar Adobe. [&#x200B; Leer meer op SSL certificaatdelegatie &#x200B;](delegate-ssl.md)
 
    ![](assets/cname-adobe-managed.png)
 
