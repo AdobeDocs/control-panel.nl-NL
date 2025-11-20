@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 # Handleiding voor het configuratiescherm {#using}
 
 + [Productdocumentatie](control-panel-home.md)
-+ Release-opmerkingen {#release-notes}
++ Aanvullende informatie  {#release-notes}
    + [Nieuwste release](rn/release-notes.md)
    + Eerdere releases {#previous-releases}
       + [2023](rn/release-notes-2023.md)
@@ -25,7 +25,7 @@ ht-degree: 100%
       + [2021](rn/release-notes-2021.md)
       + [2020](rn/release-notes-2020.md)
       + [2019](rn/release-notes-2019.md)
-+ Configuratiescherm verkennen {#discover-control-panel}
++ Controlebord detecteren {#discover-control-panel}
    + [Belangrijkste kenmerken](discover/using/key-features.md)
    + [Deelvenster Toegangsbeheer](discover/using/accessing-control-panel.md)
    + [Machtigingen voor het Configuratiescherm beheren](discover/using/managing-permissions.md)
@@ -58,7 +58,7 @@ ht-degree: 100%
       + [SSL-certificaten verlengen](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Prestatiebewaking {#performance-monitoring}
    + [Prestatiebewaking](performance-monitoring/using/about-performance-monitoring.md)
-   + Databasebewaking {#database-monitoring}
+   + Database controleren {#database-monitoring}
       + [Databasebewaking](performance-monitoring/using/database-monitoring.md)
       + [Databasegebruik](performance-monitoring/using/database-utilization.md)
       + [Overzicht van opslag](performance-monitoring/using/database-storage-overview.md)
@@ -68,7 +68,7 @@ ht-degree: 100%
       + [Overbelasting van database voorkomen](performance-monitoring/using/database-preventing-overload.md)
    + [Actieve profielen bewaken](performance-monitoring/using/active-profiles-monitoring.md)
    + [Bewaking van doorvoer en latentie](performance-monitoring/using/throughputs-latencies.md)
-+ Instantie-instellingen {#instances-settings}
++ Instellingen voor instanties {#instances-settings}
    + [IP-adressen toevoegen aan de lijst met toegestane IP-adressen voor instantietoegang](instances-settings/using/ip-allow-listing-instance-access.md)
    + [URL-machtigingen](instances-settings/using/url-permissions.md)
    + [Instantiedetails](instances-settings/using/instance-details.md)
